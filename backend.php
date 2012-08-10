@@ -69,7 +69,7 @@ if($_GET['action'] == 'reposMarker' && !empty($_GET['id']) && !empty($_GET['lang
 
 
 
-$markers = queryDB(&$db,"SELECT * FROM markers ORDER BY name DESC");
+$markers = queryDB(&$db,"SELECT * FROM markers ORDER BY typ ASC,name DESC");
 $typCats = queryDB(&$db,"SELECT DISTINCT(typ) FROM markers ORDER BY typ ASC");
 $returnVal =  array("types" => $typCats->fetchAll(), "markers" => $markers->fetchAll());
 echo json_encode($returnVal);
