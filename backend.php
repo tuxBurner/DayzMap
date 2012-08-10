@@ -9,7 +9,7 @@
 */
 function connectDB() {
   try {
-    $db = new PDO("sqlite:db/dayz.db.dist");
+    $db = new PDO("sqlite:db/dayz.db");
     return $db;
   } catch(PDOException $e) {
     die($e->getMessage());
