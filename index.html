@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html/xml; charset=utf-8"/>
+    
+    <title>DayzMap</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <style type="text/css">
+    body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+
+      #map img {
+        max-width: none;
+      }
+    </style>
+   
+   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" />
+  </head>
+
+  <body onresize="resizeMapDiv()">
+
+
+<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">DayzMap</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span9">
+          <div id="map"></div>      
+        </div><!--/span-->
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">Coords</li>
+              <li><span id="coordsDisplay">0 0</span></li>
+            </ul>
+          </div>
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header" id="markerHeaderLi"><span>Markers <a href="#" id="refreshMarkers"><i class="icon-refresh"></i></a></span></li>
+              <li class="markerLi"><span>asdlijasoifj</span></li>
+            </ul>
+          </div><!--/.well -->
+
+          
+
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>&copy; DayzMap  2012  brought to u by tuxBurner credits go to: GMap Image Cutter and bootstrap</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+    <!-- adding marker modal --> 
+    <div class="modal hide" id="addMarkerModal">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h3>Add a marker to the map</h3>
+      </div>
+      <div class="modal-body">
+        <form>
+            <input type="hidden" id="addMarkerX" value="" />
+            <input type="hidden" id="addMarkerY" value="" />
+            <label>Name</label>
+            <input type="text" value="" id="addMarkerName"/>
+            <label>Typ</label>
+            <select id="addMarkerTyp">
+              <option value="info">Info</option>
+              <option value="tend">Tent</option>
+              <option value="playerPos">Player</option>
+            </select>
+            <label>Description</label>
+            <textarea id="addMarkerDescription"></textarea>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="btn" data-dismiss="modal">Close</a>
+        <a href="#" id="addMarkerBtn" class="btn btn-primary">Add marker</a>
+      </div>
+    </div>
+
+     <!-- editing marker modal --> 
+    <div class="modal hide" id="editMarkerModal">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h3>Edit a marker</h3>
+      </div>
+      <div class="modal-body">
+        <form>
+            <input type="hidden" id="editMarkerId" value="" />
+            <label>Name</label>
+            <input type="text" value="" id="editMarkerName"/>
+            <label>Typ</label>
+            <select id="editMarkerTyp">
+              <option value="info">Info</option>
+              <option value="tend">Tent</option>
+              <option value="playerPos">Player</option>
+            </select>
+            <label>Description</label>
+            <textarea id="editMarkerDescription"></textarea>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="btn" data-dismiss="modal">Close</a>
+        <a href="#" id="editMarkerBtn" class="btn btn-warning">Edit marker</a>
+      </div>
+    </div>
+
+
+     <!-- deleting marker modal --> 
+    <div class="modal hide" id="delMarkerModal">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h3>Delete Marker</h3>
+      </div>
+      <div class="modal-body">
+        <p id="delMarkerQuestion"><p/>
+        <input type="hidden" id="delMarkerId" value="" />
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="btn" data-dismiss="modal">Close</a>
+        <a href="#" id="delMarkerBtn" class="btn btn-danger">Delete marker</a>
+      </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="gmimgcutmap.js"></script>
+    <script type="text/javascript" src="dayzmap.js"></script>     
+
+  </body>
+
+</html>
