@@ -38,8 +38,8 @@ if(!empty($_POST['langX']) && !empty($_POST['langY']) && !empty($_POST['name']) 
   $dbh->bindParam(':name', $_POST['name']);
   $dbh->bindParam(':typ', $_POST['typ']);
   $dbh->bindParam(':description', $_POST['description']);
-  $dbh->bindParam(':langX', $_POST['langX'],PDO::PARAM_INT);
-  $dbh->bindParam(':langY', $_POST['langY'],PDO::PARAM_INT);
+  $dbh->bindParam(':langX', $_POST['langX']);
+  $dbh->bindParam(':langY', $_POST['langY']);
   $dbh->execute();
 }
 
