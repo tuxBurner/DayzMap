@@ -75,7 +75,7 @@ $(function() {
 
   // when  the user moves the mouse it displays the coords on the left side
   google.maps.event.addListener(map, 'mousemove', function(overlay,point) {
-    $('#coordsDisplay').html(Math.round(overlay.latLng.Xa)+" , "+Math.round(overlay.latLng.Ya));
+    $('#coordsDisplay').html(Math.round(overlay.latLng.Ya)+" , "+Math.round(overlay.latLng.Xa));
   }); 
 
   // popups the add marker modal window
@@ -137,7 +137,7 @@ function displayMarkers(data) {
 
        var image = 'images/'+obj.typ+'.png';
       
-       $('#markerHeaderLi').after('<li class="markerLi"><span><span><img src="'+image+'"/><a href="#" class="markerLink" data-markerid="'+obj.id+'">'+obj.name+' ('+Math.round(obj.langX)+', '+Math.round(obj.langY)+')</a></span><a href="#" class="editMarker" data-markerid="'+obj.id+'"><i class="icon-edit"></i></a> <a href="#" class="delMarker" data-markerid="'+obj.id+'"><i class="icon-trash"></i></a></span></li>');
+       $('#markerHeaderLi').after('<li class="markerLi"><span><span><img src="'+image+'"/><a href="#" class="markerLink" data-markerid="'+obj.id+'">'+obj.name+' ('+Math.round(obj.langY)+', '+Math.round(obj.langX)+')</a></span><a href="#" class="editMarker" data-markerid="'+obj.id+'"><i class="icon-edit"></i></a> <a href="#" class="delMarker" data-markerid="'+obj.id+'"><i class="icon-trash"></i></a></span></li>');
 
        var marker = new google.maps.Marker({
           map:map,

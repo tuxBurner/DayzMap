@@ -1,5 +1,4 @@
- //<![CDATA[
-    var centreLat=0.0;
+     var centreLat=0.0;
     var centreLon=0.0;
     var initialZoom=3;
     var imageWraps=false; //SET THIS TO false TO PREVENT THE IMAGE WRAPPING AROUND
@@ -105,8 +104,8 @@
             minZoom: 2,
             maxZoom: 4,
             center: latlng,
-            panControl: false,
-            zoomControl: false,
+            panControl: true,
+            zoomControl: true,
             mapTypeControl: true,
             scaleControl: false,
             streetViewControl: false,
