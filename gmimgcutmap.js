@@ -102,7 +102,7 @@
         var myOptions = {
             zoom: initialZoom,
             minZoom: 2,
-            maxZoom: 4,
+            maxZoom: 6,
             center: latlng,
             panControl: true,
             zoomControl: true,
