@@ -75,7 +75,7 @@ $(function() {
 
   // when  the user moves the mouse it displays the coords on the left side
   google.maps.event.addListener(map, 'mousemove', function(overlay,point) {
-    $('#coordsDisplay').html(Math.round(overlay.latLng.Ya)+" , "+Math.round(overlay.latLng.Xa));
+    $('#coordsDisplay').html((Math.round(overlay.latLng.Ya * 1000) / 1000 )+" , "+(Math.round(overlay.latLng.Xa * 1000) / 1000 ));
   }); 
 
   // popups the add marker modal window
@@ -86,6 +86,61 @@ $(function() {
     $('#addMarkerDescription').val("");
     $('#addMarkerModal').modal('show');
   });
+
+
+
+/*atc: true
+atv: true
+barn: true
+barracks: true
+bicycle: true
+bigtruck: true
+boat: true
+bus: true
+car: true
+castle: true
+church: true
+deerstand: true
+farm: true
+firestation: true
+fuel: true
+helicopter: true
+hospital: true
+industrial: true
+military: true
+motorcycle: true
+pump: true
+residential: true
+supermarket: true
+tractor: true
+truck: true
+uaz: true
+vehicle: true*/
+
+  var validMarkers = [{'deerstand' : true}];
+  validMarkers = new Object();
+  validMarkers['deerstand'] = true;
+  validMarkers['helicopter'] = true;
+  validMarkers['supermarket'] = true;
+  validMarkers['pump'] = true;
+  validMarkers['hospital'] = true;
+
+
+  $(overlayMarkers).each(function(i,markerInfo) {
+
+    if(validMarkers[markerInfo.t] != null) {
+      
+       var marker = new google.maps.Marker({
+          map:map,
+          position: new google.maps.LatLng(markerInfo.lat,markerInfo.lng),
+          title: markerInfo.n,
+          icon: 'markers/'+markerInfo.t+'.png'
+      });
+    }
+
+  });
+
+
 
 });
 
@@ -137,7 +192,7 @@ function displayMarkers(data) {
 
        var image = 'images/'+obj.typ+'.png';
       
-       $('#markerHeaderLi').after('<li class="markerLi"><span><span><img src="'+image+'"/><a href="#" class="markerLink" data-markerid="'+obj.id+'">'+obj.name+' ('+Math.round(obj.langY)+', '+Math.round(obj.langX)+')</a></span><a href="#" class="editMarker" data-markerid="'+obj.id+'"><i class="icon-edit"></i></a> <a href="#" class="delMarker" data-markerid="'+obj.id+'"><i class="icon-trash"></i></a></span></li>');
+       $('#markerHeaderLi').after('<li class="markerLi"><span><span><img src="'+image+'"/><a href="#" class="markerLink" data-markerid="'+obj.id+'">'+obj.name+' ('+(Math.round(obj.langY * 1000) / 1000)+', '+(Math.round(obj.langX* 1000) / 1000)+')</a></span><a href="#" class="editMarker" data-markerid="'+obj.id+'"><i class="icon-edit"></i></a> <a href="#" class="delMarker" data-markerid="'+obj.id+'"><i class="icon-trash"></i></a></span></li>');
 
        var marker = new google.maps.Marker({
           map:map,
@@ -160,7 +215,6 @@ function displayMarkers(data) {
 
       google.maps.event.addListener(marker,'dragend', function(){
         var pos = marker.getPosition();
-        console.error(pos);
         $.getJSON('backend.php',{'action' : 'reposMarker', 'id' : marker.data.id, 'langX' : pos.Xa, 'langY' : pos.Ya}, function(data) {
           displayMarkers(data);
         });

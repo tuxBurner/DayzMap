@@ -70,7 +70,7 @@
       <hr>
 
       <footer>
-        <p>&copy; DayzMap  2012  brought to u by tuxBurner credits go to: GMap Image Cutter and bootstrap</p>
+        <p>&copy; DayzMap  2012  brought to u by tuxBurner credits go to: MapTiler and bootstrap</p>
       </footer>
 
     </div><!--/.fluid-container-->
@@ -83,8 +83,6 @@
       </div>
       <div class="modal-body">
         <form>
-            <input type="hidden" id="addMarkerX" value="" />
-            <input type="hidden" id="addMarkerY" value="" />
             <label>Name</label>
             <input type="text" value="" id="addMarkerName"/>
             <label>Typ</label>
@@ -95,6 +93,12 @@
             </select>
             <label>Description</label>
             <textarea id="addMarkerDescription"></textarea>
+
+            <label>Long:</label>
+            <input type="text" disabled id="addMarkerX" value="" />
+
+            <label>Lat:</label>
+            <input type="text" disabled  id="addMarkerY" value="" />
         </form>
       </div>
       <div class="modal-footer">
@@ -154,7 +158,8 @@
 
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
-    <script type="text/javascript" src="gmimgcutmap.js"></script>
+    <script type="text/javascript" src="dayzGmap.js"></script>
+    <script type="text/javascript" src="markers.js"></script>
     <script type="text/javascript" src="dayzmap.js"></script>     
 
   </body>
