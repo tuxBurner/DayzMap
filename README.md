@@ -11,3 +11,4 @@ A tiny application for displaying the dayzMap and  adding markers.
 * chmod 0777 db
 
 
+

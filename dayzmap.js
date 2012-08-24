@@ -89,34 +89,6 @@ $(function() {
 
 
 
-/*atc: true
-atv: true
-barn: true
-barracks: true
-bicycle: true
-bigtruck: true
-boat: true
-bus: true
-car: true
-castle: true
-church: true
-deerstand: true
-farm: true
-firestation: true
-fuel: true
-helicopter: true
-hospital: true
-industrial: true
-military: true
-motorcycle: true
-pump: true
-residential: true
-supermarket: true
-tractor: true
-truck: true
-uaz: true
-vehicle: true*/
-
   
   var validMarkers = new Object();
   validMarkers['deerstand'] = true;
@@ -135,7 +107,7 @@ vehicle: true*/
   validMarkers['tractor'] = true;
   validMarkers['truck'] = true;
   validMarkers['uaz'] = true;
-  //validMarkers['vehicle'] = true;
+  validMarkers['vehicle'] = true;
   
 
 
