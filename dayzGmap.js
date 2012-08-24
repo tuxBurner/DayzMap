@@ -34,7 +34,7 @@
 function DayzMapProjection() {
   // offset to adjust the map grid to the coords  
   this.origin = new google.maps.LatLng(-7.0648, 0.52);
-  this.size = 20.805;
+  this.size = 20.807;
   this.unitsPerDegree = 256 / this.size
 }
 DayzMapProjection.prototype.fromLatLngToPoint = function (a) {

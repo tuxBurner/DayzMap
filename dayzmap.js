@@ -117,13 +117,26 @@ truck: true
 uaz: true
 vehicle: true*/
 
-  var validMarkers = [{'deerstand' : true}];
-  validMarkers = new Object();
+  
+  var validMarkers = new Object();
   validMarkers['deerstand'] = true;
   validMarkers['helicopter'] = true;
   validMarkers['supermarket'] = true;
   validMarkers['pump'] = true;
   validMarkers['hospital'] = true;
+  validMarkers['bicycle'] = true;
+  validMarkers['atv'] = true;
+  validMarkers['bigtruck'] = true;
+  validMarkers['boat'] = true;
+  validMarkers['bus'] = true;
+  validMarkers['car'] = true;
+  validMarkers['fuel'] = true;
+  validMarkers['motorcycle'] = true;
+  validMarkers['tractor'] = true;
+  validMarkers['truck'] = true;
+  validMarkers['uaz'] = true;
+  //validMarkers['vehicle'] = true;
+  
 
 
   $(overlayMarkers).each(function(i,markerInfo) {
