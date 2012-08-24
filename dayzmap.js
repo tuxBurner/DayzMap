@@ -1,3 +1,26 @@
+
+/**
+* which markers from the markers.js to display
+*/
+var validMarkers = new Object();
+  validMarkers['deerstand'] = true;
+  validMarkers['supermarket'] = true;
+  validMarkers['hospital'] = true;
+  validMarkers['pump'] = true;
+  validMarkers['fuel'] = false;
+  validMarkers['bicycle'] = false;
+  validMarkers['atv'] = false;
+  validMarkers['car'] = false;  
+  validMarkers['vehicle'] = false;
+  validMarkers['uaz'] = false;
+  validMarkers['motorcycle'] = false;
+  validMarkers['bigtruck'] = false;
+  validMarkers['bus'] = false;
+  validMarkers['tractor'] = false;
+  validMarkers['truck'] = false;
+  validMarkers['boat'] = false;
+  validMarkers['helicopter'] = false;
+
 // here are the functions added for talking to the backend      
 $(function() {
 
@@ -87,42 +110,35 @@ $(function() {
     $('#addMarkerModal').modal('show');
   });
 
+  // create the markers toggle buttons
+  var markerFilterHtml = "";
+  for(marker in validMarkers) {
+    var btnClass = (validMarkers[marker] == true) ? ' active' : '';
+    markerFilterHtml+='<button type="button" data-toggle="button" data-type="'+marker+'" class="btn markerToggle'+btnClass+'"><img src="markers/'+marker+'.png" /></button>';
+  }
+  $('#markerFilter').html(markerFilterHtml);
+  $('button.markerToggle').live('click',function(){
+    var state = $(this).hasClass('active');
+    var type = $(this).data('type');
 
-
-  
-  var validMarkers = new Object();
-  validMarkers['deerstand'] = true;
-  validMarkers['helicopter'] = true;
-  validMarkers['supermarket'] = true;
-  validMarkers['pump'] = true;
-  validMarkers['hospital'] = true;
-  validMarkers['bicycle'] = true;
-  validMarkers['atv'] = true;
-  validMarkers['bigtruck'] = true;
-  validMarkers['boat'] = true;
-  validMarkers['bus'] = true;
-  validMarkers['car'] = true;
-  validMarkers['fuel'] = true;
-  validMarkers['motorcycle'] = true;
-  validMarkers['tractor'] = true;
-  validMarkers['truck'] = true;
-  validMarkers['uaz'] = true;
-  validMarkers['vehicle'] = true;
+    map.toggleStaticMarker(type,state);
+  });
   
 
-
+  // add the static markers to the map
   $(overlayMarkers).each(function(i,markerInfo) {
-
-    if(validMarkers[markerInfo.t] != null) {
       
        var marker = new google.maps.Marker({
           map:map,
           position: new google.maps.LatLng(markerInfo.lat,markerInfo.lng),
           title: markerInfo.n,
-          icon: 'markers/'+markerInfo.t+'.png'
+          icon: 'markers/'+markerInfo.t+'.png',
+          data: markerInfo,
+          visible: (validMarkers[markerInfo.t] == true)
       });
-    }
 
+       map.addStaticMarker(marker);
+    
   });
 
 
@@ -131,6 +147,7 @@ $(function() {
 
 
 google.maps.Map.prototype.markers = null;
+google.maps.Map.prototype.staticmarkers = new Object();
 
 google.maps.Map.prototype.addMarker = function(marker) {
   if(this.markers == null) {
@@ -154,6 +171,23 @@ google.maps.Map.prototype.clearMarkers = function() {
     
     this.markers = null;
 };
+
+google.maps.Map.prototype.addStaticMarker = function(marker) {
+    if(this.staticmarkers[marker.data.t] == null) {
+      this.staticmarkers[marker.data.t] = new Array();
+    }
+
+    this.staticmarkers[marker.data.t].push(marker);
+}
+
+/**
+* toggles the markes from visible to hidden
+*/
+google.maps.Map.prototype.toggleStaticMarker = function(type,visible) {
+  for(idx in this.staticmarkers[type]) {
+    this.staticmarkers[type][idx].setVisible(visible); 
+  }
+}
 
 /**
 * Loads the markers from the backend and displays them
