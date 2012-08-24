@@ -114,7 +114,7 @@ $(function() {
   var markerFilterHtml = "";
   for(marker in validMarkers) {
     var btnClass = (validMarkers[marker] == true) ? ' active' : '';
-    markerFilterHtml+='<button type="button" data-toggle="button" data-type="'+marker+'" class="btn markerToggle'+btnClass+'"><img src="markers/'+marker+'.png" /></button>';
+    markerFilterHtml+='<button type="button" data-toggle="button" data-type="'+marker+'" class="btn markerToggle'+btnClass+'" title="'+marker+'"><img src="markers/'+marker+'.png" /></button>';
   }
   $('#markerFilter').html(markerFilterHtml);
   $('button.markerToggle').live('click',function(){
@@ -140,7 +140,8 @@ $(function() {
           title: markerInfo.n,
           icon: 'markers/'+markerInfo.t+'.png',
           data: markerInfo,
-          visible: (validMarkers[markerInfo.t] == true)
+          visible: (validMarkers[markerInfo.t] == true),
+          title: markerInfo.t
       });
 
        map.addStaticMarker(marker);
