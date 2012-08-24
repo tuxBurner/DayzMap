@@ -11,7 +11,7 @@ var validMarkers = new Object();
   validMarkers['bicycle'] = false;
   validMarkers['atv'] = false;
   validMarkers['car'] = false;  
-  validMarkers['vehicle'] = false;
+  //validMarkers['vehicle'] = false;
   validMarkers['uaz'] = false;
   validMarkers['motorcycle'] = false;
   validMarkers['bigtruck'] = false;
@@ -128,6 +128,12 @@ $(function() {
   // add the static markers to the map
   $(overlayMarkers).each(function(i,markerInfo) {
       
+       // vehicle == car
+       if(markerInfo.t == 'vehicle') {
+         markerInfo.t = 'car'; 
+       }
+
+
        var marker = new google.maps.Marker({
           map:map,
           position: new google.maps.LatLng(markerInfo.lat,markerInfo.lng),
