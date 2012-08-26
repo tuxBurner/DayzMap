@@ -25,6 +25,29 @@ function resizeMapDiv() {
   }
 }
 
+var mapTilesPerZoom = {
+  2: {
+    "x": 2,
+    "y": 2
+  },
+  3: {
+    "x": 5,
+    "y": 4
+  },
+  4: {
+    "x": 10,
+    "y": 8
+  },
+  5: {
+    "x": 21,
+    "y": 17
+  },
+  6: {
+    "x": 43,
+    "y": 35
+  },
+}
+
 /**
  * This projection cares that one square on the map is one point on the map
  */
@@ -50,7 +73,15 @@ DayzMapProjection.prototype.fromPointToLatLng = function(a, c) {
 
 var dayzImageMapOptions = {
   getTileUrl: function(coord, zoom) {
-    return "map-tiles/" + zoom + "/" + coord.x + "/" + (Math.pow(2, zoom) - coord.y - 1) + ".png";
+    var yTile = (Math.pow(2, zoom) - coord.y - 1);
+    var tilesPerZomm = mapTilesPerZoom[zoom];
+
+
+    // a tile is nerver smaller 0
+    if (coord.x < 0 || tilesPerZomm['x'] < coord.x || yTile < 0 || tilesPerZomm['y'] < yTile) {
+      return null;
+    }
+    return "map-tiles/" + zoom + "/" + coord.x + "/" + yTile + ".png";
   },
   tileSize: new google.maps.Size(256, 256),
   minZoom: 2,
