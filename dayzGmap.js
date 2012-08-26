@@ -90,6 +90,7 @@
 
    });
 
+  // prototype adding some stuff to gmap
    google.maps.Map.prototype.markers = null;
    google.maps.Map.prototype.staticmarkers = new Object();
 
@@ -115,6 +116,9 @@
      this.markers = null;
    };
 
+   /**
+   * adds a static marker to the gmap
+   */
    google.maps.Map.prototype.addStaticMarker = function(marker) {
      if (this.staticmarkers[marker.data.t] == null) {
        this.staticmarkers[marker.data.t] = new Array();
