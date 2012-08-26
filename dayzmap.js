@@ -107,7 +107,7 @@ $(function() {
 
   // when  the user moves the mouse it displays the coords on the left side
   google.maps.event.addListener(map, 'mousemove', function(overlay, point) {
-    $('#coordsDisplay').html(formatPoint(overlay.latLng.Ya) + " " + formatPoint(overlay.latLng.Xa)+"<br /> gps:"+fromLatLngToGps(overlay));
+    $('#coordsDisplay').html(formatPoint(overlay.latLng.Ya) + " " + formatPoint(overlay.latLng.Xa) + "<br /> gps:" + fromLatLngToGps(overlay));
   });
 
   // popups the add marker modal window
@@ -116,6 +116,7 @@ $(function() {
     $('#addMarkerY').val(overlay.latLng.Ya);
     $('#addMarkerName').val("");
     $('#addMarkerDescription').val("");
+    $('#directlink').val(location.origin+location.pathname+"?"+map.getZoom()+","+overlay.latLng.Ya+","+overlay.latLng.Xa);
     $('#addMarkerModal').modal('show');
   });
 
@@ -153,29 +154,35 @@ $(function() {
     map.addStaticMarker(marker);
 
   });
+
+  checkLocationForDirectLink();
+
 });
 
 /**
-* Transfrorms a point from the map to the internal gps coord
-*/
+ * Transfrorms a point from the map to the internal gps coord
+ */
+
 function fromMapProjToGps(point) {
   var c = (1E3 * point).toString();
   return c = 0 > point ? "000" : 1 > point ? "00" + c.substr(0, 1) : 10 > point ? "0" + c.substr(0, 2) : c.substr(0, 3)
 }
 
 /**
-* This creates the string to display in the info field for gps coords
-*/
+ * This creates the string to display in the info field for gps coords
+ */
+
 function fromLatLngToGps(coords) {
   return fromMapProjToGps(coords.latLng.Ya) + " " + fromMapProjToGps(coords.latLng.Xa);
 }
 
 /**
-* Formats a point for displaying it in the frontend
-*/
+ * Formats a point for displaying it in the frontend
+ */
+
 function formatPoint(point) {
   var val = Math.round(point * 1000) / 1000;
-  return (val < 10) ? "0"+val : val;
+  return (val < 10) ? "0" + val : val;
 }
 
 /**
@@ -241,4 +248,29 @@ function displayMarkers(data) {
 
     map.addMarker(marker);
   });
+}
+
+/**
+ * check if the user wants to display a direct link marker
+ */
+
+function checkLocationForDirectLink() {
+  var hash = location.search;
+  if (hash == "") {
+    return;
+  }
+  var infos = hash.substr(1).split(',');
+  if (infos.length == 3) {
+    map.setZoom(parseInt(infos[0]));
+    var pos = new google.maps.LatLng(infos[2], infos[1]);
+    map.setCenter(pos);
+    var marker = new google.maps.Marker({
+      map: map,
+      position: pos
+    });
+    marker.setAnimation(google.maps.Animation.BOUNCE);
+    window.setTimeout(function() {
+      marker.setAnimation(null);
+    }, 1500);
+  }
 }
