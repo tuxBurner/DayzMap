@@ -1,1 +1,12125 @@
-var overlayMarkers = [{id:1,lat:13.1308431625366211,lng:1.9184238910675049,t:"pump",n:"Water pump",b:"water_pump"},{id:2,lat:5.3373832702636719,lng:2.7252018451690674,t:"pump",n:"Water pump",b:"water_pump"},{id:3,lat:12.2634077072143555,lng:2.7907841205596924,t:"pump",n:"Water pump",b:"water_pump"},{id:4,lat:9.9726772308349609,lng:2.9976758956909180,t:"pump",n:"Water pump",b:"water_pump"},{id:5,lat:7.5078816413879395,lng:3.1238324642181396,t:"pump",n:"Water pump",b:"water_pump"},{id:6,lat:11.4052705764770508,lng:3.3238580226898193,t:"pump",n:"Water pump",b:"water_pump"},{id:7,lat:12.8592510223388672,lng:3.6416232585906982,t:"pump",n:"Water pump",b:"water_pump"},{id:8,lat:6.5187635421752930,lng:3.7554149627685547,t:"pump",n:"Water pump",b:"water_pump"},{id:9,lat:6.4783492088317871,lng:3.8393490314483643,t:"pump",n:"Water pump",b:"water_pump"},{id:10,lat:10.7404565811157227,lng:4.3351092338562012,t:"pump",n:"Water pump",b:"water_pump"},{id:11,lat:5.7708210945129395,lng:4.6497259140014648,t:"pump",n:"Water pump",b:"water_pump"},{id:12,lat:9.0449800491333008,lng:4.6879291534423828,t:"pump",n:"Water pump",b:"water_pump"},{id:13,lat:8.5135869979858398,lng:4.7162275314331055,t:"pump",n:"Water pump",b:"water_pump"},{id:14,lat:2.8942358493804932,lng:5.0170197486877441,t:"pump",n:"Water pump",b:"water_pump"},{id:15,lat:6.7888054847717285,lng:5.3981180191040039,t:"pump",n:"Water pump",b:"water_pump"},{id:16,lat:11.3799943923950195,lng:5.8408203125000000,t:"pump",n:"Water pump",b:"water_pump"},{id:17,lat:10.7179498672485352,lng:5.8733868598937988,t:"pump",n:"Water pump",b:"water_pump"},{id:18,lat:5.0510249137878418,lng:5.9736542701721191,t:"pump",n:"Water pump",b:"water_pump"},{id:19,lat:7.5269789695739746,lng:6.0492219924926758,t:"pump",n:"Water pump",b:"water_pump"},{id:20,lat:7.6528706550598145,lng:6.1383242607116699,t:"pump",n:"Water pump",b:"water_pump"},{id:21,lat:12.7119731903076172,lng:6.2961077690124512,t:"pump",n:"Water pump",b:"water_pump"},{id:22,lat:9.2727670669555664,lng:6.5434923171997070,t:"pump",n:"Water pump",b:"water_pump"},{id:23,lat:9.7670068740844727,lng:6.7700166702270508,t:"pump",n:"Water pump",b:"water_pump"},{id:24,lat:12.6841669082641602,lng:6.8452143669128418,t:"pump",n:"Water pump",b:"water_pump"},{id:25,lat:7.5708427429199219,lng:6.9252705574035645,t:"pump",n:"Water pump",b:"water_pump"},{id:26,lat:7.6639895439147949,lng:7.0670504570007324,t:"pump",n:"Water pump",b:"water_pump"},{id:27,lat:8.3766670227050781,lng:7.2324500083923340,t:"pump",n:"Water pump",b:"water_pump"},{id:28,lat:10.2045936584472656,lng:7.5127410888671875,t:"pump",n:"Water pump",b:"water_pump"},{id:29,lat:11.4430255889892578,lng:9.2136306762695312,t:"pump",n:"Water pump",b:"water_pump"},{id:30,lat:13.3331441879272461,lng:9.3190259933471680,t:"pump",n:"Water pump",b:"water_pump"},{id:31,lat:6.5325016975402832,lng:9.4272594451904297,t:"pump",n:"Water pump",b:"water_pump"},{id:32,lat:9.8580436706542969,lng:10.3189620971679688,t:"pump",n:"Water pump",b:"water_pump"},{id:33,lat:8.7920370101928711,lng:11.1980886459350586,t:"pump",n:"Water pump",b:"water_pump"},{id:34,lat:9.8775405883789062,lng:11.3095417022705078,t:"pump",n:"Water pump",b:"water_pump"},{id:35,lat:6.2441234588623047,lng:11.9889535903930664,t:"pump",n:"Water pump",b:"water_pump"},{id:36,lat:9.0635681152343750,lng:13.2942991256713867,t:"pump",n:"Water pump",b:"water_pump"},{id:37,lat:6.7920842170715332,lng:5.1989727020263672,t:"residential",n:"",b:"land_church_01"},{id:38,lat:12.1749505996704102,lng:6.8267121315002441,t:"residential",n:"",b:"land_church_01"},{id:39,lat:3.3943631649017334,lng:8.5314493179321289,t:"residential",n:"",b:"land_church_01"},{id:40,lat:6.5199036598205566,lng:9.4213228225708008,t:"residential",n:"",b:"land_church_01"},{id:41,lat:9.8382062911987305,lng:10.0391798019409180,t:"residential",n:"",b:"land_church_01"},{id:42,lat:3.0606100559234619,lng:11.1971893310546875,t:"residential",n:"",b:"land_church_01"},{id:43,lat:11.5726165771484375,lng:1.6721485853195190,t:"residential",n:"",b:"land_housev_1i1"},{id:44,lat:13.1783857345581055,lng:1.8059115409851074,t:"residential",n:"",b:"land_housev_1i1"},{id:45,lat:13.0857992172241211,lng:1.8740022182464600,t:"residential",n:"",b:"land_housev_1i1"},{id:46,lat:8.0535030364990234,lng:2.0133934020996094,t:"residential",n:"",b:"land_housev_1i1"},{id:47,lat:8.9401350021362305,lng:2.5093436241149902,t:"residential",n:"",b:"land_housev_1i1"},{id:48,lat:5.6730055809020996,lng:2.5386106967926025,t:"residential",n:"",b:"land_housev_1i1"},{id:49,lat:9.0520591735839844,lng:2.5844311714172363,t:"residential",n:"",b:"land_housev_1i1"},{id:50,lat:9.9133749008178711,lng:2.6661164760589600,t:"residential",n:"",b:"land_housev_1i1"},{id:51,lat:5.4207119941711426,lng:2.6703948974609375,t:"residential",n:"",b:"land_housev_1i1"},{id:52,lat:10.0905103683471680,lng:2.6946747303009033,t:"residential",n:"",b:"land_housev_1i1"},{id:53,lat:10.3107881546020508,lng:2.7127966880798340,t:"residential",n:"",b:"land_housev_1i1"},{id:54,lat:9.8806695938110352,lng:2.7142660617828369,t:"residential",n:"",b:"land_housev_1i1"},{id:55,lat:5.4114437103271484,lng:2.7867555618286133,t:"residential",n:"",b:"land_housev_1i1"},{id:56,lat:9.9786663055419922,lng:2.8542768955230713,t:"residential",n:"",b:"land_housev_1i1"},{id:57,lat:7.4461603164672852,lng:2.9752757549285889,t:"residential",n:"",b:"land_housev_1i1"},{id:58,lat:7.6262946128845215,lng:3.0081617832183838,t:"residential",n:"",b:"land_housev_1i1"},{id:59,lat:7.3674621582031250,lng:3.0097110271453857,t:"residential",n:"",b:"land_housev_1i1"},{id:60,lat:7.3057308197021484,lng:3.1948726177215576,t:"residential",n:"",b:"land_housev_1i1"},{id:61,lat:10.4562969207763672,lng:3.4305927753448486,t:"residential",n:"",b:"land_housev_1i1"},{id:62,lat:10.3963060379028320,lng:3.5122177600860596,t:"residential",n:"",b:"land_housev_1i1"},{id:63,lat:12.8442935943603516,lng:3.6687114238739014,t:"residential",n:"",b:"land_housev_1i1"},{id:64,lat:6.2808380126953125,lng:3.8151893615722656,t:"residential",n:"",b:"land_housev_1i1"},{id:65,lat:6.4328460693359375,lng:3.9135074615478516,t:"residential",n:"",b:"land_housev_1i1"},{id:66,lat:3.2577831745147705,lng:4.1726179122924805,t:"residential",n:"",b:"land_housev_1i1"},{id:67,lat:10.6271429061889648,lng:4.3605179786682129,t:"residential",n:"",b:"land_housev_1i1"},{id:68,lat:8.9728107452392578,lng:4.3913249969482422,t:"residential",n:"",b:"land_housev_1i1"},{id:69,lat:10.7804307937622070,lng:4.4172439575195312,t:"residential",n:"",b:"land_housev_1i1"},{id:70,lat:12.9587974548339844,lng:4.4557080268859863,t:"residential",n:"",b:"land_housev_1i1"},{id:71,lat:12.9270124435424805,lng:4.5100045204162598,t:"residential",n:"",b:"land_housev_1i1"},{id:72,lat:12.8478431701660156,lng:4.5392627716064453,t:"residential",n:"",b:"land_housev_1i1"},{id:73,lat:8.6055135726928711,lng:4.7873673439025879,t:"residential",n:"",b:"land_housev_1i1"},{id:74,lat:2.8840353488922119,lng:5.0668382644653320,t:"residential",n:"",b:"land_housev_1i1"},{id:75,lat:11.3968114852905273,lng:5.8444585800170898,t:"residential",n:"",b:"land_housev_1i1"},{id:76,lat:10.5750102996826172,lng:5.8567733764648438,t:"residential",n:"",b:"land_housev_1i1"},{id:77,lat:5.1571097373962402,lng:5.8982663154602051,t:"residential",n:"",b:"land_housev_1i1"},{id:78,lat:5.0150303840637207,lng:5.9341211318969727,t:"residential",n:"",b:"land_housev_1i1"},{id:79,lat:7.4794955253601074,lng:5.9647483825683594,t:"residential",n:"",b:"land_housev_1i1"},{id:80,lat:4.9929332733154297,lng:5.9841694831848145,t:"residential",n:"",b:"land_housev_1i1"},{id:81,lat:7.6252346038818359,lng:6.1608247756958008,t:"residential",n:"",b:"land_housev_1i1"},{id:82,lat:4.9881343841552734,lng:6.2121529579162598,t:"residential",n:"",b:"land_housev_1i1"},{id:83,lat:7.7929606437683105,lng:6.2820134162902832,t:"residential",n:"",b:"land_housev_1i1"},{id:84,lat:12.0726251602172852,lng:6.3390994071960449,t:"residential",n:"",b:"land_housev_1i1"},{id:85,lat:13.0402755737304688,lng:6.5054087638854980,t:"residential",n:"",b:"land_housev_1i1"},{id:86,lat:12.4275732040405273,lng:6.4905948638916016,t:"residential",n:"",b:"land_housev_1i1"},{id:87,lat:9.1951389312744141,lng:6.5053286552429199,t:"residential",n:"",b:"land_housev_1i1"},{id:88,lat:12.2512493133544922,lng:6.8375377655029297,t:"residential",n:"",b:"land_housev_1i1"},{id:89,lat:10.3392744064331055,lng:7.4756369590759277,t:"residential",n:"",b:"land_housev_1i1"},{id:90,lat:10.1778573989868164,lng:7.5220074653625488,t:"residential",n:"",b:"land_housev_1i1"},{id:91,lat:10.1358432769775391,lng:7.5595717430114746,t:"residential",n:"",b:"land_housev_1i1"},{id:92,lat:12.1581029891967773,lng:8.1452932357788086,t:"residential",n:"",b:"land_housev_1i1"},{id:93,lat:3.7455117702484131,lng:8.1970214843750000,t:"residential",n:"",b:"land_housev_1i1"},{id:94,lat:3.3241722583770752,lng:8.4816408157348633,t:"residential",n:"",b:"land_housev_1i1"},{id:95,lat:3.7769083976745605,lng:8.7948284149169922,t:"residential",n:"",b:"land_housev_1i1"},{id:96,lat:11.3927431106567383,lng:9.1973972320556641,t:"residential",n:"",b:"land_housev_1i1"},{id:97,lat:6.5182738304138184,lng:9.2890481948852539,t:"residential",n:"",b:"land_housev_1i1"},{id:98,lat:6.5337314605712891,lng:9.5296068191528320,t:"residential",n:"",b:"land_housev_1i1"},{id:99,lat:8.8378200531005859,lng:9.6270751953125000,t:"residential",n:"",b:"land_housev_1i1"},{id:100,lat:4.9792356491088867,lng:9.9805049896240234,t:"residential",n:"",b:"land_housev_1i1"},{id:101,lat:13.3038578033447266,lng:10.0372810363769531,t:"residential",n:"",b:"land_housev_1i1"},{id:102,lat:9.8852100372314453,lng:10.0771636962890625,t:"residential",n:"",b:"land_housev_1i1"},{id:103,lat:9.6435241699218750,lng:10.2612857818603516,t:"residential",n:"",b:"land_housev_1i1"},{id:104,lat:4.3653230667114258,lng:10.2900733947753906,t:"residential",n:"",b:"land_housev_1i1"},{id:105,lat:13.3453321456909180,lng:10.3240594863891602,t:"residential",n:"",b:"land_housev_1i1"},{id:106,lat:5.5698800086975098,lng:10.4469070434570312,t:"residential",n:"",b:"land_housev_1i1"},{id:107,lat:5.7090206146240234,lng:10.5306711196899414,t:"residential",n:"",b:"land_housev_1i1"},{id:108,lat:8.3789358139038086,lng:10.5843486785888672,t:"residential",n:"",b:"land_housev_1i1"},{id:109,lat:5.4018950462341309,lng:10.6077394485473633,t:"residential",n:"",b:"land_housev_1i1"},{id:110,lat:7.3862190246582031,lng:10.6483221054077148,t:"residential",n:"",b:"land_housev_1i1"},{id:111,lat:7.2482986450195312,lng:10.7563762664794922,t:"residential",n:"",b:"land_housev_1i1"},{id:112,lat:4.5146026611328125,lng:10.7629728317260742,t:"residential",n:"",b:"land_housev_1i1"},{id:113,lat:2.9168324470520020,lng:10.7580757141113281,t:"residential",n:"",b:"land_housev_1i1"},{id:114,lat:6.2384142875671387,lng:10.9497938156127930,t:"residential",n:"",b:"land_housev_1i1"},{id:115,lat:2.9118325710296631,lng:11.0328578948974609,t:"residential",n:"",b:"land_housev_1i1"},{id:116,lat:3.0027196407318115,lng:11.0781393051147461,t:"residential",n:"",b:"land_housev_1i1"},{id:117,lat:3.0900073051452637,lng:11.1068277359008789,t:"residential",n:"",b:"land_housev_1i1"},{id:118,lat:8.7530927658081055,lng:11.2165813446044922,t:"residential",n:"",b:"land_housev_1i1"},{id:119,lat:3.1678957939147949,lng:11.2063856124877930,t:"residential",n:"",b:"land_housev_1i1"},{id:120,lat:9.9678068161010742,lng:11.2343730926513672,t:"residential",n:"",b:"land_housev_1i1"},{id:121,lat:8.7877473831176758,lng:11.4982614517211914,t:"residential",n:"",b:"land_housev_1i1"},{id:122,lat:2.8736386299133301,lng:11.6033172607421875,t:"residential",n:"",b:"land_housev_1i1"},{id:123,lat:6.1826319694519043,lng:11.8830976486206055,t:"residential",n:"",b:"land_housev_1i1"},{id:124,lat:6.0476918220520020,lng:11.9028902053833008,t:"residential",n:"",b:"land_housev_1i1"},{id:125,lat:11.9011592864990234,lng:11.9562673568725586,t:"residential",n:"",b:"land_housev_1i1"},{id:126,lat:6.3699951171875000,lng:11.9673624038696289,t:"residential",n:"",b:"land_housev_1i1"},{id:127,lat:6.1897010803222656,lng:11.9453716278076172,t:"residential",n:"",b:"land_housev_1i1"},{id:128,lat:6.1836819648742676,lng:12.0524263381958008,t:"residential",n:"",b:"land_housev_1i1"},{id:129,lat:11.6675930023193359,lng:12.0615224838256836,t:"residential",n:"",b:"land_housev_1i1"},{id:130,lat:6.3512878417968750,lng:12.0870113372802734,t:"residential",n:"",b:"land_housev_1i1"},{id:131,lat:8.1368513107299805,lng:12.1174993515014648,t:"residential",n:"",b:"land_housev_1i1"},{id:132,lat:5.7922983169555664,lng:12.1459865570068359,t:"residential",n:"",b:"land_housev_1i1"},{id:133,lat:9.0876140594482422,lng:12.2176561355590820,t:"residential",n:"",b:"land_housev_1i1"},{id:134,lat:5.9263491630554199,lng:12.2254533767700195,t:"residential",n:"",b:"land_housev_1i1"},{id:135,lat:5.6811847686767578,lng:12.2659358978271484,t:"residential",n:"",b:"land_housev_1i1"},{id:136,lat:4.4667096138000488,lng:12.2537403106689453,t:"residential",n:"",b:"land_housev_1i1"},{id:137,lat:4.7529683113098145,lng:12.2968225479125977,t:"residential",n:"",b:"land_housev_1i1"},{id:138,lat:5.8160753250122070,lng:12.4684505462646484,t:"residential",n:"",b:"land_housev_1i1"},{id:139,lat:4.9271426200866699,lng:12.5103321075439453,t:"residential",n:"",b:"land_housev_1i1"},{id:140,lat:5.5147581100463867,lng:12.6908550262451172,t:"residential",n:"",b:"land_housev_1i1"},{id:141,lat:5.3987145423889160,lng:12.8214006423950195,t:"residential",n:"",b:"land_housev_1i1"},{id:142,lat:7.0511674880981445,lng:12.8896713256835938,t:"residential",n:"",b:"land_housev_1i1"},{id:143,lat:5.1861057281494141,lng:12.8807754516601562,t:"residential",n:"",b:"land_housev_1i1"},{id:144,lat:9.1055421829223633,lng:13.4430370330810547,t:"residential",n:"",b:"land_housev_1i1"},{id:145,lat:13.1381120681762695,lng:1.7046445608139038,t:"residential",n:"",b:"land_kbud"},{id:146,lat:10.2504663467407227,lng:1.7008860111236572,t:"residential",n:"",b:"land_kbud"},{id:147,lat:13.1752157211303711,lng:1.8157773017883301,t:"residential",n:"",b:"land_kbud"},{id:148,lat:3.3236742019653320,lng:1.8414667844772339,t:"residential",n:"",b:"land_kbud"},{id:149,lat:13.1511497497558594,lng:1.9154651165008545,t:"residential",n:"",b:"land_kbud"},{id:150,lat:13.0922079086303711,lng:1.9300891160964966,t:"residential",n:"",b:"land_kbud"},{id:151,lat:5.7412652969360352,lng:2.5454177856445312,t:"residential",n:"",b:"land_kbud"},{id:152,lat:9.6953563690185547,lng:2.6255238056182861,t:"residential",n:"",b:"land_kbud"},{id:153,lat:5.4055147171020508,lng:2.6559312343597412,t:"residential",n:"",b:"land_kbud"},{id:154,lat:5.8620486259460449,lng:2.7616462707519531,t:"residential",n:"",b:"land_kbud"},{id:155,lat:5.4680953025817871,lng:2.7661545276641846,t:"residential",n:"",b:"land_kbud"},{id:156,lat:5.4160823822021484,lng:2.7861256599426270,t:"residential",n:"",b:"land_kbud"},{id:157,lat:5.3729982376098633,lng:2.8054876327514648,t:"residential",n:"",b:"land_kbud"},{id:158,lat:9.9213142395019531,lng:2.9765651226043701,t:"residential",n:"",b:"land_kbud"},{id:159,lat:7.6743078231811523,lng:3.0590603351593018,t:"residential",n:"",b:"land_kbud"},{id:160,lat:12.9535789489746094,lng:3.5067002773284912,t:"residential",n:"",b:"land_kbud"},{id:161,lat:12.8340053558349609,lng:3.5121979713439941,t:"residential",n:"",b:"land_kbud"},{id:162,lat:6.3523874282836914,lng:3.6310575008392334,t:"residential",n:"",b:"land_kbud"},{id:163,lat:7.2986717224121094,lng:3.6545574665069580,t:"residential",n:"",b:"land_kbud"},{id:164,lat:12.9268512725830078,lng:3.6757085323333740,t:"residential",n:"",b:"land_kbud"},{id:165,lat:12.7867717742919922,lng:3.7704682350158691,t:"residential",n:"",b:"land_kbud"},{id:166,lat:6.2829475402832031,lng:3.8099019527435303,t:"residential",n:"",b:"land_kbud"},{id:167,lat:6.5656270980834961,lng:3.8244357109069824,t:"residential",n:"",b:"land_kbud"},{id:168,lat:6.2072186470031738,lng:3.8551423549652100,t:"residential",n:"",b:"land_kbud"},{id:169,lat:6.5874638557434082,lng:3.9411759376525879,t:"residential",n:"",b:"land_kbud"},{id:170,lat:10.6490898132324219,lng:3.9770507812500000,t:"residential",n:"",b:"land_kbud"},{id:171,lat:10.7483949661254883,lng:4.1084651947021484,t:"residential",n:"",b:"land_kbud"},{id:172,lat:3.2460851669311523,lng:4.1797547340393066,t:"residential",n:"",b:"land_kbud"},{id:173,lat:12.4228448867797852,lng:4.3997511863708496,t:"residential",n:"",b:"land_kbud"},{id:174,lat:8.9921779632568359,lng:4.4520792961120605,t:"residential",n:"",b:"land_kbud"},{id:175,lat:9.0093250274658203,lng:4.5346441268920898,t:"residential",n:"",b:"land_kbud"},{id:176,lat:8.5678491592407227,lng:4.7125487327575684,t:"residential",n:"",b:"land_kbud"},{id:177,lat:8.5118675231933594,lng:4.7404966354370117,t:"residential",n:"",b:"land_kbud"},{id:178,lat:10.2630653381347656,lng:4.7568602561950684,t:"residential",n:"",b:"land_kbud"},{id:179,lat:8.5883560180664062,lng:4.7947044372558594,t:"residential",n:"",b:"land_kbud"},{id:180,lat:9.6915273666381836,lng:4.8718109130859375,t:"residential",n:"",b:"land_kbud"},{id:181,lat:2.7761516571044922,lng:4.9359040260314941,t:"residential",n:"",b:"land_kbud"},{id:182,lat:2.8795387744903564,lng:5.0665988922119141,t:"residential",n:"",b:"land_kbud"},{id:183,lat:6.7018375396728516,lng:5.3470301628112793,t:"residential",n:"",b:"land_kbud"},{id:184,lat:6.5857439041137695,lng:5.3485193252563477,t:"residential",n:"",b:"land_kbud"},{id:185,lat:12.6001396179199219,lng:5.7777471542358398,t:"residential",n:"",b:"land_kbud"},{id:186,lat:5.1769070625305176,lng:5.8940477371215820,t:"residential",n:"",b:"land_kbud"},{id:187,lat:5.2330989837646484,lng:5.9268341064453125,t:"residential",n:"",b:"land_kbud"},{id:188,lat:5.0634231567382812,lng:5.9304623603820801,t:"residential",n:"",b:"land_kbud"},{id:189,lat:4.1815509796142578,lng:5.9585204124450684,t:"residential",n:"",b:"land_kbud"},{id:190,lat:4.9851341247558594,lng:6.0289807319641113,t:"residential",n:"",b:"land_kbud"},{id:191,lat:4.8992471694946289,lng:6.0265116691589355,t:"residential",n:"",b:"land_kbud"},{id:192,lat:5.0154304504394531,lng:6.0373373031616211,t:"residential",n:"",b:"land_kbud"},{id:193,lat:12.0927419662475586,lng:6.3469557762145996,t:"residential",n:"",b:"land_kbud"},{id:194,lat:9.2174253463745117,lng:6.4687242507934570,t:"residential",n:"",b:"land_kbud"},{id:195,lat:9.3015336990356445,lng:6.5380449295043945,t:"residential",n:"",b:"land_kbud"},{id:196,lat:9.3143520355224609,lng:6.5852646827697754,t:"residential",n:"",b:"land_kbud"},{id:197,lat:3.9901769161224365,lng:6.9465513229370117,t:"residential",n:"",b:"land_kbud"},{id:198,lat:12.2177047729492188,lng:7.0933394432067871,t:"residential",n:"",b:"land_kbud"},{id:199,lat:8.3875846862792969,lng:7.2304410934448242,t:"residential",n:"",b:"land_kbud"},{id:200,lat:10.3384342193603516,lng:7.4692301750183105,t:"residential",n:"",b:"land_kbud"},{id:201,lat:10.2438573837280273,lng:7.4804153442382812,t:"residential",n:"",b:"land_kbud"},{id:202,lat:10.1557903289794922,lng:7.5599813461303711,t:"residential",n:"",b:"land_kbud"},{id:203,lat:10.2411289215087891,lng:7.5800032615661621,t:"residential",n:"",b:"land_kbud"},{id:204,lat:11.9873571395874023,lng:8.0319013595581055,t:"residential",n:"",b:"land_kbud"},{id:205,lat:6.0609898567199707,lng:8.0984029769897461,t:"residential",n:"",b:"land_kbud"},{id:206,lat:10.3956460952758789,lng:8.3639106750488281,t:"residential",n:"",b:"land_kbud"},{id:207,lat:3.2645833492279053,lng:8.4815502166748047,t:"residential",n:"",b:"land_kbud"},{id:208,lat:3.4204590320587158,lng:8.5181751251220703,t:"residential",n:"",b:"land_kbud"},{id:209,lat:3.6925210952758789,lng:8.7669792175292969,t:"residential",n:"",b:"land_kbud"},{id:210,lat:9.8505144119262695,lng:10.1249437332153320,t:"residential",n:"",b:"land_kbud"},{id:211,lat:9.8519840240478516,lng:10.3009691238403320,t:"residential",n:"",b:"land_kbud"},{id:212,lat:8.7902469635009766,lng:11.1296176910400391,t:"residential",n:"",b:"land_kbud"},{id:213,lat:10.0106220245361328,lng:11.2191801071166992,t:"residential",n:"",b:"land_kbud"},{id:214,lat:8.7484626770019531,lng:11.2164812088012695,t:"residential",n:"",b:"land_kbud"},{id:215,lat:9.8838100433349609,lng:11.2374725341796875,t:"residential",n:"",b:"land_kbud"},{id:216,lat:9.9035673141479492,lng:11.2761554718017578,t:"residential",n:"",b:"land_kbud"},{id:217,lat:8.7962665557861328,lng:11.2785549163818359,t:"residential",n:"",b:"land_kbud"},{id:218,lat:8.8233728408813477,lng:11.3023443222045898,t:"residential",n:"",b:"land_kbud"},{id:219,lat:2.8144450187683105,lng:11.3322315216064453,t:"residential",n:"",b:"land_kbud"},{id:220,lat:8.7396144866943359,lng:11.5294485092163086,t:"residential",n:"",b:"land_kbud"},{id:221,lat:6.1268901824951172,lng:11.8397169113159180,t:"residential",n:"",b:"land_kbud"},{id:222,lat:6.2648706436157227,lng:11.8895950317382812,t:"residential",n:"",b:"land_kbud"},{id:223,lat:11.9056081771850586,lng:11.9611654281616211,t:"residential",n:"",b:"land_kbud"},{id:224,lat:6.3992009162902832,lng:12.0226392745971680,t:"residential",n:"",b:"land_kbud"},{id:225,lat:6.8355484008789062,lng:12.2798299789428711,t:"residential",n:"",b:"land_kbud"},{id:226,lat:9.7930631637573242,lng:12.3006210327148438,t:"residential",n:"",b:"land_kbud"},{id:227,lat:5.8874645233154297,lng:12.6177864074707031,t:"residential",n:"",b:"land_kbud"},{id:228,lat:5.9575147628784180,lng:12.6939544677734375,t:"residential",n:"",b:"land_kbud"},{id:229,lat:5.9016027450561523,lng:12.6937551498413086,t:"residential",n:"",b:"land_kbud"},{id:230,lat:9.2093763351440430,lng:12.7346372604370117,t:"residential",n:"",b:"land_kbud"},{id:231,lat:5.3539810180664062,lng:12.8146038055419922,t:"residential",n:"",b:"land_kbud"},{id:232,lat:8.3759965896606445,lng:12.8993673324584961,t:"residential",n:"",b:"land_kbud"},{id:233,lat:7.2443194389343262,lng:12.9466476440429688,t:"residential",n:"",b:"land_kbud"},{id:234,lat:12.1120586395263672,lng:13.3199892044067383,t:"residential",n:"",b:"land_kbud"},{id:235,lat:10.0260992050170898,lng:1.3757333755493164,t:"industrial",n:"",b:"land_shed_w01"},{id:236,lat:11.4947776794433594,lng:1.6463395357131958,t:"industrial",n:"",b:"land_shed_w01"},{id:237,lat:2.2564270496368408,lng:1.6557952165603638,t:"industrial",n:"",b:"land_shed_w01"},{id:238,lat:11.4623727798461914,lng:1.7067832946777344,t:"industrial",n:"",b:"land_shed_w01"},{id:239,lat:11.3595275878906250,lng:1.7035450935363770,t:"industrial",n:"",b:"land_shed_w01"},{id:240,lat:11.6727018356323242,lng:1.7180685997009277,t:"industrial",n:"",b:"land_shed_w01"},{id:241,lat:13.1339921951293945,lng:1.7578318119049072,t:"industrial",n:"",b:"land_shed_w01"},{id:242,lat:10.2903919219970703,lng:1.7489062547683716,t:"industrial",n:"",b:"land_shed_w01"},{id:243,lat:7.8598709106445312,lng:1.8885165452957153,t:"industrial",n:"",b:"land_shed_w01"},{id:244,lat:13.0764312744140625,lng:1.9061985015869141,t:"industrial",n:"",b:"land_shed_w01"},{id:245,lat:7.9502778053283691,lng:1.9576865434646606,t:"industrial",n:"",b:"land_shed_w01"},{id:246,lat:7.9913620948791504,lng:2.0075361728668213,t:"industrial",n:"",b:"land_shed_w01"},{id:247,lat:8.0407552719116211,lng:2.0834035873413086,t:"industrial",n:"",b:"land_shed_w01"},{id:248,lat:12.4448814392089844,lng:2.1268353462219238,t:"industrial",n:"",b:"land_shed_w01"},{id:249,lat:9.0980930328369141,lng:2.1969361305236816,t:"industrial",n:"",b:"land_shed_w01"},{id:250,lat:4.1174597740173340,lng:2.2418165206909180,t:"industrial",n:"",b:"land_shed_w01"},{id:251,lat:10.0044822692871094,lng:2.2782311439514160,t:"industrial",n:"",b:"land_shed_w01"},{id:252,lat:8.9546537399291992,lng:2.5084531307220459,t:"industrial",n:"",b:"land_shed_w01"},{id:253,lat:7.2332711219787598,lng:2.5104627609252930,t:"industrial",n:"",b:"land_shed_w01"},{id:254,lat:10.3387336730957031,lng:2.5694475173950195,t:"industrial",n:"",b:"land_shed_w01"},{id:255,lat:10.0961790084838867,lng:2.7433941364288330,t:"industrial",n:"",b:"land_shed_w01"},{id:256,lat:5.4539470672607422,lng:2.7753603458404541,t:"industrial",n:"",b:"land_shed_w01"},{id:257,lat:5.3369841575622559,lng:2.7710924148559570,t:"industrial",n:"",b:"land_shed_w01"},{id:258,lat:10.1116065979003906,lng:2.7958316802978516,t:"industrial",n:"",b:"land_shed_w01"},{id:259,lat:10.6371917724609375,lng:2.8663320541381836,t:"industrial",n:"",b:"land_shed_w01"},{id:260,lat:6.1098523139953613,lng:2.8660717010498047,t:"industrial",n:"",b:"land_shed_w01"},{id:261,lat:10.0769624710083008,lng:2.9124422073364258,t:"industrial",n:"",b:"land_shed_w01"},{id:262,lat:7.6286039352416992,lng:2.9378912448883057,t:"industrial",n:"",b:"land_shed_w01"},{id:263,lat:9.8034009933471680,lng:2.9625408649444580,t:"industrial",n:"",b:"land_shed_w01"},{id:264,lat:9.9768962860107422,lng:2.9988856315612793,t:"industrial",n:"",b:"land_shed_w01"},{id:265,lat:7.6389226913452148,lng:3.0113303661346436,t:"industrial",n:"",b:"land_shed_w01"},{id:266,lat:7.5391874313354492,lng:3.0138192176818848,t:"industrial",n:"",b:"land_shed_w01"},{id:267,lat:7.4345316886901855,lng:3.0792117118835449,t:"industrial",n:"",b:"land_shed_w01"},{id:268,lat:7.5305385589599609,lng:3.1195442676544189,t:"industrial",n:"",b:"land_shed_w01"},{id:269,lat:6.5151643753051758,lng:3.0997226238250732,t:"industrial",n:"",b:"land_shed_w01"},{id:270,lat:7.5008125305175781,lng:3.1424448490142822,t:"industrial",n:"",b:"land_shed_w01"},{id:271,lat:7.3632822036743164,lng:3.1563088893890381,t:"industrial",n:"",b:"land_shed_w01"},{id:272,lat:7.2580971717834473,lng:3.2099258899688721,t:"industrial",n:"",b:"land_shed_w01"},{id:273,lat:7.2493886947631836,lng:3.2171630859375000,t:"industrial",n:"",b:"land_shed_w01"},{id:274,lat:10.4749155044555664,lng:3.3118031024932861,t:"industrial",n:"",b:"land_shed_w01"},{id:275,lat:11.4389257431030273,lng:3.3541748523712158,t:"industrial",n:"",b:"land_shed_w01"},{id:276,lat:8.0313768386840820,lng:3.5168859958648682,t:"industrial",n:"",b:"land_shed_w01"},{id:277,lat:6.4047803878784180,lng:3.7144124507904053,t:"industrial",n:"",b:"land_shed_w01"},{id:278,lat:12.8926973342895508,lng:3.7218992710113525,t:"industrial",n:"",b:"land_shed_w01"},{id:279,lat:6.6267385482788086,lng:3.8136401176452637,t:"industrial",n:"",b:"land_shed_w01"},{id:280,lat:6.1963200569152832,lng:3.8511743545532227,t:"industrial",n:"",b:"land_shed_w01"},{id:281,lat:3.2251873016357422,lng:3.8442273139953613,t:"industrial",n:"",b:"land_shed_w01"},{id:282,lat:6.4711208343505859,lng:3.8732244968414307,t:"industrial",n:"",b:"land_shed_w01"},{id:283,lat:11.7754774093627930,lng:3.9131078720092773,t:"industrial",n:"",b:"land_shed_w01"},{id:284,lat:6.2393441200256348,lng:4.0794177055358887,t:"industrial",n:"",b:"land_shed_w01"},{id:285,lat:5.5139884948730469,lng:4.0762987136840820,t:"industrial",n:"",b:"land_shed_w01"},{id:286,lat:11.4910984039306641,lng:4.3373579978942871,t:"industrial",n:"",b:"land_shed_w01"},{id:287,lat:12.8914766311645508,lng:4.3728327751159668,t:"industrial",n:"",b:"land_shed_w01"},{id:288,lat:10.6253824234008789,lng:4.3736824989318848,t:"industrial",n:"",b:"land_shed_w01"},{id:289,lat:12.9275922775268555,lng:4.4412240982055664,t:"industrial",n:"",b:"land_shed_w01"},{id:290,lat:12.8780593872070312,lng:4.4951109886169434,t:"industrial",n:"",b:"land_shed_w01"},{id:291,lat:10.7390766143798828,lng:4.5076456069946289,t:"industrial",n:"",b:"land_shed_w01"},{id:292,lat:8.8789939880371094,lng:4.5061769485473633,t:"industrial",n:"",b:"land_shed_w01"},{id:293,lat:11.9542722702026367,lng:4.5366630554199219,t:"industrial",n:"",b:"land_shed_w01"},{id:294,lat:12.7981204986572266,lng:4.5684399604797363,t:"industrial",n:"",b:"land_shed_w01"},{id:295,lat:10.6671867370605469,lng:4.7260332107543945,t:"industrial",n:"",b:"land_shed_w01"},{id:296,lat:8.5302648544311523,lng:4.7562603950500488,t:"industrial",n:"",b:"land_shed_w01"},{id:297,lat:2.9011330604553223,lng:4.9880919456481934,t:"industrial",n:"",b:"land_shed_w01"},{id:298,lat:6.7961735725402832,lng:5.2777495384216309,t:"industrial",n:"",b:"land_shed_w01"},{id:299,lat:4.2705378532409668,lng:5.2674131393432617,t:"industrial",n:"",b:"land_shed_w01"},{id:300,lat:6.7764868736267090,lng:5.2865056991577148,t:"industrial",n:"",b:"land_shed_w01"},{id:301,lat:4.7848639488220215,lng:5.2954716682434082,t:"industrial",n:"",b:"land_shed_w01"},{id:302,lat:6.9774179458618164,lng:5.4376311302185059,t:"industrial",n:"",b:"land_shed_w01"},{id:303,lat:4.8328566551208496,lng:5.7206616401672363,t:"industrial",n:"",b:"land_shed_w01"},{id:304,lat:11.2919979095458984,lng:5.7730493545532227,t:"industrial",n:"",b:"land_shed_w01"},{id:305,lat:11.3963022232055664,lng:5.8243379592895508,t:"industrial",n:"",b:"land_shed_w01"},{id:306,lat:10.5885276794433594,lng:5.8481569290161133,t:"industrial",n:"",b:"land_shed_w01"},{id:307,lat:3.9324855804443359,lng:5.8689684867858887,t:"industrial",n:"",b:"land_shed_w01"},{id:308,lat:10.7707118988037109,lng:5.8880705833435059,t:"industrial",n:"",b:"land_shed_w01"},{id:309,lat:10.6924829483032227,lng:5.8908090591430664,t:"industrial",n:"",b:"land_shed_w01"},{id:310,lat:5.2843909263610840,lng:5.8980364799499512,t:"industrial",n:"",b:"land_shed_w01"},{id:311,lat:5.0029320716857910,lng:5.9300522804260254,t:"industrial",n:"",b:"land_shed_w01"},{id:312,lat:7.5867605209350586,lng:6.0152964591979980,t:"industrial",n:"",b:"land_shed_w01"},{id:313,lat:7.4162850379943848,lng:6.0370874404907227,t:"industrial",n:"",b:"land_shed_w01"},{id:314,lat:7.7055230140686035,lng:6.1535878181457520,t:"industrial",n:"",b:"land_shed_w01"},{id:315,lat:7.7492070198059082,lng:6.2317848205566406,t:"industrial",n:"",b:"land_shed_w01"},{id:316,lat:13.2304677963256836,lng:6.2631616592407227,t:"industrial",n:"",b:"land_shed_w01"},{id:317,lat:12.0754938125610352,lng:6.3259744644165039,t:"industrial",n:"",b:"land_shed_w01"},{id:318,lat:13.0272474288940430,lng:6.3983139991760254,t:"industrial",n:"",b:"land_shed_w01"},{id:319,lat:9.2868757247924805,lng:6.5865941047668457,t:"industrial",n:"",b:"land_shed_w01"},{id:320,lat:12.4958438873291016,lng:6.6715879440307617,t:"industrial",n:"",b:"land_shed_w01"},{id:321,lat:12.2301921844482422,lng:6.7803621292114258,t:"industrial",n:"",b:"land_shed_w01"},{id:322,lat:12.8074693679809570,lng:6.8140778541564941,t:"industrial",n:"",b:"land_shed_w01"},{id:323,lat:12.2648067474365234,lng:6.8604183197021484,t:"industrial",n:"",b:"land_shed_w01"},{id:324,lat:12.2080554962158203,lng:6.8518619537353516,t:"industrial",n:"",b:"land_shed_w01"},{id:325,lat:4.0093746185302734,lng:6.9418334960937500,t:"industrial",n:"",b:"land_shed_w01"},{id:326,lat:7.6341233253479004,lng:7.2149577140808105,t:"industrial",n:"",b:"land_shed_w01"},{id:327,lat:12.5363779067993164,lng:7.3665032386779785,t:"industrial",n:"",b:"land_shed_w01"},{id:328,lat:10.2322397232055664,lng:7.5272650718688965,t:"industrial",n:"",b:"land_shed_w01"},{id:329,lat:10.1580209732055664,lng:7.5561528205871582,t:"industrial",n:"",b:"land_shed_w01"},{id:330,lat:11.9044294357299805,lng:7.7076492309570312,t:"industrial",n:"",b:"land_shed_w01"},{id:331,lat:10.2596158981323242,lng:7.8530073165893555,t:"industrial",n:"",b:"land_shed_w01"},{id:332,lat:3.9857776165008545,lng:7.8570656776428223,t:"industrial",n:"",b:"land_shed_w01"},{id:333,lat:12.1152887344360352,lng:7.9360218048095703,t:"industrial",n:"",b:"land_shed_w01"},{id:334,lat:9.9187049865722656,lng:7.9882497787475586,t:"industrial",n:"",b:"land_shed_w01"},{id:335,lat:12.0362997055053711,lng:8.1051797866821289,t:"industrial",n:"",b:"land_shed_w01"},{id:336,lat:3.7274158000946045,lng:8.2167625427246094,t:"industrial",n:"",b:"land_shed_w01"},{id:337,lat:10.3966464996337891,lng:8.3175802230834961,t:"industrial",n:"",b:"land_shed_w01"},{id:338,lat:10.3975858688354492,lng:8.4209966659545898,t:"industrial",n:"",b:"land_shed_w01"},{id:339,lat:8.7366952896118164,lng:8.4517927169799805,t:"industrial",n:"",b:"land_shed_w01"},{id:340,lat:3.2792794704437256,lng:8.5035915374755859,t:"industrial",n:"",b:"land_shed_w01"},{id:341,lat:8.7377643585205078,lng:8.5251216888427734,t:"industrial",n:"",b:"land_shed_w01"},{id:342,lat:3.4106609821319580,lng:8.5345287322998047,t:"industrial",n:"",b:"land_shed_w01"},{id:343,lat:3.6328289508819580,lng:8.7556447982788086,t:"industrial",n:"",b:"land_shed_w01"},{id:344,lat:7.3266878128051758,lng:9.1053161621093750,t:"industrial",n:"",b:"land_shed_w01"},{id:345,lat:11.2777595520019531,lng:9.1298055648803711,t:"industrial",n:"",b:"land_shed_w01"},{id:346,lat:11.5047855377197266,lng:9.1564846038818359,t:"industrial",n:"",b:"land_shed_w01"},{id:347,lat:3.4362571239471436,lng:9.1720170974731445,t:"industrial",n:"",b:"land_shed_w01"},{id:348,lat:6.5535087585449219,lng:9.3094797134399414,t:"industrial",n:"",b:"land_shed_w01"},{id:349,lat:11.1702842712402344,lng:9.4720306396484375,t:"industrial",n:"",b:"land_shed_w01"},{id:350,lat:9.3529157638549805,lng:9.5328044891357422,t:"industrial",n:"",b:"land_shed_w01"},{id:351,lat:9.3529262542724609,lng:9.5328245162963867,t:"industrial",n:"",b:"land_shed_w01"},{id:352,lat:6.4561228752136230,lng:9.5352039337158203,t:"industrial",n:"",b:"land_shed_w01"},{id:353,lat:8.7888469696044922,lng:9.5655813217163086,t:"industrial",n:"",b:"land_shed_w01"},{id:354,lat:6.5012464523315430,lng:9.5520362854003906,t:"industrial",n:"",b:"land_shed_w01"},{id:355,lat:13.3829364776611328,lng:9.5749969482421875,t:"industrial",n:"",b:"land_shed_w01"},{id:356,lat:8.7707996368408203,lng:9.5883216857910156,t:"industrial",n:"",b:"land_shed_w01"},{id:357,lat:8.7557220458984375,lng:9.6067237854003906,t:"industrial",n:"",b:"land_shed_w01"},{id:358,lat:4.9047465324401855,lng:9.6154203414916992,t:"industrial",n:"",b:"land_shed_w01"},{id:359,lat:13.1044864654541016,lng:9.8025197982788086,t:"industrial",n:"",b:"land_shed_w01"},{id:360,lat:13.4127721786499023,lng:10.0059938430786133,t:"industrial",n:"",b:"land_shed_w01"},{id:361,lat:13.2601242065429688,lng:10.0092926025390625,t:"industrial",n:"",b:"land_shed_w01"},{id:362,lat:13.4648046493530273,lng:10.0773639678955078,t:"industrial",n:"",b:"land_shed_w01"},{id:363,lat:5.5585112571716309,lng:10.2104072570800781,t:"industrial",n:"",b:"land_shed_w01"},{id:364,lat:5.5237269401550293,lng:10.2286996841430664,t:"industrial",n:"",b:"land_shed_w01"},{id:365,lat:13.3117265701293945,lng:10.2327985763549805,t:"industrial",n:"",b:"land_shed_w01"},{id:366,lat:13.0692205429077148,lng:10.2641849517822266,t:"industrial",n:"",b:"land_shed_w01"},{id:367,lat:5.8228340148925781,lng:10.2961721420288086,t:"industrial",n:"",b:"land_shed_w01"},{id:368,lat:12.9179840087890625,lng:10.4294147491455078,t:"industrial",n:"",b:"land_shed_w01"},{id:369,lat:13.0999765396118164,lng:10.5053825378417969,t:"industrial",n:"",b:"land_shed_w01"},{id:370,lat:13.1105852127075195,lng:10.5808496475219727,t:"industrial",n:"",b:"land_shed_w01"},{id:371,lat:7.5600543022155762,lng:10.5719547271728516,t:"industrial",n:"",b:"land_shed_w01"},{id:372,lat:5.7188291549682617,lng:10.5853481292724609,t:"industrial",n:"",b:"land_shed_w01"},{id:373,lat:13.2596940994262695,lng:10.6186351776123047,t:"industrial",n:"",b:"land_shed_w01"},{id:374,lat:7.4887247085571289,lng:10.6027412414550781,t:"industrial",n:"",b:"land_shed_w01"},{id:375,lat:5.4121332168579102,lng:10.6133365631103516,t:"industrial",n:"",b:"land_shed_w01"},{id:376,lat:13.0140800476074219,lng:10.6390256881713867,t:"industrial",n:"",b:"land_shed_w01"},{id:377,lat:12.9712648391723633,lng:10.6399250030517578,t:"industrial",n:"",b:"land_shed_w01"},{id:378,lat:7.2258820533752441,lng:10.6250314712524414,t:"industrial",n:"",b:"land_shed_w01"},{id:379,lat:2.9071345329284668,lng:10.7118949890136719,t:"industrial",n:"",b:"land_shed_w01"},{id:380,lat:2.9585261344909668,lng:10.7751674652099609,t:"industrial",n:"",b:"land_shed_w01"},{id:381,lat:12.8483638763427734,lng:10.8322439193725586,t:"industrial",n:"",b:"land_shed_w01"},{id:382,lat:2.8897352218627930,lng:11.0010728836059570,t:"industrial",n:"",b:"land_shed_w01"},{id:383,lat:1.9914633035659790,lng:11.0008726119995117,t:"industrial",n:"",b:"land_shed_w01"},{id:384,lat:2.9726240634918213,lng:11.0587472915649414,t:"industrial",n:"",b:"land_shed_w01"},{id:385,lat:3.1042046546936035,lng:11.0997304916381836,t:"industrial",n:"",b:"land_shed_w01"},{id:386,lat:3.0756101608276367,lng:11.1132249832153320,t:"industrial",n:"",b:"land_shed_w01"},{id:387,lat:8.7821187973022461,lng:11.1318168640136719,t:"industrial",n:"",b:"land_shed_w01"},{id:388,lat:3.3890647888183594,lng:11.1384134292602539,t:"industrial",n:"",b:"land_shed_w01"},{id:389,lat:3.1646966934204102,lng:11.1527080535888672,t:"industrial",n:"",b:"land_shed_w01"},{id:390,lat:9.9566593170166016,lng:11.2063856124877930,t:"industrial",n:"",b:"land_shed_w01"},{id:391,lat:3.1168034076690674,lng:11.2755556106567383,t:"industrial",n:"",b:"land_shed_w01"},{id:392,lat:2.7820522785186768,lng:11.3324317932128906,t:"industrial",n:"",b:"land_shed_w01"},{id:393,lat:10.3264961242675781,lng:11.5215520858764648,t:"industrial",n:"",b:"land_shed_w01"},{id:394,lat:2.9358291625976562,lng:11.5268487930297852,t:"industrial",n:"",b:"land_shed_w01"},{id:395,lat:2.9956221580505371,lng:11.5783271789550781,t:"industrial",n:"",b:"land_shed_w01"},{id:396,lat:2.9039335250854492,lng:11.5833253860473633,t:"industrial",n:"",b:"land_shed_w01"},{id:397,lat:2.8608407974243164,lng:11.6126127243041992,t:"industrial",n:"",b:"land_shed_w01"},{id:398,lat:6.3131933212280273,lng:11.7322626113891602,t:"industrial",n:"",b:"land_shed_w01"},{id:399,lat:6.3332605361938477,lng:11.8303213119506836,t:"industrial",n:"",b:"land_shed_w01"},{id:400,lat:6.2032890319824219,lng:11.8544101715087891,t:"industrial",n:"",b:"land_shed_w01"},{id:401,lat:6.1058635711669922,lng:11.8507118225097656,t:"industrial",n:"",b:"land_shed_w01"},{id:402,lat:3.3429706096649170,lng:11.9305782318115234,t:"industrial",n:"",b:"land_shed_w01"},{id:403,lat:6.2674899101257324,lng:11.9789581298828125,t:"industrial",n:"",b:"land_shed_w01"},{id:404,lat:8.1156644821166992,lng:12.0082454681396484,t:"industrial",n:"",b:"land_shed_w01"},{id:405,lat:11.8307495117187500,lng:12.0871124267578125,t:"industrial",n:"",b:"land_shed_w01"},{id:406,lat:11.6997289657592773,lng:12.0778160095214844,t:"industrial",n:"",b:"land_shed_w01"},{id:407,lat:6.3160829544067383,lng:12.0696191787719727,t:"industrial",n:"",b:"land_shed_w01"},{id:408,lat:11.7832660675048828,lng:12.1052045822143555,t:"industrial",n:"",b:"land_shed_w01"},{id:409,lat:6.2344245910644531,lng:12.1172990798950195,t:"industrial",n:"",b:"land_shed_w01"},{id:410,lat:5.8963737487792969,lng:12.1227960586547852,t:"industrial",n:"",b:"land_shed_w01"},{id:411,lat:11.8948602676391602,lng:12.1613798141479492,t:"industrial",n:"",b:"land_shed_w01"},{id:412,lat:5.9263987541198730,lng:12.1675767898559570,t:"industrial",n:"",b:"land_shed_w01"},{id:413,lat:5.6855835914611816,lng:12.1653785705566406,t:"industrial",n:"",b:"land_shed_w01"},{id:414,lat:11.8249702453613281,lng:12.2167568206787109,t:"industrial",n:"",b:"land_shed_w01"},{id:415,lat:6.2453432083129883,lng:12.2282524108886719,t:"industrial",n:"",b:"land_shed_w01"},{id:416,lat:9.0654973983764648,lng:12.2603387832641602,t:"industrial",n:"",b:"land_shed_w01"},{id:417,lat:6.1882410049438477,lng:12.2663354873657227,t:"industrial",n:"",b:"land_shed_w01"},{id:418,lat:5.7025513648986816,lng:12.2426462173461914,t:"industrial",n:"",b:"land_shed_w01"},{id:419,lat:4.7275714874267578,lng:12.2606382369995117,t:"industrial",n:"",b:"land_shed_w01"},{id:420,lat:9.0873746871948242,lng:12.2823295593261719,t:"industrial",n:"",b:"land_shed_w01"},{id:421,lat:6.8614149093627930,lng:12.2888259887695312,t:"industrial",n:"",b:"land_shed_w01"},{id:422,lat:5.8617186546325684,lng:12.2879266738891602,t:"industrial",n:"",b:"land_shed_w01"},{id:423,lat:5.7097101211547852,lng:12.2953233718872070,t:"industrial",n:"",b:"land_shed_w01"},{id:424,lat:6.3232216835021973,lng:12.3260107040405273,t:"industrial",n:"",b:"land_shed_w01"},{id:425,lat:5.7856893539428711,lng:12.3270101547241211,t:"industrial",n:"",b:"land_shed_w01"},{id:426,lat:9.1046018600463867,lng:12.3416032791137695,t:"industrial",n:"",b:"land_shed_w01"},{id:427,lat:5.7446351051330566,lng:12.3388042449951172,t:"industrial",n:"",b:"land_shed_w01"},{id:428,lat:4.5205011367797852,lng:12.3321084976196289,t:"industrial",n:"",b:"land_shed_w01"},{id:429,lat:5.8519902229309082,lng:12.3645944595336914,t:"industrial",n:"",b:"land_shed_w01"},{id:430,lat:5.7512745857238770,lng:12.3762884140014648,t:"industrial",n:"",b:"land_shed_w01"},{id:431,lat:4.5452976226806641,lng:12.3810873031616211,t:"industrial",n:"",b:"land_shed_w01"},{id:432,lat:5.8452906608581543,lng:12.3976793289184570,t:"industrial",n:"",b:"land_shed_w01"},{id:433,lat:5.6382603645324707,lng:12.4181709289550781,t:"industrial",n:"",b:"land_shed_w01"},{id:434,lat:5.7906985282897949,lng:12.6487731933593750,t:"industrial",n:"",b:"land_shed_w01"},{id:435,lat:5.8967638015747070,lng:12.6594686508178711,t:"industrial",n:"",b:"land_shed_w01"},{id:436,lat:7.2552981376647949,lng:12.7261409759521484,t:"industrial",n:"",b:"land_shed_w01"},{id:437,lat:5.5415844917297363,lng:12.7825164794921875,t:"industrial",n:"",b:"land_shed_w01"},{id:438,lat:5.3013887405395508,lng:12.7924127578735352,t:"industrial",n:"",b:"land_shed_w01"},{id:439,lat:10.8716373443603516,lng:12.8199014663696289,t:"industrial",n:"",b:"land_shed_w01"},{id:440,lat:7.2294316291809082,lng:12.8392925262451172,t:"industrial",n:"",b:"land_shed_w01"},{id:441,lat:5.3291850090026855,lng:12.8403921127319336,t:"industrial",n:"",b:"land_shed_w01"},{id:442,lat:5.8009266853332520,lng:12.8826742172241211,t:"industrial",n:"",b:"land_shed_w01"},{id:443,lat:5.1811060905456543,lng:12.8942699432373047,t:"industrial",n:"",b:"land_shed_w01"},{id:444,lat:8.5691289901733398,lng:12.9279546737670898,t:"industrial",n:"",b:"land_shed_w01"},{id:445,lat:5.2338991165161133,lng:12.9184598922729492,t:"industrial",n:"",b:"land_shed_w01"},{id:446,lat:8.6217918395996094,lng:12.9623403549194336,t:"industrial",n:"",b:"land_shed_w01"},{id:447,lat:7.3457350730895996,lng:12.9858312606811523,t:"industrial",n:"",b:"land_shed_w01"},{id:448,lat:7.1747698783874512,lng:12.9929275512695312,t:"industrial",n:"",b:"land_shed_w01"},{id:449,lat:8.3744068145751953,lng:13.0331106185913086,t:"industrial",n:"",b:"land_shed_w01"},{id:450,lat:12.1139488220214844,lng:13.3102931976318359,t:"industrial",n:"",b:"land_shed_w01"},{id:451,lat:9.1434259414672852,lng:13.3280849456787109,t:"industrial",n:"",b:"land_shed_w01"},{id:452,lat:9.1492547988891602,lng:13.3729667663574219,t:"industrial",n:"",b:"land_shed_w01"},{id:453,lat:9.0545892715454102,lng:13.3493776321411133,t:"industrial",n:"",b:"land_shed_w01"},{id:454,lat:9.0548686981201172,lng:13.3965568542480469,t:"industrial",n:"",b:"land_shed_w01"},{id:455,lat:8.9827194213867188,lng:13.4201459884643555,t:"industrial",n:"",b:"land_shed_w01"},{id:456,lat:9.0323324203491211,lng:13.4531326293945312,t:"industrial",n:"",b:"land_shed_w01"},{id:457,lat:11.3662071228027344,lng:1.6582442522048950,t:"residential",n:"",b:"land_psi_bouda"},{id:458,lat:11.6124210357666016,lng:1.6865121126174927,t:"residential",n:"",b:"land_psi_bouda"},{id:459,lat:13.1297426223754883,lng:1.7322523593902588,t:"residential",n:"",b:"land_psi_bouda"},{id:460,lat:13.1590681076049805,lng:1.8237738609313965,t:"residential",n:"",b:"land_psi_bouda"},{id:461,lat:3.3243734836578369,lng:1.8526713848114014,t:"residential",n:"",b:"land_psi_bouda"},{id:462,lat:13.0994672775268555,lng:1.8867373466491699,t:"residential",n:"",b:"land_psi_bouda"},{id:463,lat:8.0059995651245117,lng:1.9857147932052612,t:"residential",n:"",b:"land_psi_bouda"},{id:464,lat:13.0967683792114258,lng:2.0252385139465332,t:"residential",n:"",b:"land_psi_bouda"},{id:465,lat:8.1111249923706055,lng:2.0240097045898438,t:"residential",n:"",b:"land_psi_bouda"},{id:466,lat:8.9611921310424805,lng:2.5117321014404297,t:"residential",n:"",b:"land_psi_bouda"},{id:467,lat:5.7201886177062988,lng:2.5007572174072266,t:"residential",n:"",b:"land_psi_bouda"},{id:468,lat:10.3486223220825195,lng:2.5837213993072510,t:"residential",n:"",b:"land_psi_bouda"},{id:469,lat:10.5148887634277344,lng:2.6221356391906738,t:"residential",n:"",b:"land_psi_bouda"},{id:470,lat:9.6678905487060547,lng:2.6175470352172852,t:"residential",n:"",b:"land_psi_bouda"},{id:471,lat:5.3976054191589355,lng:2.6847987174987793,t:"residential",n:"",b:"land_psi_bouda"},{id:472,lat:10.1638994216918945,lng:2.7128667831420898,t:"residential",n:"",b:"land_psi_bouda"},{id:473,lat:5.2896904945373535,lng:2.7063198089599609,t:"residential",n:"",b:"land_psi_bouda"},{id:474,lat:5.5133981704711914,lng:2.7625555992126465,t:"residential",n:"",b:"land_psi_bouda"},{id:475,lat:5.3931560516357422,lng:2.7733213901519775,t:"residential",n:"",b:"land_psi_bouda"},{id:476,lat:10.1620197296142578,lng:2.8043580055236816,t:"residential",n:"",b:"land_psi_bouda"},{id:477,lat:6.0038580894470215,lng:2.8711698055267334,t:"residential",n:"",b:"land_psi_bouda"},{id:478,lat:5.5865383148193359,lng:2.8702600002288818,t:"residential",n:"",b:"land_psi_bouda"},{id:479,lat:10.0910892486572266,lng:2.9121825695037842,t:"residential",n:"",b:"land_psi_bouda"},{id:480,lat:9.7998313903808594,lng:2.9817328453063965,t:"residential",n:"",b:"land_psi_bouda"},{id:481,lat:7.4447703361511230,lng:2.9796438217163086,t:"residential",n:"",b:"land_psi_bouda"},{id:482,lat:7.5746817588806152,lng:3.0494544506072998,t:"residential",n:"",b:"land_psi_bouda"},{id:483,lat:7.4571890830993652,lng:3.0436463356018066,t:"residential",n:"",b:"land_psi_bouda"},{id:484,lat:3.5353443622589111,lng:3.0341308116912842,t:"residential",n:"",b:"land_psi_bouda"},{id:485,lat:7.5725321769714355,lng:3.0838396549224854,t:"residential",n:"",b:"land_psi_bouda"},{id:486,lat:7.5042424201965332,lng:3.1290204524993896,t:"residential",n:"",b:"land_psi_bouda"},{id:487,lat:7.3106899261474609,lng:3.1985211372375488,t:"residential",n:"",b:"land_psi_bouda"},{id:488,lat:7.2341208457946777,lng:3.2191922664642334,t:"residential",n:"",b:"land_psi_bouda"},{id:489,lat:4.0982623100280762,lng:3.2645230293273926,t:"residential",n:"",b:"land_psi_bouda"},{id:490,lat:11.3952722549438477,lng:3.3124725818634033,t:"residential",n:"",b:"land_psi_bouda"},{id:491,lat:10.4641857147216797,lng:3.3291356563568115,t:"residential",n:"",b:"land_psi_bouda"},{id:492,lat:10.4050054550170898,lng:3.3595128059387207,t:"residential",n:"",b:"land_psi_bouda"},{id:493,lat:10.4516983032226562,lng:3.3674292564392090,t:"residential",n:"",b:"land_psi_bouda"},{id:494,lat:12.8016099929809570,lng:3.5586881637573242,t:"residential",n:"",b:"land_psi_bouda"},{id:495,lat:12.8842086791992188,lng:3.6296679973602295,t:"residential",n:"",b:"land_psi_bouda"},{id:496,lat:7.3082804679870605,lng:3.6309077739715576,t:"residential",n:"",b:"land_psi_bouda"},{id:497,lat:6.3489079475402832,lng:3.6208317279815674,t:"residential",n:"",b:"land_psi_bouda"},{id:498,lat:12.9559574127197266,lng:3.6467506885528564,t:"residential",n:"",b:"land_psi_bouda"},{id:499,lat:6.4178786277770996,lng:3.7133028507232666,t:"residential",n:"",b:"land_psi_bouda"},{id:500,lat:6.3107643127441406,lng:3.8036043643951416,t:"residential",n:"",b:"land_psi_bouda"},{id:501,lat:6.4912376403808594,lng:3.8504345417022705,t:"residential",n:"",b:"land_psi_bouda"},{id:502,lat:6.4529538154602051,lng:3.8952758312225342,t:"residential",n:"",b:"land_psi_bouda"},{id:503,lat:12.4188451766967773,lng:4.4087572097778320,t:"residential",n:"",b:"land_psi_bouda"},{id:504,lat:10.7370071411132812,lng:4.3888463973999023,t:"residential",n:"",b:"land_psi_bouda"},{id:505,lat:9.7022361755371094,lng:4.4049692153930664,t:"residential",n:"",b:"land_psi_bouda"},{id:506,lat:11.3913536071777344,lng:4.4260001182556152,t:"residential",n:"",b:"land_psi_bouda"},{id:507,lat:12.9314508438110352,lng:4.4627046585083008,t:"residential",n:"",b:"land_psi_bouda"},{id:508,lat:11.4513139724731445,lng:4.4654140472412109,t:"residential",n:"",b:"land_psi_bouda"},{id:509,lat:8.8987216949462891,lng:4.4590563774108887,t:"residential",n:"",b:"land_psi_bouda"},{id:510,lat:12.9404907226562500,lng:4.4911026954650879,t:"residential",n:"",b:"land_psi_bouda"},{id:511,lat:8.9621419906616211,lng:4.4905629158020020,t:"residential",n:"",b:"land_psi_bouda"},{id:512,lat:5.4817337989807129,lng:4.5332846641540527,t:"residential",n:"",b:"land_psi_bouda"},{id:513,lat:12.8126678466796875,lng:4.5641322135925293,t:"residential",n:"",b:"land_psi_bouda"},{id:514,lat:4.7386689186096191,lng:4.5877819061279297,t:"residential",n:"",b:"land_psi_bouda"},{id:515,lat:12.6320142745971680,lng:4.6079635620117188,t:"residential",n:"",b:"land_psi_bouda"},{id:516,lat:8.5185260772705078,lng:4.6506252288818359,t:"residential",n:"",b:"land_psi_bouda"},{id:517,lat:5.7843494415283203,lng:4.6380701065063477,t:"residential",n:"",b:"land_psi_bouda"},{id:518,lat:10.6740970611572266,lng:4.6786231994628906,t:"residential",n:"",b:"land_psi_bouda"},{id:519,lat:8.5166769027709961,lng:4.7612380981445312,t:"residential",n:"",b:"land_psi_bouda"},{id:520,lat:8.6024646759033203,lng:4.7842283248901367,t:"residential",n:"",b:"land_psi_bouda"},{id:521,lat:12.5400075912475586,lng:4.9050574302673340,t:"residential",n:"",b:"land_psi_bouda"},{id:522,lat:9.7723960876464844,lng:4.9176120758056641,t:"residential",n:"",b:"land_psi_bouda"},{id:523,lat:2.7729535102844238,lng:4.9486784934997559,t:"residential",n:"",b:"land_psi_bouda"},{id:524,lat:9.7632465362548828,lng:4.9643521308898926,t:"residential",n:"",b:"land_psi_bouda"},{id:525,lat:2.8856360912322998,lng:5.0150704383850098,t:"residential",n:"",b:"land_psi_bouda"},{id:526,lat:11.1967611312866211,lng:5.7488994598388672,t:"residential",n:"",b:"land_psi_bouda"},{id:527,lat:11.3832740783691406,lng:5.8314943313598633,t:"residential",n:"",b:"land_psi_bouda"},{id:528,lat:10.6691865921020508,lng:5.8430094718933105,t:"residential",n:"",b:"land_psi_bouda"},{id:529,lat:10.6962022781372070,lng:5.8784446716308594,t:"residential",n:"",b:"land_psi_bouda"},{id:530,lat:5.1163163185119629,lng:5.8814635276794434,t:"residential",n:"",b:"land_psi_bouda"},{id:531,lat:10.6649580001831055,lng:5.8962764739990234,t:"residential",n:"",b:"land_psi_bouda"},{id:532,lat:5.1989040374755859,lng:5.9622087478637695,t:"residential",n:"",b:"land_psi_bouda"},{id:533,lat:5.0624232292175293,lng:5.9438967704772949,t:"residential",n:"",b:"land_psi_bouda"},{id:534,lat:4.9862341880798340,lng:5.9711251258850098,t:"residential",n:"",b:"land_psi_bouda"},{id:535,lat:10.4634466171264648,lng:6.0913739204406738,t:"residential",n:"",b:"land_psi_bouda"},{id:536,lat:5.0085315704345703,lng:6.2019872665405273,t:"residential",n:"",b:"land_psi_bouda"},{id:537,lat:12.7066240310668945,lng:6.3074927330017090,t:"residential",n:"",b:"land_psi_bouda"},{id:538,lat:12.7205915451049805,lng:6.3342413902282715,t:"residential",n:"",b:"land_psi_bouda"},{id:539,lat:12.1876192092895508,lng:6.4180855751037598,t:"residential",n:"",b:"land_psi_bouda"},{id:540,lat:9.2467412948608398,lng:6.5308876037597656,t:"residential",n:"",b:"land_psi_bouda"},{id:541,lat:9.3159513473510742,lng:6.5694813728332520,t:"residential",n:"",b:"land_psi_bouda"},{id:542,lat:12.4718570709228516,lng:6.6243581771850586,t:"residential",n:"",b:"land_psi_bouda"},{id:543,lat:12.2978124618530273,lng:6.8696641921997070,t:"residential",n:"",b:"land_psi_bouda"},{id:544,lat:12.2156944274902344,lng:7.0328850746154785,t:"residential",n:"",b:"land_psi_bouda"},{id:545,lat:7.6459217071533203,lng:7.1069836616516113,t:"residential",n:"",b:"land_psi_bouda"},{id:546,lat:7.6040978431701660,lng:7.0876016616821289,t:"residential",n:"",b:"land_psi_bouda"},{id:547,lat:7.6935749053955078,lng:7.1491856575012207,t:"residential",n:"",b:"land_psi_bouda"},{id:548,lat:8.3780965805053711,lng:7.2216649055480957,t:"residential",n:"",b:"land_psi_bouda"},{id:549,lat:12.5758028030395508,lng:7.2826089859008789,t:"residential",n:"",b:"land_psi_bouda"},{id:550,lat:10.2539463043212891,lng:7.5280051231384277,t:"residential",n:"",b:"land_psi_bouda"},{id:551,lat:10.1967945098876953,lng:7.5293846130371094,t:"residential",n:"",b:"land_psi_bouda"},{id:552,lat:10.1213064193725586,lng:7.5413393974304199,t:"residential",n:"",b:"land_psi_bouda"},{id:553,lat:10.2586660385131836,lng:7.5650796890258789,t:"residential",n:"",b:"land_psi_bouda"},{id:554,lat:10.1123762130737305,lng:7.7080984115600586,t:"residential",n:"",b:"land_psi_bouda"},{id:555,lat:12.1148891448974609,lng:7.9498367309570312,t:"residential",n:"",b:"land_psi_bouda"},{id:556,lat:12.0708551406860352,lng:8.0659570693969727,t:"residential",n:"",b:"land_psi_bouda"},{id:557,lat:12.1475238800048828,lng:8.1164951324462891,t:"residential",n:"",b:"land_psi_bouda"},{id:558,lat:6.0655789375305176,lng:8.1063394546508789,t:"residential",n:"",b:"land_psi_bouda"},{id:559,lat:3.7547111511230469,lng:8.1239023208618164,t:"residential",n:"",b:"land_psi_bouda"},{id:560,lat:8.6731433868408203,lng:8.3950681686401367,t:"residential",n:"",b:"land_psi_bouda"},{id:561,lat:8.7043790817260742,lng:8.4246654510498047,t:"residential",n:"",b:"land_psi_bouda"},{id:562,lat:8.7059793472290039,lng:8.4484243392944336,t:"residential",n:"",b:"land_psi_bouda"},{id:563,lat:3.3139736652374268,lng:8.5191144943237305,t:"residential",n:"",b:"land_psi_bouda"},{id:564,lat:8.7317457199096680,lng:8.5412750244140625,t:"residential",n:"",b:"land_psi_bouda"},{id:565,lat:11.5929241180419922,lng:9.1431808471679688,t:"residential",n:"",b:"land_psi_bouda"},{id:566,lat:11.4178895950317383,lng:9.2188777923583984,t:"residential",n:"",b:"land_psi_bouda"},{id:567,lat:6.5207834243774414,lng:9.2571315765380859,t:"residential",n:"",b:"land_psi_bouda"},{id:568,lat:9.8878498077392578,lng:10.0967559814453125,t:"residential",n:"",b:"land_psi_bouda"},{id:569,lat:13.1683673858642578,lng:10.1174468994140625,t:"residential",n:"",b:"land_psi_bouda"},{id:570,lat:13.1982936859130859,lng:10.1769218444824219,t:"residential",n:"",b:"land_psi_bouda"},{id:571,lat:11.5412616729736328,lng:10.2969703674316406,t:"residential",n:"",b:"land_psi_bouda"},{id:572,lat:12.9247522354125977,lng:10.4208183288574219,t:"residential",n:"",b:"land_psi_bouda"},{id:573,lat:12.9364604949951172,lng:10.4590024948120117,t:"residential",n:"",b:"land_psi_bouda"},{id:574,lat:13.2513551712036133,lng:10.4965858459472656,t:"residential",n:"",b:"land_psi_bouda"},{id:575,lat:13.1703271865844727,lng:10.4860906600952148,t:"residential",n:"",b:"land_psi_bouda"},{id:576,lat:7.2529683113098145,lng:10.5520629882812500,t:"residential",n:"",b:"land_psi_bouda"},{id:577,lat:13.2702131271362305,lng:10.5870475769042969,t:"residential",n:"",b:"land_psi_bouda"},{id:578,lat:13.0986967086791992,lng:10.5794506072998047,t:"residential",n:"",b:"land_psi_bouda"},{id:579,lat:7.4758062362670898,lng:10.5750532150268555,t:"residential",n:"",b:"land_psi_bouda"},{id:580,lat:13.0710020065307617,lng:10.6034412384033203,t:"residential",n:"",b:"land_psi_bouda"},{id:581,lat:12.9446897506713867,lng:10.6037406921386719,t:"residential",n:"",b:"land_psi_bouda"},{id:582,lat:7.4233937263488770,lng:10.6135368347167969,t:"residential",n:"",b:"land_psi_bouda"},{id:583,lat:13.0300674438476562,lng:10.6627159118652344,t:"residential",n:"",b:"land_psi_bouda"},{id:584,lat:2.9335308074951172,lng:10.7000999450683594,t:"residential",n:"",b:"land_psi_bouda"},{id:585,lat:10.0411767959594727,lng:10.7214908599853516,t:"residential",n:"",b:"land_psi_bouda"},{id:586,lat:7.3685216903686523,lng:10.7314863204956055,t:"residential",n:"",b:"land_psi_bouda"},{id:587,lat:2.9245302677154541,lng:10.9637880325317383,t:"residential",n:"",b:"land_psi_bouda"},{id:588,lat:2.8525421619415283,lng:11.0288600921630859,t:"residential",n:"",b:"land_psi_bouda"},{id:589,lat:8.8103342056274414,lng:11.1162233352661133,t:"residential",n:"",b:"land_psi_bouda"},{id:590,lat:8.7797889709472656,lng:11.1777973175048828,t:"residential",n:"",b:"land_psi_bouda"},{id:591,lat:3.1654953956604004,lng:11.1791963577270508,t:"residential",n:"",b:"land_psi_bouda"},{id:592,lat:9.9760770797729492,lng:11.1964893341064453,t:"residential",n:"",b:"land_psi_bouda"},{id:593,lat:9.9495706558227539,lng:11.2375717163085938,t:"residential",n:"",b:"land_psi_bouda"},{id:594,lat:3.1209018230438232,lng:11.2724571228027344,t:"residential",n:"",b:"land_psi_bouda"},{id:595,lat:9.8598127365112305,lng:11.3077421188354492,t:"residential",n:"",b:"land_psi_bouda"},{id:596,lat:8.8191833496093750,lng:11.2880506515502930,t:"residential",n:"",b:"land_psi_bouda"},{id:597,lat:3.1677956581115723,lng:11.7693462371826172,t:"residential",n:"",b:"land_psi_bouda"},{id:598,lat:6.1407485008239746,lng:11.8559103012084961,t:"residential",n:"",b:"land_psi_bouda"},{id:599,lat:3.3405723571777344,lng:11.9424734115600586,t:"residential",n:"",b:"land_psi_bouda"},{id:600,lat:11.8989200592041016,lng:12.0061454772949219,t:"residential",n:"",b:"land_psi_bouda"},{id:601,lat:11.8565959930419922,lng:12.0021476745605469,t:"residential",n:"",b:"land_psi_bouda"},{id:602,lat:11.7540102005004883,lng:12.0591230392456055,t:"residential",n:"",b:"land_psi_bouda"},{id:603,lat:6.2326650619506836,lng:12.0331344604492188,t:"residential",n:"",b:"land_psi_bouda"},{id:604,lat:11.7184257507324219,lng:12.0797147750854492,t:"residential",n:"",b:"land_psi_bouda"},{id:605,lat:11.6966495513916016,lng:12.0724182128906250,t:"residential",n:"",b:"land_psi_bouda"},{id:606,lat:9.0776958465576172,lng:12.0780153274536133,t:"residential",n:"",b:"land_psi_bouda"},{id:607,lat:11.8498668670654297,lng:12.1025047302246094,t:"residential",n:"",b:"land_psi_bouda"},{id:608,lat:6.9562711715698242,lng:12.1058034896850586,t:"residential",n:"",b:"land_psi_bouda"},{id:609,lat:11.8486671447753906,lng:12.1256961822509766,t:"residential",n:"",b:"land_psi_bouda"},{id:610,lat:9.0747356414794922,lng:12.1746749877929688,t:"residential",n:"",b:"land_psi_bouda"},{id:611,lat:9.1054019927978516,lng:12.2614383697509766,t:"residential",n:"",b:"land_psi_bouda"},{id:612,lat:5.6815743446350098,lng:12.2476444244384766,t:"residential",n:"",b:"land_psi_bouda"},{id:613,lat:5.8657679557800293,lng:12.3046197891235352,t:"residential",n:"",b:"land_psi_bouda"},{id:614,lat:5.8337221145629883,lng:12.3568973541259766,t:"residential",n:"",b:"land_psi_bouda"},{id:615,lat:5.8354721069335938,lng:12.3934822082519531,t:"residential",n:"",b:"land_psi_bouda"},{id:616,lat:5.8079662322998047,lng:12.4045772552490234,t:"residential",n:"",b:"land_psi_bouda"},{id:617,lat:5.8496599197387695,lng:12.4518566131591797,t:"residential",n:"",b:"land_psi_bouda"},{id:618,lat:5.8941841125488281,lng:12.6389780044555664,t:"residential",n:"",b:"land_psi_bouda"},{id:619,lat:5.3670291900634766,lng:12.7585277557373047,t:"residential",n:"",b:"land_psi_bouda"},{id:620,lat:10.8864355087280273,lng:12.8341951370239258,t:"residential",n:"",b:"land_psi_bouda"},{id:621,lat:5.7828898429870605,lng:12.8116044998168945,t:"residential",n:"",b:"land_psi_bouda"},{id:622,lat:5.4772439002990723,lng:12.8121042251586914,t:"residential",n:"",b:"land_psi_bouda"},{id:623,lat:5.3836669921875000,lng:12.8296957015991211,t:"residential",n:"",b:"land_psi_bouda"},{id:624,lat:5.1757068634033203,lng:12.8666810989379883,t:"residential",n:"",b:"land_psi_bouda"},{id:625,lat:9.7105846405029297,lng:12.9057645797729492,t:"residential",n:"",b:"land_psi_bouda"},{id:626,lat:5.7433652877807617,lng:12.9172601699829102,t:"residential",n:"",b:"land_psi_bouda"},{id:627,lat:7.3425054550170898,lng:12.9638404846191406,t:"residential",n:"",b:"land_psi_bouda"},{id:628,lat:8.3789062500000000,lng:13.2297277450561523,t:"residential",n:"",b:"land_psi_bouda"},{id:629,lat:9.0863847732543945,lng:13.2954988479614258,t:"residential",n:"",b:"land_psi_bouda"},{id:630,lat:9.1233587265014648,lng:13.3336839675903320,t:"residential",n:"",b:"land_psi_bouda"},{id:631,lat:9.0814056396484375,lng:13.3269853591918945,t:"residential",n:"",b:"land_psi_bouda"},{id:632,lat:9.0576286315917969,lng:13.3285856246948242,t:"residential",n:"",b:"land_psi_bouda"},{id:633,lat:9.1312074661254883,lng:13.3530750274658203,t:"residential",n:"",b:"land_psi_bouda"},{id:634,lat:9.9016666412353516,lng:13.3949565887451172,t:"residential",n:"",b:"land_psi_bouda"},{id:635,lat:9.3856315612792969,lng:13.3970565795898438,t:"residential",n:"",b:"land_psi_bouda"},{id:636,lat:9.1039419174194336,lng:13.4022541046142578,t:"residential",n:"",b:"land_psi_bouda"},{id:637,lat:9.0536890029907227,lng:13.4178476333618164,t:"residential",n:"",b:"land_psi_bouda"},{id:638,lat:7.5796413421630859,lng:6.3514938354492188,t:"military",n:"",b:"camp"},{id:639,lat:7.5746121406555176,lng:6.3160591125488281,t:"military",n:"",b:"camp"},{id:640,lat:7.5689029693603516,lng:6.3333020210266113,t:"military",n:"",b:"camp"},{id:641,lat:7.5666332244873047,lng:6.3048439025878906,t:"military",n:"",b:"camp"},{id:642,lat:7.5857505798339844,lng:6.3332414627075195,t:"military",n:"",b:"camp"},{id:643,lat:7.5783514976501465,lng:6.3215966224670410,t:"military",n:"",b:"camp"},{id:644,lat:7.5760321617126465,lng:6.3452663421630859,t:"military",n:"",b:"camp"},{id:645,lat:7.5652031898498535,lng:6.3271541595458984,t:"military",n:"",b:"camp"},{id:646,lat:7.5705223083496094,lng:6.3104710578918457,t:"military",n:"",b:"camp"},{id:647,lat:7.5722723007202148,lng:6.3391590118408203,t:"military",n:"",b:"camp"},{id:648,lat:7.5615239143371582,lng:6.3209772109985352,t:"military",n:"",b:"camp"},{id:649,lat:7.5820708274841309,lng:6.3273639678955078,t:"military",n:"",b:"camp"},{id:650,lat:7.5576944351196289,lng:6.3148994445800781,t:"military",n:"",b:"camp"},{id:651,lat:5.6287922859191895,lng:12.2125587463378906,t:"military",n:"",b:"campeast"},{id:652,lat:5.6388807296752930,lng:12.2726325988769531,t:"military",n:"",b:"campeast"},{id:653,lat:5.6054854393005371,lng:12.2203550338745117,t:"military",n:"",b:"campeast"},{id:654,lat:5.6106543540954590,lng:12.2487440109252930,t:"military",n:"",b:"campeast"},{id:655,lat:7.5525054931640625,lng:6.3076725006103516,t:"military",n:"",b:"campeast"},{id:656,lat:7.5622835159301758,lng:6.2970871925354004,t:"military",n:"",b:"campeast"},{id:657,lat:12.5550756454467773,lng:6.5549173355102539,t:"residential",n:"",b:"land_a_office02"},{id:658,lat:12.8363752365112305,lng:7.0378031730651855,t:"residential",n:"",b:"land_a_office02"},{id:659,lat:13.5298852920532227,lng:10.0290842056274414,t:"residential",n:"",b:"land_a_office02"},{id:660,lat:10.0941991806030273,lng:2.7816877365112305,t:"residential",n:"",b:"land_houseblock_a1_1"},{id:661,lat:10.0265197753906250,lng:2.7812378406524658,t:"residential",n:"",b:"land_houseblock_a1_1"},{id:662,lat:6.5452499389648438,lng:3.7986564636230469,t:"residential",n:"",b:"land_houseblock_a1_1"},{id:663,lat:6.5161743164062500,lng:3.7818534374237061,t:"residential",n:"",b:"land_houseblock_a1_1"},{id:664,lat:6.4700107574462891,lng:3.8293635845184326,t:"residential",n:"",b:"land_houseblock_a1_1"},{id:665,lat:13.3931951522827148,lng:10.0225868225097656,t:"residential",n:"",b:"land_houseblock_a1_1"},{id:666,lat:13.4818725585937500,lng:10.1059513092041016,t:"residential",n:"",b:"land_houseblock_a1_1"},{id:667,lat:13.4106731414794922,lng:10.1079502105712891,t:"residential",n:"",b:"land_houseblock_a1_1"},{id:668,lat:13.0271072387695312,lng:10.4255161285400391,t:"residential",n:"",b:"land_houseblock_a1_1"},{id:669,lat:6.2294754981994629,lng:11.9975500106811523,t:"residential",n:"",b:"land_houseblock_a1_1"},{id:670,lat:6.2810082435607910,lng:12.0819139480590820,t:"residential",n:"",b:"land_houseblock_a1_1"},{id:671,lat:11.5120449066162109,lng:1.6602931022644043,t:"residential",n:"",b:"land_housev2_01a"},{id:672,lat:7.3562636375427246,lng:3.0831501483917236,t:"residential",n:"",b:"land_housev2_01a"},{id:673,lat:12.8789691925048828,lng:3.6093766689300537,t:"residential",n:"",b:"land_housev2_01a"},{id:674,lat:12.8689403533935547,lng:3.6411633491516113,t:"residential",n:"",b:"land_housev2_01a"},{id:675,lat:6.3747949600219727,lng:3.7739272117614746,t:"residential",n:"",b:"land_housev2_01a"},{id:676,lat:6.4531636238098145,lng:3.8422877788543701,t:"residential",n:"",b:"land_housev2_01a"},{id:677,lat:6.3946418762207031,lng:4.0549774169921875,t:"residential",n:"",b:"land_housev2_01a"},{id:678,lat:6.7531905174255371,lng:5.2832865715026855,t:"residential",n:"",b:"land_housev2_01a"},{id:679,lat:7.4362721443176270,lng:5.9502544403076172,t:"residential",n:"",b:"land_housev2_01a"},{id:680,lat:12.1377258300781250,lng:6.3802418708801270,t:"residential",n:"",b:"land_housev2_01a"},{id:681,lat:12.1101789474487305,lng:6.3617997169494629,t:"residential",n:"",b:"land_housev2_01a"},{id:682,lat:13.0202493667602539,lng:6.5808563232421875,t:"residential",n:"",b:"land_housev2_01a"},{id:683,lat:12.4956436157226562,lng:6.6499171257019043,t:"residential",n:"",b:"land_housev2_01a"},{id:684,lat:12.7701854705810547,lng:6.7888784408569336,t:"residential",n:"",b:"land_housev2_01a"},{id:685,lat:12.8125581741333008,lng:6.9468917846679688,t:"residential",n:"",b:"land_housev2_01a"},{id:686,lat:6.5643372535705566,lng:9.4342365264892578,t:"residential",n:"",b:"land_housev2_01a"},{id:687,lat:13.5130376815795898,lng:9.9144229888916016,t:"residential",n:"",b:"land_housev2_01a"},{id:688,lat:13.1770362854003906,lng:10.4679985046386719,t:"residential",n:"",b:"land_housev2_01a"},{id:689,lat:12.9831037521362305,lng:10.6049404144287109,t:"residential",n:"",b:"land_housev2_01a"},{id:690,lat:3.0307164192199707,lng:11.1107263565063477,t:"residential",n:"",b:"land_housev2_01a"},{id:691,lat:6.3142628669738770,lng:11.7543525695800781,t:"residential",n:"",b:"land_housev2_01a"},{id:692,lat:6.3386201858520508,lng:11.7720451354980469,t:"residential",n:"",b:"land_housev2_01a"},{id:693,lat:5.9286990165710449,lng:12.1467866897583008,t:"residential",n:"",b:"land_housev2_01a"},{id:694,lat:4.4020180702209473,lng:12.3107175827026367,t:"residential",n:"",b:"land_housev2_01a"},{id:695,lat:5.8648281097412109,lng:12.6218852996826172,t:"residential",n:"",b:"land_housev2_01a"},{id:696,lat:5.8329629898071289,lng:12.6314811706542969,t:"residential",n:"",b:"land_housev2_01a"},{id:697,lat:8.9149494171142578,lng:2.5450780391693115,t:"industrial",n:"",b:"land_misc_powerstation"},{id:698,lat:12.8142986297607422,lng:6.6083950996398926,t:"industrial",n:"",b:"land_misc_powerstation"},{id:699,lat:12.5738019943237305,lng:6.6613025665283203,t:"industrial",n:"",b:"land_misc_powerstation"},{id:700,lat:12.6894865036010742,lng:6.7754344940185547,t:"industrial",n:"",b:"land_misc_powerstation"},{id:701,lat:12.6590204238891602,lng:7.0713787078857422,t:"industrial",n:"",b:"land_misc_powerstation"},{id:702,lat:6.5437903404235840,lng:9.2787923812866211,t:"industrial",n:"",b:"land_misc_powerstation"},{id:703,lat:13.5594606399536133,lng:10.0645694732666016,t:"industrial",n:"",b:"land_misc_powerstation"},{id:704,lat:7.8120279312133789,lng:11.4441843032836914,t:"industrial",n:"",b:"land_misc_powerstation"},{id:705,lat:9.0885343551635742,lng:12.9750347137451172,t:"industrial",n:"",b:"land_misc_powerstation"},{id:706,lat:5.5963869094848633,lng:12.9860305786132812,t:"industrial",n:"",b:"land_misc_powerstation"},{id:707,lat:9.1572942733764648,lng:13.4233446121215820,t:"industrial",n:"",b:"land_misc_powerstation"},{id:708,lat:10.6639270782470703,lng:1.6810340881347656,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:709,lat:6.3883223533630371,lng:1.6595236063003540,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:710,lat:7.4085259437561035,lng:1.7004858255386353,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:711,lat:12.1274471282958984,lng:1.7450675964355469,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:712,lat:4.3668227195739746,lng:1.8985416889190674,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:713,lat:12.3156499862670898,lng:2.0343451499938965,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:714,lat:12.7293596267700195,lng:2.1166694164276123,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:715,lat:11.0814571380615234,lng:2.2766914367675781,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:716,lat:6.8735327720642090,lng:2.2982122898101807,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:717,lat:7.6869359016418457,lng:2.4919610023498535,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:718,lat:2.8516409397125244,lng:2.5316433906555176,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:719,lat:11.7076768875122070,lng:2.9694778919219971,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:720,lat:11.5018072128295898,lng:3.0936055183410645,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:721,lat:11.7620897293090820,lng:3.2314567565917969,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:722,lat:9.0768356323242188,lng:3.2185823917388916,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:723,lat:5.1742076873779297,lng:3.4212863445281982,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:724,lat:9.1030321121215820,lng:3.6574566364288330,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:725,lat:10.9285392761230469,lng:3.8745641708374023,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:726,lat:3.2324869632720947,lng:3.9685642719268799,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:727,lat:11.4960279464721680,lng:4.0827460289001465,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:728,lat:9.3439073562622070,lng:4.0847654342651367,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:729,lat:7.3050308227539062,lng:4.3963427543640137,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:730,lat:3.6936209201812744,lng:4.5382728576660156,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:731,lat:10.7537546157836914,lng:4.8420343399047852,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:732,lat:7.2132544517517090,lng:4.8860650062561035,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:733,lat:8.9908380508422852,lng:4.9485392570495605,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:734,lat:4.7120738029479980,lng:4.9262285232543945,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:735,lat:9.0847644805908203,lng:5.0741453170776367,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:736,lat:7.9993710517883301,lng:5.3340554237365723,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:737,lat:7.4780158996582031,lng:5.4705371856689453,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:738,lat:8.7895975112915039,lng:6.3789019584655762,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:739,lat:6.8901400566101074,lng:6.4366378784179688,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:740,lat:6.9304842948913574,lng:6.6946883201599121,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:741,lat:7.3589229583740234,lng:6.8578891754150391,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:742,lat:5.4218816757202148,lng:7.0726780891418457,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:743,lat:4.6603817939758301,lng:7.2378678321838379,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:744,lat:3.5827362537384033,lng:7.6286220550537109,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:745,lat:6.6723318099975586,lng:7.6998124122619629,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:746,lat:5.6425299644470215,lng:8.2908515930175781,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:747,lat:4.6892766952514648,lng:8.3355731964111328,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:748,lat:4.8838486671447754,lng:8.8064126968383789,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:749,lat:8.9036312103271484,lng:8.8467159271240234,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:750,lat:6.7107567787170410,lng:8.8229961395263672,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:751,lat:3.6519262790679932,lng:9.7654962539672852,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:752,lat:7.0298504829406738,lng:9.9068565368652344,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:753,lat:5.7311377525329590,lng:9.9144430160522461,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:754,lat:2.8726389408111572,lng:10.4467067718505859,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:755,lat:9.5269508361816406,lng:10.7019996643066406,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:756,lat:8.1036462783813477,lng:11.2059850692749023,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:757,lat:9.7410907745361328,lng:11.2371721267700195,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:758,lat:7.3079204559326172,lng:11.3271331787109375,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:759,lat:6.1703238487243652,lng:11.3377294540405273,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:760,lat:10.2359294891357422,lng:11.4460840225219727,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:761,lat:11.6283588409423828,lng:11.6101140975952148,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:762,lat:3.9227869510650635,lng:12.2890262603759766,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:763,lat:10.2246713638305664,lng:12.7241420745849609,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:764,lat:6.0762577056884766,lng:12.4320659637451172,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:765,lat:5.9578547477722168,lng:11.8368177413940430,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:766,lat:13.1529884338378906,lng:4.9151930809020996,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:767,lat:13.1037263870239258,lng:4.8443732261657715,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:768,lat:13.0746603012084961,lng:4.8648943901062012,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:769,lat:13.1260328292846680,lng:4.9358940124511719,t:"deerstand",n:"Deer stand",b:"land_misc_deerstand"},{id:770,lat:6.2604608535766602,lng:11.8508119583129883,t:"residential",n:"",b:"land_shed_wooden"},{id:771,lat:6.3061046600341797,lng:11.9550676345825195,t:"residential",n:"",b:"land_shed_wooden"},{id:772,lat:6.2108082771301270,lng:11.9526681900024414,t:"residential",n:"",b:"land_shed_wooden"},{id:773,lat:6.3195328712463379,lng:12.0855121612548828,t:"residential",n:"",b:"land_shed_wooden"},{id:774,lat:13.1935625076293945,lng:1.7656289339065552,t:"residential",n:"",b:"land_hut06"},{id:775,lat:13.1649980545043945,lng:1.8455848693847656,t:"residential",n:"",b:"land_hut06"},{id:776,lat:5.4098935127258301,lng:2.7104578018188477,t:"residential",n:"",b:"land_hut06"},{id:777,lat:5.4280209541320801,lng:2.7850062847137451,t:"residential",n:"",b:"land_hut06"},{id:778,lat:7.7562561035156250,lng:2.7965514659881592,t:"residential",n:"",b:"land_hut06"},{id:779,lat:10.3242864608764648,lng:2.8381638526916504,t:"residential",n:"",b:"land_hut06"},{id:780,lat:6.9846267700195312,lng:3.4834704399108887,t:"residential",n:"",b:"land_hut06"},{id:781,lat:12.8154478073120117,lng:3.6471707820892334,t:"residential",n:"",b:"land_hut06"},{id:782,lat:6.3466286659240723,lng:3.8178281784057617,t:"residential",n:"",b:"land_hut06"},{id:783,lat:10.6284723281860352,lng:3.9689643383026123,t:"residential",n:"",b:"land_hut06"},{id:784,lat:9.3343582153320312,lng:4.4092974662780762,t:"residential",n:"",b:"land_hut06"},{id:785,lat:6.0995240211486816,lng:4.4018011093139648,t:"residential",n:"",b:"land_hut06"},{id:786,lat:6.8455367088317871,lng:4.5688400268554688,t:"residential",n:"",b:"land_hut06"},{id:787,lat:8.6540069580078125,lng:4.7493534088134766,t:"residential",n:"",b:"land_hut06"},{id:788,lat:8.5747184753417969,lng:4.7755718231201172,t:"residential",n:"",b:"land_hut06"},{id:789,lat:2.8215458393096924,lng:4.9999670982360840,t:"residential",n:"",b:"land_hut06"},{id:790,lat:8.0701408386230469,lng:5.5236449241638184,t:"residential",n:"",b:"land_hut06"},{id:791,lat:10.5397548675537109,lng:5.8815031051635742,t:"residential",n:"",b:"land_hut06"},{id:792,lat:12.6936359405517578,lng:6.9131655693054199,t:"residential",n:"",b:"land_hut06"},{id:793,lat:7.8489727973937988,lng:7.1469063758850098,t:"residential",n:"",b:"land_hut06"},{id:794,lat:4.7253713607788086,lng:7.1877593994140625,t:"residential",n:"",b:"land_hut06"},{id:795,lat:10.2265901565551758,lng:7.5910978317260742,t:"residential",n:"",b:"land_hut06"},{id:796,lat:12.0811538696289062,lng:7.9484763145446777,t:"residential",n:"",b:"land_hut06"},{id:797,lat:6.0633697509765625,lng:8.0451059341430664,t:"residential",n:"",b:"land_hut06"},{id:798,lat:12.1285276412963867,lng:8.1308698654174805,t:"residential",n:"",b:"land_hut06"},{id:799,lat:10.4034948348999023,lng:8.3974256515502930,t:"residential",n:"",b:"land_hut06"},{id:800,lat:4.8373560905456543,lng:8.3856019973754883,t:"residential",n:"",b:"land_hut06"},{id:801,lat:4.3274283409118652,lng:9.1502170562744141,t:"residential",n:"",b:"land_hut06"},{id:802,lat:6.5307521820068359,lng:9.7918443679809570,t:"residential",n:"",b:"land_hut06"},{id:803,lat:13.2841405868530273,lng:10.4342126846313477,t:"residential",n:"",b:"land_hut06"},{id:804,lat:13.1554689407348633,lng:10.5485639572143555,t:"residential",n:"",b:"land_hut06"},{id:805,lat:7.3534536361694336,lng:10.5881471633911133,t:"residential",n:"",b:"land_hut06"},{id:806,lat:13.0441761016845703,lng:10.6576175689697266,t:"residential",n:"",b:"land_hut06"},{id:807,lat:12.9611883163452148,lng:10.6652145385742188,t:"residential",n:"",b:"land_hut06"},{id:808,lat:9.9021978378295898,lng:11.2996454238891602,t:"residential",n:"",b:"land_hut06"},{id:809,lat:8.7434434890747070,lng:11.4645757675170898,t:"residential",n:"",b:"land_hut06"},{id:810,lat:6.2323451042175293,lng:11.8974914550781250,t:"residential",n:"",b:"land_hut06"},{id:811,lat:11.9154376983642578,lng:11.9399738311767578,t:"residential",n:"",b:"land_hut06"},{id:812,lat:11.8631649017333984,lng:11.9394741058349609,t:"residential",n:"",b:"land_hut06"},{id:813,lat:6.2109479904174805,lng:12.0531263351440430,t:"residential",n:"",b:"land_hut06"},{id:814,lat:6.2048287391662598,lng:12.0830135345458984,t:"residential",n:"",b:"land_hut06"},{id:815,lat:11.7617702484130859,lng:12.0954084396362305,t:"residential",n:"",b:"land_hut06"},{id:816,lat:8.1258125305175781,lng:12.1680774688720703,t:"residential",n:"",b:"land_hut06"},{id:817,lat:5.6607770919799805,lng:12.1510848999023438,t:"residential",n:"",b:"land_hut06"},{id:818,lat:4.7149734497070312,lng:12.3053188323974609,t:"residential",n:"",b:"land_hut06"},{id:819,lat:5.8516697883605957,lng:12.6674652099609375,t:"residential",n:"",b:"land_hut06"},{id:820,lat:5.8855948448181152,lng:12.6950540542602539,t:"residential",n:"",b:"land_hut06"},{id:821,lat:5.5128383636474609,lng:12.7394351959228516,t:"residential",n:"",b:"land_hut06"},{id:822,lat:10.9328289031982422,lng:12.8356943130493164,t:"residential",n:"",b:"land_hut06"},{id:823,lat:5.7417659759521484,lng:12.9011659622192383,t:"residential",n:"",b:"land_hut06"},{id:824,lat:3.8100035190582275,lng:12.9944267272949219,t:"residential",n:"",b:"land_hut06"},{id:825,lat:9.0191841125488281,lng:13.4038534164428711,t:"residential",n:"",b:"land_hut06"},{id:826,lat:9.1111011505126953,lng:13.4307422637939453,t:"residential",n:"",b:"land_hut06"},{id:827,lat:13.1322727203369141,lng:1.7053241729736328,t:"residential",n:"",b:"land_kulna"},{id:828,lat:11.6118412017822266,lng:1.6994264125823975,t:"residential",n:"",b:"land_kulna"},{id:829,lat:13.0485448837280273,lng:1.7653690576553345,t:"residential",n:"",b:"land_kulna"},{id:830,lat:5.5037798881530762,lng:2.1377303600311279,t:"residential",n:"",b:"land_kulna"},{id:831,lat:11.8691844940185547,lng:2.6279928684234619,t:"residential",n:"",b:"land_kulna"},{id:832,lat:10.3833179473876953,lng:2.6211056709289551,t:"residential",n:"",b:"land_kulna"},{id:833,lat:5.2883911132812500,lng:2.6687054634094238,t:"residential",n:"",b:"land_kulna"},{id:834,lat:10.1382637023925781,lng:2.7505006790161133,t:"residential",n:"",b:"land_kulna"},{id:835,lat:5.4374895095825195,lng:2.7417147159576416,t:"residential",n:"",b:"land_kulna"},{id:836,lat:5.3360834121704102,lng:2.7366166114807129,t:"residential",n:"",b:"land_kulna"},{id:837,lat:10.1810865402221680,lng:2.8177325725555420,t:"residential",n:"",b:"land_kulna"},{id:838,lat:7.5870103836059570,lng:3.0187771320343018,t:"residential",n:"",b:"land_kulna"},{id:839,lat:10.3982858657836914,lng:3.1225132942199707,t:"residential",n:"",b:"land_kulna"},{id:840,lat:7.3185286521911621,lng:3.2244699001312256,t:"residential",n:"",b:"land_kulna"},{id:841,lat:10.4368200302124023,lng:3.3298654556274414,t:"residential",n:"",b:"land_kulna"},{id:842,lat:10.4542579650878906,lng:3.3788044452667236,t:"residential",n:"",b:"land_kulna"},{id:843,lat:12.8815279006958008,lng:3.5798194408416748,t:"residential",n:"",b:"land_kulna"},{id:844,lat:7.4741563796997070,lng:3.7206792831420898,t:"residential",n:"",b:"land_kulna"},{id:845,lat:6.3981013298034668,lng:3.7811837196350098,t:"residential",n:"",b:"land_kulna"},{id:846,lat:12.9639568328857422,lng:4.4405040740966797,t:"residential",n:"",b:"land_kulna"},{id:847,lat:12.9091949462890625,lng:4.4168343544006348,t:"residential",n:"",b:"land_kulna"},{id:848,lat:12.9436292648315430,lng:4.5491881370544434,t:"residential",n:"",b:"land_kulna"},{id:849,lat:3.4277584552764893,lng:4.6631097793579102,t:"residential",n:"",b:"land_kulna"},{id:850,lat:8.6191415786743164,lng:4.7790307998657227,t:"residential",n:"",b:"land_kulna"},{id:851,lat:9.7398405075073242,lng:4.8919129371643066,t:"residential",n:"",b:"land_kulna"},{id:852,lat:6.7987933158874512,lng:5.6261515617370605,t:"residential",n:"",b:"land_kulna"},{id:853,lat:10.4985809326171875,lng:5.8821029663085938,t:"residential",n:"",b:"land_kulna"},{id:854,lat:10.6194744110107422,lng:5.9021639823913574,t:"residential",n:"",b:"land_kulna"},{id:855,lat:4.1300568580627441,lng:5.9673266410827637,t:"residential",n:"",b:"land_kulna"},{id:856,lat:12.9236230850219727,lng:6.2934885025024414,t:"residential",n:"",b:"land_kulna"},{id:857,lat:11.7326631546020508,lng:6.5314373970031738,t:"residential",n:"",b:"land_kulna"},{id:858,lat:12.4617595672607422,lng:6.6666007041931152,t:"residential",n:"",b:"land_kulna"},{id:859,lat:10.8856954574584961,lng:6.8471937179565430,t:"residential",n:"",b:"land_kulna"},{id:860,lat:7.5330581665039062,lng:6.9223318099975586,t:"residential",n:"",b:"land_kulna"},{id:861,lat:12.1878385543823242,lng:7.0979275703430176,t:"residential",n:"",b:"land_kulna"},{id:862,lat:10.1700983047485352,lng:7.5105023384094238,t:"residential",n:"",b:"land_kulna"},{id:863,lat:12.0553979873657227,lng:8.0342807769775391,t:"residential",n:"",b:"land_kulna"},{id:864,lat:12.1621017456054688,lng:8.1199636459350586,t:"residential",n:"",b:"land_kulna"},{id:865,lat:3.7393143177032471,lng:8.1337881088256836,t:"residential",n:"",b:"land_kulna"},{id:866,lat:3.7311136722564697,lng:8.1851167678833008,t:"residential",n:"",b:"land_kulna"},{id:867,lat:6.5256829261779785,lng:9.6158695220947266,t:"residential",n:"",b:"land_kulna"},{id:868,lat:4.9977326393127441,lng:10.0304832458496094,t:"residential",n:"",b:"land_kulna"},{id:869,lat:9.9392518997192383,lng:10.0892591476440430,t:"residential",n:"",b:"land_kulna"},{id:870,lat:13.2340278625488281,lng:10.1133489608764648,t:"residential",n:"",b:"land_kulna"},{id:871,lat:9.8208990097045898,lng:10.1635274887084961,t:"residential",n:"",b:"land_kulna"},{id:872,lat:13.2928600311279297,lng:10.3293571472167969,t:"residential",n:"",b:"land_kulna"},{id:873,lat:13.1532297134399414,lng:10.4145212173461914,t:"residential",n:"",b:"land_kulna"},{id:874,lat:13.2439870834350586,lng:10.5270738601684570,t:"residential",n:"",b:"land_kulna"},{id:875,lat:13.0495643615722656,lng:10.5267734527587891,t:"residential",n:"",b:"land_kulna"},{id:876,lat:5.6743254661560059,lng:10.5180778503417969,t:"residential",n:"",b:"land_kulna"},{id:877,lat:12.9729948043823242,lng:10.5485639572143555,t:"residential",n:"",b:"land_kulna"},{id:878,lat:13.1258134841918945,lng:10.5850486755371094,t:"residential",n:"",b:"land_kulna"},{id:879,lat:7.2784748077392578,lng:10.6489219665527344,t:"residential",n:"",b:"land_kulna"},{id:880,lat:13.0429944992065430,lng:10.6637153625488281,t:"residential",n:"",b:"land_kulna"},{id:881,lat:2.9338285923004150,lng:10.7955598831176758,t:"residential",n:"",b:"land_kulna"},{id:882,lat:2.8486428260803223,lng:11.0183649063110352,t:"residential",n:"",b:"land_kulna"},{id:883,lat:3.0825080871582031,lng:11.0657444000244141,t:"residential",n:"",b:"land_kulna"},{id:884,lat:8.7827386856079102,lng:11.1903924942016602,t:"residential",n:"",b:"land_kulna"},{id:885,lat:9.8523244857788086,lng:11.4906644821166992,t:"residential",n:"",b:"land_kulna"},{id:886,lat:10.7709922790527344,lng:11.8599081039428711,t:"residential",n:"",b:"land_kulna"},{id:887,lat:6.2770986557006836,lng:11.8614072799682617,t:"residential",n:"",b:"land_kulna"},{id:888,lat:11.8882217407226562,lng:11.8950929641723633,t:"residential",n:"",b:"land_kulna"},{id:889,lat:11.9055194854736328,lng:11.9898529052734375,t:"residential",n:"",b:"land_kulna"},{id:890,lat:6.2491827011108398,lng:12.0019474029541016,t:"residential",n:"",b:"land_kulna"},{id:891,lat:11.7551002502441406,lng:12.0998067855834961,t:"residential",n:"",b:"land_kulna"},{id:892,lat:6.2551817893981934,lng:12.1159000396728516,t:"residential",n:"",b:"land_kulna"},{id:893,lat:5.8343820571899414,lng:12.1876697540283203,t:"residential",n:"",b:"land_kulna"},{id:894,lat:7.0364594459533691,lng:12.3172149658203125,t:"residential",n:"",b:"land_kulna"},{id:895,lat:5.8665180206298828,lng:12.6626672744750977,t:"residential",n:"",b:"land_kulna"},{id:896,lat:5.8353219032287598,lng:12.6598691940307617,t:"residential",n:"",b:"land_kulna"},{id:897,lat:7.2750449180603027,lng:12.7318382263183594,t:"residential",n:"",b:"land_kulna"},{id:898,lat:10.9305887222290039,lng:12.8372936248779297,t:"residential",n:"",b:"land_kulna"},{id:899,lat:8.6159219741821289,lng:12.9756355285644531,t:"residential",n:"",b:"land_kulna"},{id:900,lat:8.3362426757812500,lng:13.2015399932861328,t:"residential",n:"",b:"land_kulna"},{id:901,lat:12.5479459762573242,lng:13.3981561660766602,t:"residential",n:"",b:"land_kulna"},{id:902,lat:12.5784616470336914,lng:6.7487654685974121,t:"military",n:"",b:"campeast_ep1"},{id:903,lat:12.5864410400390625,lng:6.7594213485717773,t:"military",n:"",b:"campeast_ep1"},{id:904,lat:3.8710956573486328,lng:6.8590488433837891,t:"residential",n:"",b:"land_a_castle_stairs_a"},{id:905,lat:3.9185881614685059,lng:6.9134554862976074,t:"residential",n:"",b:"land_a_castle_stairs_a"},{id:906,lat:11.1119537353515625,lng:11.2385721206665039,t:"residential",n:"",b:"land_a_castle_stairs_a"},{id:907,lat:9.3787517547607422,lng:3.7189698219299316,t:"industrial",n:"",b:"land_a_tvtower_base"},{id:908,lat:13.2343177795410156,lng:1.8801198005676270,t:"residential",n:"",b:"land_hlidac_budka"},{id:909,lat:10.6047258377075195,lng:2.1671285629272461,t:"residential",n:"",b:"land_hlidac_budka"},{id:910,lat:6.0970544815063477,lng:2.8413624763488770,t:"residential",n:"",b:"land_hlidac_budka"},{id:911,lat:5.5831685066223145,lng:2.8682410717010498,t:"residential",n:"",b:"land_hlidac_budka"},{id:912,lat:7.3905086517333984,lng:3.1573383808135986,t:"residential",n:"",b:"land_hlidac_budka"},{id:913,lat:6.4270567893981934,lng:4.1349840164184570,t:"residential",n:"",b:"land_hlidac_budka"},{id:914,lat:4.1858491897583008,lng:4.1287565231323242,t:"residential",n:"",b:"land_hlidac_budka"},{id:915,lat:5.0147304534912109,lng:4.2162494659423828,t:"residential",n:"",b:"land_hlidac_budka"},{id:916,lat:5.4919910430908203,lng:4.5489978790283203,t:"residential",n:"",b:"land_hlidac_budka"},{id:917,lat:12.7601861953735352,lng:4.6420288085937500,t:"residential",n:"",b:"land_hlidac_budka"},{id:918,lat:4.6166877746582031,lng:4.7598891258239746,t:"residential",n:"",b:"land_hlidac_budka"},{id:919,lat:12.5011730194091797,lng:4.8696823120117188,t:"residential",n:"",b:"land_hlidac_budka"},{id:920,lat:5.5904173851013184,lng:5.2101078033447266,t:"residential",n:"",b:"land_hlidac_budka"},{id:921,lat:11.6059722900390625,lng:6.3139495849609375,t:"residential",n:"",b:"land_hlidac_budka"},{id:922,lat:12.8711500167846680,lng:6.5218915939331055,t:"residential",n:"",b:"land_hlidac_budka"},{id:923,lat:12.8657207489013672,lng:6.5720405578613281,t:"residential",n:"",b:"land_hlidac_budka"},{id:924,lat:12.6681385040283203,lng:6.7143001556396484,t:"residential",n:"",b:"land_hlidac_budka"},{id:925,lat:12.6092071533203125,lng:6.7846202850341797,t:"residential",n:"",b:"land_hlidac_budka"},{id:926,lat:12.7446985244750977,lng:6.8386473655700684,t:"residential",n:"",b:"land_hlidac_budka"},{id:927,lat:12.7433490753173828,lng:6.9679827690124512,t:"residential",n:"",b:"land_hlidac_budka"},{id:928,lat:12.9418601989746094,lng:7.0146927833557129,t:"residential",n:"",b:"land_hlidac_budka"},{id:929,lat:7.6695880889892578,lng:7.0228295326232910,t:"residential",n:"",b:"land_hlidac_budka"},{id:930,lat:12.7009840011596680,lng:7.0765461921691895,t:"residential",n:"",b:"land_hlidac_budka"},{id:931,lat:3.7122178077697754,lng:8.7974872589111328,t:"residential",n:"",b:"land_hlidac_budka"},{id:932,lat:9.9058361053466797,lng:9.9294366836547852,t:"residential",n:"",b:"land_hlidac_budka"},{id:933,lat:13.3983945846557617,lng:10.0693674087524414,t:"residential",n:"",b:"land_hlidac_budka"},{id:934,lat:13.4597444534301758,lng:10.3279581069946289,t:"residential",n:"",b:"land_hlidac_budka"},{id:935,lat:13.1546688079833984,lng:10.3670406341552734,t:"residential",n:"",b:"land_hlidac_budka"},{id:936,lat:12.7703742980957031,lng:10.7743692398071289,t:"residential",n:"",b:"land_hlidac_budka"},{id:937,lat:8.7468233108520508,lng:11.3144388198852539,t:"residential",n:"",b:"land_hlidac_budka"},{id:938,lat:6.4938378334045410,lng:11.9600658416748047,t:"residential",n:"",b:"land_hlidac_budka"},{id:939,lat:2.6890652179718018,lng:11.9844551086425781,t:"residential",n:"",b:"land_hlidac_budka"},{id:940,lat:6.2966256141662598,lng:12.2684345245361328,t:"residential",n:"",b:"land_hlidac_budka"},{id:941,lat:5.6623463630676270,lng:12.6552705764770508,t:"residential",n:"",b:"land_hlidac_budka"},{id:942,lat:5.1240143775939941,lng:13.0818901062011719,t:"residential",n:"",b:"land_hlidac_budka"},{id:943,lat:11.5325927734375000,lng:1.6356236934661865,t:"residential",n:"",b:"land_housev_1i4"},{id:944,lat:13.1577882766723633,lng:1.6594434976577759,t:"residential",n:"",b:"land_housev_1i4"},{id:945,lat:11.4707012176513672,lng:1.7006065845489502,t:"residential",n:"",b:"land_housev_1i4"},{id:946,lat:13.0170488357543945,lng:1.7864596843719482,t:"residential",n:"",b:"land_housev_1i4"},{id:947,lat:7.8697795867919922,lng:1.9100271463394165,t:"residential",n:"",b:"land_housev_1i4"},{id:948,lat:8.0736503601074219,lng:1.9989498853683472,t:"residential",n:"",b:"land_housev_1i4"},{id:949,lat:8.9991168975830078,lng:2.5131516456604004,t:"residential",n:"",b:"land_housev_1i4"},{id:950,lat:9.8720312118530273,lng:2.5695576667785645,t:"residential",n:"",b:"land_housev_1i4"},{id:951,lat:10.4805040359497070,lng:2.6088509559631348,t:"residential",n:"",b:"land_housev_1i4"},{id:952,lat:10.3836879730224609,lng:2.6003446578979492,t:"residential",n:"",b:"land_housev_1i4"},{id:953,lat:10.2635946273803711,lng:2.6286728382110596,t:"residential",n:"",b:"land_housev_1i4"},{id:954,lat:10.0687427520751953,lng:2.7147660255432129,t:"residential",n:"",b:"land_housev_1i4"},{id:955,lat:9.9697580337524414,lng:2.7282702922821045,t:"residential",n:"",b:"land_housev_1i4"},{id:956,lat:10.2967109680175781,lng:2.7711820602416992,t:"residential",n:"",b:"land_housev_1i4"},{id:957,lat:5.4726943969726562,lng:2.7655646800994873,t:"residential",n:"",b:"land_housev_1i4"},{id:958,lat:9.9748163223266602,lng:2.8125045299530029,t:"residential",n:"",b:"land_housev_1i4"},{id:959,lat:5.3862771987915039,lng:2.9351427555084229,t:"residential",n:"",b:"land_housev_1i4"},{id:960,lat:7.6464018821716309,lng:2.9425897598266602,t:"residential",n:"",b:"land_housev_1i4"},{id:961,lat:7.3447947502136230,lng:3.0199768543243408,t:"residential",n:"",b:"land_housev_1i4"},{id:962,lat:7.5718221664428711,lng:3.0792117118835449,t:"residential",n:"",b:"land_housev_1i4"},{id:963,lat:7.3325567245483398,lng:3.1326787471771240,t:"residential",n:"",b:"land_housev_1i4"},{id:964,lat:11.3707456588745117,lng:3.1969516277313232,t:"residential",n:"",b:"land_housev_1i4"},{id:965,lat:10.4014654159545898,lng:3.3664298057556152,t:"residential",n:"",b:"land_housev_1i4"},{id:966,lat:12.8444938659667969,lng:3.6063482761383057,t:"residential",n:"",b:"land_housev_1i4"},{id:967,lat:6.5489392280578613,lng:3.8868489265441895,t:"residential",n:"",b:"land_housev_1i4"},{id:968,lat:10.7510251998901367,lng:4.3388075828552246,t:"residential",n:"",b:"land_housev_1i4"},{id:969,lat:12.8724498748779297,lng:4.3944334983825684,t:"residential",n:"",b:"land_housev_1i4"},{id:970,lat:12.9961824417114258,lng:4.4717812538146973,t:"residential",n:"",b:"land_housev_1i4"},{id:971,lat:8.5026884078979492,lng:4.7098698616027832,t:"residential",n:"",b:"land_housev_1i4"},{id:972,lat:6.8119015693664551,lng:5.4290652275085449,t:"residential",n:"",b:"land_housev_1i4"},{id:973,lat:11.4325571060180664,lng:5.8476471900939941,t:"residential",n:"",b:"land_housev_1i4"},{id:974,lat:10.7050619125366211,lng:5.8766455650329590,t:"residential",n:"",b:"land_housev_1i4"},{id:975,lat:7.3765206336975098,lng:5.9071526527404785,t:"residential",n:"",b:"land_housev_1i4"},{id:976,lat:5.3947653770446777,lng:5.8871607780456543,t:"residential",n:"",b:"land_housev_1i4"},{id:977,lat:4.9718365669250488,lng:5.9921159744262695,t:"residential",n:"",b:"land_housev_1i4"},{id:978,lat:5.0593237876892090,lng:6.0373868942260742,t:"residential",n:"",b:"land_housev_1i4"},{id:979,lat:7.6817369461059570,lng:6.0946125984191895,t:"residential",n:"",b:"land_housev_1i4"},{id:980,lat:13.3656482696533203,lng:6.1307272911071777,t:"residential",n:"",b:"land_housev_1i4"},{id:981,lat:7.6516008377075195,lng:6.1258492469787598,t:"residential",n:"",b:"land_housev_1i4"},{id:982,lat:7.7079730033874512,lng:6.2025971412658691,t:"residential",n:"",b:"land_housev_1i4"},{id:983,lat:12.7017145156860352,lng:6.3008551597595215,t:"residential",n:"",b:"land_housev_1i4"},{id:984,lat:13.0659017562866211,lng:6.3885784149169922,t:"residential",n:"",b:"land_housev_1i4"},{id:985,lat:12.4550189971923828,lng:6.4399566650390625,t:"residential",n:"",b:"land_housev_1i4"},{id:986,lat:11.7612199783325195,lng:6.4804191589355469,t:"residential",n:"",b:"land_housev_1i4"},{id:987,lat:9.3364486694335938,lng:6.5642933845520020,t:"residential",n:"",b:"land_housev_1i4"},{id:988,lat:9.7679662704467773,lng:6.7839202880859375,t:"residential",n:"",b:"land_housev_1i4"},{id:989,lat:12.2218542098999023,lng:6.8235135078430176,t:"residential",n:"",b:"land_housev_1i4"},{id:990,lat:12.6847076416015625,lng:6.8580689430236816,t:"residential",n:"",b:"land_housev_1i4"},{id:991,lat:12.3037919998168945,lng:6.8690042495727539,t:"residential",n:"",b:"land_housev_1i4"},{id:992,lat:7.6145863533020020,lng:7.0386323928833008,t:"residential",n:"",b:"land_housev_1i4"},{id:993,lat:7.7146019935607910,lng:7.0656113624572754,t:"residential",n:"",b:"land_housev_1i4"},{id:994,lat:7.6805267333984375,lng:7.1372609138488770,t:"residential",n:"",b:"land_housev_1i4"},{id:995,lat:10.2399988174438477,lng:7.4747276306152344,t:"residential",n:"",b:"land_housev_1i4"},{id:996,lat:10.0909194946289062,lng:7.7894744873046875,t:"residential",n:"",b:"land_housev_1i4"},{id:997,lat:12.0575962066650391,lng:8.0165977478027344,t:"residential",n:"",b:"land_housev_1i4"},{id:998,lat:3.8618962764739990,lng:8.0900764465332031,t:"residential",n:"",b:"land_housev_1i4"},{id:999,lat:8.7042493820190430,lng:8.4207763671875000,t:"residential",n:"",b:"land_housev_1i4"},{id:1000,lat:3.2905771732330322,lng:8.4886674880981445,t:"residential",n:"",b:"land_housev_1i4"},{id:1001,lat:3.2900776863098145,lng:8.4876384735107422,t:"residential",n:"",b:"land_housev_1i4"},{id:1002,lat:3.6370275020599365,lng:8.7736463546752930,t:"residential",n:"",b:"land_housev_1i4"},{id:1003,lat:11.6078615188598633,lng:9.1330442428588867,t:"residential",n:"",b:"land_housev_1i4"},{id:1004,lat:11.5233335494995117,lng:9.1477680206298828,t:"residential",n:"",b:"land_housev_1i4"},{id:1005,lat:13.3326644897460938,lng:9.3460044860839844,t:"residential",n:"",b:"land_housev_1i4"},{id:1006,lat:6.5547189712524414,lng:9.5051965713500977,t:"residential",n:"",b:"land_housev_1i4"},{id:1007,lat:8.8020648956298828,lng:9.6340017318725586,t:"residential",n:"",b:"land_housev_1i4"},{id:1008,lat:6.5840148925781250,lng:9.8675127029418945,t:"residential",n:"",b:"land_housev_1i4"},{id:1009,lat:4.9968328475952148,lng:10.0762643814086914,t:"residential",n:"",b:"land_housev_1i4"},{id:1010,lat:13.1675977706909180,lng:10.1269435882568359,t:"residential",n:"",b:"land_housev_1i4"},{id:1011,lat:13.2251291275024414,lng:10.1456346511840820,t:"residential",n:"",b:"land_housev_1i4"},{id:1012,lat:9.8686923980712891,lng:10.3146629333496094,t:"residential",n:"",b:"land_housev_1i4"},{id:1013,lat:5.5315356254577637,lng:10.3404521942138672,t:"residential",n:"",b:"land_housev_1i4"},{id:1014,lat:12.8912477493286133,lng:10.3909311294555664,t:"residential",n:"",b:"land_housev_1i4"},{id:1015,lat:13.3452911376953125,lng:10.4813919067382812,t:"residential",n:"",b:"land_housev_1i4"},{id:1016,lat:13.2883901596069336,lng:10.4810924530029297,t:"residential",n:"",b:"land_housev_1i4"},{id:1017,lat:2.8529415130615234,lng:10.4919881820678711,t:"residential",n:"",b:"land_housev_1i4"},{id:1018,lat:13.2330179214477539,lng:10.5334701538085938,t:"residential",n:"",b:"land_housev_1i4"},{id:1019,lat:13.2508153915405273,lng:10.5847482681274414,t:"residential",n:"",b:"land_housev_1i4"},{id:1020,lat:5.7259879112243652,lng:10.5676565170288086,t:"residential",n:"",b:"land_housev_1i4"},{id:1021,lat:13.2112312316894531,lng:10.5966444015502930,t:"residential",n:"",b:"land_housev_1i4"},{id:1022,lat:7.2925024032592773,lng:10.6172351837158203,t:"residential",n:"",b:"land_housev_1i4"},{id:1023,lat:12.9260816574096680,lng:10.6329278945922852,t:"residential",n:"",b:"land_housev_1i4"},{id:1024,lat:7.2141537666320801,lng:10.6586179733276367,t:"residential",n:"",b:"land_housev_1i4"},{id:1025,lat:7.3113698959350586,lng:10.7568750381469727,t:"residential",n:"",b:"land_housev_1i4"},{id:1026,lat:2.9758231639862061,lng:10.9081115722656250,t:"residential",n:"",b:"land_housev_1i4"},{id:1027,lat:3.0495145320892334,lng:10.9665870666503906,t:"residential",n:"",b:"land_housev_1i4"},{id:1028,lat:2.9122309684753418,lng:11.0079689025878906,t:"residential",n:"",b:"land_housev_1i4"},{id:1029,lat:3.1149029731750488,lng:11.2581634521484375,t:"residential",n:"",b:"land_housev_1i4"},{id:1030,lat:9.8611927032470703,lng:11.3253345489501953,t:"residential",n:"",b:"land_housev_1i4"},{id:1031,lat:8.7837181091308594,lng:11.3963050842285156,t:"residential",n:"",b:"land_housev_1i4"},{id:1032,lat:2.8949353694915771,lng:11.5960197448730469,t:"residential",n:"",b:"land_housev_1i4"},{id:1033,lat:6.3634562492370605,lng:11.7929363250732422,t:"residential",n:"",b:"land_housev_1i4"},{id:1034,lat:6.0590600967407227,lng:11.9440727233886719,t:"residential",n:"",b:"land_housev_1i4"},{id:1035,lat:11.8953809738159180,lng:12.0014486312866211,t:"residential",n:"",b:"land_housev_1i4"},{id:1036,lat:11.6915693283081055,lng:12.0679206848144531,t:"residential",n:"",b:"land_housev_1i4"},{id:1037,lat:8.0287570953369141,lng:12.0856122970581055,t:"residential",n:"",b:"land_housev_1i4"},{id:1038,lat:5.8975529670715332,lng:12.1389894485473633,t:"residential",n:"",b:"land_housev_1i4"},{id:1039,lat:11.8081932067871094,lng:12.1799726486206055,t:"residential",n:"",b:"land_housev_1i4"},{id:1040,lat:8.0714302062988281,lng:12.1947660446166992,t:"residential",n:"",b:"land_housev_1i4"},{id:1041,lat:9.0739164352416992,lng:12.2512416839599609,t:"residential",n:"",b:"land_housev_1i4"},{id:1042,lat:4.4212164878845215,lng:12.2449445724487305,t:"residential",n:"",b:"land_housev_1i4"},{id:1043,lat:6.8443169593811035,lng:12.2857275009155273,t:"residential",n:"",b:"land_housev_1i4"},{id:1044,lat:4.7786645889282227,lng:12.3158149719238281,t:"residential",n:"",b:"land_housev_1i4"},{id:1045,lat:4.3956198692321777,lng:12.3343067169189453,t:"residential",n:"",b:"land_housev_1i4"},{id:1046,lat:5.6586575508117676,lng:12.3638944625854492,t:"residential",n:"",b:"land_housev_1i4"},{id:1047,lat:5.8158149719238281,lng:12.5015363693237305,t:"residential",n:"",b:"land_housev_1i4"},{id:1048,lat:10.9875011444091797,lng:12.6805601119995117,t:"residential",n:"",b:"land_housev_1i4"},{id:1049,lat:7.2956118583679199,lng:12.8832740783691406,t:"residential",n:"",b:"land_housev_1i4"},{id:1050,lat:5.2211003303527832,lng:12.9149608612060547,t:"residential",n:"",b:"land_housev_1i4"},{id:1051,lat:8.6361093521118164,lng:12.9373521804809570,t:"residential",n:"",b:"land_housev_1i4"},{id:1052,lat:8.3516807556152344,lng:13.2040386199951172,t:"residential",n:"",b:"land_housev_1i4"},{id:1053,lat:9.0852947235107422,lng:13.3268861770629883,t:"residential",n:"",b:"land_housev_1i4"},{id:1054,lat:9.0320520401000977,lng:13.4113512039184570,t:"residential",n:"",b:"land_housev_1i4"},{id:1055,lat:8.9988975524902344,lng:13.4251451492309570,t:"residential",n:"",b:"land_housev_1i4"},{id:1056,lat:13.1578483581542969,lng:1.8883066177368164,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1057,lat:5.7239384651184082,lng:2.4880723953247070,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1058,lat:5.3737392425537109,lng:2.6643874645233154,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1059,lat:9.9011669158935547,lng:2.8471398353576660,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1060,lat:8.6398887634277344,lng:2.9937179088592529,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1061,lat:10.1535606384277344,lng:3.1749505996704102,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1062,lat:12.9342308044433594,lng:3.5927238464355469,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1063,lat:6.4812393188476562,lng:3.8712356090545654,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1064,lat:10.6646375656127930,lng:4.3455243110656738,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1065,lat:10.6451702117919922,lng:4.3347291946411133,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1066,lat:8.8785047531127930,lng:4.4890933036804199,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1067,lat:12.2250633239746094,lng:4.5453896522521973,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1068,lat:5.7763004302978516,lng:4.5929498672485352,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1069,lat:4.9031467437744141,lng:4.6449174880981445,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1070,lat:5.0128307342529297,lng:4.7455048561096191,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1071,lat:6.9098773002624512,lng:5.2938723564147949,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1072,lat:4.7791647911071777,lng:5.2914333343505859,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1073,lat:11.6950082778930664,lng:5.3610739707946777,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1074,lat:6.6718115806579590,lng:5.5303325653076172,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1075,lat:12.0838127136230469,lng:5.7341356277465820,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1076,lat:12.6738185882568359,lng:6.5222015380859375,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1077,lat:12.7810029983520508,lng:6.6965079307556152,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1078,lat:13.0064105987548828,lng:6.7892584800720215,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1079,lat:12.6499023437500000,lng:7.0174312591552734,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1080,lat:13.1884641647338867,lng:7.1127915382385254,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1081,lat:10.2126617431640625,lng:7.5877299308776855,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1082,lat:11.8272104263305664,lng:7.8247094154357910,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1083,lat:8.1337413787841797,lng:7.9158406257629395,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1084,lat:9.8843393325805664,lng:8.3402299880981445,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1085,lat:3.4666531085968018,lng:8.5463733673095703,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1086,lat:3.8745951652526855,lng:9.4763584136962891,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1087,lat:13.3698787689208984,lng:9.4938812255859375,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1088,lat:8.1431798934936523,lng:9.5199499130249023,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1089,lat:6.0207357406616211,lng:9.7176465988159180,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1090,lat:9.8872299194335938,lng:9.8892040252685547,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1091,lat:13.4586858749389648,lng:10.1377382278442383,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1092,lat:13.3799076080322266,lng:10.1352396011352539,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1093,lat:13.3852157592773438,lng:10.2031106948852539,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1094,lat:12.4777164459228516,lng:10.2154054641723633,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1095,lat:13.7806386947631836,lng:10.2851762771606445,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1096,lat:12.7268800735473633,lng:10.4151210784912109,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1097,lat:8.3360624313354492,lng:10.5031843185424805,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1098,lat:2.5278868675231934,lng:10.5085811614990234,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1099,lat:7.2172031402587891,lng:10.7640724182128906,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1100,lat:8.7782287597656250,lng:11.2062845230102539,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1101,lat:9.9259929656982422,lng:11.2819528579711914,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1102,lat:7.9255118370056152,lng:11.4537801742553711,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1103,lat:2.9757232666015625,lng:11.8371181488037109,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1104,lat:6.2481327056884766,lng:11.8832979202270508,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1105,lat:6.4406852722167969,lng:11.9096870422363281,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1106,lat:2.4297041893005371,lng:11.9353761672973633,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1107,lat:6.3199725151062012,lng:11.9464712142944336,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1108,lat:6.1120924949645996,lng:11.9680624008178711,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1109,lat:11.9284753799438477,lng:12.0515270233154297,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1110,lat:4.7671666145324707,lng:12.2983226776123047,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1111,lat:5.8022670745849609,lng:12.6537714004516602,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1112,lat:7.2618169784545898,lng:12.9442481994628906,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1113,lat:5.2581954002380371,lng:12.9901285171508789,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1114,lat:9.0911836624145508,lng:13.0277128219604492,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1115,lat:8.2250385284423828,lng:13.0787906646728516,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1116,lat:9.2539501190185547,lng:13.2996969223022461,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1117,lat:9.2815065383911133,lng:13.3906593322753906,t:"industrial",n:"",b:"land_ind_workshop01_01"},{id:1118,lat:11.7554903030395508,lng:1.7450774908065796,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1119,lat:10.5864782333374023,lng:2.1562728881835938,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1120,lat:10.1160860061645508,lng:2.2680451869964600,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1121,lat:5.4043340682983398,lng:2.8133344650268555,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1122,lat:6.1076731681823730,lng:3.0987632274627686,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1123,lat:13.1785860061645508,lng:3.6631736755371094,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1124,lat:6.5241627693176270,lng:3.9048514366149902,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1125,lat:6.4345359802246094,lng:4.2085928916931152,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1126,lat:10.7316179275512695,lng:4.4240808486938477,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1127,lat:12.4883852005004883,lng:4.8885645866394043,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1128,lat:5.2870912551879883,lng:5.9123601913452148,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1129,lat:13.2136011123657227,lng:6.2324347496032715,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1130,lat:7.5898199081420898,lng:6.2701983451843262,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1131,lat:12.6807270050048828,lng:6.4402461051940918,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1132,lat:12.6839065551757812,lng:6.4927740097045898,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1133,lat:7.6433024406433105,lng:7.0023880004882812,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1134,lat:12.9445791244506836,lng:7.0462794303894043,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1135,lat:8.4336786270141602,lng:7.1058139801025391,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1136,lat:12.8045902252197266,lng:7.1645789146423340,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1137,lat:3.7072179317474365,lng:8.7426795959472656,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1138,lat:6.5756354331970215,lng:9.6374902725219727,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1139,lat:13.3169565200805664,lng:9.8370952606201172,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1140,lat:6.6198291778564453,lng:9.8489408493041992,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1141,lat:9.9031276702880859,lng:9.8858947753906250,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1142,lat:13.4790229797363281,lng:9.9855031967163086,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1143,lat:9.7113151550292969,lng:10.0536746978759766,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1144,lat:13.3164157867431641,lng:10.1857175827026367,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1145,lat:11.7392635345458984,lng:10.2477922439575195,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1146,lat:5.8271036148071289,lng:10.2416944503784180,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1147,lat:13.5109376907348633,lng:10.2942724227905273,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1148,lat:13.6275110244750977,lng:10.3671417236328125,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1149,lat:12.7672843933105469,lng:10.3972282409667969,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1150,lat:12.6777877807617188,lng:10.9318017959594727,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1151,lat:7.8932962417602539,lng:11.5033597946166992,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1152,lat:6.1974902153015137,lng:11.7166681289672852,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1153,lat:2.8943345546722412,lng:11.7972345352172852,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1154,lat:6.0684685707092285,lng:11.9725599288940430,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1155,lat:5.7409553527832031,lng:12.7751197814941406,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1156,lat:5.6564178466796875,lng:12.9665384292602539,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1157,lat:7.1602616310119629,lng:13.0666961669921875,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1158,lat:5.1768069267272949,lng:13.1566572189331055,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1159,lat:9.0321826934814453,lng:13.5262012481689453,t:"industrial",n:"",b:"land_ind_workshop01_02"},{id:1160,lat:9.3823118209838867,lng:3.6873435974121094,t:"military",n:"",b:"land_mil_house"},{id:1161,lat:4.5470972061157227,lng:4.4855451583862305,t:"military",n:"",b:"land_mil_house"},{id:1162,lat:5.7031412124633789,lng:4.6301736831665039,t:"military",n:"",b:"land_mil_house"},{id:1163,lat:5.0259289741516113,lng:4.7157478332519531,t:"military",n:"",b:"land_mil_house"},{id:1164,lat:13.0391063690185547,lng:5.1633081436157227,t:"military",n:"",b:"land_mil_house"},{id:1165,lat:10.8734378814697266,lng:4.5838236808776855,t:"industrial",n:"",b:"land_misc_cargo1ao"},{id:1166,lat:6.2245965003967285,lng:12.0303354263305664,t:"industrial",n:"",b:"land_misc_cargo1ao"},{id:1167,lat:5.2352986335754395,lng:5.9420075416564941,t:"industrial",n:"",b:"land_misc_cargo1bo"},{id:1168,lat:6.2264261245727539,lng:12.0284366607666016,t:"industrial",n:"",b:"land_misc_cargo1bo"},{id:1169,lat:13.1444005966186523,lng:2.0371234416961670,t:"industrial",n:"",b:"land_rail_house_01"},{id:1170,lat:12.9607067108154297,lng:3.6676323413848877,t:"industrial",n:"",b:"land_rail_house_01"},{id:1171,lat:13.0483646392822266,lng:4.4086179733276367,t:"industrial",n:"",b:"land_rail_house_01"},{id:1172,lat:12.0932722091674805,lng:8.0717039108276367,t:"industrial",n:"",b:"land_rail_house_01"},{id:1173,lat:11.8060235977172852,lng:11.9656629562377930,t:"industrial",n:"",b:"land_rail_house_01"},{id:1174,lat:7.3770904541015625,lng:12.9964256286621094,t:"industrial",n:"",b:"land_rail_house_01"},{id:1175,lat:8.2627229690551758,lng:13.1616554260253906,t:"industrial",n:"",b:"land_rail_house_01"},{id:1176,lat:8.6710739135742188,lng:13.2618141174316406,t:"industrial",n:"",b:"land_rail_house_01"},{id:1177,lat:9.1984176635742188,lng:13.3567733764648438,t:"industrial",n:"",b:"land_rail_house_01"},{id:1178,lat:4.5820918083190918,lng:4.5256280899047852,t:"military",n:"",b:"land_ss_hangar"},{id:1179,lat:4.6828775405883789,lng:4.5837335586547852,t:"military",n:"",b:"land_ss_hangar"},{id:1180,lat:12.7653245925903320,lng:4.7602987289428711,t:"military",n:"",b:"land_ss_hangar"},{id:1181,lat:12.7854623794555664,lng:4.7951841354370117,t:"military",n:"",b:"land_ss_hangar"},{id:1182,lat:5.1456112861633301,lng:4.8508400917053223,t:"military",n:"",b:"land_ss_hangar"},{id:1183,lat:5.1869053840637207,lng:4.8747005462646484,t:"military",n:"",b:"land_ss_hangar"},{id:1184,lat:5.2700934410095215,lng:4.9227294921875000,t:"military",n:"",b:"land_ss_hangar"},{id:1185,lat:5.2283997535705566,lng:4.8986601829528809,t:"military",n:"",b:"land_ss_hangar"},{id:1186,lat:5.3119874000549316,lng:4.9468994140625000,t:"military",n:"",b:"land_ss_hangar"},{id:1187,lat:5.3543815612792969,lng:4.9714093208312988,t:"military",n:"",b:"land_ss_hangar"},{id:1188,lat:2.7270598411560059,lng:12.0100440979003906,t:"military",n:"",b:"land_ss_hangar"},{id:1189,lat:2.7427575588226318,lng:12.0555257797241211,t:"military",n:"",b:"land_ss_hangar"},{id:1190,lat:12.8687009811401367,lng:7.0688700675964355,t:"industrial",n:"",b:"land_wagon_box"},{id:1191,lat:13.1312227249145508,lng:2.0220100879669189,t:"industrial",n:"",b:"land_a_fuelstation_build"},{id:1192,lat:9.7774057388305664,lng:2.7014515399932861,t:"industrial",n:"",b:"land_a_fuelstation_build"},{id:1193,lat:7.9012751579284668,lng:3.0094110965728760,t:"industrial",n:"",b:"land_a_fuelstation_build"},{id:1194,lat:6.3763446807861328,lng:3.6603853702545166,t:"industrial",n:"",b:"land_a_fuelstation_build"},{id:1195,lat:8.9735403060913086,lng:4.7296018600463867,t:"industrial",n:"",b:"land_a_fuelstation_build"},{id:1196,lat:13.1538991928100586,lng:5.8576531410217285,t:"industrial",n:"",b:"land_a_fuelstation_build"},{id:1197,lat:5.2539958953857422,lng:5.8590826988220215,t:"industrial",n:"",b:"land_a_fuelstation_build"},{id:1198,lat:12.3525152206420898,lng:6.6969575881958008,t:"industrial",n:"",b:"land_a_fuelstation_build"},{id:1199,lat:7.7058634757995605,lng:7.2688250541687012,t:"industrial",n:"",b:"land_a_fuelstation_build"},{id:1200,lat:13.3585996627807617,lng:9.5192804336547852,t:"industrial",n:"",b:"land_a_fuelstation_build"},{id:1201,lat:10.0440664291381836,lng:10.1556310653686523,t:"industrial",n:"",b:"land_a_fuelstation_build"},{id:1202,lat:6.4791097640991211,lng:10.4425086975097656,t:"industrial",n:"",b:"land_a_fuelstation_build"},{id:1203,lat:4.5736937522888184,lng:10.7364845275878906,t:"industrial",n:"",b:"land_a_fuelstation_build"},{id:1204,lat:5.2841916084289551,lng:12.9776344299316406,t:"industrial",n:"",b:"land_a_fuelstation_build"},{id:1205,lat:8.7491035461425781,lng:13.3682689666748047,t:"industrial",n:"",b:"land_a_fuelstation_build"},{id:1206,lat:9.9679079055786133,lng:2.9274759292602539,t:"industrial",n:"",b:"land_ind_garage01"},{id:1207,lat:13.1763858795166016,lng:3.6129653453826904,t:"industrial",n:"",b:"land_ind_garage01"},{id:1208,lat:6.7560596466064453,lng:3.6482503414154053,t:"industrial",n:"",b:"land_ind_garage01"},{id:1209,lat:6.4009108543395996,lng:3.8805518150329590,t:"industrial",n:"",b:"land_ind_garage01"},{id:1210,lat:4.5759935379028320,lng:4.4976000785827637,t:"industrial",n:"",b:"land_ind_garage01"},{id:1211,lat:10.8212347030639648,lng:4.5344343185424805,t:"industrial",n:"",b:"land_ind_garage01"},{id:1212,lat:5.0660228729248047,lng:4.7347097396850586,t:"industrial",n:"",b:"land_ind_garage01"},{id:1213,lat:5.0222287178039551,lng:4.7841587066650391,t:"industrial",n:"",b:"land_ind_garage01"},{id:1214,lat:7.6748375892639160,lng:6.1630139350891113,t:"industrial",n:"",b:"land_ind_garage01"},{id:1215,lat:12.9829349517822266,lng:6.4352083206176758,t:"industrial",n:"",b:"land_ind_garage01"},{id:1216,lat:12.8684902191162109,lng:6.5924015045166016,t:"industrial",n:"",b:"land_ind_garage01"},{id:1217,lat:12.4006280899047852,lng:6.6465392112731934,t:"industrial",n:"",b:"land_ind_garage01"},{id:1218,lat:12.6945867538452148,lng:6.7196679115295410,t:"industrial",n:"",b:"land_ind_garage01"},{id:1219,lat:12.5047025680541992,lng:6.7118110656738281,t:"industrial",n:"",b:"land_ind_garage01"},{id:1220,lat:7.5954194068908691,lng:7.0887112617492676,t:"industrial",n:"",b:"land_ind_garage01"},{id:1221,lat:6.5778150558471680,lng:9.4801578521728516,t:"industrial",n:"",b:"land_ind_garage01"},{id:1222,lat:13.5626201629638672,lng:10.0027952194213867,t:"industrial",n:"",b:"land_ind_garage01"},{id:1223,lat:13.5623407363891602,lng:10.0809621810913086,t:"industrial",n:"",b:"land_ind_garage01"},{id:1224,lat:13.4836425781250000,lng:10.1001548767089844,t:"industrial",n:"",b:"land_ind_garage01"},{id:1225,lat:13.2518157958984375,lng:10.2321987152099609,t:"industrial",n:"",b:"land_ind_garage01"},{id:1226,lat:8.0412549972534180,lng:12.2149581909179688,t:"industrial",n:"",b:"land_ind_garage01"},{id:1227,lat:6.2538523674011230,lng:12.3426036834716797,t:"industrial",n:"",b:"land_ind_garage01"},{id:1228,lat:5.6846237182617188,lng:12.6514730453491211,t:"industrial",n:"",b:"land_ind_garage01"},{id:1229,lat:5.6879534721374512,lng:12.8476886749267578,t:"industrial",n:"",b:"land_ind_garage01"},{id:1230,lat:5.3833575248718262,lng:12.8791751861572266,t:"industrial",n:"",b:"land_ind_garage01"},{id:1231,lat:9.0874738693237305,lng:12.9631395339965820,t:"industrial",n:"",b:"land_ind_garage01"},{id:1232,lat:5.5650210380554199,lng:12.9681377410888672,t:"industrial",n:"",b:"land_ind_garage01"},{id:1233,lat:8.3407821655273438,lng:13.1129770278930664,t:"industrial",n:"",b:"land_ind_garage01"},{id:1234,lat:3.1586980819702148,lng:4.6302542686462402,t:"residential",n:"",b:"land_ruin_01"},{id:1235,lat:9.3971900939941406,lng:8.3694181442260742,t:"residential",n:"",b:"land_ruin_01"},{id:1236,lat:9.3595752716064453,lng:8.3493862152099609,t:"residential",n:"",b:"land_ruin_01"},{id:1237,lat:9.3787326812744141,lng:8.4566917419433594,t:"residential",n:"",b:"land_ruin_01"},{id:1238,lat:7.5556445121765137,lng:1.6129428148269653,t:"farm",n:"",b:"land_stodola_open"},{id:1239,lat:9.9820451736450195,lng:2.9534149169921875,t:"farm",n:"",b:"land_stodola_open"},{id:1240,lat:7.6678085327148438,lng:3.1244623661041260,t:"farm",n:"",b:"land_stodola_open"},{id:1241,lat:10.6507091522216797,lng:3.9845974445343018,t:"farm",n:"",b:"land_stodola_open"},{id:1242,lat:12.6087684631347656,lng:5.8056249618530273,t:"farm",n:"",b:"land_stodola_open"},{id:1243,lat:7.6031780242919922,lng:7.0094251632690430,t:"farm",n:"",b:"land_stodola_open"},{id:1244,lat:10.1665792465209961,lng:7.6113901138305664,t:"farm",n:"",b:"land_stodola_open"},{id:1245,lat:8.0241374969482422,lng:8.3840217590332031,t:"farm",n:"",b:"land_stodola_open"},{id:1246,lat:6.5455803871154785,lng:9.3061408996582031,t:"farm",n:"",b:"land_stodola_open"},{id:1247,lat:6.4402050971984863,lng:9.4645442962646484,t:"farm",n:"",b:"land_stodola_open"},{id:1248,lat:6.4892182350158691,lng:9.5082750320434570,t:"farm",n:"",b:"land_stodola_open"},{id:1249,lat:6.0122170448303223,lng:9.6629295349121094,t:"farm",n:"",b:"land_stodola_open"},{id:1250,lat:6.6374568939208984,lng:9.7983026504516602,t:"farm",n:"",b:"land_stodola_open"},{id:1251,lat:2.9084324836730957,lng:9.8981199264526367,t:"farm",n:"",b:"land_stodola_open"},{id:1252,lat:9.9620084762573242,lng:10.1134490966796875,t:"farm",n:"",b:"land_stodola_open"},{id:1253,lat:7.9584765434265137,lng:10.3559455871582031,t:"farm",n:"",b:"land_stodola_open"},{id:1254,lat:11.5354318618774414,lng:11.9904527664184570,t:"farm",n:"",b:"land_stodola_open"},{id:1255,lat:6.6884093284606934,lng:12.4481592178344727,t:"farm",n:"",b:"land_stodola_open"},{id:1256,lat:5.3136873245239258,lng:12.6623678207397461,t:"farm",n:"",b:"land_stodola_open"},{id:1257,lat:2.4758949279785156,lng:12.6718635559082031,t:"farm",n:"",b:"land_stodola_open"},{id:1258,lat:9.7876939773559570,lng:6.5310878753662109,t:"residential",n:"",b:"land_a_castle_gate"},{id:1259,lat:4.0059742927551270,lng:6.9248309135437012,t:"residential",n:"",b:"land_a_castle_gate"},{id:1260,lat:11.0378141403198242,lng:11.2545652389526367,t:"residential",n:"",b:"land_a_castle_gate"},{id:1261,lat:12.8600912094116211,lng:6.8586287498474121,t:"residential",n:"",b:"land_houseb_tenement"},{id:1262,lat:10.2310800552368164,lng:2.2593991756439209,t:"industrial",n:"",b:"land_shed_ind02"},{id:1263,lat:13.2024126052856445,lng:3.5898149013519287,t:"industrial",n:"",b:"land_shed_ind02"},{id:1264,lat:6.7783164978027344,lng:3.6395041942596436,t:"industrial",n:"",b:"land_shed_ind02"},{id:1265,lat:4.9278426170349121,lng:4.6979351043701172,t:"industrial",n:"",b:"land_shed_ind02"},{id:1266,lat:12.5066127777099609,lng:4.9012088775634766,t:"industrial",n:"",b:"land_shed_ind02"},{id:1267,lat:12.9902925491333008,lng:6.9354062080383301,t:"industrial",n:"",b:"land_shed_ind02"},{id:1268,lat:13.1446905136108398,lng:7.2167968750000000,t:"industrial",n:"",b:"land_shed_ind02"},{id:1269,lat:11.8851013183593750,lng:7.8518877029418945,t:"industrial",n:"",b:"land_shed_ind02"},{id:1270,lat:12.6547517776489258,lng:10.8326435089111328,t:"industrial",n:"",b:"land_shed_ind02"},{id:1271,lat:6.2042393684387207,lng:11.6902799606323242,t:"industrial",n:"",b:"land_shed_ind02"},{id:1272,lat:5.5396347045898438,lng:12.6530714035034180,t:"industrial",n:"",b:"land_shed_ind02"},{id:1273,lat:5.7328071594238281,lng:12.7663230895996094,t:"industrial",n:"",b:"land_shed_ind02"},{id:1274,lat:9.2118072509765625,lng:13.3904590606689453,t:"industrial",n:"",b:"land_shed_ind02"},{id:1275,lat:12.6227655410766602,lng:6.7722654342651367,t:"hospital",n:"",b:"usmc_warfarebfieldhhospital"},{id:1276,lat:12.6000585556030273,lng:6.7693867683410645,t:"hospital",n:"",b:"usmc_warfarebfieldhhospital"},{id:1277,lat:10.2939901351928711,lng:1.7103122472763062,t:"farm",n:"",b:"land_barn_w_01"},{id:1278,lat:9.3953304290771484,lng:2.6710646152496338,t:"farm",n:"",b:"land_barn_w_01"},{id:1279,lat:9.9291534423828125,lng:2.9361820220947266,t:"farm",n:"",b:"land_barn_w_01"},{id:1280,lat:8.6141023635864258,lng:2.9800934791564941,t:"farm",n:"",b:"land_barn_w_01"},{id:1281,lat:7.1030597686767578,lng:3.7075550556182861,t:"farm",n:"",b:"land_barn_w_01"},{id:1282,lat:6.2268757820129395,lng:4.0946207046508789,t:"farm",n:"",b:"land_barn_w_01"},{id:1283,lat:8.5699386596679688,lng:4.6293039321899414,t:"farm",n:"",b:"land_barn_w_01"},{id:1284,lat:4.7974624633789062,lng:5.2693929672241211,t:"farm",n:"",b:"land_barn_w_01"},{id:1285,lat:6.7194948196411133,lng:5.3156332969665527,t:"farm",n:"",b:"land_barn_w_01"},{id:1286,lat:6.6698722839355469,lng:5.7776975631713867,t:"farm",n:"",b:"land_barn_w_01"},{id:1287,lat:11.5635671615600586,lng:6.2307953834533691,t:"farm",n:"",b:"land_barn_w_01"},{id:1288,lat:9.1743917465209961,lng:6.4635763168334961,t:"farm",n:"",b:"land_barn_w_01"},{id:1289,lat:7.6300339698791504,lng:6.9675426483154297,t:"farm",n:"",b:"land_barn_w_01"},{id:1290,lat:12.2160434722900391,lng:7.0833935737609863,t:"farm",n:"",b:"land_barn_w_01"},{id:1291,lat:12.0279607772827148,lng:8.0556411743164062,t:"farm",n:"",b:"land_barn_w_01"},{id:1292,lat:3.1464989185333252,lng:8.4031639099121094,t:"farm",n:"",b:"land_barn_w_01"},{id:1293,lat:6.4326162338256836,lng:9.6817016601562500,t:"farm",n:"",b:"land_barn_w_01"},{id:1294,lat:13.3689479827880859,lng:9.7244434356689453,t:"farm",n:"",b:"land_barn_w_01"},{id:1295,lat:6.6353573799133301,lng:9.7538614273071289,t:"farm",n:"",b:"land_barn_w_01"},{id:1296,lat:5.8621788024902344,lng:10.2507905960083008,t:"farm",n:"",b:"land_barn_w_01"},{id:1297,lat:7.4670071601867676,lng:10.6577177047729492,t:"farm",n:"",b:"land_barn_w_01"},{id:1298,lat:3.3979637622833252,lng:11.1131248474121094,t:"farm",n:"",b:"land_barn_w_01"},{id:1299,lat:2.8288447856903076,lng:11.3453264236450195,t:"farm",n:"",b:"land_barn_w_01"},{id:1300,lat:8.9637517929077148,lng:11.7543525695800781,t:"farm",n:"",b:"land_barn_w_01"},{id:1301,lat:6.1838421821594238,lng:12.2752323150634766,t:"farm",n:"",b:"land_barn_w_01"},{id:1302,lat:6.2412838935852051,lng:12.3075180053710938,t:"farm",n:"",b:"land_barn_w_01"},{id:1303,lat:5.7495541572570801,lng:12.6780614852905273,t:"farm",n:"",b:"land_barn_w_01"},{id:1304,lat:5.3141870498657227,lng:12.7094478607177734,t:"farm",n:"",b:"land_barn_w_01"},{id:1305,lat:8.3823261260986328,lng:12.9295539855957031,t:"farm",n:"",b:"land_barn_w_01"},{id:1306,lat:9.9297733306884766,lng:13.2038383483886719,t:"farm",n:"",b:"land_barn_w_01"},{id:1307,lat:6.7088966369628906,lng:5.3507280349731445,t:"farm",n:"",b:"land_barn_w_02"},{id:1308,lat:11.5601682662963867,lng:9.1870222091674805,t:"farm",n:"",b:"land_barn_w_02"},{id:1309,lat:12.7663745880126953,lng:4.7211151123046875,t:"atc",n:"",b:"land_mil_controltower"},{id:1310,lat:5.1475110054016113,lng:4.7186965942382812,t:"atc",n:"",b:"land_mil_controltower"},{id:1311,lat:2.7648541927337646,lng:12.1923666000366211,t:"atc",n:"",b:"land_mil_controltower"},{id:1312,lat:10.2575263977050781,lng:1.7017357349395752,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1313,lat:9.9309625625610352,lng:2.9690382480621338,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1314,lat:7.6825661659240723,lng:3.0589900016784668,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1315,lat:6.1440682411193848,lng:3.1088688373565674,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1316,lat:8.3982439041137695,lng:3.6049485206604004,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1317,lat:6.7451715469360352,lng:5.3604741096496582,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1318,lat:10.7709922790527344,lng:5.7563161849975586,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1319,lat:5.2282996177673340,lng:5.9371194839477539,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1320,lat:11.5843753814697266,lng:6.2498869895935059,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1321,lat:7.6049575805664062,lng:6.2620120048522949,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1322,lat:7.6543803215026855,lng:6.9470810890197754,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1323,lat:10.2000236511230469,lng:7.6708841323852539,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1324,lat:4.0529680252075195,lng:7.9742860794067383,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1325,lat:11.9802980422973633,lng:8.0387382507324219,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1326,lat:3.6950190067291260,lng:8.8707056045532227,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1327,lat:6.4575123786926270,lng:9.7138681411743164,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1328,lat:9.9319229125976562,lng:9.9029779434204102,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1329,lat:5.8478307723999023,lng:10.2775793075561523,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1330,lat:2.8086478710174561,lng:11.3632183074951172,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1331,lat:7.9925217628479004,lng:12.2303504943847656,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1332,lat:6.2546916007995605,lng:12.2743320465087891,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1333,lat:8.3663778305053711,lng:12.8942699432373047,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1334,lat:7.2167735099792480,lng:12.9462471008300781,t:"farm",n:"",b:"land_farm_cowshed_a"},{id:1335,lat:7.4501299858093262,lng:3.1567788124084473,t:"industrial",n:"",b:"land_hangar_2"},{id:1336,lat:4.6007890701293945,lng:4.0805468559265137,t:"industrial",n:"",b:"land_hangar_2"},{id:1337,lat:4.5696949958801270,lng:4.0626149177551270,t:"industrial",n:"",b:"land_hangar_2"},{id:1338,lat:13.1133956909179688,lng:4.4076380729675293,t:"industrial",n:"",b:"land_hangar_2"},{id:1339,lat:12.9967117309570312,lng:5.1205158233642578,t:"industrial",n:"",b:"land_hangar_2"},{id:1340,lat:12.9857530593872070,lng:5.1580996513366699,t:"industrial",n:"",b:"land_hangar_2"},{id:1341,lat:12.7879610061645508,lng:6.4042315483093262,t:"industrial",n:"",b:"land_hangar_2"},{id:1342,lat:12.5937795639038086,lng:6.5057587623596191,t:"industrial",n:"",b:"land_hangar_2"},{id:1343,lat:12.8522529602050781,lng:6.6003985404968262,t:"industrial",n:"",b:"land_hangar_2"},{id:1344,lat:12.6427536010742188,lng:6.9010410308837891,t:"industrial",n:"",b:"land_hangar_2"},{id:1345,lat:13.5391731262207031,lng:10.2766790390014648,t:"industrial",n:"",b:"land_hangar_2"},{id:1346,lat:13.4622755050659180,lng:10.2891740798950195,t:"industrial",n:"",b:"land_hangar_2"},{id:1347,lat:2.9328310489654541,lng:11.8419160842895508,t:"industrial",n:"",b:"land_hangar_2"},{id:1348,lat:11.9117183685302734,lng:12.0664205551147461,t:"industrial",n:"",b:"land_hangar_2"},{id:1349,lat:5.3925461769104004,lng:12.9576425552368164,t:"industrial",n:"",b:"land_hangar_2"},{id:1350,lat:5.3656001091003418,lng:13.0454053878784180,t:"industrial",n:"",b:"land_hangar_2"},{id:1351,lat:5.3311843872070312,lng:13.0613985061645508,t:"industrial",n:"",b:"land_hangar_2"},{id:1352,lat:5.2982897758483887,lng:13.0767917633056641,t:"industrial",n:"",b:"land_hangar_2"},{id:1353,lat:9.2649383544921875,lng:13.4154481887817383,t:"industrial",n:"",b:"land_hangar_2"},{id:1354,lat:13.1035766601562500,lng:1.8963937759399414,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1355,lat:10.1793470382690430,lng:2.7420148849487305,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1356,lat:7.3756804466247559,lng:3.1073093414306641,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1357,lat:6.5297322273254395,lng:3.7734372615814209,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1358,lat:6.3754444122314453,lng:3.8420181274414062,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1359,lat:10.7320680618286133,lng:4.3985919952392578,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1360,lat:8.5549907684326172,lng:4.7900161743164062,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1361,lat:5.0126309394836426,lng:6.0090990066528320,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1362,lat:7.5521550178527832,lng:6.0808091163635254,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1363,lat:7.6380829811096191,lng:6.2371926307678223,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1364,lat:13.0863389968872070,lng:6.6014080047607422,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1365,lat:12.4167652130126953,lng:6.7036046981811523,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1366,lat:9.7863836288452148,lng:6.7643790245056152,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1367,lat:12.7305898666381836,lng:6.8162169456481934,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1368,lat:7.5523252487182617,lng:6.9258904457092285,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1369,lat:7.6570501327514648,lng:7.1967353820800781,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1370,lat:10.2452573776245117,lng:7.5006766319274902,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1371,lat:3.4445559978485107,lng:8.5428647994995117,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1372,lat:8.7988853454589844,lng:11.2173805236816406,t:"residential",n:"",b:"land_housev2_04_interier"},{id:1373,lat:13.2323884963989258,lng:1.8440752029418945,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1374,lat:10.1885156631469727,lng:2.2137486934661865,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1375,lat:5.6561679840087891,lng:2.9054853916168213,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1376,lat:7.4324626922607422,lng:3.2020595073699951,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1377,lat:13.1616678237915039,lng:3.6195523738861084,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1378,lat:6.5028958320617676,lng:3.7531356811523438,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1379,lat:4.9652380943298340,lng:4.2548227310180664,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1380,lat:4.3683238029479980,lng:4.3219251632690430,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1381,lat:8.9129095077514648,lng:4.4455823898315430,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1382,lat:8.5906753540039062,lng:4.6669983863830566,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1383,lat:4.8974475860595703,lng:4.6745648384094238,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1384,lat:12.8069791793823242,lng:4.8134260177612305,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1385,lat:11.1615562438964844,lng:5.2042803764343262,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1386,lat:9.8752403259277344,lng:5.2546987533569336,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1387,lat:11.6033926010131836,lng:6.2908997535705566,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1388,lat:12.7369184494018555,lng:6.4344186782836914,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1389,lat:12.5950498580932617,lng:6.4409260749816895,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1390,lat:12.9227228164672852,lng:6.4895553588867188,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1391,lat:12.5231704711914062,lng:6.4824986457824707,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1392,lat:12.7287998199462891,lng:6.5737996101379395,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1393,lat:12.7698545455932617,lng:6.7051539421081543,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1394,lat:7.5707025527954102,lng:6.9452023506164551,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1395,lat:13.1586494445800781,lng:7.1838607788085938,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1396,lat:10.2652454376220703,lng:7.5109720230102539,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1397,lat:12.1357860565185547,lng:7.6853380203247070,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1398,lat:10.3968362808227539,lng:9.2568521499633789,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1399,lat:6.5749659538269043,lng:9.5631217956542969,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1400,lat:13.5369043350219727,lng:10.0779638290405273,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1401,lat:13.5216264724731445,lng:10.2105073928833008,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1402,lat:13.1426410675048828,lng:10.4985847473144531,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1403,lat:12.5951499938964844,lng:10.9908761978149414,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1404,lat:7.9201722145080566,lng:11.4332885742187500,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1405,lat:3.2189886569976807,lng:11.7455568313598633,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1406,lat:6.1746134757995605,lng:12.2365484237670898,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1407,lat:5.7743511199951172,lng:12.7769193649291992,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1408,lat:8.3513402938842773,lng:13.1320686340332031,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1409,lat:4.9567389488220215,lng:13.1105785369873047,t:"industrial",n:"",b:"land_ind_workshop01_04"},{id:1410,lat:10.2009840011596680,lng:2.2839281558990479,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1411,lat:5.4170126914978027,lng:2.8285977840423584,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1412,lat:7.5618538856506348,lng:3.1394457817077637,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1413,lat:6.7878651618957520,lng:3.6916918754577637,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1414,lat:5.7812500000000000,lng:4.6068334579467773,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1415,lat:4.8976469039916992,lng:4.6932773590087891,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1416,lat:13.2364177703857422,lng:6.2474980354309082,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1417,lat:7.6705384254455566,lng:6.2993059158325195,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1418,lat:12.8395452499389648,lng:6.4911046028137207,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1419,lat:12.7158727645874023,lng:6.4853472709655762,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1420,lat:12.4911546707153320,lng:6.5116257667541504,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1421,lat:12.7112922668457031,lng:6.5987992286682129,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1422,lat:12.8937959671020508,lng:6.7439675331115723,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1423,lat:12.7100934982299805,lng:6.7439374923706055,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1424,lat:12.9927225112915039,lng:6.9055089950561523,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1425,lat:12.8152675628662109,lng:7.0079154968261719,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1426,lat:10.1986541748046875,lng:7.6316709518432617,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1427,lat:6.4617819786071777,lng:9.5510663986206055,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1428,lat:13.3022480010986328,lng:9.8370265960693359,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1429,lat:13.4787521362304688,lng:9.9597644805908203,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1430,lat:13.5061693191528320,lng:9.9749574661254883,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1431,lat:13.3030576705932617,lng:10.0674686431884766,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1432,lat:13.4787025451660156,lng:10.1268424987792969,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1433,lat:13.4362888336181641,lng:10.1232452392578125,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1434,lat:13.5356645584106445,lng:10.1532316207885742,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1435,lat:7.8597712516784668,lng:11.5010604858398438,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1436,lat:2.7572546005249023,lng:12.1600809097290039,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1437,lat:9.1504850387573242,lng:12.8128032684326172,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1438,lat:7.2928628921508789,lng:12.8488883972167969,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1439,lat:5.5001001358032227,lng:12.8799753189086914,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1440,lat:5.1875057220458984,lng:12.9307537078857422,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1441,lat:5.3580813407897949,lng:12.9818325042724609,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1442,lat:8.2306575775146484,lng:13.1572570800781250,t:"industrial",n:"",b:"land_ind_workshop01_l"},{id:1443,lat:6.4681611061096191,lng:3.7183406352996826,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1444,lat:6.3647661209106445,lng:3.8981842994689941,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1445,lat:8.9014806747436523,lng:4.4838061332702637,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1446,lat:7.6249947547912598,lng:6.0752315521240234,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1447,lat:13.0066099166870117,lng:6.5236711502075195,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1448,lat:12.4422016143798828,lng:6.6633520126342773,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1449,lat:7.6034879684448242,lng:7.1039648056030273,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1450,lat:10.2133226394653320,lng:7.5644397735595703,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1451,lat:11.4923276901245117,lng:9.1349534988403320,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1452,lat:13.5098876953125000,lng:9.9456100463867188,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1453,lat:13.3714675903320312,lng:10.0074939727783203,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1454,lat:13.4933500289916992,lng:10.3566455841064453,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1455,lat:13.0274171829223633,lng:10.5324716567993164,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1456,lat:5.6297316551208496,lng:10.5619583129882812,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1457,lat:7.3218283653259277,lng:10.6641149520874023,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1458,lat:3.0384144783020020,lng:11.0743417739868164,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1459,lat:5.9546751976013184,lng:12.1230964660644531,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1460,lat:9.1386070251464844,lng:13.3826618194580078,t:"residential",n:"",b:"land_housev2_02_interier"},{id:1461,lat:12.7728738784790039,lng:6.4598779678344727,t:"industrial",n:"",b:"land_ind_vysypka"},{id:1462,lat:8.2381668090820312,lng:13.0995826721191406,t:"industrial",n:"",b:"land_ind_vysypka"},{id:1463,lat:12.2350521087646484,lng:11.6802835464477539,t:"industrial",n:"",b:"land_nav_boathouse"},{id:1464,lat:12.5110015869140625,lng:13.3899593353271484,t:"industrial",n:"",b:"land_nav_boathouse"},{id:1465,lat:12.9141836166381836,lng:6.4155769348144531,t:"residential",n:"",b:"land_rail_station_big"},{id:1466,lat:13.2418861389160156,lng:10.3396530151367188,t:"residential",n:"",b:"land_rail_station_big"},{id:1467,lat:5.1208152770996094,lng:12.9885292053222656,t:"residential",n:"",b:"land_rail_station_big"},{id:1468,lat:10.7184600830078125,lng:4.4568972587585449,t:"residential",n:"",b:"land_sara_domek_zluty"},{id:1469,lat:8.3944435119628906,lng:7.2110490798950195,t:"residential",n:"",b:"land_sara_domek_zluty"},{id:1470,lat:10.2552661895751953,lng:7.5365815162658691,t:"residential",n:"",b:"land_sara_domek_zluty"},{id:1471,lat:5.1121158599853516,lng:4.7933444976806641,t:"firestation",n:"Fire station",b:"land_a_stationhouse"},{id:1472,lat:12.9545879364013672,lng:6.5790772438049316,t:"firestation",n:"Fire station",b:"land_a_stationhouse"},{id:1473,lat:13.1272525787353516,lng:10.3669414520263672,t:"firestation",n:"Fire station",b:"land_a_stationhouse"},{id:1474,lat:12.7960805892944336,lng:10.4213180541992188,t:"firestation",n:"Fire station",b:"land_a_stationhouse"},{id:1475,lat:9.7641077041625977,lng:6.5561070442199707,t:"castle",n:"",b:"land_a_castle_bergfrit"},{id:1476,lat:3.9333856105804443,lng:6.9154348373413086,t:"castle",n:"",b:"land_a_castle_bergfrit"},{id:1477,lat:11.0884971618652344,lng:11.2492675781250000,t:"castle",n:"",b:"land_a_castle_bergfrit"},{id:1478,lat:12.6065578460693359,lng:6.4157562255859375,t:"hospital",n:"Hospital",b:"land_a_hospital"},{id:1479,lat:12.6598711013793945,lng:6.8149576187133789,t:"hospital",n:"Hospital",b:"land_a_hospital"},{id:1480,lat:13.0789299011230469,lng:10.5167779922485352,t:"hospital",n:"Hospital",b:"land_a_hospital"},{id:1481,lat:6.2428040504455566,lng:11.9521694183349609,t:"hospital",n:"Hospital",b:"land_a_hospital"},{id:1482,lat:7.5106010437011719,lng:3.0615489482879639,t:"church",n:"",b:"land_church_03"},{id:1483,lat:8.9708709716796875,lng:4.5554056167602539,t:"church",n:"",b:"land_church_03"},{id:1484,lat:13.0590229034423828,lng:6.6844725608825684,t:"church",n:"",b:"land_church_03"},{id:1485,lat:7.6326336860656738,lng:7.0693693161010742,t:"church",n:"",b:"land_church_03"},{id:1486,lat:13.1098155975341797,lng:10.4590024948120117,t:"church",n:"",b:"land_church_03"},{id:1487,lat:4.8733501434326172,lng:4.6304636001586914,t:"barracks",n:"",b:"land_mil_barracks_i"},{id:1488,lat:5.7673616409301758,lng:4.6640391349792480,t:"barracks",n:"",b:"land_mil_barracks_i"},{id:1489,lat:12.6167469024658203,lng:6.3715152740478516,t:"residential",n:"",b:"land_panelak2"},{id:1490,lat:12.6286859512329102,lng:6.3865489959716797,t:"residential",n:"",b:"land_panelak2"},{id:1491,lat:12.6481924057006836,lng:6.4109787940979004,t:"residential",n:"",b:"land_panelak2"},{id:1492,lat:5.8570189476013184,lng:12.2569398880004883,t:"residential",n:"",b:"land_panelak2"},{id:1493,lat:5.2462968826293945,lng:12.8012084960937500,t:"residential",n:"",b:"land_panelak2"},{id:1494,lat:10.6808452606201172,lng:2.5078136920928955,t:"barn",n:"",b:"land_stodola_old_open"},{id:1495,lat:9.3402280807495117,lng:2.7375466823577881,t:"barn",n:"",b:"land_stodola_old_open"},{id:1496,lat:12.2404708862304688,lng:2.7819976806640625,t:"barn",n:"",b:"land_stodola_old_open"},{id:1497,lat:8.6363096237182617,lng:3.0260043144226074,t:"barn",n:"",b:"land_stodola_old_open"},{id:1498,lat:10.4238424301147461,lng:3.2842147350311279,t:"barn",n:"",b:"land_stodola_old_open"},{id:1499,lat:10.6132144927978516,lng:3.9733324050903320,t:"barn",n:"",b:"land_stodola_old_open"},{id:1500,lat:6.1123523712158203,lng:4.4141454696655273,t:"barn",n:"",b:"land_stodola_old_open"},{id:1501,lat:11.6984691619873047,lng:6.5179338455200195,t:"barn",n:"",b:"land_stodola_old_open"},{id:1502,lat:12.0669956207275391,lng:7.0583944320678711,t:"barn",n:"",b:"land_stodola_old_open"},{id:1503,lat:7.8577814102172852,lng:7.1386899948120117,t:"barn",n:"",b:"land_stodola_old_open"},{id:1504,lat:8.4237594604492188,lng:7.2164869308471680,t:"barn",n:"",b:"land_stodola_old_open"},{id:1505,lat:8.4667339324951172,lng:7.8051176071166992,t:"barn",n:"",b:"land_stodola_old_open"},{id:1506,lat:12.0031051635742188,lng:8.0851087570190430,t:"barn",n:"",b:"land_stodola_old_open"},{id:1507,lat:3.5724368095397949,lng:9.5880422592163086,t:"barn",n:"",b:"land_stodola_old_open"},{id:1508,lat:6.4952368736267090,lng:9.6688871383666992,t:"barn",n:"",b:"land_stodola_old_open"},{id:1509,lat:12.7429780960083008,lng:9.9839639663696289,t:"barn",n:"",b:"land_stodola_old_open"},{id:1510,lat:11.3123340606689453,lng:10.0051946640014648,t:"barn",n:"",b:"land_stodola_old_open"},{id:1511,lat:9.7781648635864258,lng:10.2604866027832031,t:"barn",n:"",b:"land_stodola_old_open"},{id:1512,lat:9.8596038818359375,lng:11.5114564895629883,t:"barn",n:"",b:"land_stodola_old_open"},{id:1513,lat:9.7447900772094727,lng:12.9137611389160156,t:"barn",n:"",b:"land_stodola_old_open"},{id:1514,lat:8.3430910110473633,lng:12.9467477798461914,t:"barn",n:"",b:"land_stodola_old_open"},{id:1515,lat:12.6727285385131836,lng:6.3833503723144531,t:"residential",n:"",b:"land_panelak"},{id:1516,lat:12.5700531005859375,lng:6.3827905654907227,t:"residential",n:"",b:"land_panelak"},{id:1517,lat:5.8718171119689941,lng:12.2376480102539062,t:"residential",n:"",b:"land_panelak"},{id:1518,lat:5.8439412117004395,lng:12.2275514602661133,t:"residential",n:"",b:"land_panelak"},{id:1519,lat:5.2761921882629395,lng:12.8035078048706055,t:"residential",n:"",b:"land_panelak"},{id:1520,lat:5.2374982833862305,lng:12.7786188125610352,t:"residential",n:"",b:"land_panelak"},{id:1521,lat:12.8829984664916992,lng:6.7906479835510254,t:"residential",n:"",b:"land_a_municipaloffice"},{id:1522,lat:13.0170793533325195,lng:6.6628317832946777,t:"residential",n:"",b:"land_a_pub_01"},{id:1523,lat:12.8373746871948242,lng:6.7713656425476074,t:"residential",n:"",b:"land_a_pub_01"},{id:1524,lat:12.9743156433105469,lng:6.8372178077697754,t:"residential",n:"",b:"land_a_pub_01"},{id:1525,lat:12.8058586120605469,lng:6.8555402755737305,t:"residential",n:"",b:"land_a_pub_01"},{id:1526,lat:12.8021697998046875,lng:6.9003009796142578,t:"residential",n:"",b:"land_a_pub_01"},{id:1527,lat:12.8784389495849609,lng:6.9028301239013672,t:"residential",n:"",b:"land_a_pub_01"},{id:1528,lat:13.0181293487548828,lng:10.4432086944580078,t:"residential",n:"",b:"land_a_pub_01"},{id:1529,lat:6.2609510421752930,lng:12.0574245452880859,t:"residential",n:"",b:"land_a_pub_01"},{id:1530,lat:13.0608825683593750,lng:6.5407338142395020,t:"supermarket",n:"Supermarket",b:"land_a_generalstore_01"},{id:1531,lat:5.8852047920227051,lng:12.2764310836791992,t:"supermarket",n:"Supermarket",b:"land_a_generalstore_01"},{id:1532,lat:13.1897544860839844,lng:3.5892653465270996,t:"industrial",n:"",b:"land_tovarna2"},{id:1533,lat:12.8300256729125977,lng:6.5124654769897461,t:"industrial",n:"",b:"land_tovarna2"},{id:1534,lat:13.5545320510864258,lng:10.1717243194580078,t:"industrial",n:"",b:"land_tovarna2"},{id:1535,lat:8.1839542388916016,lng:13.0964841842651367,t:"industrial",n:"",b:"land_tovarna2"},{id:1536,lat:10.2923307418823242,lng:2.5879998207092285,t:"supermarket",n:"Supermarket",b:"land_a_generalstore_01a"},{id:1537,lat:7.3919086456298828,lng:3.0685558319091797,t:"supermarket",n:"Supermarket",b:"land_a_generalstore_01a"},{id:1538,lat:6.4164085388183594,lng:3.8145892620086670,t:"supermarket",n:"Supermarket",b:"land_a_generalstore_01a"},{id:1539,lat:7.5515155792236328,lng:6.0115880966186523,t:"supermarket",n:"Supermarket",b:"land_a_generalstore_01a"},{id:1540,lat:12.9977016448974609,lng:10.4199190139770508,t:"supermarket",n:"Supermarket",b:"land_a_generalstore_01a"},{id:1541,lat:7.3470149040222168,lng:10.6414251327514648,t:"supermarket",n:"Supermarket",b:"land_a_generalstore_01a"},{id:1542,lat:3.1502974033355713,lng:11.2529659271240234,t:"supermarket",n:"Supermarket",b:"land_a_generalstore_01a"},{id:1543,lat:6.2022795677185059,lng:12.0306358337402344,t:"supermarket",n:"Supermarket",b:"land_a_generalstore_01a"},{id:1544,lat:12.6182756423950195,lng:7.0968880653381348,t:"industrial",n:"",b:"land_a_buildingwip"},{id:1545,lat:7.8809881210327148,lng:11.4614772796630859,t:"industrial",n:"",b:"land_a_buildingwip"},{id:1546,lat:6.4395651817321777,lng:3.8064332008361816,t:"residential",n:"",b:"land_a_office01"},{id:1547,lat:13.0028514862060547,lng:10.4812927246093750,t:"residential",n:"",b:"land_a_office01"},{id:1548,lat:5.7691516876220703,lng:12.7422342300415039,t:"residential",n:"",b:"land_a_office01"},{id:1549,lat:13.1567468643188477,lng:5.8554959297180176,t:"fuel",n:"Fuel Pump",b:"land_a_fuelstation_shed"},{id:1550,lat:12.3588743209838867,lng:6.6941485404968262,t:"fuel",n:"Fuel Pump",b:"land_a_fuelstation_shed"},{id:1551,lat:13.3641939163208008,lng:9.5168437957763672,t:"fuel",n:"Fuel Pump",b:"land_a_fuelstation_shed"},{id:1552,lat:8.7524919509887695,lng:13.3661346435546875,t:"fuel",n:"Fuel Pump",b:"land_a_fuelstation_shed"},{id:1553,lat:6.4794425964355469,lng:10.4406023025512695,t:"fuel",n:"Fuel Pump",b:"land_a_fuelstation_shed"},{id:1554,lat:4.6230587959289551,lng:4.0842194557189941,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1555,lat:6.3801517486572266,lng:3.6551413536071777,t:"fuel",n:"Fuel Pump",b:"land_a_fuelstation_shed"},{id:1556,lat:7.6673855781555176,lng:3.1356377601623535,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1557,lat:9.7436275482177734,lng:2.6941485404968262,t:"fuel",n:"Fuel Pump",b:"land_a_fuelstation_shed"},{id:1558,lat:13.1585206985473633,lng:1.8359924554824829,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1559,lat:8.9758968353271484,lng:4.7260632514953613,t:"fuel",n:"Fuel Pump",b:"land_a_fuelstation_shed"},{id:1560,lat:7.5982370376586914,lng:6.9264183044433594,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1561,lat:10.0485916137695312,lng:10.1533689498901367,t:"fuel",n:"Fuel Pump",b:"land_a_fuelstation_shed"},{id:1562,lat:3.6975276470184326,lng:4.0221624374389648,t:"atv",n:"ATV",b:"atv_cz_ep1"},{id:1563,lat:4.6248321533203125,lng:4.2118787765502930,t:"helicopter",n:"Helicopter",b:"uh1h_tk_gue_ep1"},{id:1564,lat:2.7223505973815918,lng:12.0292549133300781,t:"helicopter",n:"Helicopter",b:"uh1h_tk_gue_ep1"},{id:1565,lat:2.7258968353271484,lng:12.1391839981079102,t:"uaz",n:"UAZ",b:"uaz_cdf"},{id:1566,lat:3.2347607612609863,lng:13.2774820327758789,t:"uaz",n:"UAZ",b:"uaz_cdf"},{id:1567,lat:6.6248326301574707,lng:3.7579784393310547,t:"bus",n:"Bus",b:"ikarus"},{id:1568,lat:6.4581656455993652,lng:9.6923751831054688,t:"car",n:"GAZ",b:"volha_1_tk_civ_ep1"},{id:1569,lat:6.4741234779357910,lng:10.4246454238891602,t:"car",n:"GAZ",b:"volha_1_tk_civ_ep1"},{id:1570,lat:7.3269600868225098,lng:10.6462764739990234,t:"bus",n:"Bus",b:"ikarus"},{id:1571,lat:6.2347617149353027,lng:11.9379434585571289,t:"motorcycle",n:"Motorcycle",b:"tt650_gue"},{id:1572,lat:8.7179174423217773,lng:11.3209218978881836,t:"truck",n:"Offroad Pickup Truck",b:"hilux1_civil_3_open"},{id:1573,lat:10.9014282226562500,lng:12.8377656936645508,t:"car",n:"Skoda",b:"skoda"},{id:1574,lat:11.0858259201049805,lng:11.2517728805541992,t:"helicopter",n:"Helicopter",b:"uh1h_tk_gue_ep1"},{id:1575,lat:12.8748331069946289,lng:10.8297872543334961,t:"car",n:"GAZ",b:"volha_1_tk_civ_ep1"},{id:1576,lat:13.3535556793212891,lng:10.1258859634399414,t:"vehicle",n:"Sedan",b:"volha_1_tk_civ_ep1"},{id:1577,lat:12.4625988006591797,lng:8.0372333526611328,t:"car",n:"GAZ",b:"volha_1_tk_civ_ep1"},{id:1578,lat:11.8801517486572266,lng:7.8191485404968262,t:"truck",n:"Offroad Pickup Truck",b:"hilux1_civil_3_open"},{id:1579,lat:12.8579883575439453,lng:6.8289003372192383,t:"uaz",n:"UAZ",b:"uaz_cdf"},{id:1580,lat:12.5902585983276367,lng:6.4051413536071777,t:"helicopter",n:"Helicopter",b:"uh1h_tk_gue_ep1"},{id:1581,lat:10.8278474807739258,lng:4.5647158622741699,t:"bus",n:"Bus",b:"ikarus"},{id:1582,lat:10.2977056503295898,lng:2.5700349807739258,t:"car",n:"GAZ",b:"volha_1_tk_civ_ep1"},{id:1583,lat:9.3899040222167969,lng:3.7260634899139404,t:"uaz",n:"UAZ",b:"uaz_cdf"},{id:1584,lat:9.3571023941040039,lng:3.7606379985809326,t:"atv",n:"ATV",b:"atv_cz_ep1"},{id:1585,lat:9.3978824615478516,lng:2.6710989475250244,t:"vehicle",n:"Bus",b:"ikarus"},{id:1586,lat:2.9179077148437500,lng:1.9416666030883789,t:"bigtruck",n:"Ural Civilian",b:"ural_tk_civ_ep1"},{id:1587,lat:6.5567374229431152,lng:9.4113473892211914,t:"bigtruck",n:"Ural Civilian",b:"ural_tk_civ_ep1"},{id:1588,lat:5.3554964065551758,lng:2.7650709152221680,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1589,lat:5.4051418304443359,lng:2.8306736946105957,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1590,lat:5.6356382369995117,lng:2.8909573554992676,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1591,lat:6.1285462379455566,lng:3.1001772880554199,t:"fuel",n:"Fuel tanks",b:"fueltanks"},{id:1592,lat:6.4033689498901367,lng:3.8696808815002441,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1593,lat:6.4406027793884277,lng:4.1764183044433594,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1594,lat:6.4210991859436035,lng:4.2047872543334961,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1595,lat:6.7792553901672363,lng:3.6445035934448242,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1596,lat:7.4069147109985352,lng:3.1462764739990234,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1597,lat:7.4210991859436035,lng:3.2278368473052979,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1598,lat:8.6232271194458008,lng:2.9813828468322754,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1599,lat:9.9246454238891602,lng:2.9441487789154053,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1600,lat:10.1710996627807617,lng:2.2207446098327637,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1601,lat:10.1462764739990234,lng:3.1781914234161377,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1602,lat:10.4281911849975586,lng:3.2952127456665039,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1603,lat:10.5966310501098633,lng:2.1693260669708252,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1604,lat:10.2597522735595703,lng:1.6976948976516724,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1605,lat:13.1586875915527344,lng:3.5682623386383057,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1606,lat:13.1604614257812500,lng:3.6125886440277100,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1607,lat:12.9193267822265625,lng:3.5895390510559082,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1608,lat:12.8164892196655273,lng:4.8164892196655273,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1609,lat:12.4955673217773438,lng:4.9157800674438477,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1610,lat:12.3874111175537109,lng:5.6622338294982910,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1611,lat:13.1569147109985352,lng:6.2278370857238770,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1612,lat:13.0593976974487305,lng:6.8803191184997559,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1613,lat:13.1445035934448242,lng:7.1959218978881836,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1614,lat:12.5700359344482422,lng:7.0026597976684570,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1615,lat:12.6870565414428711,lng:6.9352836608886719,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1616,lat:12.6196813583374023,lng:6.8023047447204590,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1617,lat:12.5859928131103516,lng:6.7491135597229004,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1618,lat:12.6835107803344727,lng:6.6640071868896484,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1619,lat:12.7030143737792969,lng:6.6356382369995117,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1620,lat:12.8023052215576172,lng:6.5576243400573730,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1621,lat:12.7774820327758789,lng:6.3820919990539551,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1622,lat:12.6728725433349609,lng:6.4441490173339844,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1623,lat:12.6356382369995117,lng:6.4760637283325195,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1624,lat:12.6143617630004883,lng:6.5416665077209473,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1625,lat:11.8182621002197266,lng:7.8164892196655273,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1626,lat:11.8856382369995117,lng:7.8803191184997559,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1627,lat:11.9884748458862305,lng:8.0682621002197266,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1628,lat:13.3448581695556641,lng:9.5203905105590820,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1629,lat:13.3395395278930664,lng:10.0523052215576172,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1630,lat:13.4760637283325195,lng:9.9937944412231445,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1631,lat:13.5540781021118164,lng:9.9955673217773438,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1632,lat:13.5558509826660156,lng:10.1108160018920898,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1633,lat:13.5558509826660156,lng:10.1533689498901367,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1634,lat:13.6569147109985352,lng:10.3803195953369141,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1635,lat:13.1303195953369141,lng:10.5132980346679688,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1636,lat:13.0079784393310547,lng:10.8164892196655273,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1637,lat:12.7562055587768555,lng:10.4725179672241211,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1638,lat:12.6586875915527344,lng:10.8076238632202148,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1639,lat:12.6427307128906250,lng:11.0416669845581055,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1640,lat:11.7863473892211914,lng:12.0593976974487305,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1641,lat:9.9228725433349609,lng:13.2154254913330078,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1642,lat:9.3040781021118164,lng:13.3945035934448242,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1643,lat:9.2083330154418945,lng:13.3998231887817383,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1644,lat:9.1657800674438477,lng:13.4033689498901367,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1645,lat:9.2420215606689453,lng:13.2969856262207031,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1646,lat:9.0771274566650391,lng:13.0239362716674805,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1647,lat:9.0824470520019531,lng:12.9849290847778320,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1648,lat:9.0771274566650391,lng:12.9086875915527344,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1649,lat:9.1604614257812500,lng:12.7739362716674805,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1650,lat:8.4494676589965820,lng:13.1941490173339844,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1651,lat:8.3342199325561523,lng:12.9317378997802734,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1652,lat:8.2952127456665039,lng:13.0629434585571289,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1653,lat:8.1746454238891602,lng:13.1179075241088867,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1654,lat:7.9760637283325195,lng:12.2367019653320312,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1655,lat:7.0647163391113281,lng:13.0877656936645508,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1656,lat:7.2083334922790527,lng:12.9512414932250977,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1657,lat:7.2562055587768555,lng:12.9210996627807617,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1658,lat:6.4654254913330078,lng:11.9565601348876953,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1659,lat:6.2296099662780762,lng:12.3200359344482422,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1660,lat:6.1250000000000000,lng:11.9441490173339844,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1661,lat:5.6250000000000000,lng:12.6835107803344727,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1662,lat:5.6693263053894043,lng:12.8484039306640625,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1663,lat:5.4671983718872070,lng:12.8856382369995117,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1664,lat:5.3076238632202148,lng:12.6994686126708984,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1665,lat:5.2668437957763672,lng:12.9742908477783203,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1666,lat:5.1675529479980469,lng:13.1622343063354492,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1667,lat:4.9459218978881836,lng:13.1090431213378906,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1668,lat:2.7420210838317871,lng:12.1533689498901367,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1669,lat:2.9086878299713135,lng:11.8324470520019531,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1670,lat:5.0593972206115723,lng:4.7402482032775879,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1671,lat:5.0257091522216797,lng:4.7863473892211914,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1672,lat:4.7863473892211914,lng:5.2739362716674805,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1673,lat:6.7012410163879395,lng:5.3359928131103516,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1674,lat:7.6604609489440918,lng:6.2615246772766113,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1675,lat:8.5593967437744141,lng:4.7012410163879395,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1676,lat:8.8750000000000000,lng:4.4671983718872070,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1677,lat:9.8767728805541992,lng:5.2508864402770996,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1678,lat:10.8501777648925781,lng:4.5877656936645508,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1679,lat:9.9015960693359375,lng:9.8909578323364258,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1680,lat:9.7898941040039062,lng:10.2650709152221680,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1681,lat:7.8572692871093750,lng:11.4831562042236328,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1682,lat:7.7898936271667480,lng:11.4547872543334961,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1683,lat:6.6232271194458008,lng:9.8484039306640625,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1684,lat:6.4388298988342285,lng:9.4104614257812500,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1685,lat:6.6976952552795410,lng:5.5274820327758789,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1686,lat:9.1551418304443359,lng:6.4601063728332520,t:"fuel",n:"Fuel tank",b:"fueltanks"},{id:1687,lat:13.0390071868896484,lng:8.4361705780029297,t:"boat",n:"Fishing Boat",b:"fishing_boat"},{id:1688,lat:7.1205673217773438,lng:13.1099290847778320,t:"boat",n:"Fishing Boat",b:"fishing_boat"},{id:1689,lat:6.0957446098327637,lng:12.9468088150024414,t:"boat",n:"Small Boat",b:"fishing_boat"},{id:1690,lat:11.3687944412231445,lng:7.6950354576110840,t:"helicopter",n:"Helicopter",b:"uh1h_tk_gue_ep1"},{id:1691,lat:7.5482549667358398,lng:6.3404254913330078,t:"helicopter",n:"Helicopter",b:"uh1h_tk_gue_ep1"},{id:1692,lat:10.2831840515136719,lng:1.7216311693191528,t:"truck",n:"Offroad Pickup Truck",b:"hilux1_civil_3_open"},{id:1693,lat:7.5546522140502930,lng:1.6152480840682983,t:"truck",n:"Offroad Pickup Truck",b:"hilux1_civil_3_open"},{id:1694,lat:9.2627944946289062,lng:13.2402486801147461,t:"bigtruck",n:"V3S Civilian",b:"ural_tk_civ_ep1"},{id:1695,lat:6.2115669250488281,lng:1.9654253721237183,t:"car",n:"Old Hatchback",b:"skoda"},{id:1696,lat:7.5404677391052246,lng:3.0842196941375732,t:"car",n:"Old Hatchback",b:"skoda"},{id:1697,lat:7.8080067634582520,lng:11.4911346435546875,t:"car",n:"S1203 Van",b:"s1203_tk_civ_ep1"},{id:1698,lat:11.8541059494018555,lng:12.1400709152221680,t:"car",n:"S1203 Van",b:"s1203_tk_civ_ep1"},{id:1699,lat:5.6016378402709961,lng:12.1258869171142578,t:"car",n:"S1203 Van",b:"s1203_tk_civ_ep1"},{id:1700,lat:8.7494964599609375,lng:13.3900709152221680,t:"car",n:"S1203 Van",b:"s1203_tk_civ_ep1"},{id:1701,lat:7.6643896102905273,lng:11.5514183044433594,t:"tractor",n:"Tractor",b:"tractor"},{id:1702,lat:6.4252195358276367,lng:3.8395390510559082,t:"tractor",n:"Tractor",b:"tractor"},{id:1703,lat:2.9269924163818359,lng:11.8218088150024414,t:"tractor",n:"Tractor",b:"tractor"},{id:1704,lat:7.5686450004577637,lng:6.2588653564453125,t:"bus",n:"Bus",b:"ikarus"},{id:1705,lat:13.0544605255126953,lng:10.4680852890014648,t:"bus",n:"Bus",b:"ikarus"},{id:1706,lat:12.5172271728515625,lng:6.5567374229431152,t:"bus",n:"Bus",b:"ikarus"},{id:1707,lat:13.0154533386230469,lng:5.1117019653320312,t:"car",n:"GAZ",b:"volha_1_tk_civ_ep1"},{id:1708,lat:9.8682909011840820,lng:2.9751772880554199,t:"bicycle",n:"Bicycle",b:"old_bike_tk_ins_ep1"},{id:1709,lat:9.8682909011840820,lng:3.0106382369995117,t:"bicycle",n:"Bicycle",b:"old_bike_tk_ins_ep1"},{id:1710,lat:13.3257369995117188,lng:2.9414892196655273,t:"bicycle",n:"Bicycle",b:"old_bike_tk_ins_ep1"},{id:1711,lat:12.8080072402954102,lng:3.0283687114715576,t:"bicycle",n:"Bicycle",b:"old_bike_tk_ins_ep1"},{id:1712,lat:12.0014610290527344,lng:8.0656032562255859,t:"bicycle",n:"Bicycle",b:"old_bike_tk_ins_ep1"},{id:1713,lat:12.8764610290527344,lng:8.3590421676635742,t:"bicycle",n:"Bicycle",b:"old_bike_tk_ins_ep1"},{id:1714,lat:8.1264600753784180,lng:7.9104609489440918,t:"bicycle",n:"Bicycle",b:"old_bike_tk_ins_ep1"},{id:1715,lat:8.2736234664916992,lng:8.0372343063354492,t:"bicycle",n:"Bicycle",b:"old_bike_tk_ins_ep1"},{id:1716,lat:7.3702549934387207,lng:8.5877656936645508,t:"motorcycle",n:"Motorcycle",b:"tt650_gue"},{id:1717,lat:4.3277015686035156,lng:9.1480493545532227,t:"motorcycle",n:"Motorcycle",b:"tt650_gue"},{id:1718,lat:12.4651126861572266,lng:6.5443263053894043,t:"motorcycle",n:"Motorcycle",b:"tt650_gue"},{id:1719,lat:3.9782195091247559,lng:11.4406032562255859,t:"atv",n:"ATV",b:"atv_cz_ep1"},{id:1720,lat:12.4729003906250000,lng:8.8696813583374023,t:"atv",n:"ATV",b:"atv_cz_ep1"},{id:1721,lat:12.0438222885131836,lng:7.9565601348876953,t:"car",n:"Skoda",b:"skoda"},{id:1722,lat:6.0558509826660156,lng:8.1125888824462891,t:"uaz",n:"UAZ",b:"uaz_cdf"},{id:1723,lat:12.7650709152221680,lng:4.7508864402770996,t:"uaz",n:"UAZ",b:"uaz_cdf"},{id:1724,lat:7.5863757133483887,lng:6.3404254913330078,t:"uaz",n:"UAZ",b:"uaz_cdf"},{id:1725,lat:8.1340427398681641,lng:7.9120569229125977,t:"motorcycle",n:"Motorcycle",b:"tt650_gue"},{id:1726,lat:8.2829790115356445,lng:8.0335102081298828,t:"motorcycle",n:"Motorcycle",b:"tt650_gue"},{id:1727,lat:9.1030139923095703,lng:2.1789007186889648,t:"car",n:"Old Hatchback",b:"skoda"},{id:1728,lat:9.2377662658691406,lng:6.5317378044128418,t:"car",n:"GAZ",b:"volha_1_tk_civ_ep1"},{id:1729,lat:12.2384748458862305,lng:2.7934396266937256,t:"bicycle",n:"Bicycle",b:"old_bike_tk_ins_ep1"},{id:1730,lat:12.1329784393310547,lng:13.3085107803344727,t:"helicopter",n:"Helicopter",b:"uh1h_tk_gue_ep1"},{id:1731,lat:2.5301418304443359,lng:2.1631205081939697,t:"helicopter",n:"Helicopter",b:"uh1h_tk_gue_ep1"},{id:6183,lat:8.2367019653320312,lng:13.0833330154418945,t:"bigtruck",n:"V3S Civilian",b:"ural_tk_civ_ep1"}];
+var overlayMarkers = [{
+	id: 1,
+	lat: 13.1308431625366211,
+	lng: 1.9184238910675049,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 2,
+	lat: 5.3373832702636719,
+	lng: 2.7252018451690674,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 3,
+	lat: 12.2634077072143555,
+	lng: 2.7907841205596924,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 4,
+	lat: 9.9726772308349609,
+	lng: 2.9976758956909180,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 5,
+	lat: 7.5078816413879395,
+	lng: 3.1238324642181396,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 6,
+	lat: 11.4052705764770508,
+	lng: 3.3238580226898193,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 7,
+	lat: 12.8592510223388672,
+	lng: 3.6416232585906982,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 8,
+	lat: 6.5187635421752930,
+	lng: 3.7554149627685547,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 9,
+	lat: 6.4783492088317871,
+	lng: 3.8393490314483643,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 10,
+	lat: 10.7404565811157227,
+	lng: 4.3351092338562012,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 11,
+	lat: 5.7708210945129395,
+	lng: 4.6497259140014648,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 12,
+	lat: 9.0449800491333008,
+	lng: 4.6879291534423828,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 13,
+	lat: 8.5135869979858398,
+	lng: 4.7162275314331055,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 14,
+	lat: 2.8942358493804932,
+	lng: 5.0170197486877441,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 15,
+	lat: 6.7888054847717285,
+	lng: 5.3981180191040039,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 16,
+	lat: 11.3799943923950195,
+	lng: 5.8408203125000000,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 17,
+	lat: 10.7179498672485352,
+	lng: 5.8733868598937988,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 18,
+	lat: 5.0510249137878418,
+	lng: 5.9736542701721191,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 19,
+	lat: 7.5269789695739746,
+	lng: 6.0492219924926758,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 20,
+	lat: 7.6528706550598145,
+	lng: 6.1383242607116699,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 21,
+	lat: 12.7119731903076172,
+	lng: 6.2961077690124512,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 22,
+	lat: 9.2727670669555664,
+	lng: 6.5434923171997070,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 23,
+	lat: 9.7670068740844727,
+	lng: 6.7700166702270508,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 24,
+	lat: 12.6841669082641602,
+	lng: 6.8452143669128418,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 25,
+	lat: 7.5708427429199219,
+	lng: 6.9252705574035645,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 26,
+	lat: 7.6639895439147949,
+	lng: 7.0670504570007324,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 27,
+	lat: 8.3766670227050781,
+	lng: 7.2324500083923340,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 28,
+	lat: 10.2045936584472656,
+	lng: 7.5127410888671875,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 29,
+	lat: 11.4430255889892578,
+	lng: 9.2136306762695312,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 30,
+	lat: 13.3331441879272461,
+	lng: 9.3190259933471680,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 31,
+	lat: 6.5325016975402832,
+	lng: 9.4272594451904297,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 32,
+	lat: 9.8580436706542969,
+	lng: 10.3189620971679688,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 33,
+	lat: 8.7920370101928711,
+	lng: 11.1980886459350586,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 34,
+	lat: 9.8775405883789062,
+	lng: 11.3095417022705078,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 35,
+	lat: 6.2441234588623047,
+	lng: 11.9889535903930664,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 36,
+	lat: 9.0635681152343750,
+	lng: 13.2942991256713867,
+	t: "pump",
+	n: "Water pump",
+	b: "water_pump"
+}, {
+	id: 37,
+	lat: 6.7920842170715332,
+	lng: 5.1989727020263672,
+	t: "residential",
+	n: "",
+	b: "land_church_01"
+}, {
+	id: 38,
+	lat: 12.1749505996704102,
+	lng: 6.8267121315002441,
+	t: "residential",
+	n: "",
+	b: "land_church_01"
+}, {
+	id: 39,
+	lat: 3.3943631649017334,
+	lng: 8.5314493179321289,
+	t: "residential",
+	n: "",
+	b: "land_church_01"
+}, {
+	id: 40,
+	lat: 6.5199036598205566,
+	lng: 9.4213228225708008,
+	t: "residential",
+	n: "",
+	b: "land_church_01"
+}, {
+	id: 41,
+	lat: 9.8382062911987305,
+	lng: 10.0391798019409180,
+	t: "residential",
+	n: "",
+	b: "land_church_01"
+}, {
+	id: 42,
+	lat: 3.0606100559234619,
+	lng: 11.1971893310546875,
+	t: "residential",
+	n: "",
+	b: "land_church_01"
+}, {
+	id: 43,
+	lat: 11.5726165771484375,
+	lng: 1.6721485853195190,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 44,
+	lat: 13.1783857345581055,
+	lng: 1.8059115409851074,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 45,
+	lat: 13.0857992172241211,
+	lng: 1.8740022182464600,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 46,
+	lat: 8.0535030364990234,
+	lng: 2.0133934020996094,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 47,
+	lat: 8.9401350021362305,
+	lng: 2.5093436241149902,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 48,
+	lat: 5.6730055809020996,
+	lng: 2.5386106967926025,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 49,
+	lat: 9.0520591735839844,
+	lng: 2.5844311714172363,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 50,
+	lat: 9.9133749008178711,
+	lng: 2.6661164760589600,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 51,
+	lat: 5.4207119941711426,
+	lng: 2.6703948974609375,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 52,
+	lat: 10.0905103683471680,
+	lng: 2.6946747303009033,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 53,
+	lat: 10.3107881546020508,
+	lng: 2.7127966880798340,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 54,
+	lat: 9.8806695938110352,
+	lng: 2.7142660617828369,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 55,
+	lat: 5.4114437103271484,
+	lng: 2.7867555618286133,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 56,
+	lat: 9.9786663055419922,
+	lng: 2.8542768955230713,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 57,
+	lat: 7.4461603164672852,
+	lng: 2.9752757549285889,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 58,
+	lat: 7.6262946128845215,
+	lng: 3.0081617832183838,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 59,
+	lat: 7.3674621582031250,
+	lng: 3.0097110271453857,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 60,
+	lat: 7.3057308197021484,
+	lng: 3.1948726177215576,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 61,
+	lat: 10.4562969207763672,
+	lng: 3.4305927753448486,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 62,
+	lat: 10.3963060379028320,
+	lng: 3.5122177600860596,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 63,
+	lat: 12.8442935943603516,
+	lng: 3.6687114238739014,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 64,
+	lat: 6.2808380126953125,
+	lng: 3.8151893615722656,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 65,
+	lat: 6.4328460693359375,
+	lng: 3.9135074615478516,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 66,
+	lat: 3.2577831745147705,
+	lng: 4.1726179122924805,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 67,
+	lat: 10.6271429061889648,
+	lng: 4.3605179786682129,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 68,
+	lat: 8.9728107452392578,
+	lng: 4.3913249969482422,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 69,
+	lat: 10.7804307937622070,
+	lng: 4.4172439575195312,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 70,
+	lat: 12.9587974548339844,
+	lng: 4.4557080268859863,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 71,
+	lat: 12.9270124435424805,
+	lng: 4.5100045204162598,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 72,
+	lat: 12.8478431701660156,
+	lng: 4.5392627716064453,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 73,
+	lat: 8.6055135726928711,
+	lng: 4.7873673439025879,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 74,
+	lat: 2.8840353488922119,
+	lng: 5.0668382644653320,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 75,
+	lat: 11.3968114852905273,
+	lng: 5.8444585800170898,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 76,
+	lat: 10.5750102996826172,
+	lng: 5.8567733764648438,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 77,
+	lat: 5.1571097373962402,
+	lng: 5.8982663154602051,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 78,
+	lat: 5.0150303840637207,
+	lng: 5.9341211318969727,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 79,
+	lat: 7.4794955253601074,
+	lng: 5.9647483825683594,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 80,
+	lat: 4.9929332733154297,
+	lng: 5.9841694831848145,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 81,
+	lat: 7.6252346038818359,
+	lng: 6.1608247756958008,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 82,
+	lat: 4.9881343841552734,
+	lng: 6.2121529579162598,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 83,
+	lat: 7.7929606437683105,
+	lng: 6.2820134162902832,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 84,
+	lat: 12.0726251602172852,
+	lng: 6.3390994071960449,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 85,
+	lat: 13.0402755737304688,
+	lng: 6.5054087638854980,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 86,
+	lat: 12.4275732040405273,
+	lng: 6.4905948638916016,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 87,
+	lat: 9.1951389312744141,
+	lng: 6.5053286552429199,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 88,
+	lat: 12.2512493133544922,
+	lng: 6.8375377655029297,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 89,
+	lat: 10.3392744064331055,
+	lng: 7.4756369590759277,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 90,
+	lat: 10.1778573989868164,
+	lng: 7.5220074653625488,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 91,
+	lat: 10.1358432769775391,
+	lng: 7.5595717430114746,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 92,
+	lat: 12.1581029891967773,
+	lng: 8.1452932357788086,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 93,
+	lat: 3.7455117702484131,
+	lng: 8.1970214843750000,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 94,
+	lat: 3.3241722583770752,
+	lng: 8.4816408157348633,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 95,
+	lat: 3.7769083976745605,
+	lng: 8.7948284149169922,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 96,
+	lat: 11.3927431106567383,
+	lng: 9.1973972320556641,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 97,
+	lat: 6.5182738304138184,
+	lng: 9.2890481948852539,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 98,
+	lat: 6.5337314605712891,
+	lng: 9.5296068191528320,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 99,
+	lat: 8.8378200531005859,
+	lng: 9.6270751953125000,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 100,
+	lat: 4.9792356491088867,
+	lng: 9.9805049896240234,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 101,
+	lat: 13.3038578033447266,
+	lng: 10.0372810363769531,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 102,
+	lat: 9.8852100372314453,
+	lng: 10.0771636962890625,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 103,
+	lat: 9.6435241699218750,
+	lng: 10.2612857818603516,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 104,
+	lat: 4.3653230667114258,
+	lng: 10.2900733947753906,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 105,
+	lat: 13.3453321456909180,
+	lng: 10.3240594863891602,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 106,
+	lat: 5.5698800086975098,
+	lng: 10.4469070434570312,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 107,
+	lat: 5.7090206146240234,
+	lng: 10.5306711196899414,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 108,
+	lat: 8.3789358139038086,
+	lng: 10.5843486785888672,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 109,
+	lat: 5.4018950462341309,
+	lng: 10.6077394485473633,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 110,
+	lat: 7.3862190246582031,
+	lng: 10.6483221054077148,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 111,
+	lat: 7.2482986450195312,
+	lng: 10.7563762664794922,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 112,
+	lat: 4.5146026611328125,
+	lng: 10.7629728317260742,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 113,
+	lat: 2.9168324470520020,
+	lng: 10.7580757141113281,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 114,
+	lat: 6.2384142875671387,
+	lng: 10.9497938156127930,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 115,
+	lat: 2.9118325710296631,
+	lng: 11.0328578948974609,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 116,
+	lat: 3.0027196407318115,
+	lng: 11.0781393051147461,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 117,
+	lat: 3.0900073051452637,
+	lng: 11.1068277359008789,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 118,
+	lat: 8.7530927658081055,
+	lng: 11.2165813446044922,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 119,
+	lat: 3.1678957939147949,
+	lng: 11.2063856124877930,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 120,
+	lat: 9.9678068161010742,
+	lng: 11.2343730926513672,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 121,
+	lat: 8.7877473831176758,
+	lng: 11.4982614517211914,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 122,
+	lat: 2.8736386299133301,
+	lng: 11.6033172607421875,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 123,
+	lat: 6.1826319694519043,
+	lng: 11.8830976486206055,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 124,
+	lat: 6.0476918220520020,
+	lng: 11.9028902053833008,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 125,
+	lat: 11.9011592864990234,
+	lng: 11.9562673568725586,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 126,
+	lat: 6.3699951171875000,
+	lng: 11.9673624038696289,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 127,
+	lat: 6.1897010803222656,
+	lng: 11.9453716278076172,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 128,
+	lat: 6.1836819648742676,
+	lng: 12.0524263381958008,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 129,
+	lat: 11.6675930023193359,
+	lng: 12.0615224838256836,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 130,
+	lat: 6.3512878417968750,
+	lng: 12.0870113372802734,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 131,
+	lat: 8.1368513107299805,
+	lng: 12.1174993515014648,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 132,
+	lat: 5.7922983169555664,
+	lng: 12.1459865570068359,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 133,
+	lat: 9.0876140594482422,
+	lng: 12.2176561355590820,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 134,
+	lat: 5.9263491630554199,
+	lng: 12.2254533767700195,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 135,
+	lat: 5.6811847686767578,
+	lng: 12.2659358978271484,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 136,
+	lat: 4.4667096138000488,
+	lng: 12.2537403106689453,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 137,
+	lat: 4.7529683113098145,
+	lng: 12.2968225479125977,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 138,
+	lat: 5.8160753250122070,
+	lng: 12.4684505462646484,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 139,
+	lat: 4.9271426200866699,
+	lng: 12.5103321075439453,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 140,
+	lat: 5.5147581100463867,
+	lng: 12.6908550262451172,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 141,
+	lat: 5.3987145423889160,
+	lng: 12.8214006423950195,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 142,
+	lat: 7.0511674880981445,
+	lng: 12.8896713256835938,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 143,
+	lat: 5.1861057281494141,
+	lng: 12.8807754516601562,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 144,
+	lat: 9.1055421829223633,
+	lng: 13.4430370330810547,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i1"
+}, {
+	id: 145,
+	lat: 13.1381120681762695,
+	lng: 1.7046445608139038,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 146,
+	lat: 10.2504663467407227,
+	lng: 1.7008860111236572,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 147,
+	lat: 13.1752157211303711,
+	lng: 1.8157773017883301,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 148,
+	lat: 3.3236742019653320,
+	lng: 1.8414667844772339,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 149,
+	lat: 13.1511497497558594,
+	lng: 1.9154651165008545,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 150,
+	lat: 13.0922079086303711,
+	lng: 1.9300891160964966,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 151,
+	lat: 5.7412652969360352,
+	lng: 2.5454177856445312,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 152,
+	lat: 9.6953563690185547,
+	lng: 2.6255238056182861,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 153,
+	lat: 5.4055147171020508,
+	lng: 2.6559312343597412,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 154,
+	lat: 5.8620486259460449,
+	lng: 2.7616462707519531,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 155,
+	lat: 5.4680953025817871,
+	lng: 2.7661545276641846,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 156,
+	lat: 5.4160823822021484,
+	lng: 2.7861256599426270,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 157,
+	lat: 5.3729982376098633,
+	lng: 2.8054876327514648,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 158,
+	lat: 9.9213142395019531,
+	lng: 2.9765651226043701,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 159,
+	lat: 7.6743078231811523,
+	lng: 3.0590603351593018,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 160,
+	lat: 12.9535789489746094,
+	lng: 3.5067002773284912,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 161,
+	lat: 12.8340053558349609,
+	lng: 3.5121979713439941,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 162,
+	lat: 6.3523874282836914,
+	lng: 3.6310575008392334,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 163,
+	lat: 7.2986717224121094,
+	lng: 3.6545574665069580,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 164,
+	lat: 12.9268512725830078,
+	lng: 3.6757085323333740,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 165,
+	lat: 12.7867717742919922,
+	lng: 3.7704682350158691,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 166,
+	lat: 6.2829475402832031,
+	lng: 3.8099019527435303,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 167,
+	lat: 6.5656270980834961,
+	lng: 3.8244357109069824,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 168,
+	lat: 6.2072186470031738,
+	lng: 3.8551423549652100,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 169,
+	lat: 6.5874638557434082,
+	lng: 3.9411759376525879,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 170,
+	lat: 10.6490898132324219,
+	lng: 3.9770507812500000,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 171,
+	lat: 10.7483949661254883,
+	lng: 4.1084651947021484,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 172,
+	lat: 3.2460851669311523,
+	lng: 4.1797547340393066,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 173,
+	lat: 12.4228448867797852,
+	lng: 4.3997511863708496,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 174,
+	lat: 8.9921779632568359,
+	lng: 4.4520792961120605,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 175,
+	lat: 9.0093250274658203,
+	lng: 4.5346441268920898,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 176,
+	lat: 8.5678491592407227,
+	lng: 4.7125487327575684,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 177,
+	lat: 8.5118675231933594,
+	lng: 4.7404966354370117,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 178,
+	lat: 10.2630653381347656,
+	lng: 4.7568602561950684,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 179,
+	lat: 8.5883560180664062,
+	lng: 4.7947044372558594,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 180,
+	lat: 9.6915273666381836,
+	lng: 4.8718109130859375,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 181,
+	lat: 2.7761516571044922,
+	lng: 4.9359040260314941,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 182,
+	lat: 2.8795387744903564,
+	lng: 5.0665988922119141,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 183,
+	lat: 6.7018375396728516,
+	lng: 5.3470301628112793,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 184,
+	lat: 6.5857439041137695,
+	lng: 5.3485193252563477,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 185,
+	lat: 12.6001396179199219,
+	lng: 5.7777471542358398,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 186,
+	lat: 5.1769070625305176,
+	lng: 5.8940477371215820,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 187,
+	lat: 5.2330989837646484,
+	lng: 5.9268341064453125,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 188,
+	lat: 5.0634231567382812,
+	lng: 5.9304623603820801,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 189,
+	lat: 4.1815509796142578,
+	lng: 5.9585204124450684,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 190,
+	lat: 4.9851341247558594,
+	lng: 6.0289807319641113,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 191,
+	lat: 4.8992471694946289,
+	lng: 6.0265116691589355,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 192,
+	lat: 5.0154304504394531,
+	lng: 6.0373373031616211,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 193,
+	lat: 12.0927419662475586,
+	lng: 6.3469557762145996,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 194,
+	lat: 9.2174253463745117,
+	lng: 6.4687242507934570,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 195,
+	lat: 9.3015336990356445,
+	lng: 6.5380449295043945,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 196,
+	lat: 9.3143520355224609,
+	lng: 6.5852646827697754,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 197,
+	lat: 3.9901769161224365,
+	lng: 6.9465513229370117,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 198,
+	lat: 12.2177047729492188,
+	lng: 7.0933394432067871,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 199,
+	lat: 8.3875846862792969,
+	lng: 7.2304410934448242,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 200,
+	lat: 10.3384342193603516,
+	lng: 7.4692301750183105,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 201,
+	lat: 10.2438573837280273,
+	lng: 7.4804153442382812,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 202,
+	lat: 10.1557903289794922,
+	lng: 7.5599813461303711,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 203,
+	lat: 10.2411289215087891,
+	lng: 7.5800032615661621,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 204,
+	lat: 11.9873571395874023,
+	lng: 8.0319013595581055,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 205,
+	lat: 6.0609898567199707,
+	lng: 8.0984029769897461,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 206,
+	lat: 10.3956460952758789,
+	lng: 8.3639106750488281,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 207,
+	lat: 3.2645833492279053,
+	lng: 8.4815502166748047,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 208,
+	lat: 3.4204590320587158,
+	lng: 8.5181751251220703,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 209,
+	lat: 3.6925210952758789,
+	lng: 8.7669792175292969,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 210,
+	lat: 9.8505144119262695,
+	lng: 10.1249437332153320,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 211,
+	lat: 9.8519840240478516,
+	lng: 10.3009691238403320,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 212,
+	lat: 8.7902469635009766,
+	lng: 11.1296176910400391,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 213,
+	lat: 10.0106220245361328,
+	lng: 11.2191801071166992,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 214,
+	lat: 8.7484626770019531,
+	lng: 11.2164812088012695,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 215,
+	lat: 9.8838100433349609,
+	lng: 11.2374725341796875,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 216,
+	lat: 9.9035673141479492,
+	lng: 11.2761554718017578,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 217,
+	lat: 8.7962665557861328,
+	lng: 11.2785549163818359,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 218,
+	lat: 8.8233728408813477,
+	lng: 11.3023443222045898,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 219,
+	lat: 2.8144450187683105,
+	lng: 11.3322315216064453,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 220,
+	lat: 8.7396144866943359,
+	lng: 11.5294485092163086,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 221,
+	lat: 6.1268901824951172,
+	lng: 11.8397169113159180,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 222,
+	lat: 6.2648706436157227,
+	lng: 11.8895950317382812,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 223,
+	lat: 11.9056081771850586,
+	lng: 11.9611654281616211,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 224,
+	lat: 6.3992009162902832,
+	lng: 12.0226392745971680,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 225,
+	lat: 6.8355484008789062,
+	lng: 12.2798299789428711,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 226,
+	lat: 9.7930631637573242,
+	lng: 12.3006210327148438,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 227,
+	lat: 5.8874645233154297,
+	lng: 12.6177864074707031,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 228,
+	lat: 5.9575147628784180,
+	lng: 12.6939544677734375,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 229,
+	lat: 5.9016027450561523,
+	lng: 12.6937551498413086,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 230,
+	lat: 9.2093763351440430,
+	lng: 12.7346372604370117,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 231,
+	lat: 5.3539810180664062,
+	lng: 12.8146038055419922,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 232,
+	lat: 8.3759965896606445,
+	lng: 12.8993673324584961,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 233,
+	lat: 7.2443194389343262,
+	lng: 12.9466476440429688,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 234,
+	lat: 12.1120586395263672,
+	lng: 13.3199892044067383,
+	t: "residential",
+	n: "",
+	b: "land_kbud"
+}, {
+	id: 235,
+	lat: 10.0260992050170898,
+	lng: 1.3757333755493164,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 236,
+	lat: 11.4947776794433594,
+	lng: 1.6463395357131958,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 237,
+	lat: 2.2564270496368408,
+	lng: 1.6557952165603638,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 238,
+	lat: 11.4623727798461914,
+	lng: 1.7067832946777344,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 239,
+	lat: 11.3595275878906250,
+	lng: 1.7035450935363770,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 240,
+	lat: 11.6727018356323242,
+	lng: 1.7180685997009277,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 241,
+	lat: 13.1339921951293945,
+	lng: 1.7578318119049072,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 242,
+	lat: 10.2903919219970703,
+	lng: 1.7489062547683716,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 243,
+	lat: 7.8598709106445312,
+	lng: 1.8885165452957153,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 244,
+	lat: 13.0764312744140625,
+	lng: 1.9061985015869141,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 245,
+	lat: 7.9502778053283691,
+	lng: 1.9576865434646606,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 246,
+	lat: 7.9913620948791504,
+	lng: 2.0075361728668213,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 247,
+	lat: 8.0407552719116211,
+	lng: 2.0834035873413086,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 248,
+	lat: 12.4448814392089844,
+	lng: 2.1268353462219238,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 249,
+	lat: 9.0980930328369141,
+	lng: 2.1969361305236816,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 250,
+	lat: 4.1174597740173340,
+	lng: 2.2418165206909180,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 251,
+	lat: 10.0044822692871094,
+	lng: 2.2782311439514160,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 252,
+	lat: 8.9546537399291992,
+	lng: 2.5084531307220459,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 253,
+	lat: 7.2332711219787598,
+	lng: 2.5104627609252930,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 254,
+	lat: 10.3387336730957031,
+	lng: 2.5694475173950195,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 255,
+	lat: 10.0961790084838867,
+	lng: 2.7433941364288330,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 256,
+	lat: 5.4539470672607422,
+	lng: 2.7753603458404541,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 257,
+	lat: 5.3369841575622559,
+	lng: 2.7710924148559570,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 258,
+	lat: 10.1116065979003906,
+	lng: 2.7958316802978516,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 259,
+	lat: 10.6371917724609375,
+	lng: 2.8663320541381836,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 260,
+	lat: 6.1098523139953613,
+	lng: 2.8660717010498047,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 261,
+	lat: 10.0769624710083008,
+	lng: 2.9124422073364258,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 262,
+	lat: 7.6286039352416992,
+	lng: 2.9378912448883057,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 263,
+	lat: 9.8034009933471680,
+	lng: 2.9625408649444580,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 264,
+	lat: 9.9768962860107422,
+	lng: 2.9988856315612793,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 265,
+	lat: 7.6389226913452148,
+	lng: 3.0113303661346436,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 266,
+	lat: 7.5391874313354492,
+	lng: 3.0138192176818848,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 267,
+	lat: 7.4345316886901855,
+	lng: 3.0792117118835449,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 268,
+	lat: 7.5305385589599609,
+	lng: 3.1195442676544189,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 269,
+	lat: 6.5151643753051758,
+	lng: 3.0997226238250732,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 270,
+	lat: 7.5008125305175781,
+	lng: 3.1424448490142822,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 271,
+	lat: 7.3632822036743164,
+	lng: 3.1563088893890381,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 272,
+	lat: 7.2580971717834473,
+	lng: 3.2099258899688721,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 273,
+	lat: 7.2493886947631836,
+	lng: 3.2171630859375000,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 274,
+	lat: 10.4749155044555664,
+	lng: 3.3118031024932861,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 275,
+	lat: 11.4389257431030273,
+	lng: 3.3541748523712158,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 276,
+	lat: 8.0313768386840820,
+	lng: 3.5168859958648682,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 277,
+	lat: 6.4047803878784180,
+	lng: 3.7144124507904053,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 278,
+	lat: 12.8926973342895508,
+	lng: 3.7218992710113525,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 279,
+	lat: 6.6267385482788086,
+	lng: 3.8136401176452637,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 280,
+	lat: 6.1963200569152832,
+	lng: 3.8511743545532227,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 281,
+	lat: 3.2251873016357422,
+	lng: 3.8442273139953613,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 282,
+	lat: 6.4711208343505859,
+	lng: 3.8732244968414307,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 283,
+	lat: 11.7754774093627930,
+	lng: 3.9131078720092773,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 284,
+	lat: 6.2393441200256348,
+	lng: 4.0794177055358887,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 285,
+	lat: 5.5139884948730469,
+	lng: 4.0762987136840820,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 286,
+	lat: 11.4910984039306641,
+	lng: 4.3373579978942871,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 287,
+	lat: 12.8914766311645508,
+	lng: 4.3728327751159668,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 288,
+	lat: 10.6253824234008789,
+	lng: 4.3736824989318848,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 289,
+	lat: 12.9275922775268555,
+	lng: 4.4412240982055664,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 290,
+	lat: 12.8780593872070312,
+	lng: 4.4951109886169434,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 291,
+	lat: 10.7390766143798828,
+	lng: 4.5076456069946289,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 292,
+	lat: 8.8789939880371094,
+	lng: 4.5061769485473633,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 293,
+	lat: 11.9542722702026367,
+	lng: 4.5366630554199219,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 294,
+	lat: 12.7981204986572266,
+	lng: 4.5684399604797363,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 295,
+	lat: 10.6671867370605469,
+	lng: 4.7260332107543945,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 296,
+	lat: 8.5302648544311523,
+	lng: 4.7562603950500488,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 297,
+	lat: 2.9011330604553223,
+	lng: 4.9880919456481934,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 298,
+	lat: 6.7961735725402832,
+	lng: 5.2777495384216309,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 299,
+	lat: 4.2705378532409668,
+	lng: 5.2674131393432617,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 300,
+	lat: 6.7764868736267090,
+	lng: 5.2865056991577148,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 301,
+	lat: 4.7848639488220215,
+	lng: 5.2954716682434082,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 302,
+	lat: 6.9774179458618164,
+	lng: 5.4376311302185059,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 303,
+	lat: 4.8328566551208496,
+	lng: 5.7206616401672363,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 304,
+	lat: 11.2919979095458984,
+	lng: 5.7730493545532227,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 305,
+	lat: 11.3963022232055664,
+	lng: 5.8243379592895508,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 306,
+	lat: 10.5885276794433594,
+	lng: 5.8481569290161133,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 307,
+	lat: 3.9324855804443359,
+	lng: 5.8689684867858887,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 308,
+	lat: 10.7707118988037109,
+	lng: 5.8880705833435059,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 309,
+	lat: 10.6924829483032227,
+	lng: 5.8908090591430664,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 310,
+	lat: 5.2843909263610840,
+	lng: 5.8980364799499512,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 311,
+	lat: 5.0029320716857910,
+	lng: 5.9300522804260254,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 312,
+	lat: 7.5867605209350586,
+	lng: 6.0152964591979980,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 313,
+	lat: 7.4162850379943848,
+	lng: 6.0370874404907227,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 314,
+	lat: 7.7055230140686035,
+	lng: 6.1535878181457520,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 315,
+	lat: 7.7492070198059082,
+	lng: 6.2317848205566406,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 316,
+	lat: 13.2304677963256836,
+	lng: 6.2631616592407227,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 317,
+	lat: 12.0754938125610352,
+	lng: 6.3259744644165039,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 318,
+	lat: 13.0272474288940430,
+	lng: 6.3983139991760254,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 319,
+	lat: 9.2868757247924805,
+	lng: 6.5865941047668457,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 320,
+	lat: 12.4958438873291016,
+	lng: 6.6715879440307617,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 321,
+	lat: 12.2301921844482422,
+	lng: 6.7803621292114258,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 322,
+	lat: 12.8074693679809570,
+	lng: 6.8140778541564941,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 323,
+	lat: 12.2648067474365234,
+	lng: 6.8604183197021484,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 324,
+	lat: 12.2080554962158203,
+	lng: 6.8518619537353516,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 325,
+	lat: 4.0093746185302734,
+	lng: 6.9418334960937500,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 326,
+	lat: 7.6341233253479004,
+	lng: 7.2149577140808105,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 327,
+	lat: 12.5363779067993164,
+	lng: 7.3665032386779785,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 328,
+	lat: 10.2322397232055664,
+	lng: 7.5272650718688965,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 329,
+	lat: 10.1580209732055664,
+	lng: 7.5561528205871582,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 330,
+	lat: 11.9044294357299805,
+	lng: 7.7076492309570312,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 331,
+	lat: 10.2596158981323242,
+	lng: 7.8530073165893555,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 332,
+	lat: 3.9857776165008545,
+	lng: 7.8570656776428223,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 333,
+	lat: 12.1152887344360352,
+	lng: 7.9360218048095703,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 334,
+	lat: 9.9187049865722656,
+	lng: 7.9882497787475586,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 335,
+	lat: 12.0362997055053711,
+	lng: 8.1051797866821289,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 336,
+	lat: 3.7274158000946045,
+	lng: 8.2167625427246094,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 337,
+	lat: 10.3966464996337891,
+	lng: 8.3175802230834961,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 338,
+	lat: 10.3975858688354492,
+	lng: 8.4209966659545898,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 339,
+	lat: 8.7366952896118164,
+	lng: 8.4517927169799805,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 340,
+	lat: 3.2792794704437256,
+	lng: 8.5035915374755859,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 341,
+	lat: 8.7377643585205078,
+	lng: 8.5251216888427734,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 342,
+	lat: 3.4106609821319580,
+	lng: 8.5345287322998047,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 343,
+	lat: 3.6328289508819580,
+	lng: 8.7556447982788086,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 344,
+	lat: 7.3266878128051758,
+	lng: 9.1053161621093750,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 345,
+	lat: 11.2777595520019531,
+	lng: 9.1298055648803711,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 346,
+	lat: 11.5047855377197266,
+	lng: 9.1564846038818359,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 347,
+	lat: 3.4362571239471436,
+	lng: 9.1720170974731445,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 348,
+	lat: 6.5535087585449219,
+	lng: 9.3094797134399414,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 349,
+	lat: 11.1702842712402344,
+	lng: 9.4720306396484375,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 350,
+	lat: 9.3529157638549805,
+	lng: 9.5328044891357422,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 351,
+	lat: 9.3529262542724609,
+	lng: 9.5328245162963867,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 352,
+	lat: 6.4561228752136230,
+	lng: 9.5352039337158203,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 353,
+	lat: 8.7888469696044922,
+	lng: 9.5655813217163086,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 354,
+	lat: 6.5012464523315430,
+	lng: 9.5520362854003906,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 355,
+	lat: 13.3829364776611328,
+	lng: 9.5749969482421875,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 356,
+	lat: 8.7707996368408203,
+	lng: 9.5883216857910156,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 357,
+	lat: 8.7557220458984375,
+	lng: 9.6067237854003906,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 358,
+	lat: 4.9047465324401855,
+	lng: 9.6154203414916992,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 359,
+	lat: 13.1044864654541016,
+	lng: 9.8025197982788086,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 360,
+	lat: 13.4127721786499023,
+	lng: 10.0059938430786133,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 361,
+	lat: 13.2601242065429688,
+	lng: 10.0092926025390625,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 362,
+	lat: 13.4648046493530273,
+	lng: 10.0773639678955078,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 363,
+	lat: 5.5585112571716309,
+	lng: 10.2104072570800781,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 364,
+	lat: 5.5237269401550293,
+	lng: 10.2286996841430664,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 365,
+	lat: 13.3117265701293945,
+	lng: 10.2327985763549805,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 366,
+	lat: 13.0692205429077148,
+	lng: 10.2641849517822266,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 367,
+	lat: 5.8228340148925781,
+	lng: 10.2961721420288086,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 368,
+	lat: 12.9179840087890625,
+	lng: 10.4294147491455078,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 369,
+	lat: 13.0999765396118164,
+	lng: 10.5053825378417969,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 370,
+	lat: 13.1105852127075195,
+	lng: 10.5808496475219727,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 371,
+	lat: 7.5600543022155762,
+	lng: 10.5719547271728516,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 372,
+	lat: 5.7188291549682617,
+	lng: 10.5853481292724609,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 373,
+	lat: 13.2596940994262695,
+	lng: 10.6186351776123047,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 374,
+	lat: 7.4887247085571289,
+	lng: 10.6027412414550781,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 375,
+	lat: 5.4121332168579102,
+	lng: 10.6133365631103516,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 376,
+	lat: 13.0140800476074219,
+	lng: 10.6390256881713867,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 377,
+	lat: 12.9712648391723633,
+	lng: 10.6399250030517578,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 378,
+	lat: 7.2258820533752441,
+	lng: 10.6250314712524414,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 379,
+	lat: 2.9071345329284668,
+	lng: 10.7118949890136719,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 380,
+	lat: 2.9585261344909668,
+	lng: 10.7751674652099609,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 381,
+	lat: 12.8483638763427734,
+	lng: 10.8322439193725586,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 382,
+	lat: 2.8897352218627930,
+	lng: 11.0010728836059570,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 383,
+	lat: 1.9914633035659790,
+	lng: 11.0008726119995117,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 384,
+	lat: 2.9726240634918213,
+	lng: 11.0587472915649414,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 385,
+	lat: 3.1042046546936035,
+	lng: 11.0997304916381836,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 386,
+	lat: 3.0756101608276367,
+	lng: 11.1132249832153320,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 387,
+	lat: 8.7821187973022461,
+	lng: 11.1318168640136719,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 388,
+	lat: 3.3890647888183594,
+	lng: 11.1384134292602539,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 389,
+	lat: 3.1646966934204102,
+	lng: 11.1527080535888672,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 390,
+	lat: 9.9566593170166016,
+	lng: 11.2063856124877930,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 391,
+	lat: 3.1168034076690674,
+	lng: 11.2755556106567383,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 392,
+	lat: 2.7820522785186768,
+	lng: 11.3324317932128906,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 393,
+	lat: 10.3264961242675781,
+	lng: 11.5215520858764648,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 394,
+	lat: 2.9358291625976562,
+	lng: 11.5268487930297852,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 395,
+	lat: 2.9956221580505371,
+	lng: 11.5783271789550781,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 396,
+	lat: 2.9039335250854492,
+	lng: 11.5833253860473633,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 397,
+	lat: 2.8608407974243164,
+	lng: 11.6126127243041992,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 398,
+	lat: 6.3131933212280273,
+	lng: 11.7322626113891602,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 399,
+	lat: 6.3332605361938477,
+	lng: 11.8303213119506836,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 400,
+	lat: 6.2032890319824219,
+	lng: 11.8544101715087891,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 401,
+	lat: 6.1058635711669922,
+	lng: 11.8507118225097656,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 402,
+	lat: 3.3429706096649170,
+	lng: 11.9305782318115234,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 403,
+	lat: 6.2674899101257324,
+	lng: 11.9789581298828125,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 404,
+	lat: 8.1156644821166992,
+	lng: 12.0082454681396484,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 405,
+	lat: 11.8307495117187500,
+	lng: 12.0871124267578125,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 406,
+	lat: 11.6997289657592773,
+	lng: 12.0778160095214844,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 407,
+	lat: 6.3160829544067383,
+	lng: 12.0696191787719727,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 408,
+	lat: 11.7832660675048828,
+	lng: 12.1052045822143555,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 409,
+	lat: 6.2344245910644531,
+	lng: 12.1172990798950195,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 410,
+	lat: 5.8963737487792969,
+	lng: 12.1227960586547852,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 411,
+	lat: 11.8948602676391602,
+	lng: 12.1613798141479492,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 412,
+	lat: 5.9263987541198730,
+	lng: 12.1675767898559570,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 413,
+	lat: 5.6855835914611816,
+	lng: 12.1653785705566406,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 414,
+	lat: 11.8249702453613281,
+	lng: 12.2167568206787109,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 415,
+	lat: 6.2453432083129883,
+	lng: 12.2282524108886719,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 416,
+	lat: 9.0654973983764648,
+	lng: 12.2603387832641602,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 417,
+	lat: 6.1882410049438477,
+	lng: 12.2663354873657227,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 418,
+	lat: 5.7025513648986816,
+	lng: 12.2426462173461914,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 419,
+	lat: 4.7275714874267578,
+	lng: 12.2606382369995117,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 420,
+	lat: 9.0873746871948242,
+	lng: 12.2823295593261719,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 421,
+	lat: 6.8614149093627930,
+	lng: 12.2888259887695312,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 422,
+	lat: 5.8617186546325684,
+	lng: 12.2879266738891602,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 423,
+	lat: 5.7097101211547852,
+	lng: 12.2953233718872070,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 424,
+	lat: 6.3232216835021973,
+	lng: 12.3260107040405273,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 425,
+	lat: 5.7856893539428711,
+	lng: 12.3270101547241211,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 426,
+	lat: 9.1046018600463867,
+	lng: 12.3416032791137695,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 427,
+	lat: 5.7446351051330566,
+	lng: 12.3388042449951172,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 428,
+	lat: 4.5205011367797852,
+	lng: 12.3321084976196289,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 429,
+	lat: 5.8519902229309082,
+	lng: 12.3645944595336914,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 430,
+	lat: 5.7512745857238770,
+	lng: 12.3762884140014648,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 431,
+	lat: 4.5452976226806641,
+	lng: 12.3810873031616211,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 432,
+	lat: 5.8452906608581543,
+	lng: 12.3976793289184570,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 433,
+	lat: 5.6382603645324707,
+	lng: 12.4181709289550781,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 434,
+	lat: 5.7906985282897949,
+	lng: 12.6487731933593750,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 435,
+	lat: 5.8967638015747070,
+	lng: 12.6594686508178711,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 436,
+	lat: 7.2552981376647949,
+	lng: 12.7261409759521484,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 437,
+	lat: 5.5415844917297363,
+	lng: 12.7825164794921875,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 438,
+	lat: 5.3013887405395508,
+	lng: 12.7924127578735352,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 439,
+	lat: 10.8716373443603516,
+	lng: 12.8199014663696289,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 440,
+	lat: 7.2294316291809082,
+	lng: 12.8392925262451172,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 441,
+	lat: 5.3291850090026855,
+	lng: 12.8403921127319336,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 442,
+	lat: 5.8009266853332520,
+	lng: 12.8826742172241211,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 443,
+	lat: 5.1811060905456543,
+	lng: 12.8942699432373047,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 444,
+	lat: 8.5691289901733398,
+	lng: 12.9279546737670898,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 445,
+	lat: 5.2338991165161133,
+	lng: 12.9184598922729492,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 446,
+	lat: 8.6217918395996094,
+	lng: 12.9623403549194336,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 447,
+	lat: 7.3457350730895996,
+	lng: 12.9858312606811523,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 448,
+	lat: 7.1747698783874512,
+	lng: 12.9929275512695312,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 449,
+	lat: 8.3744068145751953,
+	lng: 13.0331106185913086,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 450,
+	lat: 12.1139488220214844,
+	lng: 13.3102931976318359,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 451,
+	lat: 9.1434259414672852,
+	lng: 13.3280849456787109,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 452,
+	lat: 9.1492547988891602,
+	lng: 13.3729667663574219,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 453,
+	lat: 9.0545892715454102,
+	lng: 13.3493776321411133,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 454,
+	lat: 9.0548686981201172,
+	lng: 13.3965568542480469,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 455,
+	lat: 8.9827194213867188,
+	lng: 13.4201459884643555,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 456,
+	lat: 9.0323324203491211,
+	lng: 13.4531326293945312,
+	t: "industrial",
+	n: "",
+	b: "land_shed_w01"
+}, {
+	id: 457,
+	lat: 11.3662071228027344,
+	lng: 1.6582442522048950,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 458,
+	lat: 11.6124210357666016,
+	lng: 1.6865121126174927,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 459,
+	lat: 13.1297426223754883,
+	lng: 1.7322523593902588,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 460,
+	lat: 13.1590681076049805,
+	lng: 1.8237738609313965,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 461,
+	lat: 3.3243734836578369,
+	lng: 1.8526713848114014,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 462,
+	lat: 13.0994672775268555,
+	lng: 1.8867373466491699,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 463,
+	lat: 8.0059995651245117,
+	lng: 1.9857147932052612,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 464,
+	lat: 13.0967683792114258,
+	lng: 2.0252385139465332,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 465,
+	lat: 8.1111249923706055,
+	lng: 2.0240097045898438,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 466,
+	lat: 8.9611921310424805,
+	lng: 2.5117321014404297,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 467,
+	lat: 5.7201886177062988,
+	lng: 2.5007572174072266,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 468,
+	lat: 10.3486223220825195,
+	lng: 2.5837213993072510,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 469,
+	lat: 10.5148887634277344,
+	lng: 2.6221356391906738,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 470,
+	lat: 9.6678905487060547,
+	lng: 2.6175470352172852,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 471,
+	lat: 5.3976054191589355,
+	lng: 2.6847987174987793,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 472,
+	lat: 10.1638994216918945,
+	lng: 2.7128667831420898,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 473,
+	lat: 5.2896904945373535,
+	lng: 2.7063198089599609,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 474,
+	lat: 5.5133981704711914,
+	lng: 2.7625555992126465,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 475,
+	lat: 5.3931560516357422,
+	lng: 2.7733213901519775,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 476,
+	lat: 10.1620197296142578,
+	lng: 2.8043580055236816,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 477,
+	lat: 6.0038580894470215,
+	lng: 2.8711698055267334,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 478,
+	lat: 5.5865383148193359,
+	lng: 2.8702600002288818,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 479,
+	lat: 10.0910892486572266,
+	lng: 2.9121825695037842,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 480,
+	lat: 9.7998313903808594,
+	lng: 2.9817328453063965,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 481,
+	lat: 7.4447703361511230,
+	lng: 2.9796438217163086,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 482,
+	lat: 7.5746817588806152,
+	lng: 3.0494544506072998,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 483,
+	lat: 7.4571890830993652,
+	lng: 3.0436463356018066,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 484,
+	lat: 3.5353443622589111,
+	lng: 3.0341308116912842,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 485,
+	lat: 7.5725321769714355,
+	lng: 3.0838396549224854,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 486,
+	lat: 7.5042424201965332,
+	lng: 3.1290204524993896,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 487,
+	lat: 7.3106899261474609,
+	lng: 3.1985211372375488,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 488,
+	lat: 7.2341208457946777,
+	lng: 3.2191922664642334,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 489,
+	lat: 4.0982623100280762,
+	lng: 3.2645230293273926,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 490,
+	lat: 11.3952722549438477,
+	lng: 3.3124725818634033,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 491,
+	lat: 10.4641857147216797,
+	lng: 3.3291356563568115,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 492,
+	lat: 10.4050054550170898,
+	lng: 3.3595128059387207,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 493,
+	lat: 10.4516983032226562,
+	lng: 3.3674292564392090,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 494,
+	lat: 12.8016099929809570,
+	lng: 3.5586881637573242,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 495,
+	lat: 12.8842086791992188,
+	lng: 3.6296679973602295,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 496,
+	lat: 7.3082804679870605,
+	lng: 3.6309077739715576,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 497,
+	lat: 6.3489079475402832,
+	lng: 3.6208317279815674,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 498,
+	lat: 12.9559574127197266,
+	lng: 3.6467506885528564,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 499,
+	lat: 6.4178786277770996,
+	lng: 3.7133028507232666,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 500,
+	lat: 6.3107643127441406,
+	lng: 3.8036043643951416,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 501,
+	lat: 6.4912376403808594,
+	lng: 3.8504345417022705,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 502,
+	lat: 6.4529538154602051,
+	lng: 3.8952758312225342,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 503,
+	lat: 12.4188451766967773,
+	lng: 4.4087572097778320,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 504,
+	lat: 10.7370071411132812,
+	lng: 4.3888463973999023,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 505,
+	lat: 9.7022361755371094,
+	lng: 4.4049692153930664,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 506,
+	lat: 11.3913536071777344,
+	lng: 4.4260001182556152,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 507,
+	lat: 12.9314508438110352,
+	lng: 4.4627046585083008,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 508,
+	lat: 11.4513139724731445,
+	lng: 4.4654140472412109,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 509,
+	lat: 8.8987216949462891,
+	lng: 4.4590563774108887,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 510,
+	lat: 12.9404907226562500,
+	lng: 4.4911026954650879,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 511,
+	lat: 8.9621419906616211,
+	lng: 4.4905629158020020,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 512,
+	lat: 5.4817337989807129,
+	lng: 4.5332846641540527,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 513,
+	lat: 12.8126678466796875,
+	lng: 4.5641322135925293,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 514,
+	lat: 4.7386689186096191,
+	lng: 4.5877819061279297,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 515,
+	lat: 12.6320142745971680,
+	lng: 4.6079635620117188,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 516,
+	lat: 8.5185260772705078,
+	lng: 4.6506252288818359,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 517,
+	lat: 5.7843494415283203,
+	lng: 4.6380701065063477,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 518,
+	lat: 10.6740970611572266,
+	lng: 4.6786231994628906,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 519,
+	lat: 8.5166769027709961,
+	lng: 4.7612380981445312,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 520,
+	lat: 8.6024646759033203,
+	lng: 4.7842283248901367,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 521,
+	lat: 12.5400075912475586,
+	lng: 4.9050574302673340,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 522,
+	lat: 9.7723960876464844,
+	lng: 4.9176120758056641,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 523,
+	lat: 2.7729535102844238,
+	lng: 4.9486784934997559,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 524,
+	lat: 9.7632465362548828,
+	lng: 4.9643521308898926,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 525,
+	lat: 2.8856360912322998,
+	lng: 5.0150704383850098,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 526,
+	lat: 11.1967611312866211,
+	lng: 5.7488994598388672,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 527,
+	lat: 11.3832740783691406,
+	lng: 5.8314943313598633,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 528,
+	lat: 10.6691865921020508,
+	lng: 5.8430094718933105,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 529,
+	lat: 10.6962022781372070,
+	lng: 5.8784446716308594,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 530,
+	lat: 5.1163163185119629,
+	lng: 5.8814635276794434,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 531,
+	lat: 10.6649580001831055,
+	lng: 5.8962764739990234,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 532,
+	lat: 5.1989040374755859,
+	lng: 5.9622087478637695,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 533,
+	lat: 5.0624232292175293,
+	lng: 5.9438967704772949,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 534,
+	lat: 4.9862341880798340,
+	lng: 5.9711251258850098,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 535,
+	lat: 10.4634466171264648,
+	lng: 6.0913739204406738,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 536,
+	lat: 5.0085315704345703,
+	lng: 6.2019872665405273,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 537,
+	lat: 12.7066240310668945,
+	lng: 6.3074927330017090,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 538,
+	lat: 12.7205915451049805,
+	lng: 6.3342413902282715,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 539,
+	lat: 12.1876192092895508,
+	lng: 6.4180855751037598,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 540,
+	lat: 9.2467412948608398,
+	lng: 6.5308876037597656,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 541,
+	lat: 9.3159513473510742,
+	lng: 6.5694813728332520,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 542,
+	lat: 12.4718570709228516,
+	lng: 6.6243581771850586,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 543,
+	lat: 12.2978124618530273,
+	lng: 6.8696641921997070,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 544,
+	lat: 12.2156944274902344,
+	lng: 7.0328850746154785,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 545,
+	lat: 7.6459217071533203,
+	lng: 7.1069836616516113,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 546,
+	lat: 7.6040978431701660,
+	lng: 7.0876016616821289,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 547,
+	lat: 7.6935749053955078,
+	lng: 7.1491856575012207,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 548,
+	lat: 8.3780965805053711,
+	lng: 7.2216649055480957,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 549,
+	lat: 12.5758028030395508,
+	lng: 7.2826089859008789,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 550,
+	lat: 10.2539463043212891,
+	lng: 7.5280051231384277,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 551,
+	lat: 10.1967945098876953,
+	lng: 7.5293846130371094,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 552,
+	lat: 10.1213064193725586,
+	lng: 7.5413393974304199,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 553,
+	lat: 10.2586660385131836,
+	lng: 7.5650796890258789,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 554,
+	lat: 10.1123762130737305,
+	lng: 7.7080984115600586,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 555,
+	lat: 12.1148891448974609,
+	lng: 7.9498367309570312,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 556,
+	lat: 12.0708551406860352,
+	lng: 8.0659570693969727,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 557,
+	lat: 12.1475238800048828,
+	lng: 8.1164951324462891,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 558,
+	lat: 6.0655789375305176,
+	lng: 8.1063394546508789,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 559,
+	lat: 3.7547111511230469,
+	lng: 8.1239023208618164,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 560,
+	lat: 8.6731433868408203,
+	lng: 8.3950681686401367,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 561,
+	lat: 8.7043790817260742,
+	lng: 8.4246654510498047,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 562,
+	lat: 8.7059793472290039,
+	lng: 8.4484243392944336,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 563,
+	lat: 3.3139736652374268,
+	lng: 8.5191144943237305,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 564,
+	lat: 8.7317457199096680,
+	lng: 8.5412750244140625,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 565,
+	lat: 11.5929241180419922,
+	lng: 9.1431808471679688,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 566,
+	lat: 11.4178895950317383,
+	lng: 9.2188777923583984,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 567,
+	lat: 6.5207834243774414,
+	lng: 9.2571315765380859,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 568,
+	lat: 9.8878498077392578,
+	lng: 10.0967559814453125,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 569,
+	lat: 13.1683673858642578,
+	lng: 10.1174468994140625,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 570,
+	lat: 13.1982936859130859,
+	lng: 10.1769218444824219,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 571,
+	lat: 11.5412616729736328,
+	lng: 10.2969703674316406,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 572,
+	lat: 12.9247522354125977,
+	lng: 10.4208183288574219,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 573,
+	lat: 12.9364604949951172,
+	lng: 10.4590024948120117,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 574,
+	lat: 13.2513551712036133,
+	lng: 10.4965858459472656,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 575,
+	lat: 13.1703271865844727,
+	lng: 10.4860906600952148,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 576,
+	lat: 7.2529683113098145,
+	lng: 10.5520629882812500,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 577,
+	lat: 13.2702131271362305,
+	lng: 10.5870475769042969,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 578,
+	lat: 13.0986967086791992,
+	lng: 10.5794506072998047,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 579,
+	lat: 7.4758062362670898,
+	lng: 10.5750532150268555,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 580,
+	lat: 13.0710020065307617,
+	lng: 10.6034412384033203,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 581,
+	lat: 12.9446897506713867,
+	lng: 10.6037406921386719,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 582,
+	lat: 7.4233937263488770,
+	lng: 10.6135368347167969,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 583,
+	lat: 13.0300674438476562,
+	lng: 10.6627159118652344,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 584,
+	lat: 2.9335308074951172,
+	lng: 10.7000999450683594,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 585,
+	lat: 10.0411767959594727,
+	lng: 10.7214908599853516,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 586,
+	lat: 7.3685216903686523,
+	lng: 10.7314863204956055,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 587,
+	lat: 2.9245302677154541,
+	lng: 10.9637880325317383,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 588,
+	lat: 2.8525421619415283,
+	lng: 11.0288600921630859,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 589,
+	lat: 8.8103342056274414,
+	lng: 11.1162233352661133,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 590,
+	lat: 8.7797889709472656,
+	lng: 11.1777973175048828,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 591,
+	lat: 3.1654953956604004,
+	lng: 11.1791963577270508,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 592,
+	lat: 9.9760770797729492,
+	lng: 11.1964893341064453,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 593,
+	lat: 9.9495706558227539,
+	lng: 11.2375717163085938,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 594,
+	lat: 3.1209018230438232,
+	lng: 11.2724571228027344,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 595,
+	lat: 9.8598127365112305,
+	lng: 11.3077421188354492,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 596,
+	lat: 8.8191833496093750,
+	lng: 11.2880506515502930,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 597,
+	lat: 3.1677956581115723,
+	lng: 11.7693462371826172,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 598,
+	lat: 6.1407485008239746,
+	lng: 11.8559103012084961,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 599,
+	lat: 3.3405723571777344,
+	lng: 11.9424734115600586,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 600,
+	lat: 11.8989200592041016,
+	lng: 12.0061454772949219,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 601,
+	lat: 11.8565959930419922,
+	lng: 12.0021476745605469,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 602,
+	lat: 11.7540102005004883,
+	lng: 12.0591230392456055,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 603,
+	lat: 6.2326650619506836,
+	lng: 12.0331344604492188,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 604,
+	lat: 11.7184257507324219,
+	lng: 12.0797147750854492,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 605,
+	lat: 11.6966495513916016,
+	lng: 12.0724182128906250,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 606,
+	lat: 9.0776958465576172,
+	lng: 12.0780153274536133,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 607,
+	lat: 11.8498668670654297,
+	lng: 12.1025047302246094,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 608,
+	lat: 6.9562711715698242,
+	lng: 12.1058034896850586,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 609,
+	lat: 11.8486671447753906,
+	lng: 12.1256961822509766,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 610,
+	lat: 9.0747356414794922,
+	lng: 12.1746749877929688,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 611,
+	lat: 9.1054019927978516,
+	lng: 12.2614383697509766,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 612,
+	lat: 5.6815743446350098,
+	lng: 12.2476444244384766,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 613,
+	lat: 5.8657679557800293,
+	lng: 12.3046197891235352,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 614,
+	lat: 5.8337221145629883,
+	lng: 12.3568973541259766,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 615,
+	lat: 5.8354721069335938,
+	lng: 12.3934822082519531,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 616,
+	lat: 5.8079662322998047,
+	lng: 12.4045772552490234,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 617,
+	lat: 5.8496599197387695,
+	lng: 12.4518566131591797,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 618,
+	lat: 5.8941841125488281,
+	lng: 12.6389780044555664,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 619,
+	lat: 5.3670291900634766,
+	lng: 12.7585277557373047,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 620,
+	lat: 10.8864355087280273,
+	lng: 12.8341951370239258,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 621,
+	lat: 5.7828898429870605,
+	lng: 12.8116044998168945,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 622,
+	lat: 5.4772439002990723,
+	lng: 12.8121042251586914,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 623,
+	lat: 5.3836669921875000,
+	lng: 12.8296957015991211,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 624,
+	lat: 5.1757068634033203,
+	lng: 12.8666810989379883,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 625,
+	lat: 9.7105846405029297,
+	lng: 12.9057645797729492,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 626,
+	lat: 5.7433652877807617,
+	lng: 12.9172601699829102,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 627,
+	lat: 7.3425054550170898,
+	lng: 12.9638404846191406,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 628,
+	lat: 8.3789062500000000,
+	lng: 13.2297277450561523,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 629,
+	lat: 9.0863847732543945,
+	lng: 13.2954988479614258,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 630,
+	lat: 9.1233587265014648,
+	lng: 13.3336839675903320,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 631,
+	lat: 9.0814056396484375,
+	lng: 13.3269853591918945,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 632,
+	lat: 9.0576286315917969,
+	lng: 13.3285856246948242,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 633,
+	lat: 9.1312074661254883,
+	lng: 13.3530750274658203,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 634,
+	lat: 9.9016666412353516,
+	lng: 13.3949565887451172,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 635,
+	lat: 9.3856315612792969,
+	lng: 13.3970565795898438,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 636,
+	lat: 9.1039419174194336,
+	lng: 13.4022541046142578,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 637,
+	lat: 9.0536890029907227,
+	lng: 13.4178476333618164,
+	t: "residential",
+	n: "",
+	b: "land_psi_bouda"
+}, {
+	id: 638,
+	lat: 7.5796413421630859,
+	lng: 6.3514938354492188,
+	t: "military",
+	n: "",
+	b: "camp"
+}, {
+	id: 639,
+	lat: 7.5746121406555176,
+	lng: 6.3160591125488281,
+	t: "military",
+	n: "",
+	b: "camp"
+}, {
+	id: 640,
+	lat: 7.5689029693603516,
+	lng: 6.3333020210266113,
+	t: "military",
+	n: "",
+	b: "camp"
+}, {
+	id: 641,
+	lat: 7.5666332244873047,
+	lng: 6.3048439025878906,
+	t: "military",
+	n: "",
+	b: "camp"
+}, {
+	id: 642,
+	lat: 7.5857505798339844,
+	lng: 6.3332414627075195,
+	t: "military",
+	n: "",
+	b: "camp"
+}, {
+	id: 643,
+	lat: 7.5783514976501465,
+	lng: 6.3215966224670410,
+	t: "military",
+	n: "",
+	b: "camp"
+}, {
+	id: 644,
+	lat: 7.5760321617126465,
+	lng: 6.3452663421630859,
+	t: "military",
+	n: "",
+	b: "camp"
+}, {
+	id: 645,
+	lat: 7.5652031898498535,
+	lng: 6.3271541595458984,
+	t: "military",
+	n: "",
+	b: "camp"
+}, {
+	id: 646,
+	lat: 7.5705223083496094,
+	lng: 6.3104710578918457,
+	t: "military",
+	n: "",
+	b: "camp"
+}, {
+	id: 647,
+	lat: 7.5722723007202148,
+	lng: 6.3391590118408203,
+	t: "military",
+	n: "",
+	b: "camp"
+}, {
+	id: 648,
+	lat: 7.5615239143371582,
+	lng: 6.3209772109985352,
+	t: "military",
+	n: "",
+	b: "camp"
+}, {
+	id: 649,
+	lat: 7.5820708274841309,
+	lng: 6.3273639678955078,
+	t: "military",
+	n: "",
+	b: "camp"
+}, {
+	id: 650,
+	lat: 7.5576944351196289,
+	lng: 6.3148994445800781,
+	t: "military",
+	n: "",
+	b: "camp"
+}, {
+	id: 651,
+	lat: 5.6287922859191895,
+	lng: 12.2125587463378906,
+	t: "military",
+	n: "",
+	b: "campeast"
+}, {
+	id: 652,
+	lat: 5.6388807296752930,
+	lng: 12.2726325988769531,
+	t: "military",
+	n: "",
+	b: "campeast"
+}, {
+	id: 653,
+	lat: 5.6054854393005371,
+	lng: 12.2203550338745117,
+	t: "military",
+	n: "",
+	b: "campeast"
+}, {
+	id: 654,
+	lat: 5.6106543540954590,
+	lng: 12.2487440109252930,
+	t: "military",
+	n: "",
+	b: "campeast"
+}, {
+	id: 655,
+	lat: 7.5525054931640625,
+	lng: 6.3076725006103516,
+	t: "military",
+	n: "",
+	b: "campeast"
+}, {
+	id: 656,
+	lat: 7.5622835159301758,
+	lng: 6.2970871925354004,
+	t: "military",
+	n: "",
+	b: "campeast"
+}, {
+	id: 657,
+	lat: 12.5550756454467773,
+	lng: 6.5549173355102539,
+	t: "residential",
+	n: "",
+	b: "land_a_office02"
+}, {
+	id: 658,
+	lat: 12.8363752365112305,
+	lng: 7.0378031730651855,
+	t: "residential",
+	n: "",
+	b: "land_a_office02"
+}, {
+	id: 659,
+	lat: 13.5298852920532227,
+	lng: 10.0290842056274414,
+	t: "residential",
+	n: "",
+	b: "land_a_office02"
+}, {
+	id: 660,
+	lat: 10.0941991806030273,
+	lng: 2.7816877365112305,
+	t: "residential",
+	n: "",
+	b: "land_houseblock_a1_1"
+}, {
+	id: 661,
+	lat: 10.0265197753906250,
+	lng: 2.7812378406524658,
+	t: "residential",
+	n: "",
+	b: "land_houseblock_a1_1"
+}, {
+	id: 662,
+	lat: 6.5452499389648438,
+	lng: 3.7986564636230469,
+	t: "residential",
+	n: "",
+	b: "land_houseblock_a1_1"
+}, {
+	id: 663,
+	lat: 6.5161743164062500,
+	lng: 3.7818534374237061,
+	t: "residential",
+	n: "",
+	b: "land_houseblock_a1_1"
+}, {
+	id: 664,
+	lat: 6.4700107574462891,
+	lng: 3.8293635845184326,
+	t: "residential",
+	n: "",
+	b: "land_houseblock_a1_1"
+}, {
+	id: 665,
+	lat: 13.3931951522827148,
+	lng: 10.0225868225097656,
+	t: "residential",
+	n: "",
+	b: "land_houseblock_a1_1"
+}, {
+	id: 666,
+	lat: 13.4818725585937500,
+	lng: 10.1059513092041016,
+	t: "residential",
+	n: "",
+	b: "land_houseblock_a1_1"
+}, {
+	id: 667,
+	lat: 13.4106731414794922,
+	lng: 10.1079502105712891,
+	t: "residential",
+	n: "",
+	b: "land_houseblock_a1_1"
+}, {
+	id: 668,
+	lat: 13.0271072387695312,
+	lng: 10.4255161285400391,
+	t: "residential",
+	n: "",
+	b: "land_houseblock_a1_1"
+}, {
+	id: 669,
+	lat: 6.2294754981994629,
+	lng: 11.9975500106811523,
+	t: "residential",
+	n: "",
+	b: "land_houseblock_a1_1"
+}, {
+	id: 670,
+	lat: 6.2810082435607910,
+	lng: 12.0819139480590820,
+	t: "residential",
+	n: "",
+	b: "land_houseblock_a1_1"
+}, {
+	id: 671,
+	lat: 11.5120449066162109,
+	lng: 1.6602931022644043,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 672,
+	lat: 7.3562636375427246,
+	lng: 3.0831501483917236,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 673,
+	lat: 12.8789691925048828,
+	lng: 3.6093766689300537,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 674,
+	lat: 12.8689403533935547,
+	lng: 3.6411633491516113,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 675,
+	lat: 6.3747949600219727,
+	lng: 3.7739272117614746,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 676,
+	lat: 6.4531636238098145,
+	lng: 3.8422877788543701,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 677,
+	lat: 6.3946418762207031,
+	lng: 4.0549774169921875,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 678,
+	lat: 6.7531905174255371,
+	lng: 5.2832865715026855,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 679,
+	lat: 7.4362721443176270,
+	lng: 5.9502544403076172,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 680,
+	lat: 12.1377258300781250,
+	lng: 6.3802418708801270,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 681,
+	lat: 12.1101789474487305,
+	lng: 6.3617997169494629,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 682,
+	lat: 13.0202493667602539,
+	lng: 6.5808563232421875,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 683,
+	lat: 12.4956436157226562,
+	lng: 6.6499171257019043,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 684,
+	lat: 12.7701854705810547,
+	lng: 6.7888784408569336,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 685,
+	lat: 12.8125581741333008,
+	lng: 6.9468917846679688,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 686,
+	lat: 6.5643372535705566,
+	lng: 9.4342365264892578,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 687,
+	lat: 13.5130376815795898,
+	lng: 9.9144229888916016,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 688,
+	lat: 13.1770362854003906,
+	lng: 10.4679985046386719,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 689,
+	lat: 12.9831037521362305,
+	lng: 10.6049404144287109,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 690,
+	lat: 3.0307164192199707,
+	lng: 11.1107263565063477,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 691,
+	lat: 6.3142628669738770,
+	lng: 11.7543525695800781,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 692,
+	lat: 6.3386201858520508,
+	lng: 11.7720451354980469,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 693,
+	lat: 5.9286990165710449,
+	lng: 12.1467866897583008,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 694,
+	lat: 4.4020180702209473,
+	lng: 12.3107175827026367,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 695,
+	lat: 5.8648281097412109,
+	lng: 12.6218852996826172,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 696,
+	lat: 5.8329629898071289,
+	lng: 12.6314811706542969,
+	t: "residential",
+	n: "",
+	b: "land_housev2_01a"
+}, {
+	id: 697,
+	lat: 8.9149494171142578,
+	lng: 2.5450780391693115,
+	t: "industrial",
+	n: "",
+	b: "land_misc_powerstation"
+}, {
+	id: 698,
+	lat: 12.8142986297607422,
+	lng: 6.6083950996398926,
+	t: "industrial",
+	n: "",
+	b: "land_misc_powerstation"
+}, {
+	id: 699,
+	lat: 12.5738019943237305,
+	lng: 6.6613025665283203,
+	t: "industrial",
+	n: "",
+	b: "land_misc_powerstation"
+}, {
+	id: 700,
+	lat: 12.6894865036010742,
+	lng: 6.7754344940185547,
+	t: "industrial",
+	n: "",
+	b: "land_misc_powerstation"
+}, {
+	id: 701,
+	lat: 12.6590204238891602,
+	lng: 7.0713787078857422,
+	t: "industrial",
+	n: "",
+	b: "land_misc_powerstation"
+}, {
+	id: 702,
+	lat: 6.5437903404235840,
+	lng: 9.2787923812866211,
+	t: "industrial",
+	n: "",
+	b: "land_misc_powerstation"
+}, {
+	id: 703,
+	lat: 13.5594606399536133,
+	lng: 10.0645694732666016,
+	t: "industrial",
+	n: "",
+	b: "land_misc_powerstation"
+}, {
+	id: 704,
+	lat: 7.8120279312133789,
+	lng: 11.4441843032836914,
+	t: "industrial",
+	n: "",
+	b: "land_misc_powerstation"
+}, {
+	id: 705,
+	lat: 9.0885343551635742,
+	lng: 12.9750347137451172,
+	t: "industrial",
+	n: "",
+	b: "land_misc_powerstation"
+}, {
+	id: 706,
+	lat: 5.5963869094848633,
+	lng: 12.9860305786132812,
+	t: "industrial",
+	n: "",
+	b: "land_misc_powerstation"
+}, {
+	id: 707,
+	lat: 9.1572942733764648,
+	lng: 13.4233446121215820,
+	t: "industrial",
+	n: "",
+	b: "land_misc_powerstation"
+}, {
+	id: 708,
+	lat: 10.6639270782470703,
+	lng: 1.6810340881347656,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 709,
+	lat: 6.3883223533630371,
+	lng: 1.6595236063003540,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 710,
+	lat: 7.4085259437561035,
+	lng: 1.7004858255386353,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 711,
+	lat: 12.1274471282958984,
+	lng: 1.7450675964355469,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 712,
+	lat: 4.3668227195739746,
+	lng: 1.8985416889190674,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 713,
+	lat: 12.3156499862670898,
+	lng: 2.0343451499938965,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 714,
+	lat: 12.7293596267700195,
+	lng: 2.1166694164276123,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 715,
+	lat: 11.0814571380615234,
+	lng: 2.2766914367675781,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 716,
+	lat: 6.8735327720642090,
+	lng: 2.2982122898101807,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 717,
+	lat: 7.6869359016418457,
+	lng: 2.4919610023498535,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 718,
+	lat: 2.8516409397125244,
+	lng: 2.5316433906555176,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 719,
+	lat: 11.7076768875122070,
+	lng: 2.9694778919219971,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 720,
+	lat: 11.5018072128295898,
+	lng: 3.0936055183410645,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 721,
+	lat: 11.7620897293090820,
+	lng: 3.2314567565917969,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 722,
+	lat: 9.0768356323242188,
+	lng: 3.2185823917388916,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 723,
+	lat: 5.1742076873779297,
+	lng: 3.4212863445281982,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 724,
+	lat: 9.1030321121215820,
+	lng: 3.6574566364288330,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 725,
+	lat: 10.9285392761230469,
+	lng: 3.8745641708374023,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 726,
+	lat: 3.2324869632720947,
+	lng: 3.9685642719268799,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 727,
+	lat: 11.4960279464721680,
+	lng: 4.0827460289001465,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 728,
+	lat: 9.3439073562622070,
+	lng: 4.0847654342651367,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 729,
+	lat: 7.3050308227539062,
+	lng: 4.3963427543640137,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 730,
+	lat: 3.6936209201812744,
+	lng: 4.5382728576660156,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 731,
+	lat: 10.7537546157836914,
+	lng: 4.8420343399047852,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 732,
+	lat: 7.2132544517517090,
+	lng: 4.8860650062561035,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 733,
+	lat: 8.9908380508422852,
+	lng: 4.9485392570495605,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 734,
+	lat: 4.7120738029479980,
+	lng: 4.9262285232543945,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 735,
+	lat: 9.0847644805908203,
+	lng: 5.0741453170776367,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 736,
+	lat: 7.9993710517883301,
+	lng: 5.3340554237365723,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 737,
+	lat: 7.4780158996582031,
+	lng: 5.4705371856689453,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 738,
+	lat: 8.7895975112915039,
+	lng: 6.3789019584655762,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 739,
+	lat: 6.8901400566101074,
+	lng: 6.4366378784179688,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 740,
+	lat: 6.9304842948913574,
+	lng: 6.6946883201599121,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 741,
+	lat: 7.3589229583740234,
+	lng: 6.8578891754150391,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 742,
+	lat: 5.4218816757202148,
+	lng: 7.0726780891418457,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 743,
+	lat: 4.6603817939758301,
+	lng: 7.2378678321838379,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 744,
+	lat: 3.5827362537384033,
+	lng: 7.6286220550537109,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 745,
+	lat: 6.6723318099975586,
+	lng: 7.6998124122619629,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 746,
+	lat: 5.6425299644470215,
+	lng: 8.2908515930175781,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 747,
+	lat: 4.6892766952514648,
+	lng: 8.3355731964111328,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 748,
+	lat: 4.8838486671447754,
+	lng: 8.8064126968383789,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 749,
+	lat: 8.9036312103271484,
+	lng: 8.8467159271240234,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 750,
+	lat: 6.7107567787170410,
+	lng: 8.8229961395263672,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 751,
+	lat: 3.6519262790679932,
+	lng: 9.7654962539672852,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 752,
+	lat: 7.0298504829406738,
+	lng: 9.9068565368652344,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 753,
+	lat: 5.7311377525329590,
+	lng: 9.9144430160522461,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 754,
+	lat: 2.8726389408111572,
+	lng: 10.4467067718505859,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 755,
+	lat: 9.5269508361816406,
+	lng: 10.7019996643066406,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 756,
+	lat: 8.1036462783813477,
+	lng: 11.2059850692749023,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 757,
+	lat: 9.7410907745361328,
+	lng: 11.2371721267700195,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 758,
+	lat: 7.3079204559326172,
+	lng: 11.3271331787109375,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 759,
+	lat: 6.1703238487243652,
+	lng: 11.3377294540405273,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 760,
+	lat: 10.2359294891357422,
+	lng: 11.4460840225219727,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 761,
+	lat: 11.6283588409423828,
+	lng: 11.6101140975952148,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 762,
+	lat: 3.9227869510650635,
+	lng: 12.2890262603759766,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 763,
+	lat: 10.2246713638305664,
+	lng: 12.7241420745849609,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 764,
+	lat: 6.0762577056884766,
+	lng: 12.4320659637451172,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 765,
+	lat: 5.9578547477722168,
+	lng: 11.8368177413940430,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 766,
+	lat: 13.1529884338378906,
+	lng: 4.9151930809020996,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 767,
+	lat: 13.1037263870239258,
+	lng: 4.8443732261657715,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 768,
+	lat: 13.0746603012084961,
+	lng: 4.8648943901062012,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 769,
+	lat: 13.1260328292846680,
+	lng: 4.9358940124511719,
+	t: "deerstand",
+	n: "Deer stand",
+	b: "land_misc_deerstand"
+}, {
+	id: 770,
+	lat: 6.2604608535766602,
+	lng: 11.8508119583129883,
+	t: "residential",
+	n: "",
+	b: "land_shed_wooden"
+}, {
+	id: 771,
+	lat: 6.3061046600341797,
+	lng: 11.9550676345825195,
+	t: "residential",
+	n: "",
+	b: "land_shed_wooden"
+}, {
+	id: 772,
+	lat: 6.2108082771301270,
+	lng: 11.9526681900024414,
+	t: "residential",
+	n: "",
+	b: "land_shed_wooden"
+}, {
+	id: 773,
+	lat: 6.3195328712463379,
+	lng: 12.0855121612548828,
+	t: "residential",
+	n: "",
+	b: "land_shed_wooden"
+}, {
+	id: 774,
+	lat: 13.1935625076293945,
+	lng: 1.7656289339065552,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 775,
+	lat: 13.1649980545043945,
+	lng: 1.8455848693847656,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 776,
+	lat: 5.4098935127258301,
+	lng: 2.7104578018188477,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 777,
+	lat: 5.4280209541320801,
+	lng: 2.7850062847137451,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 778,
+	lat: 7.7562561035156250,
+	lng: 2.7965514659881592,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 779,
+	lat: 10.3242864608764648,
+	lng: 2.8381638526916504,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 780,
+	lat: 6.9846267700195312,
+	lng: 3.4834704399108887,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 781,
+	lat: 12.8154478073120117,
+	lng: 3.6471707820892334,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 782,
+	lat: 6.3466286659240723,
+	lng: 3.8178281784057617,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 783,
+	lat: 10.6284723281860352,
+	lng: 3.9689643383026123,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 784,
+	lat: 9.3343582153320312,
+	lng: 4.4092974662780762,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 785,
+	lat: 6.0995240211486816,
+	lng: 4.4018011093139648,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 786,
+	lat: 6.8455367088317871,
+	lng: 4.5688400268554688,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 787,
+	lat: 8.6540069580078125,
+	lng: 4.7493534088134766,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 788,
+	lat: 8.5747184753417969,
+	lng: 4.7755718231201172,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 789,
+	lat: 2.8215458393096924,
+	lng: 4.9999670982360840,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 790,
+	lat: 8.0701408386230469,
+	lng: 5.5236449241638184,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 791,
+	lat: 10.5397548675537109,
+	lng: 5.8815031051635742,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 792,
+	lat: 12.6936359405517578,
+	lng: 6.9131655693054199,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 793,
+	lat: 7.8489727973937988,
+	lng: 7.1469063758850098,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 794,
+	lat: 4.7253713607788086,
+	lng: 7.1877593994140625,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 795,
+	lat: 10.2265901565551758,
+	lng: 7.5910978317260742,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 796,
+	lat: 12.0811538696289062,
+	lng: 7.9484763145446777,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 797,
+	lat: 6.0633697509765625,
+	lng: 8.0451059341430664,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 798,
+	lat: 12.1285276412963867,
+	lng: 8.1308698654174805,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 799,
+	lat: 10.4034948348999023,
+	lng: 8.3974256515502930,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 800,
+	lat: 4.8373560905456543,
+	lng: 8.3856019973754883,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 801,
+	lat: 4.3274283409118652,
+	lng: 9.1502170562744141,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 802,
+	lat: 6.5307521820068359,
+	lng: 9.7918443679809570,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 803,
+	lat: 13.2841405868530273,
+	lng: 10.4342126846313477,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 804,
+	lat: 13.1554689407348633,
+	lng: 10.5485639572143555,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 805,
+	lat: 7.3534536361694336,
+	lng: 10.5881471633911133,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 806,
+	lat: 13.0441761016845703,
+	lng: 10.6576175689697266,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 807,
+	lat: 12.9611883163452148,
+	lng: 10.6652145385742188,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 808,
+	lat: 9.9021978378295898,
+	lng: 11.2996454238891602,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 809,
+	lat: 8.7434434890747070,
+	lng: 11.4645757675170898,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 810,
+	lat: 6.2323451042175293,
+	lng: 11.8974914550781250,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 811,
+	lat: 11.9154376983642578,
+	lng: 11.9399738311767578,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 812,
+	lat: 11.8631649017333984,
+	lng: 11.9394741058349609,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 813,
+	lat: 6.2109479904174805,
+	lng: 12.0531263351440430,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 814,
+	lat: 6.2048287391662598,
+	lng: 12.0830135345458984,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 815,
+	lat: 11.7617702484130859,
+	lng: 12.0954084396362305,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 816,
+	lat: 8.1258125305175781,
+	lng: 12.1680774688720703,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 817,
+	lat: 5.6607770919799805,
+	lng: 12.1510848999023438,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 818,
+	lat: 4.7149734497070312,
+	lng: 12.3053188323974609,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 819,
+	lat: 5.8516697883605957,
+	lng: 12.6674652099609375,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 820,
+	lat: 5.8855948448181152,
+	lng: 12.6950540542602539,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 821,
+	lat: 5.5128383636474609,
+	lng: 12.7394351959228516,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 822,
+	lat: 10.9328289031982422,
+	lng: 12.8356943130493164,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 823,
+	lat: 5.7417659759521484,
+	lng: 12.9011659622192383,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 824,
+	lat: 3.8100035190582275,
+	lng: 12.9944267272949219,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 825,
+	lat: 9.0191841125488281,
+	lng: 13.4038534164428711,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 826,
+	lat: 9.1111011505126953,
+	lng: 13.4307422637939453,
+	t: "residential",
+	n: "",
+	b: "land_hut06"
+}, {
+	id: 827,
+	lat: 13.1322727203369141,
+	lng: 1.7053241729736328,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 828,
+	lat: 11.6118412017822266,
+	lng: 1.6994264125823975,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 829,
+	lat: 13.0485448837280273,
+	lng: 1.7653690576553345,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 830,
+	lat: 5.5037798881530762,
+	lng: 2.1377303600311279,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 831,
+	lat: 11.8691844940185547,
+	lng: 2.6279928684234619,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 832,
+	lat: 10.3833179473876953,
+	lng: 2.6211056709289551,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 833,
+	lat: 5.2883911132812500,
+	lng: 2.6687054634094238,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 834,
+	lat: 10.1382637023925781,
+	lng: 2.7505006790161133,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 835,
+	lat: 5.4374895095825195,
+	lng: 2.7417147159576416,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 836,
+	lat: 5.3360834121704102,
+	lng: 2.7366166114807129,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 837,
+	lat: 10.1810865402221680,
+	lng: 2.8177325725555420,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 838,
+	lat: 7.5870103836059570,
+	lng: 3.0187771320343018,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 839,
+	lat: 10.3982858657836914,
+	lng: 3.1225132942199707,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 840,
+	lat: 7.3185286521911621,
+	lng: 3.2244699001312256,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 841,
+	lat: 10.4368200302124023,
+	lng: 3.3298654556274414,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 842,
+	lat: 10.4542579650878906,
+	lng: 3.3788044452667236,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 843,
+	lat: 12.8815279006958008,
+	lng: 3.5798194408416748,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 844,
+	lat: 7.4741563796997070,
+	lng: 3.7206792831420898,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 845,
+	lat: 6.3981013298034668,
+	lng: 3.7811837196350098,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 846,
+	lat: 12.9639568328857422,
+	lng: 4.4405040740966797,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 847,
+	lat: 12.9091949462890625,
+	lng: 4.4168343544006348,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 848,
+	lat: 12.9436292648315430,
+	lng: 4.5491881370544434,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 849,
+	lat: 3.4277584552764893,
+	lng: 4.6631097793579102,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 850,
+	lat: 8.6191415786743164,
+	lng: 4.7790307998657227,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 851,
+	lat: 9.7398405075073242,
+	lng: 4.8919129371643066,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 852,
+	lat: 6.7987933158874512,
+	lng: 5.6261515617370605,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 853,
+	lat: 10.4985809326171875,
+	lng: 5.8821029663085938,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 854,
+	lat: 10.6194744110107422,
+	lng: 5.9021639823913574,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 855,
+	lat: 4.1300568580627441,
+	lng: 5.9673266410827637,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 856,
+	lat: 12.9236230850219727,
+	lng: 6.2934885025024414,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 857,
+	lat: 11.7326631546020508,
+	lng: 6.5314373970031738,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 858,
+	lat: 12.4617595672607422,
+	lng: 6.6666007041931152,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 859,
+	lat: 10.8856954574584961,
+	lng: 6.8471937179565430,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 860,
+	lat: 7.5330581665039062,
+	lng: 6.9223318099975586,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 861,
+	lat: 12.1878385543823242,
+	lng: 7.0979275703430176,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 862,
+	lat: 10.1700983047485352,
+	lng: 7.5105023384094238,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 863,
+	lat: 12.0553979873657227,
+	lng: 8.0342807769775391,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 864,
+	lat: 12.1621017456054688,
+	lng: 8.1199636459350586,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 865,
+	lat: 3.7393143177032471,
+	lng: 8.1337881088256836,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 866,
+	lat: 3.7311136722564697,
+	lng: 8.1851167678833008,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 867,
+	lat: 6.5256829261779785,
+	lng: 9.6158695220947266,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 868,
+	lat: 4.9977326393127441,
+	lng: 10.0304832458496094,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 869,
+	lat: 9.9392518997192383,
+	lng: 10.0892591476440430,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 870,
+	lat: 13.2340278625488281,
+	lng: 10.1133489608764648,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 871,
+	lat: 9.8208990097045898,
+	lng: 10.1635274887084961,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 872,
+	lat: 13.2928600311279297,
+	lng: 10.3293571472167969,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 873,
+	lat: 13.1532297134399414,
+	lng: 10.4145212173461914,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 874,
+	lat: 13.2439870834350586,
+	lng: 10.5270738601684570,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 875,
+	lat: 13.0495643615722656,
+	lng: 10.5267734527587891,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 876,
+	lat: 5.6743254661560059,
+	lng: 10.5180778503417969,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 877,
+	lat: 12.9729948043823242,
+	lng: 10.5485639572143555,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 878,
+	lat: 13.1258134841918945,
+	lng: 10.5850486755371094,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 879,
+	lat: 7.2784748077392578,
+	lng: 10.6489219665527344,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 880,
+	lat: 13.0429944992065430,
+	lng: 10.6637153625488281,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 881,
+	lat: 2.9338285923004150,
+	lng: 10.7955598831176758,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 882,
+	lat: 2.8486428260803223,
+	lng: 11.0183649063110352,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 883,
+	lat: 3.0825080871582031,
+	lng: 11.0657444000244141,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 884,
+	lat: 8.7827386856079102,
+	lng: 11.1903924942016602,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 885,
+	lat: 9.8523244857788086,
+	lng: 11.4906644821166992,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 886,
+	lat: 10.7709922790527344,
+	lng: 11.8599081039428711,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 887,
+	lat: 6.2770986557006836,
+	lng: 11.8614072799682617,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 888,
+	lat: 11.8882217407226562,
+	lng: 11.8950929641723633,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 889,
+	lat: 11.9055194854736328,
+	lng: 11.9898529052734375,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 890,
+	lat: 6.2491827011108398,
+	lng: 12.0019474029541016,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 891,
+	lat: 11.7551002502441406,
+	lng: 12.0998067855834961,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 892,
+	lat: 6.2551817893981934,
+	lng: 12.1159000396728516,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 893,
+	lat: 5.8343820571899414,
+	lng: 12.1876697540283203,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 894,
+	lat: 7.0364594459533691,
+	lng: 12.3172149658203125,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 895,
+	lat: 5.8665180206298828,
+	lng: 12.6626672744750977,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 896,
+	lat: 5.8353219032287598,
+	lng: 12.6598691940307617,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 897,
+	lat: 7.2750449180603027,
+	lng: 12.7318382263183594,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 898,
+	lat: 10.9305887222290039,
+	lng: 12.8372936248779297,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 899,
+	lat: 8.6159219741821289,
+	lng: 12.9756355285644531,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 900,
+	lat: 8.3362426757812500,
+	lng: 13.2015399932861328,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 901,
+	lat: 12.5479459762573242,
+	lng: 13.3981561660766602,
+	t: "residential",
+	n: "",
+	b: "land_kulna"
+}, {
+	id: 902,
+	lat: 12.5784616470336914,
+	lng: 6.7487654685974121,
+	t: "military",
+	n: "",
+	b: "campeast_ep1"
+}, {
+	id: 903,
+	lat: 12.5864410400390625,
+	lng: 6.7594213485717773,
+	t: "military",
+	n: "",
+	b: "campeast_ep1"
+}, {
+	id: 904,
+	lat: 3.8710956573486328,
+	lng: 6.8590488433837891,
+	t: "residential",
+	n: "",
+	b: "land_a_castle_stairs_a"
+}, {
+	id: 905,
+	lat: 3.9185881614685059,
+	lng: 6.9134554862976074,
+	t: "residential",
+	n: "",
+	b: "land_a_castle_stairs_a"
+}, {
+	id: 906,
+	lat: 11.1119537353515625,
+	lng: 11.2385721206665039,
+	t: "residential",
+	n: "",
+	b: "land_a_castle_stairs_a"
+}, {
+	id: 907,
+	lat: 9.3787517547607422,
+	lng: 3.7189698219299316,
+	t: "industrial",
+	n: "",
+	b: "land_a_tvtower_base"
+}, {
+	id: 908,
+	lat: 13.2343177795410156,
+	lng: 1.8801198005676270,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 909,
+	lat: 10.6047258377075195,
+	lng: 2.1671285629272461,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 910,
+	lat: 6.0970544815063477,
+	lng: 2.8413624763488770,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 911,
+	lat: 5.5831685066223145,
+	lng: 2.8682410717010498,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 912,
+	lat: 7.3905086517333984,
+	lng: 3.1573383808135986,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 913,
+	lat: 6.4270567893981934,
+	lng: 4.1349840164184570,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 914,
+	lat: 4.1858491897583008,
+	lng: 4.1287565231323242,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 915,
+	lat: 5.0147304534912109,
+	lng: 4.2162494659423828,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 916,
+	lat: 5.4919910430908203,
+	lng: 4.5489978790283203,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 917,
+	lat: 12.7601861953735352,
+	lng: 4.6420288085937500,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 918,
+	lat: 4.6166877746582031,
+	lng: 4.7598891258239746,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 919,
+	lat: 12.5011730194091797,
+	lng: 4.8696823120117188,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 920,
+	lat: 5.5904173851013184,
+	lng: 5.2101078033447266,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 921,
+	lat: 11.6059722900390625,
+	lng: 6.3139495849609375,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 922,
+	lat: 12.8711500167846680,
+	lng: 6.5218915939331055,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 923,
+	lat: 12.8657207489013672,
+	lng: 6.5720405578613281,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 924,
+	lat: 12.6681385040283203,
+	lng: 6.7143001556396484,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 925,
+	lat: 12.6092071533203125,
+	lng: 6.7846202850341797,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 926,
+	lat: 12.7446985244750977,
+	lng: 6.8386473655700684,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 927,
+	lat: 12.7433490753173828,
+	lng: 6.9679827690124512,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 928,
+	lat: 12.9418601989746094,
+	lng: 7.0146927833557129,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 929,
+	lat: 7.6695880889892578,
+	lng: 7.0228295326232910,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 930,
+	lat: 12.7009840011596680,
+	lng: 7.0765461921691895,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 931,
+	lat: 3.7122178077697754,
+	lng: 8.7974872589111328,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 932,
+	lat: 9.9058361053466797,
+	lng: 9.9294366836547852,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 933,
+	lat: 13.3983945846557617,
+	lng: 10.0693674087524414,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 934,
+	lat: 13.4597444534301758,
+	lng: 10.3279581069946289,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 935,
+	lat: 13.1546688079833984,
+	lng: 10.3670406341552734,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 936,
+	lat: 12.7703742980957031,
+	lng: 10.7743692398071289,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 937,
+	lat: 8.7468233108520508,
+	lng: 11.3144388198852539,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 938,
+	lat: 6.4938378334045410,
+	lng: 11.9600658416748047,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 939,
+	lat: 2.6890652179718018,
+	lng: 11.9844551086425781,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 940,
+	lat: 6.2966256141662598,
+	lng: 12.2684345245361328,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 941,
+	lat: 5.6623463630676270,
+	lng: 12.6552705764770508,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 942,
+	lat: 5.1240143775939941,
+	lng: 13.0818901062011719,
+	t: "residential",
+	n: "",
+	b: "land_hlidac_budka"
+}, {
+	id: 943,
+	lat: 11.5325927734375000,
+	lng: 1.6356236934661865,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 944,
+	lat: 13.1577882766723633,
+	lng: 1.6594434976577759,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 945,
+	lat: 11.4707012176513672,
+	lng: 1.7006065845489502,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 946,
+	lat: 13.0170488357543945,
+	lng: 1.7864596843719482,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 947,
+	lat: 7.8697795867919922,
+	lng: 1.9100271463394165,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 948,
+	lat: 8.0736503601074219,
+	lng: 1.9989498853683472,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 949,
+	lat: 8.9991168975830078,
+	lng: 2.5131516456604004,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 950,
+	lat: 9.8720312118530273,
+	lng: 2.5695576667785645,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 951,
+	lat: 10.4805040359497070,
+	lng: 2.6088509559631348,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 952,
+	lat: 10.3836879730224609,
+	lng: 2.6003446578979492,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 953,
+	lat: 10.2635946273803711,
+	lng: 2.6286728382110596,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 954,
+	lat: 10.0687427520751953,
+	lng: 2.7147660255432129,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 955,
+	lat: 9.9697580337524414,
+	lng: 2.7282702922821045,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 956,
+	lat: 10.2967109680175781,
+	lng: 2.7711820602416992,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 957,
+	lat: 5.4726943969726562,
+	lng: 2.7655646800994873,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 958,
+	lat: 9.9748163223266602,
+	lng: 2.8125045299530029,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 959,
+	lat: 5.3862771987915039,
+	lng: 2.9351427555084229,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 960,
+	lat: 7.6464018821716309,
+	lng: 2.9425897598266602,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 961,
+	lat: 7.3447947502136230,
+	lng: 3.0199768543243408,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 962,
+	lat: 7.5718221664428711,
+	lng: 3.0792117118835449,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 963,
+	lat: 7.3325567245483398,
+	lng: 3.1326787471771240,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 964,
+	lat: 11.3707456588745117,
+	lng: 3.1969516277313232,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 965,
+	lat: 10.4014654159545898,
+	lng: 3.3664298057556152,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 966,
+	lat: 12.8444938659667969,
+	lng: 3.6063482761383057,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 967,
+	lat: 6.5489392280578613,
+	lng: 3.8868489265441895,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 968,
+	lat: 10.7510251998901367,
+	lng: 4.3388075828552246,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 969,
+	lat: 12.8724498748779297,
+	lng: 4.3944334983825684,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 970,
+	lat: 12.9961824417114258,
+	lng: 4.4717812538146973,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 971,
+	lat: 8.5026884078979492,
+	lng: 4.7098698616027832,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 972,
+	lat: 6.8119015693664551,
+	lng: 5.4290652275085449,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 973,
+	lat: 11.4325571060180664,
+	lng: 5.8476471900939941,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 974,
+	lat: 10.7050619125366211,
+	lng: 5.8766455650329590,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 975,
+	lat: 7.3765206336975098,
+	lng: 5.9071526527404785,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 976,
+	lat: 5.3947653770446777,
+	lng: 5.8871607780456543,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 977,
+	lat: 4.9718365669250488,
+	lng: 5.9921159744262695,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 978,
+	lat: 5.0593237876892090,
+	lng: 6.0373868942260742,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 979,
+	lat: 7.6817369461059570,
+	lng: 6.0946125984191895,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 980,
+	lat: 13.3656482696533203,
+	lng: 6.1307272911071777,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 981,
+	lat: 7.6516008377075195,
+	lng: 6.1258492469787598,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 982,
+	lat: 7.7079730033874512,
+	lng: 6.2025971412658691,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 983,
+	lat: 12.7017145156860352,
+	lng: 6.3008551597595215,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 984,
+	lat: 13.0659017562866211,
+	lng: 6.3885784149169922,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 985,
+	lat: 12.4550189971923828,
+	lng: 6.4399566650390625,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 986,
+	lat: 11.7612199783325195,
+	lng: 6.4804191589355469,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 987,
+	lat: 9.3364486694335938,
+	lng: 6.5642933845520020,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 988,
+	lat: 9.7679662704467773,
+	lng: 6.7839202880859375,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 989,
+	lat: 12.2218542098999023,
+	lng: 6.8235135078430176,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 990,
+	lat: 12.6847076416015625,
+	lng: 6.8580689430236816,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 991,
+	lat: 12.3037919998168945,
+	lng: 6.8690042495727539,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 992,
+	lat: 7.6145863533020020,
+	lng: 7.0386323928833008,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 993,
+	lat: 7.7146019935607910,
+	lng: 7.0656113624572754,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 994,
+	lat: 7.6805267333984375,
+	lng: 7.1372609138488770,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 995,
+	lat: 10.2399988174438477,
+	lng: 7.4747276306152344,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 996,
+	lat: 10.0909194946289062,
+	lng: 7.7894744873046875,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 997,
+	lat: 12.0575962066650391,
+	lng: 8.0165977478027344,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 998,
+	lat: 3.8618962764739990,
+	lng: 8.0900764465332031,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 999,
+	lat: 8.7042493820190430,
+	lng: 8.4207763671875000,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1000,
+	lat: 3.2905771732330322,
+	lng: 8.4886674880981445,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1001,
+	lat: 3.2900776863098145,
+	lng: 8.4876384735107422,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1002,
+	lat: 3.6370275020599365,
+	lng: 8.7736463546752930,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1003,
+	lat: 11.6078615188598633,
+	lng: 9.1330442428588867,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1004,
+	lat: 11.5233335494995117,
+	lng: 9.1477680206298828,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1005,
+	lat: 13.3326644897460938,
+	lng: 9.3460044860839844,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1006,
+	lat: 6.5547189712524414,
+	lng: 9.5051965713500977,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1007,
+	lat: 8.8020648956298828,
+	lng: 9.6340017318725586,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1008,
+	lat: 6.5840148925781250,
+	lng: 9.8675127029418945,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1009,
+	lat: 4.9968328475952148,
+	lng: 10.0762643814086914,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1010,
+	lat: 13.1675977706909180,
+	lng: 10.1269435882568359,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1011,
+	lat: 13.2251291275024414,
+	lng: 10.1456346511840820,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1012,
+	lat: 9.8686923980712891,
+	lng: 10.3146629333496094,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1013,
+	lat: 5.5315356254577637,
+	lng: 10.3404521942138672,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1014,
+	lat: 12.8912477493286133,
+	lng: 10.3909311294555664,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1015,
+	lat: 13.3452911376953125,
+	lng: 10.4813919067382812,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1016,
+	lat: 13.2883901596069336,
+	lng: 10.4810924530029297,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1017,
+	lat: 2.8529415130615234,
+	lng: 10.4919881820678711,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1018,
+	lat: 13.2330179214477539,
+	lng: 10.5334701538085938,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1019,
+	lat: 13.2508153915405273,
+	lng: 10.5847482681274414,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1020,
+	lat: 5.7259879112243652,
+	lng: 10.5676565170288086,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1021,
+	lat: 13.2112312316894531,
+	lng: 10.5966444015502930,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1022,
+	lat: 7.2925024032592773,
+	lng: 10.6172351837158203,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1023,
+	lat: 12.9260816574096680,
+	lng: 10.6329278945922852,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1024,
+	lat: 7.2141537666320801,
+	lng: 10.6586179733276367,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1025,
+	lat: 7.3113698959350586,
+	lng: 10.7568750381469727,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1026,
+	lat: 2.9758231639862061,
+	lng: 10.9081115722656250,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1027,
+	lat: 3.0495145320892334,
+	lng: 10.9665870666503906,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1028,
+	lat: 2.9122309684753418,
+	lng: 11.0079689025878906,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1029,
+	lat: 3.1149029731750488,
+	lng: 11.2581634521484375,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1030,
+	lat: 9.8611927032470703,
+	lng: 11.3253345489501953,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1031,
+	lat: 8.7837181091308594,
+	lng: 11.3963050842285156,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1032,
+	lat: 2.8949353694915771,
+	lng: 11.5960197448730469,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1033,
+	lat: 6.3634562492370605,
+	lng: 11.7929363250732422,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1034,
+	lat: 6.0590600967407227,
+	lng: 11.9440727233886719,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1035,
+	lat: 11.8953809738159180,
+	lng: 12.0014486312866211,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1036,
+	lat: 11.6915693283081055,
+	lng: 12.0679206848144531,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1037,
+	lat: 8.0287570953369141,
+	lng: 12.0856122970581055,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1038,
+	lat: 5.8975529670715332,
+	lng: 12.1389894485473633,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1039,
+	lat: 11.8081932067871094,
+	lng: 12.1799726486206055,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1040,
+	lat: 8.0714302062988281,
+	lng: 12.1947660446166992,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1041,
+	lat: 9.0739164352416992,
+	lng: 12.2512416839599609,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1042,
+	lat: 4.4212164878845215,
+	lng: 12.2449445724487305,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1043,
+	lat: 6.8443169593811035,
+	lng: 12.2857275009155273,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1044,
+	lat: 4.7786645889282227,
+	lng: 12.3158149719238281,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1045,
+	lat: 4.3956198692321777,
+	lng: 12.3343067169189453,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1046,
+	lat: 5.6586575508117676,
+	lng: 12.3638944625854492,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1047,
+	lat: 5.8158149719238281,
+	lng: 12.5015363693237305,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1048,
+	lat: 10.9875011444091797,
+	lng: 12.6805601119995117,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1049,
+	lat: 7.2956118583679199,
+	lng: 12.8832740783691406,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1050,
+	lat: 5.2211003303527832,
+	lng: 12.9149608612060547,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1051,
+	lat: 8.6361093521118164,
+	lng: 12.9373521804809570,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1052,
+	lat: 8.3516807556152344,
+	lng: 13.2040386199951172,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1053,
+	lat: 9.0852947235107422,
+	lng: 13.3268861770629883,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1054,
+	lat: 9.0320520401000977,
+	lng: 13.4113512039184570,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1055,
+	lat: 8.9988975524902344,
+	lng: 13.4251451492309570,
+	t: "residential",
+	n: "",
+	b: "land_housev_1i4"
+}, {
+	id: 1056,
+	lat: 13.1578483581542969,
+	lng: 1.8883066177368164,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1057,
+	lat: 5.7239384651184082,
+	lng: 2.4880723953247070,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1058,
+	lat: 5.3737392425537109,
+	lng: 2.6643874645233154,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1059,
+	lat: 9.9011669158935547,
+	lng: 2.8471398353576660,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1060,
+	lat: 8.6398887634277344,
+	lng: 2.9937179088592529,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1061,
+	lat: 10.1535606384277344,
+	lng: 3.1749505996704102,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1062,
+	lat: 12.9342308044433594,
+	lng: 3.5927238464355469,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1063,
+	lat: 6.4812393188476562,
+	lng: 3.8712356090545654,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1064,
+	lat: 10.6646375656127930,
+	lng: 4.3455243110656738,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1065,
+	lat: 10.6451702117919922,
+	lng: 4.3347291946411133,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1066,
+	lat: 8.8785047531127930,
+	lng: 4.4890933036804199,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1067,
+	lat: 12.2250633239746094,
+	lng: 4.5453896522521973,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1068,
+	lat: 5.7763004302978516,
+	lng: 4.5929498672485352,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1069,
+	lat: 4.9031467437744141,
+	lng: 4.6449174880981445,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1070,
+	lat: 5.0128307342529297,
+	lng: 4.7455048561096191,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1071,
+	lat: 6.9098773002624512,
+	lng: 5.2938723564147949,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1072,
+	lat: 4.7791647911071777,
+	lng: 5.2914333343505859,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1073,
+	lat: 11.6950082778930664,
+	lng: 5.3610739707946777,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1074,
+	lat: 6.6718115806579590,
+	lng: 5.5303325653076172,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1075,
+	lat: 12.0838127136230469,
+	lng: 5.7341356277465820,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1076,
+	lat: 12.6738185882568359,
+	lng: 6.5222015380859375,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1077,
+	lat: 12.7810029983520508,
+	lng: 6.6965079307556152,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1078,
+	lat: 13.0064105987548828,
+	lng: 6.7892584800720215,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1079,
+	lat: 12.6499023437500000,
+	lng: 7.0174312591552734,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1080,
+	lat: 13.1884641647338867,
+	lng: 7.1127915382385254,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1081,
+	lat: 10.2126617431640625,
+	lng: 7.5877299308776855,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1082,
+	lat: 11.8272104263305664,
+	lng: 7.8247094154357910,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1083,
+	lat: 8.1337413787841797,
+	lng: 7.9158406257629395,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1084,
+	lat: 9.8843393325805664,
+	lng: 8.3402299880981445,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1085,
+	lat: 3.4666531085968018,
+	lng: 8.5463733673095703,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1086,
+	lat: 3.8745951652526855,
+	lng: 9.4763584136962891,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1087,
+	lat: 13.3698787689208984,
+	lng: 9.4938812255859375,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1088,
+	lat: 8.1431798934936523,
+	lng: 9.5199499130249023,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1089,
+	lat: 6.0207357406616211,
+	lng: 9.7176465988159180,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1090,
+	lat: 9.8872299194335938,
+	lng: 9.8892040252685547,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1091,
+	lat: 13.4586858749389648,
+	lng: 10.1377382278442383,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1092,
+	lat: 13.3799076080322266,
+	lng: 10.1352396011352539,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1093,
+	lat: 13.3852157592773438,
+	lng: 10.2031106948852539,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1094,
+	lat: 12.4777164459228516,
+	lng: 10.2154054641723633,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1095,
+	lat: 13.7806386947631836,
+	lng: 10.2851762771606445,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1096,
+	lat: 12.7268800735473633,
+	lng: 10.4151210784912109,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1097,
+	lat: 8.3360624313354492,
+	lng: 10.5031843185424805,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1098,
+	lat: 2.5278868675231934,
+	lng: 10.5085811614990234,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1099,
+	lat: 7.2172031402587891,
+	lng: 10.7640724182128906,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1100,
+	lat: 8.7782287597656250,
+	lng: 11.2062845230102539,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1101,
+	lat: 9.9259929656982422,
+	lng: 11.2819528579711914,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1102,
+	lat: 7.9255118370056152,
+	lng: 11.4537801742553711,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1103,
+	lat: 2.9757232666015625,
+	lng: 11.8371181488037109,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1104,
+	lat: 6.2481327056884766,
+	lng: 11.8832979202270508,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1105,
+	lat: 6.4406852722167969,
+	lng: 11.9096870422363281,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1106,
+	lat: 2.4297041893005371,
+	lng: 11.9353761672973633,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1107,
+	lat: 6.3199725151062012,
+	lng: 11.9464712142944336,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1108,
+	lat: 6.1120924949645996,
+	lng: 11.9680624008178711,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1109,
+	lat: 11.9284753799438477,
+	lng: 12.0515270233154297,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1110,
+	lat: 4.7671666145324707,
+	lng: 12.2983226776123047,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1111,
+	lat: 5.8022670745849609,
+	lng: 12.6537714004516602,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1112,
+	lat: 7.2618169784545898,
+	lng: 12.9442481994628906,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1113,
+	lat: 5.2581954002380371,
+	lng: 12.9901285171508789,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1114,
+	lat: 9.0911836624145508,
+	lng: 13.0277128219604492,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1115,
+	lat: 8.2250385284423828,
+	lng: 13.0787906646728516,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1116,
+	lat: 9.2539501190185547,
+	lng: 13.2996969223022461,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1117,
+	lat: 9.2815065383911133,
+	lng: 13.3906593322753906,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_01"
+}, {
+	id: 1118,
+	lat: 11.7554903030395508,
+	lng: 1.7450774908065796,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1119,
+	lat: 10.5864782333374023,
+	lng: 2.1562728881835938,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1120,
+	lat: 10.1160860061645508,
+	lng: 2.2680451869964600,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1121,
+	lat: 5.4043340682983398,
+	lng: 2.8133344650268555,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1122,
+	lat: 6.1076731681823730,
+	lng: 3.0987632274627686,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1123,
+	lat: 13.1785860061645508,
+	lng: 3.6631736755371094,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1124,
+	lat: 6.5241627693176270,
+	lng: 3.9048514366149902,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1125,
+	lat: 6.4345359802246094,
+	lng: 4.2085928916931152,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1126,
+	lat: 10.7316179275512695,
+	lng: 4.4240808486938477,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1127,
+	lat: 12.4883852005004883,
+	lng: 4.8885645866394043,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1128,
+	lat: 5.2870912551879883,
+	lng: 5.9123601913452148,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1129,
+	lat: 13.2136011123657227,
+	lng: 6.2324347496032715,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1130,
+	lat: 7.5898199081420898,
+	lng: 6.2701983451843262,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1131,
+	lat: 12.6807270050048828,
+	lng: 6.4402461051940918,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1132,
+	lat: 12.6839065551757812,
+	lng: 6.4927740097045898,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1133,
+	lat: 7.6433024406433105,
+	lng: 7.0023880004882812,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1134,
+	lat: 12.9445791244506836,
+	lng: 7.0462794303894043,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1135,
+	lat: 8.4336786270141602,
+	lng: 7.1058139801025391,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1136,
+	lat: 12.8045902252197266,
+	lng: 7.1645789146423340,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1137,
+	lat: 3.7072179317474365,
+	lng: 8.7426795959472656,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1138,
+	lat: 6.5756354331970215,
+	lng: 9.6374902725219727,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1139,
+	lat: 13.3169565200805664,
+	lng: 9.8370952606201172,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1140,
+	lat: 6.6198291778564453,
+	lng: 9.8489408493041992,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1141,
+	lat: 9.9031276702880859,
+	lng: 9.8858947753906250,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1142,
+	lat: 13.4790229797363281,
+	lng: 9.9855031967163086,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1143,
+	lat: 9.7113151550292969,
+	lng: 10.0536746978759766,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1144,
+	lat: 13.3164157867431641,
+	lng: 10.1857175827026367,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1145,
+	lat: 11.7392635345458984,
+	lng: 10.2477922439575195,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1146,
+	lat: 5.8271036148071289,
+	lng: 10.2416944503784180,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1147,
+	lat: 13.5109376907348633,
+	lng: 10.2942724227905273,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1148,
+	lat: 13.6275110244750977,
+	lng: 10.3671417236328125,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1149,
+	lat: 12.7672843933105469,
+	lng: 10.3972282409667969,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1150,
+	lat: 12.6777877807617188,
+	lng: 10.9318017959594727,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1151,
+	lat: 7.8932962417602539,
+	lng: 11.5033597946166992,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1152,
+	lat: 6.1974902153015137,
+	lng: 11.7166681289672852,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1153,
+	lat: 2.8943345546722412,
+	lng: 11.7972345352172852,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1154,
+	lat: 6.0684685707092285,
+	lng: 11.9725599288940430,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1155,
+	lat: 5.7409553527832031,
+	lng: 12.7751197814941406,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1156,
+	lat: 5.6564178466796875,
+	lng: 12.9665384292602539,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1157,
+	lat: 7.1602616310119629,
+	lng: 13.0666961669921875,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1158,
+	lat: 5.1768069267272949,
+	lng: 13.1566572189331055,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1159,
+	lat: 9.0321826934814453,
+	lng: 13.5262012481689453,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_02"
+}, {
+	id: 1160,
+	lat: 9.3823118209838867,
+	lng: 3.6873435974121094,
+	t: "military",
+	n: "",
+	b: "land_mil_house"
+}, {
+	id: 1161,
+	lat: 4.5470972061157227,
+	lng: 4.4855451583862305,
+	t: "military",
+	n: "",
+	b: "land_mil_house"
+}, {
+	id: 1162,
+	lat: 5.7031412124633789,
+	lng: 4.6301736831665039,
+	t: "military",
+	n: "",
+	b: "land_mil_house"
+}, {
+	id: 1163,
+	lat: 5.0259289741516113,
+	lng: 4.7157478332519531,
+	t: "military",
+	n: "",
+	b: "land_mil_house"
+}, {
+	id: 1164,
+	lat: 13.0391063690185547,
+	lng: 5.1633081436157227,
+	t: "military",
+	n: "",
+	b: "land_mil_house"
+}, {
+	id: 1165,
+	lat: 10.8734378814697266,
+	lng: 4.5838236808776855,
+	t: "industrial",
+	n: "",
+	b: "land_misc_cargo1ao"
+}, {
+	id: 1166,
+	lat: 6.2245965003967285,
+	lng: 12.0303354263305664,
+	t: "industrial",
+	n: "",
+	b: "land_misc_cargo1ao"
+}, {
+	id: 1167,
+	lat: 5.2352986335754395,
+	lng: 5.9420075416564941,
+	t: "industrial",
+	n: "",
+	b: "land_misc_cargo1bo"
+}, {
+	id: 1168,
+	lat: 6.2264261245727539,
+	lng: 12.0284366607666016,
+	t: "industrial",
+	n: "",
+	b: "land_misc_cargo1bo"
+}, {
+	id: 1169,
+	lat: 13.1444005966186523,
+	lng: 2.0371234416961670,
+	t: "industrial",
+	n: "",
+	b: "land_rail_house_01"
+}, {
+	id: 1170,
+	lat: 12.9607067108154297,
+	lng: 3.6676323413848877,
+	t: "industrial",
+	n: "",
+	b: "land_rail_house_01"
+}, {
+	id: 1171,
+	lat: 13.0483646392822266,
+	lng: 4.4086179733276367,
+	t: "industrial",
+	n: "",
+	b: "land_rail_house_01"
+}, {
+	id: 1172,
+	lat: 12.0932722091674805,
+	lng: 8.0717039108276367,
+	t: "industrial",
+	n: "",
+	b: "land_rail_house_01"
+}, {
+	id: 1173,
+	lat: 11.8060235977172852,
+	lng: 11.9656629562377930,
+	t: "industrial",
+	n: "",
+	b: "land_rail_house_01"
+}, {
+	id: 1174,
+	lat: 7.3770904541015625,
+	lng: 12.9964256286621094,
+	t: "industrial",
+	n: "",
+	b: "land_rail_house_01"
+}, {
+	id: 1175,
+	lat: 8.2627229690551758,
+	lng: 13.1616554260253906,
+	t: "industrial",
+	n: "",
+	b: "land_rail_house_01"
+}, {
+	id: 1176,
+	lat: 8.6710739135742188,
+	lng: 13.2618141174316406,
+	t: "industrial",
+	n: "",
+	b: "land_rail_house_01"
+}, {
+	id: 1177,
+	lat: 9.1984176635742188,
+	lng: 13.3567733764648438,
+	t: "industrial",
+	n: "",
+	b: "land_rail_house_01"
+}, {
+	id: 1178,
+	lat: 4.5820918083190918,
+	lng: 4.5256280899047852,
+	t: "military",
+	n: "",
+	b: "land_ss_hangar"
+}, {
+	id: 1179,
+	lat: 4.6828775405883789,
+	lng: 4.5837335586547852,
+	t: "military",
+	n: "",
+	b: "land_ss_hangar"
+}, {
+	id: 1180,
+	lat: 12.7653245925903320,
+	lng: 4.7602987289428711,
+	t: "military",
+	n: "",
+	b: "land_ss_hangar"
+}, {
+	id: 1181,
+	lat: 12.7854623794555664,
+	lng: 4.7951841354370117,
+	t: "military",
+	n: "",
+	b: "land_ss_hangar"
+}, {
+	id: 1182,
+	lat: 5.1456112861633301,
+	lng: 4.8508400917053223,
+	t: "military",
+	n: "",
+	b: "land_ss_hangar"
+}, {
+	id: 1183,
+	lat: 5.1869053840637207,
+	lng: 4.8747005462646484,
+	t: "military",
+	n: "",
+	b: "land_ss_hangar"
+}, {
+	id: 1184,
+	lat: 5.2700934410095215,
+	lng: 4.9227294921875000,
+	t: "military",
+	n: "",
+	b: "land_ss_hangar"
+}, {
+	id: 1185,
+	lat: 5.2283997535705566,
+	lng: 4.8986601829528809,
+	t: "military",
+	n: "",
+	b: "land_ss_hangar"
+}, {
+	id: 1186,
+	lat: 5.3119874000549316,
+	lng: 4.9468994140625000,
+	t: "military",
+	n: "",
+	b: "land_ss_hangar"
+}, {
+	id: 1187,
+	lat: 5.3543815612792969,
+	lng: 4.9714093208312988,
+	t: "military",
+	n: "",
+	b: "land_ss_hangar"
+}, {
+	id: 1188,
+	lat: 2.7270598411560059,
+	lng: 12.0100440979003906,
+	t: "military",
+	n: "",
+	b: "land_ss_hangar"
+}, {
+	id: 1189,
+	lat: 2.7427575588226318,
+	lng: 12.0555257797241211,
+	t: "military",
+	n: "",
+	b: "land_ss_hangar"
+}, {
+	id: 1190,
+	lat: 12.8687009811401367,
+	lng: 7.0688700675964355,
+	t: "industrial",
+	n: "",
+	b: "land_wagon_box"
+}, {
+	id: 1191,
+	lat: 13.1312227249145508,
+	lng: 2.0220100879669189,
+	t: "industrial",
+	n: "",
+	b: "land_a_fuelstation_build"
+}, {
+	id: 1192,
+	lat: 9.7774057388305664,
+	lng: 2.7014515399932861,
+	t: "industrial",
+	n: "",
+	b: "land_a_fuelstation_build"
+}, {
+	id: 1193,
+	lat: 7.9012751579284668,
+	lng: 3.0094110965728760,
+	t: "industrial",
+	n: "",
+	b: "land_a_fuelstation_build"
+}, {
+	id: 1194,
+	lat: 6.3763446807861328,
+	lng: 3.6603853702545166,
+	t: "industrial",
+	n: "",
+	b: "land_a_fuelstation_build"
+}, {
+	id: 1195,
+	lat: 8.9735403060913086,
+	lng: 4.7296018600463867,
+	t: "industrial",
+	n: "",
+	b: "land_a_fuelstation_build"
+}, {
+	id: 1196,
+	lat: 13.1538991928100586,
+	lng: 5.8576531410217285,
+	t: "industrial",
+	n: "",
+	b: "land_a_fuelstation_build"
+}, {
+	id: 1197,
+	lat: 5.2539958953857422,
+	lng: 5.8590826988220215,
+	t: "industrial",
+	n: "",
+	b: "land_a_fuelstation_build"
+}, {
+	id: 1198,
+	lat: 12.3525152206420898,
+	lng: 6.6969575881958008,
+	t: "industrial",
+	n: "",
+	b: "land_a_fuelstation_build"
+}, {
+	id: 1199,
+	lat: 7.7058634757995605,
+	lng: 7.2688250541687012,
+	t: "industrial",
+	n: "",
+	b: "land_a_fuelstation_build"
+}, {
+	id: 1200,
+	lat: 13.3585996627807617,
+	lng: 9.5192804336547852,
+	t: "industrial",
+	n: "",
+	b: "land_a_fuelstation_build"
+}, {
+	id: 1201,
+	lat: 10.0440664291381836,
+	lng: 10.1556310653686523,
+	t: "industrial",
+	n: "",
+	b: "land_a_fuelstation_build"
+}, {
+	id: 1202,
+	lat: 6.4791097640991211,
+	lng: 10.4425086975097656,
+	t: "industrial",
+	n: "",
+	b: "land_a_fuelstation_build"
+}, {
+	id: 1203,
+	lat: 4.5736937522888184,
+	lng: 10.7364845275878906,
+	t: "industrial",
+	n: "",
+	b: "land_a_fuelstation_build"
+}, {
+	id: 1204,
+	lat: 5.2841916084289551,
+	lng: 12.9776344299316406,
+	t: "industrial",
+	n: "",
+	b: "land_a_fuelstation_build"
+}, {
+	id: 1205,
+	lat: 8.7491035461425781,
+	lng: 13.3682689666748047,
+	t: "industrial",
+	n: "",
+	b: "land_a_fuelstation_build"
+}, {
+	id: 1206,
+	lat: 9.9679079055786133,
+	lng: 2.9274759292602539,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1207,
+	lat: 13.1763858795166016,
+	lng: 3.6129653453826904,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1208,
+	lat: 6.7560596466064453,
+	lng: 3.6482503414154053,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1209,
+	lat: 6.4009108543395996,
+	lng: 3.8805518150329590,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1210,
+	lat: 4.5759935379028320,
+	lng: 4.4976000785827637,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1211,
+	lat: 10.8212347030639648,
+	lng: 4.5344343185424805,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1212,
+	lat: 5.0660228729248047,
+	lng: 4.7347097396850586,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1213,
+	lat: 5.0222287178039551,
+	lng: 4.7841587066650391,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1214,
+	lat: 7.6748375892639160,
+	lng: 6.1630139350891113,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1215,
+	lat: 12.9829349517822266,
+	lng: 6.4352083206176758,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1216,
+	lat: 12.8684902191162109,
+	lng: 6.5924015045166016,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1217,
+	lat: 12.4006280899047852,
+	lng: 6.6465392112731934,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1218,
+	lat: 12.6945867538452148,
+	lng: 6.7196679115295410,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1219,
+	lat: 12.5047025680541992,
+	lng: 6.7118110656738281,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1220,
+	lat: 7.5954194068908691,
+	lng: 7.0887112617492676,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1221,
+	lat: 6.5778150558471680,
+	lng: 9.4801578521728516,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1222,
+	lat: 13.5626201629638672,
+	lng: 10.0027952194213867,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1223,
+	lat: 13.5623407363891602,
+	lng: 10.0809621810913086,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1224,
+	lat: 13.4836425781250000,
+	lng: 10.1001548767089844,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1225,
+	lat: 13.2518157958984375,
+	lng: 10.2321987152099609,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1226,
+	lat: 8.0412549972534180,
+	lng: 12.2149581909179688,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1227,
+	lat: 6.2538523674011230,
+	lng: 12.3426036834716797,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1228,
+	lat: 5.6846237182617188,
+	lng: 12.6514730453491211,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1229,
+	lat: 5.6879534721374512,
+	lng: 12.8476886749267578,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1230,
+	lat: 5.3833575248718262,
+	lng: 12.8791751861572266,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1231,
+	lat: 9.0874738693237305,
+	lng: 12.9631395339965820,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1232,
+	lat: 5.5650210380554199,
+	lng: 12.9681377410888672,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1233,
+	lat: 8.3407821655273438,
+	lng: 13.1129770278930664,
+	t: "industrial",
+	n: "",
+	b: "land_ind_garage01"
+}, {
+	id: 1234,
+	lat: 3.1586980819702148,
+	lng: 4.6302542686462402,
+	t: "residential",
+	n: "",
+	b: "land_ruin_01"
+}, {
+	id: 1235,
+	lat: 9.3971900939941406,
+	lng: 8.3694181442260742,
+	t: "residential",
+	n: "",
+	b: "land_ruin_01"
+}, {
+	id: 1236,
+	lat: 9.3595752716064453,
+	lng: 8.3493862152099609,
+	t: "residential",
+	n: "",
+	b: "land_ruin_01"
+}, {
+	id: 1237,
+	lat: 9.3787326812744141,
+	lng: 8.4566917419433594,
+	t: "residential",
+	n: "",
+	b: "land_ruin_01"
+}, {
+	id: 1238,
+	lat: 7.5556445121765137,
+	lng: 1.6129428148269653,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1239,
+	lat: 9.9820451736450195,
+	lng: 2.9534149169921875,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1240,
+	lat: 7.6678085327148438,
+	lng: 3.1244623661041260,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1241,
+	lat: 10.6507091522216797,
+	lng: 3.9845974445343018,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1242,
+	lat: 12.6087684631347656,
+	lng: 5.8056249618530273,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1243,
+	lat: 7.6031780242919922,
+	lng: 7.0094251632690430,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1244,
+	lat: 10.1665792465209961,
+	lng: 7.6113901138305664,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1245,
+	lat: 8.0241374969482422,
+	lng: 8.3840217590332031,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1246,
+	lat: 6.5455803871154785,
+	lng: 9.3061408996582031,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1247,
+	lat: 6.4402050971984863,
+	lng: 9.4645442962646484,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1248,
+	lat: 6.4892182350158691,
+	lng: 9.5082750320434570,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1249,
+	lat: 6.0122170448303223,
+	lng: 9.6629295349121094,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1250,
+	lat: 6.6374568939208984,
+	lng: 9.7983026504516602,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1251,
+	lat: 2.9084324836730957,
+	lng: 9.8981199264526367,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1252,
+	lat: 9.9620084762573242,
+	lng: 10.1134490966796875,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1253,
+	lat: 7.9584765434265137,
+	lng: 10.3559455871582031,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1254,
+	lat: 11.5354318618774414,
+	lng: 11.9904527664184570,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1255,
+	lat: 6.6884093284606934,
+	lng: 12.4481592178344727,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1256,
+	lat: 5.3136873245239258,
+	lng: 12.6623678207397461,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1257,
+	lat: 2.4758949279785156,
+	lng: 12.6718635559082031,
+	t: "farm",
+	n: "",
+	b: "land_stodola_open"
+}, {
+	id: 1258,
+	lat: 9.7876939773559570,
+	lng: 6.5310878753662109,
+	t: "residential",
+	n: "",
+	b: "land_a_castle_gate"
+}, {
+	id: 1259,
+	lat: 4.0059742927551270,
+	lng: 6.9248309135437012,
+	t: "residential",
+	n: "",
+	b: "land_a_castle_gate"
+}, {
+	id: 1260,
+	lat: 11.0378141403198242,
+	lng: 11.2545652389526367,
+	t: "residential",
+	n: "",
+	b: "land_a_castle_gate"
+}, {
+	id: 1261,
+	lat: 12.8600912094116211,
+	lng: 6.8586287498474121,
+	t: "residential",
+	n: "",
+	b: "land_houseb_tenement"
+}, {
+	id: 1262,
+	lat: 10.2310800552368164,
+	lng: 2.2593991756439209,
+	t: "industrial",
+	n: "",
+	b: "land_shed_ind02"
+}, {
+	id: 1263,
+	lat: 13.2024126052856445,
+	lng: 3.5898149013519287,
+	t: "industrial",
+	n: "",
+	b: "land_shed_ind02"
+}, {
+	id: 1264,
+	lat: 6.7783164978027344,
+	lng: 3.6395041942596436,
+	t: "industrial",
+	n: "",
+	b: "land_shed_ind02"
+}, {
+	id: 1265,
+	lat: 4.9278426170349121,
+	lng: 4.6979351043701172,
+	t: "industrial",
+	n: "",
+	b: "land_shed_ind02"
+}, {
+	id: 1266,
+	lat: 12.5066127777099609,
+	lng: 4.9012088775634766,
+	t: "industrial",
+	n: "",
+	b: "land_shed_ind02"
+}, {
+	id: 1267,
+	lat: 12.9902925491333008,
+	lng: 6.9354062080383301,
+	t: "industrial",
+	n: "",
+	b: "land_shed_ind02"
+}, {
+	id: 1268,
+	lat: 13.1446905136108398,
+	lng: 7.2167968750000000,
+	t: "industrial",
+	n: "",
+	b: "land_shed_ind02"
+}, {
+	id: 1269,
+	lat: 11.8851013183593750,
+	lng: 7.8518877029418945,
+	t: "industrial",
+	n: "",
+	b: "land_shed_ind02"
+}, {
+	id: 1270,
+	lat: 12.6547517776489258,
+	lng: 10.8326435089111328,
+	t: "industrial",
+	n: "",
+	b: "land_shed_ind02"
+}, {
+	id: 1271,
+	lat: 6.2042393684387207,
+	lng: 11.6902799606323242,
+	t: "industrial",
+	n: "",
+	b: "land_shed_ind02"
+}, {
+	id: 1272,
+	lat: 5.5396347045898438,
+	lng: 12.6530714035034180,
+	t: "industrial",
+	n: "",
+	b: "land_shed_ind02"
+}, {
+	id: 1273,
+	lat: 5.7328071594238281,
+	lng: 12.7663230895996094,
+	t: "industrial",
+	n: "",
+	b: "land_shed_ind02"
+}, {
+	id: 1274,
+	lat: 9.2118072509765625,
+	lng: 13.3904590606689453,
+	t: "industrial",
+	n: "",
+	b: "land_shed_ind02"
+}, {
+	id: 1275,
+	lat: 12.6227655410766602,
+	lng: 6.7722654342651367,
+	t: "hospital",
+	n: "",
+	b: "usmc_warfarebfieldhhospital"
+}, {
+	id: 1276,
+	lat: 12.6000585556030273,
+	lng: 6.7693867683410645,
+	t: "hospital",
+	n: "",
+	b: "usmc_warfarebfieldhhospital"
+}, {
+	id: 1277,
+	lat: 10.2939901351928711,
+	lng: 1.7103122472763062,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1278,
+	lat: 9.3953304290771484,
+	lng: 2.6710646152496338,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1279,
+	lat: 9.9291534423828125,
+	lng: 2.9361820220947266,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1280,
+	lat: 8.6141023635864258,
+	lng: 2.9800934791564941,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1281,
+	lat: 7.1030597686767578,
+	lng: 3.7075550556182861,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1282,
+	lat: 6.2268757820129395,
+	lng: 4.0946207046508789,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1283,
+	lat: 8.5699386596679688,
+	lng: 4.6293039321899414,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1284,
+	lat: 4.7974624633789062,
+	lng: 5.2693929672241211,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1285,
+	lat: 6.7194948196411133,
+	lng: 5.3156332969665527,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1286,
+	lat: 6.6698722839355469,
+	lng: 5.7776975631713867,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1287,
+	lat: 11.5635671615600586,
+	lng: 6.2307953834533691,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1288,
+	lat: 9.1743917465209961,
+	lng: 6.4635763168334961,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1289,
+	lat: 7.6300339698791504,
+	lng: 6.9675426483154297,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1290,
+	lat: 12.2160434722900391,
+	lng: 7.0833935737609863,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1291,
+	lat: 12.0279607772827148,
+	lng: 8.0556411743164062,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1292,
+	lat: 3.1464989185333252,
+	lng: 8.4031639099121094,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1293,
+	lat: 6.4326162338256836,
+	lng: 9.6817016601562500,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1294,
+	lat: 13.3689479827880859,
+	lng: 9.7244434356689453,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1295,
+	lat: 6.6353573799133301,
+	lng: 9.7538614273071289,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1296,
+	lat: 5.8621788024902344,
+	lng: 10.2507905960083008,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1297,
+	lat: 7.4670071601867676,
+	lng: 10.6577177047729492,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1298,
+	lat: 3.3979637622833252,
+	lng: 11.1131248474121094,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1299,
+	lat: 2.8288447856903076,
+	lng: 11.3453264236450195,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1300,
+	lat: 8.9637517929077148,
+	lng: 11.7543525695800781,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1301,
+	lat: 6.1838421821594238,
+	lng: 12.2752323150634766,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1302,
+	lat: 6.2412838935852051,
+	lng: 12.3075180053710938,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1303,
+	lat: 5.7495541572570801,
+	lng: 12.6780614852905273,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1304,
+	lat: 5.3141870498657227,
+	lng: 12.7094478607177734,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1305,
+	lat: 8.3823261260986328,
+	lng: 12.9295539855957031,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1306,
+	lat: 9.9297733306884766,
+	lng: 13.2038383483886719,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_01"
+}, {
+	id: 1307,
+	lat: 6.7088966369628906,
+	lng: 5.3507280349731445,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_02"
+}, {
+	id: 1308,
+	lat: 11.5601682662963867,
+	lng: 9.1870222091674805,
+	t: "farm",
+	n: "",
+	b: "land_barn_w_02"
+}, {
+	id: 1309,
+	lat: 12.7663745880126953,
+	lng: 4.7211151123046875,
+	t: "atc",
+	n: "",
+	b: "land_mil_controltower"
+}, {
+	id: 1310,
+	lat: 5.1475110054016113,
+	lng: 4.7186965942382812,
+	t: "atc",
+	n: "",
+	b: "land_mil_controltower"
+}, {
+	id: 1311,
+	lat: 2.7648541927337646,
+	lng: 12.1923666000366211,
+	t: "atc",
+	n: "",
+	b: "land_mil_controltower"
+}, {
+	id: 1312,
+	lat: 10.2575263977050781,
+	lng: 1.7017357349395752,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1313,
+	lat: 9.9309625625610352,
+	lng: 2.9690382480621338,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1314,
+	lat: 7.6825661659240723,
+	lng: 3.0589900016784668,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1315,
+	lat: 6.1440682411193848,
+	lng: 3.1088688373565674,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1316,
+	lat: 8.3982439041137695,
+	lng: 3.6049485206604004,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1317,
+	lat: 6.7451715469360352,
+	lng: 5.3604741096496582,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1318,
+	lat: 10.7709922790527344,
+	lng: 5.7563161849975586,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1319,
+	lat: 5.2282996177673340,
+	lng: 5.9371194839477539,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1320,
+	lat: 11.5843753814697266,
+	lng: 6.2498869895935059,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1321,
+	lat: 7.6049575805664062,
+	lng: 6.2620120048522949,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1322,
+	lat: 7.6543803215026855,
+	lng: 6.9470810890197754,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1323,
+	lat: 10.2000236511230469,
+	lng: 7.6708841323852539,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1324,
+	lat: 4.0529680252075195,
+	lng: 7.9742860794067383,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1325,
+	lat: 11.9802980422973633,
+	lng: 8.0387382507324219,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1326,
+	lat: 3.6950190067291260,
+	lng: 8.8707056045532227,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1327,
+	lat: 6.4575123786926270,
+	lng: 9.7138681411743164,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1328,
+	lat: 9.9319229125976562,
+	lng: 9.9029779434204102,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1329,
+	lat: 5.8478307723999023,
+	lng: 10.2775793075561523,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1330,
+	lat: 2.8086478710174561,
+	lng: 11.3632183074951172,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1331,
+	lat: 7.9925217628479004,
+	lng: 12.2303504943847656,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1332,
+	lat: 6.2546916007995605,
+	lng: 12.2743320465087891,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1333,
+	lat: 8.3663778305053711,
+	lng: 12.8942699432373047,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1334,
+	lat: 7.2167735099792480,
+	lng: 12.9462471008300781,
+	t: "farm",
+	n: "",
+	b: "land_farm_cowshed_a"
+}, {
+	id: 1335,
+	lat: 7.4501299858093262,
+	lng: 3.1567788124084473,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1336,
+	lat: 4.6007890701293945,
+	lng: 4.0805468559265137,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1337,
+	lat: 4.5696949958801270,
+	lng: 4.0626149177551270,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1338,
+	lat: 13.1133956909179688,
+	lng: 4.4076380729675293,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1339,
+	lat: 12.9967117309570312,
+	lng: 5.1205158233642578,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1340,
+	lat: 12.9857530593872070,
+	lng: 5.1580996513366699,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1341,
+	lat: 12.7879610061645508,
+	lng: 6.4042315483093262,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1342,
+	lat: 12.5937795639038086,
+	lng: 6.5057587623596191,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1343,
+	lat: 12.8522529602050781,
+	lng: 6.6003985404968262,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1344,
+	lat: 12.6427536010742188,
+	lng: 6.9010410308837891,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1345,
+	lat: 13.5391731262207031,
+	lng: 10.2766790390014648,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1346,
+	lat: 13.4622755050659180,
+	lng: 10.2891740798950195,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1347,
+	lat: 2.9328310489654541,
+	lng: 11.8419160842895508,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1348,
+	lat: 11.9117183685302734,
+	lng: 12.0664205551147461,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1349,
+	lat: 5.3925461769104004,
+	lng: 12.9576425552368164,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1350,
+	lat: 5.3656001091003418,
+	lng: 13.0454053878784180,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1351,
+	lat: 5.3311843872070312,
+	lng: 13.0613985061645508,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1352,
+	lat: 5.2982897758483887,
+	lng: 13.0767917633056641,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1353,
+	lat: 9.2649383544921875,
+	lng: 13.4154481887817383,
+	t: "industrial",
+	n: "",
+	b: "land_hangar_2"
+}, {
+	id: 1354,
+	lat: 13.1035766601562500,
+	lng: 1.8963937759399414,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1355,
+	lat: 10.1793470382690430,
+	lng: 2.7420148849487305,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1356,
+	lat: 7.3756804466247559,
+	lng: 3.1073093414306641,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1357,
+	lat: 6.5297322273254395,
+	lng: 3.7734372615814209,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1358,
+	lat: 6.3754444122314453,
+	lng: 3.8420181274414062,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1359,
+	lat: 10.7320680618286133,
+	lng: 4.3985919952392578,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1360,
+	lat: 8.5549907684326172,
+	lng: 4.7900161743164062,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1361,
+	lat: 5.0126309394836426,
+	lng: 6.0090990066528320,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1362,
+	lat: 7.5521550178527832,
+	lng: 6.0808091163635254,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1363,
+	lat: 7.6380829811096191,
+	lng: 6.2371926307678223,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1364,
+	lat: 13.0863389968872070,
+	lng: 6.6014080047607422,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1365,
+	lat: 12.4167652130126953,
+	lng: 6.7036046981811523,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1366,
+	lat: 9.7863836288452148,
+	lng: 6.7643790245056152,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1367,
+	lat: 12.7305898666381836,
+	lng: 6.8162169456481934,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1368,
+	lat: 7.5523252487182617,
+	lng: 6.9258904457092285,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1369,
+	lat: 7.6570501327514648,
+	lng: 7.1967353820800781,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1370,
+	lat: 10.2452573776245117,
+	lng: 7.5006766319274902,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1371,
+	lat: 3.4445559978485107,
+	lng: 8.5428647994995117,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1372,
+	lat: 8.7988853454589844,
+	lng: 11.2173805236816406,
+	t: "residential",
+	n: "",
+	b: "land_housev2_04_interier"
+}, {
+	id: 1373,
+	lat: 13.2323884963989258,
+	lng: 1.8440752029418945,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1374,
+	lat: 10.1885156631469727,
+	lng: 2.2137486934661865,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1375,
+	lat: 5.6561679840087891,
+	lng: 2.9054853916168213,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1376,
+	lat: 7.4324626922607422,
+	lng: 3.2020595073699951,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1377,
+	lat: 13.1616678237915039,
+	lng: 3.6195523738861084,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1378,
+	lat: 6.5028958320617676,
+	lng: 3.7531356811523438,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1379,
+	lat: 4.9652380943298340,
+	lng: 4.2548227310180664,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1380,
+	lat: 4.3683238029479980,
+	lng: 4.3219251632690430,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1381,
+	lat: 8.9129095077514648,
+	lng: 4.4455823898315430,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1382,
+	lat: 8.5906753540039062,
+	lng: 4.6669983863830566,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1383,
+	lat: 4.8974475860595703,
+	lng: 4.6745648384094238,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1384,
+	lat: 12.8069791793823242,
+	lng: 4.8134260177612305,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1385,
+	lat: 11.1615562438964844,
+	lng: 5.2042803764343262,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1386,
+	lat: 9.8752403259277344,
+	lng: 5.2546987533569336,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1387,
+	lat: 11.6033926010131836,
+	lng: 6.2908997535705566,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1388,
+	lat: 12.7369184494018555,
+	lng: 6.4344186782836914,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1389,
+	lat: 12.5950498580932617,
+	lng: 6.4409260749816895,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1390,
+	lat: 12.9227228164672852,
+	lng: 6.4895553588867188,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1391,
+	lat: 12.5231704711914062,
+	lng: 6.4824986457824707,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1392,
+	lat: 12.7287998199462891,
+	lng: 6.5737996101379395,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1393,
+	lat: 12.7698545455932617,
+	lng: 6.7051539421081543,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1394,
+	lat: 7.5707025527954102,
+	lng: 6.9452023506164551,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1395,
+	lat: 13.1586494445800781,
+	lng: 7.1838607788085938,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1396,
+	lat: 10.2652454376220703,
+	lng: 7.5109720230102539,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1397,
+	lat: 12.1357860565185547,
+	lng: 7.6853380203247070,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1398,
+	lat: 10.3968362808227539,
+	lng: 9.2568521499633789,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1399,
+	lat: 6.5749659538269043,
+	lng: 9.5631217956542969,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1400,
+	lat: 13.5369043350219727,
+	lng: 10.0779638290405273,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1401,
+	lat: 13.5216264724731445,
+	lng: 10.2105073928833008,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1402,
+	lat: 13.1426410675048828,
+	lng: 10.4985847473144531,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1403,
+	lat: 12.5951499938964844,
+	lng: 10.9908761978149414,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1404,
+	lat: 7.9201722145080566,
+	lng: 11.4332885742187500,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1405,
+	lat: 3.2189886569976807,
+	lng: 11.7455568313598633,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1406,
+	lat: 6.1746134757995605,
+	lng: 12.2365484237670898,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1407,
+	lat: 5.7743511199951172,
+	lng: 12.7769193649291992,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1408,
+	lat: 8.3513402938842773,
+	lng: 13.1320686340332031,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1409,
+	lat: 4.9567389488220215,
+	lng: 13.1105785369873047,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_04"
+}, {
+	id: 1410,
+	lat: 10.2009840011596680,
+	lng: 2.2839281558990479,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1411,
+	lat: 5.4170126914978027,
+	lng: 2.8285977840423584,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1412,
+	lat: 7.5618538856506348,
+	lng: 3.1394457817077637,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1413,
+	lat: 6.7878651618957520,
+	lng: 3.6916918754577637,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1414,
+	lat: 5.7812500000000000,
+	lng: 4.6068334579467773,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1415,
+	lat: 4.8976469039916992,
+	lng: 4.6932773590087891,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1416,
+	lat: 13.2364177703857422,
+	lng: 6.2474980354309082,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1417,
+	lat: 7.6705384254455566,
+	lng: 6.2993059158325195,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1418,
+	lat: 12.8395452499389648,
+	lng: 6.4911046028137207,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1419,
+	lat: 12.7158727645874023,
+	lng: 6.4853472709655762,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1420,
+	lat: 12.4911546707153320,
+	lng: 6.5116257667541504,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1421,
+	lat: 12.7112922668457031,
+	lng: 6.5987992286682129,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1422,
+	lat: 12.8937959671020508,
+	lng: 6.7439675331115723,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1423,
+	lat: 12.7100934982299805,
+	lng: 6.7439374923706055,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1424,
+	lat: 12.9927225112915039,
+	lng: 6.9055089950561523,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1425,
+	lat: 12.8152675628662109,
+	lng: 7.0079154968261719,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1426,
+	lat: 10.1986541748046875,
+	lng: 7.6316709518432617,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1427,
+	lat: 6.4617819786071777,
+	lng: 9.5510663986206055,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1428,
+	lat: 13.3022480010986328,
+	lng: 9.8370265960693359,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1429,
+	lat: 13.4787521362304688,
+	lng: 9.9597644805908203,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1430,
+	lat: 13.5061693191528320,
+	lng: 9.9749574661254883,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1431,
+	lat: 13.3030576705932617,
+	lng: 10.0674686431884766,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1432,
+	lat: 13.4787025451660156,
+	lng: 10.1268424987792969,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1433,
+	lat: 13.4362888336181641,
+	lng: 10.1232452392578125,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1434,
+	lat: 13.5356645584106445,
+	lng: 10.1532316207885742,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1435,
+	lat: 7.8597712516784668,
+	lng: 11.5010604858398438,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1436,
+	lat: 2.7572546005249023,
+	lng: 12.1600809097290039,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1437,
+	lat: 9.1504850387573242,
+	lng: 12.8128032684326172,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1438,
+	lat: 7.2928628921508789,
+	lng: 12.8488883972167969,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1439,
+	lat: 5.5001001358032227,
+	lng: 12.8799753189086914,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1440,
+	lat: 5.1875057220458984,
+	lng: 12.9307537078857422,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1441,
+	lat: 5.3580813407897949,
+	lng: 12.9818325042724609,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1442,
+	lat: 8.2306575775146484,
+	lng: 13.1572570800781250,
+	t: "industrial",
+	n: "",
+	b: "land_ind_workshop01_l"
+}, {
+	id: 1443,
+	lat: 6.4681611061096191,
+	lng: 3.7183406352996826,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1444,
+	lat: 6.3647661209106445,
+	lng: 3.8981842994689941,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1445,
+	lat: 8.9014806747436523,
+	lng: 4.4838061332702637,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1446,
+	lat: 7.6249947547912598,
+	lng: 6.0752315521240234,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1447,
+	lat: 13.0066099166870117,
+	lng: 6.5236711502075195,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1448,
+	lat: 12.4422016143798828,
+	lng: 6.6633520126342773,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1449,
+	lat: 7.6034879684448242,
+	lng: 7.1039648056030273,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1450,
+	lat: 10.2133226394653320,
+	lng: 7.5644397735595703,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1451,
+	lat: 11.4923276901245117,
+	lng: 9.1349534988403320,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1452,
+	lat: 13.5098876953125000,
+	lng: 9.9456100463867188,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1453,
+	lat: 13.3714675903320312,
+	lng: 10.0074939727783203,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1454,
+	lat: 13.4933500289916992,
+	lng: 10.3566455841064453,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1455,
+	lat: 13.0274171829223633,
+	lng: 10.5324716567993164,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1456,
+	lat: 5.6297316551208496,
+	lng: 10.5619583129882812,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1457,
+	lat: 7.3218283653259277,
+	lng: 10.6641149520874023,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1458,
+	lat: 3.0384144783020020,
+	lng: 11.0743417739868164,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1459,
+	lat: 5.9546751976013184,
+	lng: 12.1230964660644531,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1460,
+	lat: 9.1386070251464844,
+	lng: 13.3826618194580078,
+	t: "residential",
+	n: "",
+	b: "land_housev2_02_interier"
+}, {
+	id: 1461,
+	lat: 12.7728738784790039,
+	lng: 6.4598779678344727,
+	t: "industrial",
+	n: "",
+	b: "land_ind_vysypka"
+}, {
+	id: 1462,
+	lat: 8.2381668090820312,
+	lng: 13.0995826721191406,
+	t: "industrial",
+	n: "",
+	b: "land_ind_vysypka"
+}, {
+	id: 1463,
+	lat: 12.2350521087646484,
+	lng: 11.6802835464477539,
+	t: "industrial",
+	n: "",
+	b: "land_nav_boathouse"
+}, {
+	id: 1464,
+	lat: 12.5110015869140625,
+	lng: 13.3899593353271484,
+	t: "industrial",
+	n: "",
+	b: "land_nav_boathouse"
+}, {
+	id: 1465,
+	lat: 12.9141836166381836,
+	lng: 6.4155769348144531,
+	t: "residential",
+	n: "",
+	b: "land_rail_station_big"
+}, {
+	id: 1466,
+	lat: 13.2418861389160156,
+	lng: 10.3396530151367188,
+	t: "residential",
+	n: "",
+	b: "land_rail_station_big"
+}, {
+	id: 1467,
+	lat: 5.1208152770996094,
+	lng: 12.9885292053222656,
+	t: "residential",
+	n: "",
+	b: "land_rail_station_big"
+}, {
+	id: 1468,
+	lat: 10.7184600830078125,
+	lng: 4.4568972587585449,
+	t: "residential",
+	n: "",
+	b: "land_sara_domek_zluty"
+}, {
+	id: 1469,
+	lat: 8.3944435119628906,
+	lng: 7.2110490798950195,
+	t: "residential",
+	n: "",
+	b: "land_sara_domek_zluty"
+}, {
+	id: 1470,
+	lat: 10.2552661895751953,
+	lng: 7.5365815162658691,
+	t: "residential",
+	n: "",
+	b: "land_sara_domek_zluty"
+}, {
+	id: 1471,
+	lat: 5.1121158599853516,
+	lng: 4.7933444976806641,
+	t: "firestation",
+	n: "Fire station",
+	b: "land_a_stationhouse"
+}, {
+	id: 1472,
+	lat: 12.9545879364013672,
+	lng: 6.5790772438049316,
+	t: "firestation",
+	n: "Fire station",
+	b: "land_a_stationhouse"
+}, {
+	id: 1473,
+	lat: 13.1272525787353516,
+	lng: 10.3669414520263672,
+	t: "firestation",
+	n: "Fire station",
+	b: "land_a_stationhouse"
+}, {
+	id: 1474,
+	lat: 12.7960805892944336,
+	lng: 10.4213180541992188,
+	t: "firestation",
+	n: "Fire station",
+	b: "land_a_stationhouse"
+}, {
+	id: 1475,
+	lat: 9.7641077041625977,
+	lng: 6.5561070442199707,
+	t: "castle",
+	n: "",
+	b: "land_a_castle_bergfrit"
+}, {
+	id: 1476,
+	lat: 3.9333856105804443,
+	lng: 6.9154348373413086,
+	t: "castle",
+	n: "",
+	b: "land_a_castle_bergfrit"
+}, {
+	id: 1477,
+	lat: 11.0884971618652344,
+	lng: 11.2492675781250000,
+	t: "castle",
+	n: "",
+	b: "land_a_castle_bergfrit"
+}, {
+	id: 1478,
+	lat: 12.6065578460693359,
+	lng: 6.4157562255859375,
+	t: "hospital",
+	n: "Hospital",
+	b: "land_a_hospital"
+}, {
+	id: 1479,
+	lat: 12.6598711013793945,
+	lng: 6.8149576187133789,
+	t: "hospital",
+	n: "Hospital",
+	b: "land_a_hospital"
+}, {
+	id: 1480,
+	lat: 13.0789299011230469,
+	lng: 10.5167779922485352,
+	t: "hospital",
+	n: "Hospital",
+	b: "land_a_hospital"
+}, {
+	id: 1481,
+	lat: 6.2428040504455566,
+	lng: 11.9521694183349609,
+	t: "hospital",
+	n: "Hospital",
+	b: "land_a_hospital"
+}, {
+	id: 1482,
+	lat: 7.5106010437011719,
+	lng: 3.0615489482879639,
+	t: "church",
+	n: "",
+	b: "land_church_03"
+}, {
+	id: 1483,
+	lat: 8.9708709716796875,
+	lng: 4.5554056167602539,
+	t: "church",
+	n: "",
+	b: "land_church_03"
+}, {
+	id: 1484,
+	lat: 13.0590229034423828,
+	lng: 6.6844725608825684,
+	t: "church",
+	n: "",
+	b: "land_church_03"
+}, {
+	id: 1485,
+	lat: 7.6326336860656738,
+	lng: 7.0693693161010742,
+	t: "church",
+	n: "",
+	b: "land_church_03"
+}, {
+	id: 1486,
+	lat: 13.1098155975341797,
+	lng: 10.4590024948120117,
+	t: "church",
+	n: "",
+	b: "land_church_03"
+}, {
+	id: 1487,
+	lat: 4.8733501434326172,
+	lng: 4.6304636001586914,
+	t: "barracks",
+	n: "",
+	b: "land_mil_barracks_i"
+}, {
+	id: 1488,
+	lat: 5.7673616409301758,
+	lng: 4.6640391349792480,
+	t: "barracks",
+	n: "",
+	b: "land_mil_barracks_i"
+}, {
+	id: 1489,
+	lat: 12.6167469024658203,
+	lng: 6.3715152740478516,
+	t: "residential",
+	n: "",
+	b: "land_panelak2"
+}, {
+	id: 1490,
+	lat: 12.6286859512329102,
+	lng: 6.3865489959716797,
+	t: "residential",
+	n: "",
+	b: "land_panelak2"
+}, {
+	id: 1491,
+	lat: 12.6481924057006836,
+	lng: 6.4109787940979004,
+	t: "residential",
+	n: "",
+	b: "land_panelak2"
+}, {
+	id: 1492,
+	lat: 5.8570189476013184,
+	lng: 12.2569398880004883,
+	t: "residential",
+	n: "",
+	b: "land_panelak2"
+}, {
+	id: 1493,
+	lat: 5.2462968826293945,
+	lng: 12.8012084960937500,
+	t: "residential",
+	n: "",
+	b: "land_panelak2"
+}, {
+	id: 1494,
+	lat: 10.6808452606201172,
+	lng: 2.5078136920928955,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1495,
+	lat: 9.3402280807495117,
+	lng: 2.7375466823577881,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1496,
+	lat: 12.2404708862304688,
+	lng: 2.7819976806640625,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1497,
+	lat: 8.6363096237182617,
+	lng: 3.0260043144226074,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1498,
+	lat: 10.4238424301147461,
+	lng: 3.2842147350311279,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1499,
+	lat: 10.6132144927978516,
+	lng: 3.9733324050903320,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1500,
+	lat: 6.1123523712158203,
+	lng: 4.4141454696655273,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1501,
+	lat: 11.6984691619873047,
+	lng: 6.5179338455200195,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1502,
+	lat: 12.0669956207275391,
+	lng: 7.0583944320678711,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1503,
+	lat: 7.8577814102172852,
+	lng: 7.1386899948120117,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1504,
+	lat: 8.4237594604492188,
+	lng: 7.2164869308471680,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1505,
+	lat: 8.4667339324951172,
+	lng: 7.8051176071166992,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1506,
+	lat: 12.0031051635742188,
+	lng: 8.0851087570190430,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1507,
+	lat: 3.5724368095397949,
+	lng: 9.5880422592163086,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1508,
+	lat: 6.4952368736267090,
+	lng: 9.6688871383666992,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1509,
+	lat: 12.7429780960083008,
+	lng: 9.9839639663696289,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1510,
+	lat: 11.3123340606689453,
+	lng: 10.0051946640014648,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1511,
+	lat: 9.7781648635864258,
+	lng: 10.2604866027832031,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1512,
+	lat: 9.8596038818359375,
+	lng: 11.5114564895629883,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1513,
+	lat: 9.7447900772094727,
+	lng: 12.9137611389160156,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1514,
+	lat: 8.3430910110473633,
+	lng: 12.9467477798461914,
+	t: "barn",
+	n: "",
+	b: "land_stodola_old_open"
+}, {
+	id: 1515,
+	lat: 12.6727285385131836,
+	lng: 6.3833503723144531,
+	t: "residential",
+	n: "",
+	b: "land_panelak"
+}, {
+	id: 1516,
+	lat: 12.5700531005859375,
+	lng: 6.3827905654907227,
+	t: "residential",
+	n: "",
+	b: "land_panelak"
+}, {
+	id: 1517,
+	lat: 5.8718171119689941,
+	lng: 12.2376480102539062,
+	t: "residential",
+	n: "",
+	b: "land_panelak"
+}, {
+	id: 1518,
+	lat: 5.8439412117004395,
+	lng: 12.2275514602661133,
+	t: "residential",
+	n: "",
+	b: "land_panelak"
+}, {
+	id: 1519,
+	lat: 5.2761921882629395,
+	lng: 12.8035078048706055,
+	t: "residential",
+	n: "",
+	b: "land_panelak"
+}, {
+	id: 1520,
+	lat: 5.2374982833862305,
+	lng: 12.7786188125610352,
+	t: "residential",
+	n: "",
+	b: "land_panelak"
+}, {
+	id: 1521,
+	lat: 12.8829984664916992,
+	lng: 6.7906479835510254,
+	t: "residential",
+	n: "",
+	b: "land_a_municipaloffice"
+}, {
+	id: 1522,
+	lat: 13.0170793533325195,
+	lng: 6.6628317832946777,
+	t: "residential",
+	n: "",
+	b: "land_a_pub_01"
+}, {
+	id: 1523,
+	lat: 12.8373746871948242,
+	lng: 6.7713656425476074,
+	t: "residential",
+	n: "",
+	b: "land_a_pub_01"
+}, {
+	id: 1524,
+	lat: 12.9743156433105469,
+	lng: 6.8372178077697754,
+	t: "residential",
+	n: "",
+	b: "land_a_pub_01"
+}, {
+	id: 1525,
+	lat: 12.8058586120605469,
+	lng: 6.8555402755737305,
+	t: "residential",
+	n: "",
+	b: "land_a_pub_01"
+}, {
+	id: 1526,
+	lat: 12.8021697998046875,
+	lng: 6.9003009796142578,
+	t: "residential",
+	n: "",
+	b: "land_a_pub_01"
+}, {
+	id: 1527,
+	lat: 12.8784389495849609,
+	lng: 6.9028301239013672,
+	t: "residential",
+	n: "",
+	b: "land_a_pub_01"
+}, {
+	id: 1528,
+	lat: 13.0181293487548828,
+	lng: 10.4432086944580078,
+	t: "residential",
+	n: "",
+	b: "land_a_pub_01"
+}, {
+	id: 1529,
+	lat: 6.2609510421752930,
+	lng: 12.0574245452880859,
+	t: "residential",
+	n: "",
+	b: "land_a_pub_01"
+}, {
+	id: 1530,
+	lat: 13.0608825683593750,
+	lng: 6.5407338142395020,
+	t: "supermarket",
+	n: "Supermarket",
+	b: "land_a_generalstore_01"
+}, {
+	id: 1531,
+	lat: 5.8852047920227051,
+	lng: 12.2764310836791992,
+	t: "supermarket",
+	n: "Supermarket",
+	b: "land_a_generalstore_01"
+}, {
+	id: 1532,
+	lat: 13.1897544860839844,
+	lng: 3.5892653465270996,
+	t: "industrial",
+	n: "",
+	b: "land_tovarna2"
+}, {
+	id: 1533,
+	lat: 12.8300256729125977,
+	lng: 6.5124654769897461,
+	t: "industrial",
+	n: "",
+	b: "land_tovarna2"
+}, {
+	id: 1534,
+	lat: 13.5545320510864258,
+	lng: 10.1717243194580078,
+	t: "industrial",
+	n: "",
+	b: "land_tovarna2"
+}, {
+	id: 1535,
+	lat: 8.1839542388916016,
+	lng: 13.0964841842651367,
+	t: "industrial",
+	n: "",
+	b: "land_tovarna2"
+}, {
+	id: 1536,
+	lat: 10.2923307418823242,
+	lng: 2.5879998207092285,
+	t: "supermarket",
+	n: "Supermarket",
+	b: "land_a_generalstore_01a"
+}, {
+	id: 1537,
+	lat: 7.3919086456298828,
+	lng: 3.0685558319091797,
+	t: "supermarket",
+	n: "Supermarket",
+	b: "land_a_generalstore_01a"
+}, {
+	id: 1538,
+	lat: 6.4164085388183594,
+	lng: 3.8145892620086670,
+	t: "supermarket",
+	n: "Supermarket",
+	b: "land_a_generalstore_01a"
+}, {
+	id: 1539,
+	lat: 7.5515155792236328,
+	lng: 6.0115880966186523,
+	t: "supermarket",
+	n: "Supermarket",
+	b: "land_a_generalstore_01a"
+}, {
+	id: 1540,
+	lat: 12.9977016448974609,
+	lng: 10.4199190139770508,
+	t: "supermarket",
+	n: "Supermarket",
+	b: "land_a_generalstore_01a"
+}, {
+	id: 1541,
+	lat: 7.3470149040222168,
+	lng: 10.6414251327514648,
+	t: "supermarket",
+	n: "Supermarket",
+	b: "land_a_generalstore_01a"
+}, {
+	id: 1542,
+	lat: 3.1502974033355713,
+	lng: 11.2529659271240234,
+	t: "supermarket",
+	n: "Supermarket",
+	b: "land_a_generalstore_01a"
+}, {
+	id: 1543,
+	lat: 6.2022795677185059,
+	lng: 12.0306358337402344,
+	t: "supermarket",
+	n: "Supermarket",
+	b: "land_a_generalstore_01a"
+}, {
+	id: 1544,
+	lat: 12.6182756423950195,
+	lng: 7.0968880653381348,
+	t: "industrial",
+	n: "",
+	b: "land_a_buildingwip"
+}, {
+	id: 1545,
+	lat: 7.8809881210327148,
+	lng: 11.4614772796630859,
+	t: "industrial",
+	n: "",
+	b: "land_a_buildingwip"
+}, {
+	id: 1546,
+	lat: 6.4395651817321777,
+	lng: 3.8064332008361816,
+	t: "residential",
+	n: "",
+	b: "land_a_office01"
+}, {
+	id: 1547,
+	lat: 13.0028514862060547,
+	lng: 10.4812927246093750,
+	t: "residential",
+	n: "",
+	b: "land_a_office01"
+}, {
+	id: 1548,
+	lat: 5.7691516876220703,
+	lng: 12.7422342300415039,
+	t: "residential",
+	n: "",
+	b: "land_a_office01"
+}, {
+	id: 1549,
+	lat: 13.1567468643188477,
+	lng: 5.8554959297180176,
+	t: "fuel",
+	n: "Fuel Pump",
+	b: "land_a_fuelstation_shed"
+}, {
+	id: 1550,
+	lat: 12.3588743209838867,
+	lng: 6.6941485404968262,
+	t: "fuel",
+	n: "Fuel Pump",
+	b: "land_a_fuelstation_shed"
+}, {
+	id: 1551,
+	lat: 13.3641939163208008,
+	lng: 9.5168437957763672,
+	t: "fuel",
+	n: "Fuel Pump",
+	b: "land_a_fuelstation_shed"
+}, {
+	id: 1552,
+	lat: 8.7524919509887695,
+	lng: 13.3661346435546875,
+	t: "fuel",
+	n: "Fuel Pump",
+	b: "land_a_fuelstation_shed"
+}, {
+	id: 1553,
+	lat: 6.4794425964355469,
+	lng: 10.4406023025512695,
+	t: "fuel",
+	n: "Fuel Pump",
+	b: "land_a_fuelstation_shed"
+}, {
+	id: 1554,
+	lat: 4.6230587959289551,
+	lng: 4.0842194557189941,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1555,
+	lat: 6.3801517486572266,
+	lng: 3.6551413536071777,
+	t: "fuel",
+	n: "Fuel Pump",
+	b: "land_a_fuelstation_shed"
+}, {
+	id: 1556,
+	lat: 7.6673855781555176,
+	lng: 3.1356377601623535,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1557,
+	lat: 9.7436275482177734,
+	lng: 2.6941485404968262,
+	t: "fuel",
+	n: "Fuel Pump",
+	b: "land_a_fuelstation_shed"
+}, {
+	id: 1558,
+	lat: 13.1585206985473633,
+	lng: 1.8359924554824829,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1559,
+	lat: 8.9758968353271484,
+	lng: 4.7260632514953613,
+	t: "fuel",
+	n: "Fuel Pump",
+	b: "land_a_fuelstation_shed"
+}, {
+	id: 1560,
+	lat: 7.5982370376586914,
+	lng: 6.9264183044433594,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1561,
+	lat: 10.0485916137695312,
+	lng: 10.1533689498901367,
+	t: "fuel",
+	n: "Fuel Pump",
+	b: "land_a_fuelstation_shed"
+}, {
+	id: 1562,
+	lat: 3.6975276470184326,
+	lng: 4.0221624374389648,
+	t: "atv",
+	n: "ATV",
+	b: "atv_cz_ep1"
+}, {
+	id: 1563,
+	lat: 4.6248321533203125,
+	lng: 4.2118787765502930,
+	t: "helicopter",
+	n: "Helicopter",
+	b: "uh1h_tk_gue_ep1"
+}, {
+	id: 1564,
+	lat: 2.7223505973815918,
+	lng: 12.0292549133300781,
+	t: "helicopter",
+	n: "Helicopter",
+	b: "uh1h_tk_gue_ep1"
+}, {
+	id: 1565,
+	lat: 2.7258968353271484,
+	lng: 12.1391839981079102,
+	t: "uaz",
+	n: "UAZ",
+	b: "uaz_cdf"
+}, {
+	id: 1566,
+	lat: 3.2347607612609863,
+	lng: 13.2774820327758789,
+	t: "uaz",
+	n: "UAZ",
+	b: "uaz_cdf"
+}, {
+	id: 1567,
+	lat: 6.6248326301574707,
+	lng: 3.7579784393310547,
+	t: "bus",
+	n: "Bus",
+	b: "ikarus"
+}, {
+	id: 1568,
+	lat: 6.4581656455993652,
+	lng: 9.6923751831054688,
+	t: "car",
+	n: "GAZ",
+	b: "volha_1_tk_civ_ep1"
+}, {
+	id: 1569,
+	lat: 6.4741234779357910,
+	lng: 10.4246454238891602,
+	t: "car",
+	n: "GAZ",
+	b: "volha_1_tk_civ_ep1"
+}, {
+	id: 1570,
+	lat: 7.3269600868225098,
+	lng: 10.6462764739990234,
+	t: "bus",
+	n: "Bus",
+	b: "ikarus"
+}, {
+	id: 1571,
+	lat: 6.2347617149353027,
+	lng: 11.9379434585571289,
+	t: "motorcycle",
+	n: "Motorcycle",
+	b: "tt650_gue"
+}, {
+	id: 1572,
+	lat: 8.7179174423217773,
+	lng: 11.3209218978881836,
+	t: "truck",
+	n: "Offroad Pickup Truck",
+	b: "hilux1_civil_3_open"
+}, {
+	id: 1573,
+	lat: 10.9014282226562500,
+	lng: 12.8377656936645508,
+	t: "car",
+	n: "Skoda",
+	b: "skoda"
+}, {
+	id: 1574,
+	lat: 11.0858259201049805,
+	lng: 11.2517728805541992,
+	t: "helicopter",
+	n: "Helicopter",
+	b: "uh1h_tk_gue_ep1"
+}, {
+	id: 1575,
+	lat: 12.8748331069946289,
+	lng: 10.8297872543334961,
+	t: "car",
+	n: "GAZ",
+	b: "volha_1_tk_civ_ep1"
+}, {
+	id: 1576,
+	lat: 13.3535556793212891,
+	lng: 10.1258859634399414,
+	t: "vehicle",
+	n: "Sedan",
+	b: "volha_1_tk_civ_ep1"
+}, {
+	id: 1577,
+	lat: 12.4625988006591797,
+	lng: 8.0372333526611328,
+	t: "car",
+	n: "GAZ",
+	b: "volha_1_tk_civ_ep1"
+}, {
+	id: 1578,
+	lat: 11.8801517486572266,
+	lng: 7.8191485404968262,
+	t: "truck",
+	n: "Offroad Pickup Truck",
+	b: "hilux1_civil_3_open"
+}, {
+	id: 1579,
+	lat: 12.8579883575439453,
+	lng: 6.8289003372192383,
+	t: "uaz",
+	n: "UAZ",
+	b: "uaz_cdf"
+}, {
+	id: 1580,
+	lat: 12.5902585983276367,
+	lng: 6.4051413536071777,
+	t: "helicopter",
+	n: "Helicopter",
+	b: "uh1h_tk_gue_ep1"
+}, {
+	id: 1581,
+	lat: 10.8278474807739258,
+	lng: 4.5647158622741699,
+	t: "bus",
+	n: "Bus",
+	b: "ikarus"
+}, {
+	id: 1582,
+	lat: 10.2977056503295898,
+	lng: 2.5700349807739258,
+	t: "car",
+	n: "GAZ",
+	b: "volha_1_tk_civ_ep1"
+}, {
+	id: 1583,
+	lat: 9.3899040222167969,
+	lng: 3.7260634899139404,
+	t: "uaz",
+	n: "UAZ",
+	b: "uaz_cdf"
+}, {
+	id: 1584,
+	lat: 9.3571023941040039,
+	lng: 3.7606379985809326,
+	t: "atv",
+	n: "ATV",
+	b: "atv_cz_ep1"
+}, {
+	id: 1585,
+	lat: 9.3978824615478516,
+	lng: 2.6710989475250244,
+	t: "vehicle",
+	n: "Bus",
+	b: "ikarus"
+}, {
+	id: 1586,
+	lat: 2.9179077148437500,
+	lng: 1.9416666030883789,
+	t: "bigtruck",
+	n: "Ural Civilian",
+	b: "ural_tk_civ_ep1"
+}, {
+	id: 1587,
+	lat: 6.5567374229431152,
+	lng: 9.4113473892211914,
+	t: "bigtruck",
+	n: "Ural Civilian",
+	b: "ural_tk_civ_ep1"
+}, {
+	id: 1588,
+	lat: 5.3554964065551758,
+	lng: 2.7650709152221680,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1589,
+	lat: 5.4051418304443359,
+	lng: 2.8306736946105957,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1590,
+	lat: 5.6356382369995117,
+	lng: 2.8909573554992676,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1591,
+	lat: 6.1285462379455566,
+	lng: 3.1001772880554199,
+	t: "fuel",
+	n: "Fuel tanks",
+	b: "fueltanks"
+}, {
+	id: 1592,
+	lat: 6.4033689498901367,
+	lng: 3.8696808815002441,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1593,
+	lat: 6.4406027793884277,
+	lng: 4.1764183044433594,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1594,
+	lat: 6.4210991859436035,
+	lng: 4.2047872543334961,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1595,
+	lat: 6.7792553901672363,
+	lng: 3.6445035934448242,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1596,
+	lat: 7.4069147109985352,
+	lng: 3.1462764739990234,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1597,
+	lat: 7.4210991859436035,
+	lng: 3.2278368473052979,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1598,
+	lat: 8.6232271194458008,
+	lng: 2.9813828468322754,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1599,
+	lat: 9.9246454238891602,
+	lng: 2.9441487789154053,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1600,
+	lat: 10.1710996627807617,
+	lng: 2.2207446098327637,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1601,
+	lat: 10.1462764739990234,
+	lng: 3.1781914234161377,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1602,
+	lat: 10.4281911849975586,
+	lng: 3.2952127456665039,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1603,
+	lat: 10.5966310501098633,
+	lng: 2.1693260669708252,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1604,
+	lat: 10.2597522735595703,
+	lng: 1.6976948976516724,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1605,
+	lat: 13.1586875915527344,
+	lng: 3.5682623386383057,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1606,
+	lat: 13.1604614257812500,
+	lng: 3.6125886440277100,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1607,
+	lat: 12.9193267822265625,
+	lng: 3.5895390510559082,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1608,
+	lat: 12.8164892196655273,
+	lng: 4.8164892196655273,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1609,
+	lat: 12.4955673217773438,
+	lng: 4.9157800674438477,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1610,
+	lat: 12.3874111175537109,
+	lng: 5.6622338294982910,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1611,
+	lat: 13.1569147109985352,
+	lng: 6.2278370857238770,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1612,
+	lat: 13.0593976974487305,
+	lng: 6.8803191184997559,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1613,
+	lat: 13.1445035934448242,
+	lng: 7.1959218978881836,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1614,
+	lat: 12.5700359344482422,
+	lng: 7.0026597976684570,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1615,
+	lat: 12.6870565414428711,
+	lng: 6.9352836608886719,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1616,
+	lat: 12.6196813583374023,
+	lng: 6.8023047447204590,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1617,
+	lat: 12.5859928131103516,
+	lng: 6.7491135597229004,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1618,
+	lat: 12.6835107803344727,
+	lng: 6.6640071868896484,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1619,
+	lat: 12.7030143737792969,
+	lng: 6.6356382369995117,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1620,
+	lat: 12.8023052215576172,
+	lng: 6.5576243400573730,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1621,
+	lat: 12.7774820327758789,
+	lng: 6.3820919990539551,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1622,
+	lat: 12.6728725433349609,
+	lng: 6.4441490173339844,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1623,
+	lat: 12.6356382369995117,
+	lng: 6.4760637283325195,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1624,
+	lat: 12.6143617630004883,
+	lng: 6.5416665077209473,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1625,
+	lat: 11.8182621002197266,
+	lng: 7.8164892196655273,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1626,
+	lat: 11.8856382369995117,
+	lng: 7.8803191184997559,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1627,
+	lat: 11.9884748458862305,
+	lng: 8.0682621002197266,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1628,
+	lat: 13.3448581695556641,
+	lng: 9.5203905105590820,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1629,
+	lat: 13.3395395278930664,
+	lng: 10.0523052215576172,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1630,
+	lat: 13.4760637283325195,
+	lng: 9.9937944412231445,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1631,
+	lat: 13.5540781021118164,
+	lng: 9.9955673217773438,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1632,
+	lat: 13.5558509826660156,
+	lng: 10.1108160018920898,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1633,
+	lat: 13.5558509826660156,
+	lng: 10.1533689498901367,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1634,
+	lat: 13.6569147109985352,
+	lng: 10.3803195953369141,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1635,
+	lat: 13.1303195953369141,
+	lng: 10.5132980346679688,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1636,
+	lat: 13.0079784393310547,
+	lng: 10.8164892196655273,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1637,
+	lat: 12.7562055587768555,
+	lng: 10.4725179672241211,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1638,
+	lat: 12.6586875915527344,
+	lng: 10.8076238632202148,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1639,
+	lat: 12.6427307128906250,
+	lng: 11.0416669845581055,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1640,
+	lat: 11.7863473892211914,
+	lng: 12.0593976974487305,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1641,
+	lat: 9.9228725433349609,
+	lng: 13.2154254913330078,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1642,
+	lat: 9.3040781021118164,
+	lng: 13.3945035934448242,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1643,
+	lat: 9.2083330154418945,
+	lng: 13.3998231887817383,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1644,
+	lat: 9.1657800674438477,
+	lng: 13.4033689498901367,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1645,
+	lat: 9.2420215606689453,
+	lng: 13.2969856262207031,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1646,
+	lat: 9.0771274566650391,
+	lng: 13.0239362716674805,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1647,
+	lat: 9.0824470520019531,
+	lng: 12.9849290847778320,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1648,
+	lat: 9.0771274566650391,
+	lng: 12.9086875915527344,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1649,
+	lat: 9.1604614257812500,
+	lng: 12.7739362716674805,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1650,
+	lat: 8.4494676589965820,
+	lng: 13.1941490173339844,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1651,
+	lat: 8.3342199325561523,
+	lng: 12.9317378997802734,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1652,
+	lat: 8.2952127456665039,
+	lng: 13.0629434585571289,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1653,
+	lat: 8.1746454238891602,
+	lng: 13.1179075241088867,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1654,
+	lat: 7.9760637283325195,
+	lng: 12.2367019653320312,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1655,
+	lat: 7.0647163391113281,
+	lng: 13.0877656936645508,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1656,
+	lat: 7.2083334922790527,
+	lng: 12.9512414932250977,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1657,
+	lat: 7.2562055587768555,
+	lng: 12.9210996627807617,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1658,
+	lat: 6.4654254913330078,
+	lng: 11.9565601348876953,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1659,
+	lat: 6.2296099662780762,
+	lng: 12.3200359344482422,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1660,
+	lat: 6.1250000000000000,
+	lng: 11.9441490173339844,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1661,
+	lat: 5.6250000000000000,
+	lng: 12.6835107803344727,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1662,
+	lat: 5.6693263053894043,
+	lng: 12.8484039306640625,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1663,
+	lat: 5.4671983718872070,
+	lng: 12.8856382369995117,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1664,
+	lat: 5.3076238632202148,
+	lng: 12.6994686126708984,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1665,
+	lat: 5.2668437957763672,
+	lng: 12.9742908477783203,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1666,
+	lat: 5.1675529479980469,
+	lng: 13.1622343063354492,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1667,
+	lat: 4.9459218978881836,
+	lng: 13.1090431213378906,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1668,
+	lat: 2.7420210838317871,
+	lng: 12.1533689498901367,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1669,
+	lat: 2.9086878299713135,
+	lng: 11.8324470520019531,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1670,
+	lat: 5.0593972206115723,
+	lng: 4.7402482032775879,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1671,
+	lat: 5.0257091522216797,
+	lng: 4.7863473892211914,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1672,
+	lat: 4.7863473892211914,
+	lng: 5.2739362716674805,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1673,
+	lat: 6.7012410163879395,
+	lng: 5.3359928131103516,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1674,
+	lat: 7.6604609489440918,
+	lng: 6.2615246772766113,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1675,
+	lat: 8.5593967437744141,
+	lng: 4.7012410163879395,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1676,
+	lat: 8.8750000000000000,
+	lng: 4.4671983718872070,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1677,
+	lat: 9.8767728805541992,
+	lng: 5.2508864402770996,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1678,
+	lat: 10.8501777648925781,
+	lng: 4.5877656936645508,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1679,
+	lat: 9.9015960693359375,
+	lng: 9.8909578323364258,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1680,
+	lat: 9.7898941040039062,
+	lng: 10.2650709152221680,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1681,
+	lat: 7.8572692871093750,
+	lng: 11.4831562042236328,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1682,
+	lat: 7.7898936271667480,
+	lng: 11.4547872543334961,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1683,
+	lat: 6.6232271194458008,
+	lng: 9.8484039306640625,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1684,
+	lat: 6.4388298988342285,
+	lng: 9.4104614257812500,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1685,
+	lat: 6.6976952552795410,
+	lng: 5.5274820327758789,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1686,
+	lat: 9.1551418304443359,
+	lng: 6.4601063728332520,
+	t: "fuel",
+	n: "Fuel tank",
+	b: "fueltanks"
+}, {
+	id: 1687,
+	lat: 13.0390071868896484,
+	lng: 8.4361705780029297,
+	t: "boat",
+	n: "Fishing Boat",
+	b: "fishing_boat"
+}, {
+	id: 1688,
+	lat: 7.1205673217773438,
+	lng: 13.1099290847778320,
+	t: "boat",
+	n: "Fishing Boat",
+	b: "fishing_boat"
+}, {
+	id: 1689,
+	lat: 6.0957446098327637,
+	lng: 12.9468088150024414,
+	t: "boat",
+	n: "Small Boat",
+	b: "fishing_boat"
+}, {
+	id: 1690,
+	lat: 11.3687944412231445,
+	lng: 7.6950354576110840,
+	t: "helicopter",
+	n: "Helicopter",
+	b: "uh1h_tk_gue_ep1"
+}, {
+	id: 1691,
+	lat: 7.5482549667358398,
+	lng: 6.3404254913330078,
+	t: "helicopter",
+	n: "Helicopter",
+	b: "uh1h_tk_gue_ep1"
+}, {
+	id: 1692,
+	lat: 10.2831840515136719,
+	lng: 1.7216311693191528,
+	t: "truck",
+	n: "Offroad Pickup Truck",
+	b: "hilux1_civil_3_open"
+}, {
+	id: 1693,
+	lat: 7.5546522140502930,
+	lng: 1.6152480840682983,
+	t: "truck",
+	n: "Offroad Pickup Truck",
+	b: "hilux1_civil_3_open"
+}, {
+	id: 1694,
+	lat: 9.2627944946289062,
+	lng: 13.2402486801147461,
+	t: "bigtruck",
+	n: "V3S Civilian",
+	b: "ural_tk_civ_ep1"
+}, {
+	id: 1695,
+	lat: 6.2115669250488281,
+	lng: 1.9654253721237183,
+	t: "car",
+	n: "Old Hatchback",
+	b: "skoda"
+}, {
+	id: 1696,
+	lat: 7.5404677391052246,
+	lng: 3.0842196941375732,
+	t: "car",
+	n: "Old Hatchback",
+	b: "skoda"
+}, {
+	id: 1697,
+	lat: 7.8080067634582520,
+	lng: 11.4911346435546875,
+	t: "car",
+	n: "S1203 Van",
+	b: "s1203_tk_civ_ep1"
+}, {
+	id: 1698,
+	lat: 11.8541059494018555,
+	lng: 12.1400709152221680,
+	t: "car",
+	n: "S1203 Van",
+	b: "s1203_tk_civ_ep1"
+}, {
+	id: 1699,
+	lat: 5.6016378402709961,
+	lng: 12.1258869171142578,
+	t: "car",
+	n: "S1203 Van",
+	b: "s1203_tk_civ_ep1"
+}, {
+	id: 1700,
+	lat: 8.7494964599609375,
+	lng: 13.3900709152221680,
+	t: "car",
+	n: "S1203 Van",
+	b: "s1203_tk_civ_ep1"
+}, {
+	id: 1701,
+	lat: 7.6643896102905273,
+	lng: 11.5514183044433594,
+	t: "tractor",
+	n: "Tractor",
+	b: "tractor"
+}, {
+	id: 1702,
+	lat: 6.4252195358276367,
+	lng: 3.8395390510559082,
+	t: "tractor",
+	n: "Tractor",
+	b: "tractor"
+}, {
+	id: 1703,
+	lat: 2.9269924163818359,
+	lng: 11.8218088150024414,
+	t: "tractor",
+	n: "Tractor",
+	b: "tractor"
+}, {
+	id: 1704,
+	lat: 7.5686450004577637,
+	lng: 6.2588653564453125,
+	t: "bus",
+	n: "Bus",
+	b: "ikarus"
+}, {
+	id: 1705,
+	lat: 13.0544605255126953,
+	lng: 10.4680852890014648,
+	t: "bus",
+	n: "Bus",
+	b: "ikarus"
+}, {
+	id: 1706,
+	lat: 12.5172271728515625,
+	lng: 6.5567374229431152,
+	t: "bus",
+	n: "Bus",
+	b: "ikarus"
+}, {
+	id: 1707,
+	lat: 13.0154533386230469,
+	lng: 5.1117019653320312,
+	t: "car",
+	n: "GAZ",
+	b: "volha_1_tk_civ_ep1"
+}, {
+	id: 1708,
+	lat: 9.8682909011840820,
+	lng: 2.9751772880554199,
+	t: "bicycle",
+	n: "Bicycle",
+	b: "old_bike_tk_ins_ep1"
+}, {
+	id: 1709,
+	lat: 9.8682909011840820,
+	lng: 3.0106382369995117,
+	t: "bicycle",
+	n: "Bicycle",
+	b: "old_bike_tk_ins_ep1"
+}, {
+	id: 1710,
+	lat: 13.3257369995117188,
+	lng: 2.9414892196655273,
+	t: "bicycle",
+	n: "Bicycle",
+	b: "old_bike_tk_ins_ep1"
+}, {
+	id: 1711,
+	lat: 12.8080072402954102,
+	lng: 3.0283687114715576,
+	t: "bicycle",
+	n: "Bicycle",
+	b: "old_bike_tk_ins_ep1"
+}, {
+	id: 1712,
+	lat: 12.0014610290527344,
+	lng: 8.0656032562255859,
+	t: "bicycle",
+	n: "Bicycle",
+	b: "old_bike_tk_ins_ep1"
+}, {
+	id: 1713,
+	lat: 12.8764610290527344,
+	lng: 8.3590421676635742,
+	t: "bicycle",
+	n: "Bicycle",
+	b: "old_bike_tk_ins_ep1"
+}, {
+	id: 1714,
+	lat: 8.1264600753784180,
+	lng: 7.9104609489440918,
+	t: "bicycle",
+	n: "Bicycle",
+	b: "old_bike_tk_ins_ep1"
+}, {
+	id: 1715,
+	lat: 8.2736234664916992,
+	lng: 8.0372343063354492,
+	t: "bicycle",
+	n: "Bicycle",
+	b: "old_bike_tk_ins_ep1"
+}, {
+	id: 1716,
+	lat: 7.3702549934387207,
+	lng: 8.5877656936645508,
+	t: "motorcycle",
+	n: "Motorcycle",
+	b: "tt650_gue"
+}, {
+	id: 1717,
+	lat: 4.3277015686035156,
+	lng: 9.1480493545532227,
+	t: "motorcycle",
+	n: "Motorcycle",
+	b: "tt650_gue"
+}, {
+	id: 1718,
+	lat: 12.4651126861572266,
+	lng: 6.5443263053894043,
+	t: "motorcycle",
+	n: "Motorcycle",
+	b: "tt650_gue"
+}, {
+	id: 1719,
+	lat: 3.9782195091247559,
+	lng: 11.4406032562255859,
+	t: "atv",
+	n: "ATV",
+	b: "atv_cz_ep1"
+}, {
+	id: 1720,
+	lat: 12.4729003906250000,
+	lng: 8.8696813583374023,
+	t: "atv",
+	n: "ATV",
+	b: "atv_cz_ep1"
+}, {
+	id: 1721,
+	lat: 12.0438222885131836,
+	lng: 7.9565601348876953,
+	t: "car",
+	n: "Skoda",
+	b: "skoda"
+}, {
+	id: 1722,
+	lat: 6.0558509826660156,
+	lng: 8.1125888824462891,
+	t: "uaz",
+	n: "UAZ",
+	b: "uaz_cdf"
+}, {
+	id: 1723,
+	lat: 12.7650709152221680,
+	lng: 4.7508864402770996,
+	t: "uaz",
+	n: "UAZ",
+	b: "uaz_cdf"
+}, {
+	id: 1724,
+	lat: 7.5863757133483887,
+	lng: 6.3404254913330078,
+	t: "uaz",
+	n: "UAZ",
+	b: "uaz_cdf"
+}, {
+	id: 1725,
+	lat: 8.1340427398681641,
+	lng: 7.9120569229125977,
+	t: "motorcycle",
+	n: "Motorcycle",
+	b: "tt650_gue"
+}, {
+	id: 1726,
+	lat: 8.2829790115356445,
+	lng: 8.0335102081298828,
+	t: "motorcycle",
+	n: "Motorcycle",
+	b: "tt650_gue"
+}, {
+	id: 1727,
+	lat: 9.1030139923095703,
+	lng: 2.1789007186889648,
+	t: "car",
+	n: "Old Hatchback",
+	b: "skoda"
+}, {
+	id: 1728,
+	lat: 9.2377662658691406,
+	lng: 6.5317378044128418,
+	t: "car",
+	n: "GAZ",
+	b: "volha_1_tk_civ_ep1"
+}, {
+	id: 1729,
+	lat: 12.2384748458862305,
+	lng: 2.7934396266937256,
+	t: "bicycle",
+	n: "Bicycle",
+	b: "old_bike_tk_ins_ep1"
+}, {
+	id: 1730,
+	lat: 12.1329784393310547,
+	lng: 13.3085107803344727,
+	t: "helicopter",
+	n: "Helicopter",
+	b: "uh1h_tk_gue_ep1"
+}, {
+	id: 1731,
+	lat: 2.5301418304443359,
+	lng: 2.1631205081939697,
+	t: "helicopter",
+	n: "Helicopter",
+	b: "uh1h_tk_gue_ep1"
+}, {
+	id: 6183,
+	lat: 8.2367019653320312,
+	lng: 13.0833330154418945,
+	t: "bigtruck",
+	n: "V3S Civilian",
+	b: "ural_tk_civ_ep1"
+}];
