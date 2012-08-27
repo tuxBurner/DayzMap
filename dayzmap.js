@@ -111,13 +111,14 @@ $(function() {
   });
 
   // popups the add marker modal window
-  google.maps.event.addListener(map, 'click', function(overlay, point) {
+  google.maps.event.addListener(map, 'dblclick', function(overlay, point) {
     $('#addMarkerX').val(overlay.latLng.Xa);
     $('#addMarkerY').val(overlay.latLng.Ya);
     $('#addMarkerName').val("");
     $('#addMarkerDescription').val("");
     $('#directlink').val(location.origin+location.pathname+"?"+map.getZoom()+","+overlay.latLng.Ya+","+overlay.latLng.Xa);
     $('#addMarkerModal').modal('show');
+     e.Handled = true;
   });
 
   // create the markers toggle buttons
