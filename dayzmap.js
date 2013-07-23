@@ -107,7 +107,7 @@ $(function() {
 
   // when  the user moves the mouse it displays the coords on the left side
   google.maps.event.addListener(map, 'mousemove', function(overlay, point) {
-    $('#coordsDisplay').html(formatPoint(overlay.latLng.jb) + " " + formatPoint(overlay.latLng.kb) + "<br /> gps:" + fromLatLngToGps(overlay));
+    $('#coordsDisplay').html(formatPoint(overlay.latLng.kb) + " " + formatPoint(overlay.latLng.jb) + "<br /> gps:" + fromLatLngToGps(overlay));
   });
 
   // popups the add marker modal window
@@ -174,7 +174,7 @@ function fromMapProjToGps(point) {
  */
 
 function fromLatLngToGps(coords) {
-  return fromMapProjToGps(coords.latLng.jb) + " " + fromMapProjToGps(coords.latLng.kb);
+  return fromMapProjToGps(coords.latLng.kb) + " " + fromMapProjToGps(coords.latLng.jb);
 }
 
 /**
