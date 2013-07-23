@@ -107,18 +107,18 @@ $(function() {
 
   // when  the user moves the mouse it displays the coords on the left side
   google.maps.event.addListener(map, 'mousemove', function(overlay, point) {
-    $('#coordsDisplay').html(formatPoint(overlay.latLng.Ya) + " " + formatPoint(overlay.latLng.Xa) + "<br /> gps:" + fromLatLngToGps(overlay));
+    $('#coordsDisplay').html(formatPoint(overlay.latLng.jb) + " " + formatPoint(overlay.latLng.kb) + "<br /> gps:" + fromLatLngToGps(overlay));
   });
 
   // popups the add marker modal window
   google.maps.event.addListener(map, 'dblclick', function(overlay, point) {
-    $('#addMarkerX').val(overlay.latLng.Xa);
-    $('#addMarkerY').val(overlay.latLng.Ya);
+    $('#addMarkerX').val(overlay.latLng.jb);
+    $('#addMarkerY').val(overlay.latLng.kb);
     $('#addMarkerName').val("");
     $('#addMarkerDescription').val("");
-    $('#directlink').val(location.origin+location.pathname+"?"+map.getZoom()+","+overlay.latLng.Ya+","+overlay.latLng.Xa);
+    $('#directlink').val(location.origin+location.pathname+"?"+map.getZoom()+","+overlay.latLng.jb+","+overlay.latLng.kb);
     $('#addMarkerModal').modal('show');
-     e.Handled = true;
+     //e.Handled = true;
   });
 
   // create the markers toggle buttons
@@ -174,7 +174,7 @@ function fromMapProjToGps(point) {
  */
 
 function fromLatLngToGps(coords) {
-  return fromMapProjToGps(coords.latLng.Ya) + " " + fromMapProjToGps(coords.latLng.Xa);
+  return fromMapProjToGps(coords.latLng.jb) + " " + fromMapProjToGps(coords.latLng.kb);
 }
 
 /**
@@ -233,8 +233,8 @@ function displayMarkers(data) {
       $.getJSON('backend.php', {
         'action': 'reposMarker',
         'id': marker.data.id,
-        'langX': pos.Xa,
-        'langY': pos.Ya
+        'langX': pos.jb,
+        'langY': pos.kb
       }, function(data) {
         displayMarkers(data);
       });
@@ -263,7 +263,7 @@ function checkLocationForDirectLink() {
   var infos = hash.substr(1).split(',');
   if (infos.length == 3) {
     map.setZoom(parseInt(infos[0]));
-    var pos = new google.maps.LatLng(infos[2], infos[1]);
+    var pos = new google.maps.LatLng(infos[1], infos[2]);
     map.setCenter(pos);
     var marker = new google.maps.Marker({
       map: map,
